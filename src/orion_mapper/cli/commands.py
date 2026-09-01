@@ -271,6 +271,12 @@ def create_cli_parser() -> argparse.ArgumentParser:
         help="Newest catalog pages checked every run (default: 5)",
     )
     sync_parser.add_argument(
+        "--history-overlap",
+        type=int,
+        default=5,
+        help="Historical pages to overlap between runs (default: 5)",
+    )
+    sync_parser.add_argument(
         "--state-file",
         type=str,
         default=None,
@@ -527,6 +533,7 @@ async def execute_sync(args: argparse.Namespace) -> int:
     max_pages = max(1, int(getattr(args, "max_pages", 1000) or 1000))
     pages_per_run = max(1, int(getattr(args, "pages_per_run", 50) or 50))
     head_pages = max(1, int(getattr(args, "head_pages", 5) or 5))
+    history_overlap = max(0, int(getattr(args, "history_overlap", 5) or 0))
     dry_run = getattr(args, "dry_run", False)
     provider_arg = (getattr(args, "provider", None) or "all").strip().lower()
 
@@ -595,9 +602,13 @@ async def execute_sync(args: argparse.Namespace) -> int:
                 effective_head_pages = min(head_pages, max_pages)
                 if historical_cursor <= effective_head_pages:
                     historical_cursor = effective_head_pages + 1
+                historical_start = max(
+                    effective_head_pages + 1,
+                    historical_cursor - history_overlap,
+                )
                 historical_pages = list(
                     range(
-                        historical_cursor,
+                        historical_start,
                         min(historical_cursor + pages_per_run, max_pages + 1),
                     )
                 )

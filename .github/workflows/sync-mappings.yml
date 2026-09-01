@@ -32,6 +32,11 @@ name: Sync Mappings
         required: false
         default: "50"
         type: string
+      history_overlap:
+        description: "Historical pages to overlap between runs"
+        required: false
+        default: "5"
+        type: string
       dry_run:
         description: "Dry run without committing changes"
         required: false
@@ -90,6 +95,9 @@ jobs:
           fi
           if [ -n "${{ github.event.inputs.pages_per_run }}" ]; then
             ARGS="$ARGS --pages-per-run ${{ github.event.inputs.pages_per_run }}"
+          fi
+          if [ -n "${{ github.event.inputs.history_overlap }}" ]; then
+            ARGS="$ARGS --history-overlap ${{ github.event.inputs.history_overlap }}"
           fi
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"
