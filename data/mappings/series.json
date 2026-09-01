@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "imdb_id": "tt0346293",
+    "providers": {
+      "serieskao": "si-estuvieras-aqui-ccaOOm"
+    },
+    "title": "Si estuvieras aquí",
+    "tmdb_id": "46976",
+    "type": "series",
+    "updated_at": 1788296717560,
+    "year": 2003
+  },
+  {
+    "imdb_id": "tt37543147",
+    "providers": {
+      "serieskao": "ein-sommer-mit-paul-zQlF8h"
+    },
+    "title": "Ein Sommer mit Paul",
+    "tmdb_id": "295780",
+    "type": "series",
+    "updated_at": 1788296544278,
+    "year": 2026
+  }
+]
