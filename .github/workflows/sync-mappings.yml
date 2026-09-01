@@ -25,7 +25,7 @@ name: Sync Mappings
         default: ""
         type: string
       max_pages:
-        description: "Safety limit for catalog pages per provider/type"
+        description: "Maximum catalog pages to scan per provider/type in this run"
         required: false
         default: "1000"
         type: string
