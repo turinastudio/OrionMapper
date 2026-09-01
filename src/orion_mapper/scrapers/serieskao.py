@@ -8,12 +8,14 @@ from typing import Any, ClassVar
 from bs4 import BeautifulSoup
 from pydantic import ValidationError
 
-from orion_mapper.models.item import ContentType, ScrapedDetail, ScrapedItem
+from orion_mapper.models.item import ContentType, ScrapedDetail, ScrapedEpisode, ScrapedItem
 from orion_mapper.scrapers.base import BaseScraper
 
 logger = logging.getLogger(__name__)
 
-PLAYER_IMDB_REGEX = re.compile(r"/vidurl/(tt\d{1,10})/", re.IGNORECASE)
+PLAYER_IMDB_REGEX = re.compile(
+    r"/(?:vidurl|video)/(tt\d{1,10})(?:[-/])", re.IGNORECASE
+)
 IMDB_REGEX = re.compile(r"\b(tt\d{1,10})\b", re.IGNORECASE)
 YEAR_REGEX = re.compile(r"\b(19\d\d|20\d\d)\b")
 
@@ -77,10 +79,16 @@ class SeriesKaoScraper(BaseScraper):
         soup = BeautifulSoup(html, "html.parser")
         items: list[ScrapedItem] = []
 
-        card_elements = soup.select(".item-list .item, .item, article.item")
+        # SeriesKao currently uses ``article.card``.  Keep the legacy selectors
+        # because older mirrors/fixtures still expose ``.item`` cards.
+        card_elements = soup.select(
+            "article.card, a.poster-card, .item-list .item, article.item, .item"
+        )
         for card in card_elements:
             try:
-                link = card.select_one("a")
+                # In the legacy layout the card contains the anchor; in the
+                # current/old poster layout the card itself can be an anchor.
+                link = card if card.name == "a" else card.select_one("a[href]")
                 if not link:
                     continue
                 href = link.get("href", "")
@@ -90,20 +98,32 @@ class SeriesKaoScraper(BaseScraper):
                 if not slug or slug.lower() in {"pelicula", "peliculas", "serie", "series", "anime", "animes"}:
                     continue
 
-                title_elem = card.select_one(".title, h2, h3")
-                title = title_elem.get_text(strip=True) if title_elem else link.get("title", slug)
+                title_elem = card.select_one(
+                    ".card__title, .poster-card__title, .title, h2, h3"
+                )
+                if title_elem:
+                    title = title_elem.get_text(strip=True)
+                else:
+                    img = card.select_one("img[alt]")
+                    title = (img.get("alt") if img else None) or link.get("title", slug)
 
                 year = None
-                year_elem = card.select_one(".year, .release-year, span.year")
+                year_elem = card.select_one(
+                    ".card__badge--year, .poster-card__year, .year, .release-year, span.year"
+                )
                 if year_elem:
                     m = YEAR_REGEX.search(year_elem.get_text())
                     if m:
                         year = int(m.group(1))
 
                 img_elem = card.select_one("img")
-                poster_url = img_elem.get("src") if img_elem else None
+                poster_url = None
+                if img_elem:
+                    poster_url = img_elem.get("src") or img_elem.get("data-src")
+                    if poster_url:
+                        poster_url = self.build_url(poster_url)
 
-                type_elem = card.select_one(".type, span.type")
+                type_elem = card.select_one(".type, span.type, .card__badge--type")
                 item_type = ctype
                 if type_elem:
                     t_str = type_elem.get_text(strip=True).lower()
@@ -155,6 +175,7 @@ class SeriesKaoScraper(BaseScraper):
         year: int | None = None
         imdb_id: str | None = None
         genres: list[str] = []
+        episodes: list[ScrapedEpisode] = []
         overview: str | None = None
         poster_url: str | None = None
         release_date: str | None = None
@@ -194,7 +215,70 @@ class SeriesKaoScraper(BaseScraper):
             except Exception:
                 pass
 
-        # 2. Player iframe regex fallback for IMDb ID
+        # 2. SeriesKao exposes the series IMDb on the first episode's player,
+        # not necessarily on the series detail page. This mirrors OrionServer:
+        # detail -> first episode -> player page -> /vidurl/tt.../.
+        episode_links = soup.select("a[href*='/temporada/'][href*='/capitulo/']")
+        for episode_link in episode_links:
+            href = episode_link.get("href", "")
+            episode_match = re.search(r"/temporada/(\d+)/capitulo/(\d+)", href)
+            if not episode_match:
+                continue
+            season = int(episode_match.group(1))
+            episode = int(episode_match.group(2))
+            episodes.append(
+                ScrapedEpisode(
+                    season=season,
+                    episode=episode,
+                    title=episode_link.get_text(" ", strip=True) or None,
+                    slug=href.strip("/"),
+                )
+            )
+
+        if not imdb_id and episodes:
+            first_episode_href = episode_links[0].get("href", "")
+            episode_url = self.build_url(first_episode_href)
+            try:
+                episode_res = await self.http_client.get(episode_url)
+                if episode_res.status_code == 200:
+                    episode_html = episode_res.text
+                    match = PLAYER_IMDB_REGEX.search(episode_html) or IMDB_REGEX.search(
+                        episode_html
+                    )
+                    if match:
+                        imdb_id = match.group(1).lower()
+                    else:
+                        episode_soup = BeautifulSoup(episode_html, "html.parser")
+                        player_element = episode_soup.select_one(
+                            ".server-btn[data-url], button[data-url], "
+                            "a[data-url], iframe[src*='/vidurl/'], a[href*='/vidurl/']"
+                        )
+                        if player_element:
+                            player_href = (
+                                player_element.get("data-url")
+                                or player_element.get("src")
+                                or player_element.get("href")
+                                or ""
+                            )
+                            if player_href:
+                                player_res = await self.http_client.get(
+                                    self.build_url(player_href)
+                                )
+                                if player_res.status_code == 200:
+                                    player_match = PLAYER_IMDB_REGEX.search(
+                                        player_res.text
+                                    ) or IMDB_REGEX.search(player_res.text)
+                                    if player_match:
+                                        imdb_id = player_match.group(1).lower()
+            except Exception as exc:
+                logger.debug(
+                    "[%s] Could not resolve IMDb from first episode %s: %s",
+                    self.name,
+                    episode_url,
+                    exc,
+                )
+
+        # 3. Player iframe regex fallback for IMDb ID
         if not imdb_id:
             match = PLAYER_IMDB_REGEX.search(html) or IMDB_REGEX.search(html)
             if match:
@@ -231,5 +315,6 @@ class SeriesKaoScraper(BaseScraper):
             tmdb_id=None,
             overview=overview,
             genres=genres,
+            episodes=episodes,
             release_date=release_date,
         )

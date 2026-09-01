@@ -2,11 +2,11 @@ name: Sync Mappings
 
 "on":
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "17 6,14,22 * * *"
   workflow_dispatch:
     inputs:
       provider:
-        description: "Provider to sync (all, serieskao, poseidonhd2, gnula, allcalidad)"
+        description: "Provider to sync (all, serieskao, poseidonhd2)"
         required: false
         default: "all"
         type: string
@@ -24,6 +24,11 @@ name: Sync Mappings
         required: false
         default: ""
         type: string
+      max_pages:
+        description: "Safety limit for catalog pages per provider/type"
+        required: false
+        default: "1000"
+        type: string
       dry_run:
         description: "Dry run without committing changes"
         required: false
@@ -38,6 +43,9 @@ jobs:
     name: Sync Mappings & Export Orion Indexes
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    concurrency:
+      group: sync-mappings
+      cancel-in-progress: false
 
     steps:
       - name: Checkout repository
@@ -62,7 +70,7 @@ jobs:
 
       - name: Run sync pipeline
         env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          ORION_TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
           ARGS="sync"
           if [ -n "${{ github.event.inputs.provider }}" ]; then
@@ -74,17 +82,20 @@ jobs:
           if [ -n "${{ github.event.inputs.limit }}" ]; then
             ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
           fi
+          if [ -n "${{ github.event.inputs.max_pages }}" ]; then
+            ARGS="$ARGS --max-pages ${{ github.event.inputs.max_pages }}"
+          fi
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"
           fi
-          python main.py $ARGS
+          python main.py $ARGS --rate-limit 1.0
 
       - name: Commit and push changes
         if: github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/mappings/ data/orion_mappings/
+          git add data/mappings/movies.json data/mappings/series.json data/sync_state.json
           if git diff --staged --quiet; then
             echo "No mapping changes detected to commit."
           else

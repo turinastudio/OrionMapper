@@ -73,6 +73,41 @@ async def test_serieskao_catalog_movies_page_1(mock_http_client):
 
 
 @pytest.mark.asyncio
+async def test_serieskao_catalog_current_card_layout():
+    html = """
+    <section class="grid grid--cards">
+        <article class="card">
+            <a href="/pelicula/current-movie/" class="card__link">
+                <img data-src="/images/current.jpg" alt="Current Movie">
+                <span class="card__badge card__badge--year">2026</span>
+                <h2 class="card__title">Current Movie</h2>
+            </a>
+        </article>
+        <article class="card">
+            <a href="/pelicula/second-movie/" class="card__link">
+                <img src="https://image.tmdb.org/second.jpg" alt="Second Movie">
+                <span class="card__badge--year">2025</span>
+                <h2 class="card__title">Second Movie</h2>
+            </a>
+        </article>
+    </section>
+    """
+    client = httpx.AsyncClient(
+        transport=StaticResponseTransport({"/peliculas": (200, html)})
+    )
+    scraper = SeriesKaoScraper(http_client=client)
+
+    items = await scraper.fetch_catalog(ContentType.MOVIE)
+
+    assert [(item.slug, item.title, item.year) for item in items] == [
+        ("current-movie", "Current Movie", 2026),
+        ("second-movie", "Second Movie", 2025),
+    ]
+    assert items[0].poster_url == "https://serieskao.top/images/current.jpg"
+    await client.aclose()
+
+
+@pytest.mark.asyncio
 async def test_serieskao_catalog_series_and_anime(mock_http_client):
     scraper = SeriesKaoScraper(http_client=mock_http_client)
     items_series = await scraper.fetch_catalog(ContentType.SERIES, page=1)
@@ -110,6 +145,43 @@ async def test_serieskao_detail_json_ld_series(mock_http_client):
     assert detail.year == 2018
     assert detail.imdb_id == "tt15486"
     assert "Animación" in detail.genres
+
+
+@pytest.mark.asyncio
+async def test_serieskao_series_detail_resolves_imdb_from_first_episode_player():
+    detail_html = """
+    <html><body>
+        <script type="application/ld+json">
+          {"@type":"TVSeries","name":"A Series","datePublished":2026}
+        </script>
+        <a class="episode-item" href="/serie/a-series/temporada/1/capitulo/1">
+            <span class="episode-item__title">Episode 1</span>
+        </a>
+    </body></html>
+    """
+    episode_html = '<button class="server-btn" data-url="/vidurl/tt1234567/"></button>'
+    responses = {
+        "/serie/a-series": (200, detail_html),
+        "/serie/a-series/temporada/1/capitulo/1": (200, episode_html),
+    }
+
+    async def handler(request: httpx.Request) -> httpx.Response:
+        body = responses.get(request.url.path)
+        if body is None:
+            return httpx.Response(404, request=request)
+        return httpx.Response(body[0], text=body[1], request=request)
+
+    client = httpx.AsyncClient(transport=httpx.MockTransport(handler))
+    scraper = SeriesKaoScraper(http_client=client)
+
+    detail = await scraper.fetch_detail("a-series", ContentType.SERIES)
+
+    assert detail is not None
+    assert detail.imdb_id == "tt1234567"
+    assert len(detail.episodes) == 1
+    assert detail.episodes[0].season == 1
+    assert detail.episodes[0].episode == 1
+    await client.aclose()
 
 
 @pytest.mark.asyncio

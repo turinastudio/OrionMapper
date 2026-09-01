@@ -19,6 +19,7 @@ from orion_mapper.cli.commands import (
 )
 from orion_mapper.models.item import ContentType, ScrapedItem
 from orion_mapper.models.mapping import CanonicalMapping
+from orion_mapper.scrapers import BaseScraper
 from orion_mapper.storage.master import MasterMappingStore
 
 
@@ -280,7 +281,8 @@ class TestCliScrapeCommand:
             )
             exit_code = await execute_scrape(args)
             assert exit_code == 0
-            assert mock_get.call_count == 2
+            assert mock_get.call_count == 1
+            assert mock_get.call_args_list[0].args[0] == "serieskao"
 
     @pytest.mark.asyncio
     async def test_execute_scrape_dry_run_no_files_written(self, tmp_path: Path):
@@ -538,6 +540,92 @@ class TestCliExportCommand:
 # 5. Sync Command Execution Tests
 # ==============================================================================
 class TestCliSyncCommand:
+    @pytest.mark.asyncio
+    async def test_execute_sync_stops_only_after_a_fully_known_page(self, tmp_path: Path):
+        mappings_dir = tmp_path / "mappings"
+        store = MasterMappingStore(storage_dir=mappings_dir)
+        store.save_mapping(
+            CanonicalMapping(
+                tmdb_id="550",
+                imdb_id="tt0137523",
+                title="Known Movie",
+                type="movie",
+                providers={"serieskao": "known-movie"},
+            )
+        )
+
+        new_item = ScrapedItem(
+            provider="serieskao",
+            slug="new-movie",
+            title="New Movie",
+            type="movie",
+            tmdb_id="551",
+            imdb_id="tt0137524",
+        )
+        known_item = ScrapedItem(
+            provider="serieskao",
+            slug="known-movie",
+            title="Known Movie",
+            type="movie",
+            tmdb_id="550",
+            imdb_id="tt0137523",
+        )
+
+        class IncrementalScraper(BaseScraper):
+            name = "serieskao"
+            base_url = "https://serieskao.example"
+
+            def __init__(self):
+                self.pages_requested: list[int] = []
+
+            async def fetch_catalog(self, content_type, page=1, genre=None):
+                self.pages_requested.append(page)
+                if page == 1:
+                    return [new_item, known_item]
+                if page == 2:
+                    return [known_item]
+                return []
+
+            async def fetch_detail(self, slug, content_type):
+                return None
+
+        scraper = IncrementalScraper()
+        reconciled = [
+            CanonicalMapping(
+                tmdb_id="551",
+                imdb_id="tt0137524",
+                title="New Movie",
+                type="movie",
+                providers={"serieskao": "new-movie"},
+            )
+        ]
+
+        with (
+            patch("orion_mapper.cli.commands.get_scraper", return_value=scraper),
+            patch(
+                "orion_mapper.matcher.reconciler.IdentityReconciler.reconcile_batch",
+                new=AsyncMock(return_value=reconciled),
+            ),
+        ):
+            args = argparse.Namespace(
+                provider="serieskao",
+                type="movie",
+                limit=None,
+                max_pages=1000,
+                unmapped_only=False,
+                target=str(tmp_path / "orion"),
+                mappings_dir=str(mappings_dir),
+                tmdb_key=None,
+                rate_limit=None,
+                fuzzy_threshold=88.0,
+                dry_run=True,
+            )
+            assert await execute_sync(args) == 0
+
+        # A known page is not a safe stopping boundary: page 3 might contain
+        # an unseen item. Continue until the provider reports end-of-catalog.
+        assert scraper.pages_requested == [1, 2, 3]
+
     @pytest.mark.asyncio
     async def test_execute_sync_full_pipeline(self, tmp_path: Path):
         mappings_dir = tmp_path / "mappings"

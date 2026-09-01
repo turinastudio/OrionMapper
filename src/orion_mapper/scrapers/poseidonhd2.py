@@ -13,6 +13,42 @@ from orion_mapper.scrapers.base import BaseScraper
 logger = logging.getLogger(__name__)
 
 
+def _nested_value(data: dict[str, Any], *keys: str) -> Any:
+    value: Any = data
+    for key in keys:
+        if not isinstance(value, dict):
+            return None
+        value = value.get(key)
+    return value
+
+
+def _extract_year(value: Any) -> int | None:
+    if value is None:
+        return None
+    import re
+
+    match = re.search(r"\b(?:18\d{2}|19\d{2}|20\d{2}|2100)\b", str(value))
+    return int(match.group(0)) if match else None
+
+
+def _provider_slug(raw: dict[str, Any]) -> tuple[str, ContentType] | None:
+    """Return Poseidon's canonical ``tmdb/slug`` provider key and type."""
+    url_slug = _nested_value(raw, "url", "slug")
+    if isinstance(url_slug, str) and "/" in url_slug:
+        prefix, provider_slug = url_slug.split("/", 1)
+        if prefix == "movies":
+            return provider_slug, ContentType.MOVIE
+        if prefix == "series":
+            return provider_slug, ContentType.SERIES
+
+    slug = raw.get("slug")
+    if not isinstance(slug, str) or not slug.strip():
+        return None
+    raw_type = str(raw.get("type", "")).lower()
+    item_type = ContentType.SERIES if raw_type in ("tv", "series", "serie") else ContentType.MOVIE
+    return slug.strip().strip("/"), item_type
+
+
 def _extract_next_data(html: str) -> dict[str, Any] | None:
     """Extract and parse the __NEXT_DATA__ JSON script tag from HTML."""
     try:
@@ -29,13 +65,13 @@ def _extract_next_data(html: str) -> dict[str, Any] | None:
 
 class PoseidonHD2Scraper(BaseScraper):
     """
-    Scraper for PoseidonHD2 (https://poseidonhd2.co).
+    Scraper for PoseidonHD2 (https://www.poseidonhd2.co).
     Extracts structured catalog and metadata directly from Next.js __NEXT_DATA__ props,
     including embedded TMDbId and IMDbId identifiers.
     """
 
     name = "poseidonhd2"
-    base_url = "https://poseidonhd2.co"
+    base_url = "https://www.poseidonhd2.co"
     supported_types: ClassVar[list[ContentType]] = [ContentType.MOVIE, ContentType.SERIES]
     page_size = 24
     default_rate_limit = 5.0
@@ -63,7 +99,13 @@ class PoseidonHD2Scraper(BaseScraper):
     ) -> list[ScrapedItem]:
         """Fetch a page of catalog items from PoseidonHD2."""
         ctype = ContentType(content_type)
-        path = f"/movies?page={page}" if ctype == ContentType.MOVIE else f"/series?page={page}"
+        if genre and ctype == ContentType.MOVIE:
+            path = f"/genero/{genre.strip().lower().replace(' ', '-')}"
+            if page > 1:
+                path += f"/page/{page}"
+        else:
+            section = "peliculas" if ctype == ContentType.MOVIE else "series"
+            path = f"/{section}" if page == 1 else f"/{section}/page/{page}"
         url = self.build_url(path)
 
         try:
@@ -86,12 +128,7 @@ class PoseidonHD2Scraper(BaseScraper):
         if not isinstance(page_props, dict):
             return []
 
-        raw_items = (
-            page_props.get("data")
-            or page_props.get("movies")
-            or page_props.get("items")
-            or []
-        )
+        raw_items = page_props.get("movies") or page_props.get("data") or page_props.get("items") or []
         if not isinstance(raw_items, list):
             return []
 
@@ -100,27 +137,16 @@ class PoseidonHD2Scraper(BaseScraper):
             if not isinstance(raw, dict):
                 continue
             try:
-                slug = raw.get("slug", "")
-                if not slug or not isinstance(slug, str):
+                parsed_slug = _provider_slug(raw)
+                if parsed_slug is None:
                     continue
-                title = raw.get("title", slug)
-                raw_type = str(raw.get("type", "")).lower()
-                item_type = (
-                    ContentType.SERIES
-                    if raw_type in ("tv", "series", "serie")
-                    else ContentType.MOVIE
-                )
-
-                year = raw.get("year")
-                if year is not None:
-                    try:
-                        year = int(str(year).strip())
-                    except ValueError:
-                        year = None
+                slug, item_type = parsed_slug
+                title = _nested_value(raw, "titles", "name") or raw.get("title", slug)
+                year = _extract_year(raw.get("releaseDate") or raw.get("year"))
 
                 tmdb_id = str(raw["TMDbId"]) if raw.get("TMDbId") is not None else None
                 imdb_id = str(raw["IMDbId"]).lower() if raw.get("IMDbId") is not None else None
-                poster = raw.get("poster") or raw.get("poster_url")
+                poster = _nested_value(raw, "images", "poster") or raw.get("poster") or raw.get("poster_url")
 
                 items.append(
                     ScrapedItem(
@@ -176,16 +202,20 @@ class PoseidonHD2Scraper(BaseScraper):
         if not isinstance(page_props, dict):
             return None
         data = (
-            page_props.get("data")
-            or page_props.get("thisMovie")
+            page_props.get("thisMovie")
             or page_props.get("thisSerie")
+            or page_props.get("data")
             or {}
         )
         if not isinstance(data, dict) or not data:
             return None
 
-        title = data.get("title", slug)
-        original_title = data.get("originalTitle") or data.get("original_title")
+        title = _nested_value(data, "titles", "name") or data.get("title", slug)
+        original_title = (
+            _nested_value(data, "titles", "original", "name")
+            or data.get("originalTitle")
+            or data.get("original_title")
+        )
         raw_type = str(data.get("type", "")).lower()
         item_type = (
             ContentType.SERIES
@@ -193,22 +223,19 @@ class PoseidonHD2Scraper(BaseScraper):
             else ctype
         )
 
-        year = data.get("year")
-        if year is not None:
-            try:
-                year = int(str(year).strip())
-            except ValueError:
-                year = None
+        year = _extract_year(data.get("releaseDate") or data.get("year"))
 
         tmdb_id = str(data["TMDbId"]) if data.get("TMDbId") is not None else None
         imdb_id = str(data["IMDbId"]).lower() if data.get("IMDbId") is not None else None
         overview = data.get("overview") or data.get("synopsis")
-        poster = data.get("poster") or data.get("poster_url")
+        poster = _nested_value(data, "images", "poster") or data.get("poster") or data.get("poster_url")
         genres = data.get("genres", [])
         if isinstance(genres, str):
             genres = [genres]
         elif not isinstance(genres, list):
             genres = []
+        else:
+            genres = [g.get("name", "") if isinstance(g, dict) else str(g) for g in genres]
 
         return ScrapedDetail(
             provider=self.name,

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import json
 import logging
 import sys
 from collections.abc import Sequence
@@ -13,11 +14,59 @@ from orion_mapper.core.rate_limiter import TokenBucketLimiter
 from orion_mapper.matcher.reconciler import IdentityReconciler
 from orion_mapper.models.item import ContentType, ScrapedItem
 from orion_mapper.resolver.tmdb import TmdbClient
-from orion_mapper.scrapers import get_registered_providers, get_scraper
+from orion_mapper.scrapers import BaseScraper, get_registered_providers, get_scraper
 from orion_mapper.storage.master import MasterMappingStore, atomic_write_json
 from orion_mapper.storage.orion_exporter import OrionExporter
 
 logger = logging.getLogger("orion_mapper.cli")
+
+# AllCalidad requires its MD5 identity table and Gnula is currently excluded
+# from the operational sync. Keep both implementations available for
+# explicit/manual runs, but exclude them from automatic ``all`` executions.
+DISABLED_AUTOMATIC_PROVIDERS = {"allcalidad", "gnula"}
+
+
+def _load_sync_state(path: Path) -> dict[str, dict[str, int]]:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return {}
+
+
+def _save_sync_state(path: Path, state: dict[str, dict[str, int]]) -> None:
+    atomic_write_json(path, state)
+
+
+async def _enrich_scraped_items(scraper: BaseScraper, items: list[ScrapedItem]) -> None:
+    """Fetch item details so providers can contribute direct identifiers."""
+    for item in items:
+        try:
+            detail = await scraper.fetch_detail(item.slug, item.type)
+        except Exception as exc:
+            logger.warning(
+                "Could not fetch detail for %s:%s: %s",
+                item.provider,
+                item.slug,
+                exc,
+            )
+            continue
+
+        if detail is None:
+            continue
+
+        # Catalog metadata remains authoritative when present; detail metadata
+        # fills missing values, especially direct IMDb/TMDB identifiers.
+        if detail.imdb_id:
+            item.imdb_id = detail.imdb_id
+        if detail.tmdb_id:
+            item.tmdb_id = detail.tmdb_id
+        if not item.year and detail.year:
+            item.year = detail.year
+        if not item.poster_url and detail.poster_url:
+            item.poster_url = detail.poster_url
+        if not item.title and detail.title:
+            item.title = detail.title
 
 
 def create_cli_parser() -> argparse.ArgumentParser:
@@ -204,6 +253,30 @@ def create_cli_parser() -> argparse.ArgumentParser:
         help="Maximum items per provider/type to scrape and synchronize",
     )
     sync_parser.add_argument(
+        "--max-pages",
+        type=int,
+        default=1000,
+        help="Safety limit for catalog pages per provider/type (default: 1000)",
+    )
+    sync_parser.add_argument(
+        "--pages-per-run",
+        type=int,
+        default=10,
+        help="Historical catalog pages to scan per provider/type (default: 10)",
+    )
+    sync_parser.add_argument(
+        "--head-pages",
+        type=int,
+        default=5,
+        help="Newest catalog pages checked every run (default: 5)",
+    )
+    sync_parser.add_argument(
+        "--state-file",
+        type=str,
+        default=None,
+        help="Sync cursor file (default: data/sync_state.json)",
+    )
+    sync_parser.add_argument(
         "--unmapped-only",
         action="store_true",
         default=False,
@@ -258,7 +331,11 @@ async def execute_scrape(args: argparse.Namespace) -> int:
     """Execute the scrape command."""
     provider_arg = (getattr(args, "provider", None) or "all").strip().lower()
     if provider_arg == "all":
-        provider_names = get_registered_providers()
+        provider_names = [
+            name
+            for name in get_registered_providers()
+            if name not in DISABLED_AUTOMATIC_PROVIDERS
+        ]
     else:
         provider_names = [provider_arg]
 
@@ -328,6 +405,13 @@ async def execute_scrape(args: argparse.Namespace) -> int:
                 page += 1
 
             total_scraped += len(items)
+
+            # The catalog contains slugs/titles only for some providers. Fetch
+            # details before persisting so direct identifiers exposed there
+            # (e.g. SeriesKao's /vidurl/tt... player ID) are not lost.
+            if items and isinstance(scraper, BaseScraper):
+                await _enrich_scraped_items(scraper, items)
+
             logger.info("Scraped %d items from %s (%s)", len(items), prov_name, c_type.value)
 
             if output_dir and not dry_run:
@@ -440,11 +524,18 @@ async def execute_sync(args: argparse.Namespace) -> int:
     custom_rate = getattr(args, "rate_limit", None)
     fuzzy_thresh = getattr(args, "fuzzy_threshold", 88.0) or 88.0
     limit = getattr(args, "limit", None)
+    max_pages = max(1, int(getattr(args, "max_pages", 1000) or 1000))
+    pages_per_run = max(1, int(getattr(args, "pages_per_run", 10) or 10))
+    head_pages = max(1, int(getattr(args, "head_pages", 5) or 5))
     dry_run = getattr(args, "dry_run", False)
     provider_arg = (getattr(args, "provider", None) or "all").strip().lower()
 
     if provider_arg == "all":
-        provider_names = get_registered_providers()
+        provider_names = [
+            name
+            for name in get_registered_providers()
+            if name not in DISABLED_AUTOMATIC_PROVIDERS
+        ]
     else:
         provider_names = [provider_arg]
 
@@ -461,6 +552,8 @@ async def execute_sync(args: argparse.Namespace) -> int:
     )
 
     store = MasterMappingStore(storage_dir=mappings_dir)
+    state_path = Path(getattr(args, "state_file", None) or (store.storage_dir.parent / "sync_state.json"))
+    sync_state = _load_sync_state(state_path)
     tmdb_client = TmdbClient(api_key=tmdb_key, rate_limiter=rate_limiter)
     reconciler = IdentityReconciler(tmdb_client=tmdb_client, confidence_threshold=fuzzy_thresh)
     exporter = OrionExporter(output_dir=target_dir)
@@ -468,7 +561,7 @@ async def execute_sync(args: argparse.Namespace) -> int:
     all_scraped: list[ScrapedItem] = []
 
     try:
-        # Phase 1: Scrape catalogs
+        # Phase 1: Incremental scrape catalogs, provider by provider.
         for prov_name in provider_names:
             try:
                 scraper_limiter = (
@@ -488,10 +581,32 @@ async def execute_sync(args: argparse.Namespace) -> int:
                 if limit is not None and limit <= 0:
                     continue
 
+                known_slugs = {
+                    mapping.providers.get(prov_name.strip().lower())
+                    for mapping in store.all_mappings(c_type)
+                    if prov_name.strip().lower() in mapping.providers
+                }
+                known_slugs.discard(None)
+
                 items_for_prov: list[ScrapedItem] = []
-                page = 1
-                max_pages = 500
-                while page <= max_pages:
+                state_key = f"{prov_name.strip().lower()}:{c_type.value}"
+                provider_state = sync_state.get(state_key, {})
+                historical_cursor = max(1, int(provider_state.get("next_page", 1) or 1))
+                effective_head_pages = min(head_pages, max_pages)
+                if historical_cursor <= effective_head_pages:
+                    historical_cursor = effective_head_pages + 1
+                historical_pages = list(
+                    range(
+                        historical_cursor,
+                        min(historical_cursor + pages_per_run, max_pages + 1),
+                    )
+                )
+                pages_to_scan = list(range(1, effective_head_pages + 1)) + historical_pages
+                pages_to_scan = list(dict.fromkeys(pages_to_scan))
+                next_cursor = historical_cursor
+                catalog_exhausted = False
+
+                for page in pages_to_scan:
                     try:
                         page_items = await scraper.fetch_catalog(content_type=c_type, page=page)
                     except Exception as exc:
@@ -505,17 +620,38 @@ async def execute_sync(args: argparse.Namespace) -> int:
                         break
 
                     if not page_items:
+                        catalog_exhausted = True
                         break
 
-                    if limit is not None:
-                        remaining = limit - len(items_for_prov)
-                        items_for_prov.extend(page_items[:remaining])
-                        if len(items_for_prov) >= limit:
+                    for page_item in page_items:
+                        if page_item.slug.strip().strip("/") in known_slugs:
+                            continue
+                        known_slugs.add(page_item.slug.strip().strip("/"))
+                        items_for_prov.append(page_item)
+                        if limit is not None and len(items_for_prov) >= limit:
+                            next_cursor = page + 1
                             break
-                    else:
-                        items_for_prov.extend(page_items)
 
-                    page += 1
+                    if limit is not None and len(items_for_prov) >= limit:
+                        break
+
+                    if page in historical_pages:
+                        next_cursor = page + 1
+
+                if catalog_exhausted or next_cursor > max_pages:
+                    next_cursor = 1
+                sync_state[state_key] = {"next_page": next_cursor}
+
+                if page == max_pages and not catalog_exhausted:
+                    logger.warning(
+                        "Reached max-pages=%d for %s (%s); catalog scan was truncated",
+                        max_pages,
+                        prov_name,
+                        c_type.value,
+                    )
+
+                if items_for_prov and isinstance(scraper, BaseScraper):
+                    await _enrich_scraped_items(scraper, items_for_prov)
 
                 all_scraped.extend(items_for_prov)
                 logger.info(
@@ -535,6 +671,7 @@ async def execute_sync(args: argparse.Namespace) -> int:
         # Phase 3: Persist Master Dataset & OrionServer Export
         if not dry_run:
             store.save()
+            _save_sync_state(state_path, sync_state)
             summary = exporter.export_store(store)
             logger.info(
                 "Sync completed successfully: %d mappings in store, exported %d index files in %.2fms",
