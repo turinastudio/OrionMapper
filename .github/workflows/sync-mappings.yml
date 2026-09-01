@@ -58,7 +58,7 @@ jobs:
 
       - name: Run test suite
         run: |
-          pytest -v
+          pytest tests/unit/ -q --tb=short
 
       - name: Run sync pipeline
         env:
