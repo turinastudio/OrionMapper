@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "page": 1,
+  "total_pages": 12,
+  "items": [
+    {
+      "id": 1050,
+      "slug": "el-club-de-la-lucha",
+      "title": "El Club de la Lucha",
+      "type": "movie",
+      "release_date": "1999-10-15",
+      "tmdb_id": 550,
+      "imdb_id": "tt0137523",
+      "poster": "https://allcalidad.ms/images/550.jpg"
+    },
+    {
+      "id": 1051,
+      "slug": "zombieland-saga",
+      "title": "Zombieland Saga",
+      "type": "series",
+      "release_date": "2018-10-04",
+      "tmdb_id": 82856,
+      "imdb_id": "tt15486",
+      "poster": "https://allcalidad.ms/images/82856.jpg"
+    }
+  ]
+}

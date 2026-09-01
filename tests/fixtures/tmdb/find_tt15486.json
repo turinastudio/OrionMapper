@@ -1,0 +1,19 @@
+{
+  "movie_results": [],
+  "person_results": [],
+  "tv_results": [
+    {
+      "id": 82856,
+      "name": "ZOMBIE LAND SAGA",
+      "original_name": "ゾンビランドサガ",
+      "first_air_date": "2018-10-04",
+      "media_type": "tv",
+      "genre_ids": [16, 35],
+      "overview": "A typical high school girl has her dreams of becoming an idol violently extinguished when she is hit by a truck. Ten years later, she wakes up as a zombie.",
+      "popularity": 18.234,
+      "vote_average": 7.9
+    }
+  ],
+  "tv_episode_results": [],
+  "tv_season_results": []
+}
