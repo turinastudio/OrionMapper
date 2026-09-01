@@ -26,7 +26,7 @@ class BaseScraper(ABC):
 
     def __init__(
         self,
-        http_client: AsyncHttpClient,
+        http_client: AsyncHttpClient | None = None,
         rate_limiter: TokenBucketLimiter | None = None,
     ) -> None:
         if not getattr(self, "name", None):
@@ -34,11 +34,12 @@ class BaseScraper(ABC):
         if not getattr(self, "base_url", None):
             raise ValueError(f"Scraper class {self.__class__.__name__} must define 'base_url'")
 
-        self.http_client = http_client
+        self.http_client = http_client if http_client is not None else AsyncHttpClient()
         self.rate_limiter = rate_limiter or RateLimiterRegistry.get_limiter(
             self.name,
             rate=self.default_rate_limit,
         )
+
 
     def build_url(self, path: str) -> str:
         """Construct an absolute URL against the scraper base_url."""
