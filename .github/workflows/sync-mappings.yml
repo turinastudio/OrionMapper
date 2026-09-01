@@ -23,9 +23,14 @@ name: Sync Mappings
         default: ""
         type: string
       max_pages:
-        description: "Maximum catalog pages to scan per provider/type in this run"
+        description: "Global safety limit for catalog pages per provider/type"
         required: false
         default: "1000"
+        type: string
+      pages_per_run:
+        description: "Historical catalog pages to scan per provider/type in this run"
+        required: false
+        default: "50"
         type: string
       dry_run:
         description: "Dry run without committing changes"
@@ -82,6 +87,9 @@ jobs:
           fi
           if [ -n "${{ github.event.inputs.max_pages }}" ]; then
             ARGS="$ARGS --max-pages ${{ github.event.inputs.max_pages }}"
+          fi
+          if [ -n "${{ github.event.inputs.pages_per_run }}" ]; then
+            ARGS="$ARGS --pages-per-run ${{ github.event.inputs.pages_per_run }}"
           fi
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"

@@ -256,7 +256,13 @@ def create_cli_parser() -> argparse.ArgumentParser:
         "--max-pages",
         type=int,
         default=1000,
-        help="Maximum catalog pages to scan per provider/type in this run (default: 1000)",
+        help="Global safety limit for catalog pages per provider/type (default: 1000)",
+    )
+    sync_parser.add_argument(
+        "--pages-per-run",
+        type=int,
+        default=50,
+        help="Historical catalog pages to scan per provider/type in this run (default: 50)",
     )
     sync_parser.add_argument(
         "--head-pages",
@@ -519,6 +525,7 @@ async def execute_sync(args: argparse.Namespace) -> int:
     fuzzy_thresh = getattr(args, "fuzzy_threshold", 88.0) or 88.0
     limit = getattr(args, "limit", None)
     max_pages = max(1, int(getattr(args, "max_pages", 1000) or 1000))
+    pages_per_run = max(1, int(getattr(args, "pages_per_run", 50) or 50))
     head_pages = max(1, int(getattr(args, "head_pages", 5) or 5))
     dry_run = getattr(args, "dry_run", False)
     provider_arg = (getattr(args, "provider", None) or "all").strip().lower()
@@ -591,7 +598,7 @@ async def execute_sync(args: argparse.Namespace) -> int:
                 historical_pages = list(
                     range(
                         historical_cursor,
-                        max_pages + 1,
+                        min(historical_cursor + pages_per_run, max_pages + 1),
                     )
                 )
                 pages_to_scan = list(range(1, effective_head_pages + 1)) + historical_pages
