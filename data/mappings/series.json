@@ -22,6 +22,39 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt13521004",
+    "providers": {
+      "serieskao": "horimiya"
+    },
+    "title": "Horimiya",
+    "tmdb_id": "113980",
+    "type": "series",
+    "updated_at": 1788315073741,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt21970564",
+    "providers": {
+      "serieskao": "pokemon-the-arceus-chronicles"
+    },
+    "title": "Pokémon: Las crónicas de Arceus",
+    "tmdb_id": "207567",
+    "type": "series",
+    "updated_at": 1788315637615,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt22309638",
+    "providers": {
+      "serieskao": "los-ancianos-2022"
+    },
+    "title": "Los ancianos",
+    "tmdb_id": "210793",
+    "type": "series",
+    "updated_at": 1788315577522,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt15387926",
     "providers": {
       "serieskao": "dora-say-hola-to-adventure"
