@@ -4,10 +4,16 @@ name: Sync Mappings
   workflow_dispatch:
     inputs:
       provider:
-        description: "Provider to sync (all, serieskao, poseidonhd2)"
+        description: "Provider to sync"
         required: false
         default: "all"
-        type: string
+        type: choice
+        options:
+          - "all"
+          - "serieskao"
+          - "poseidonhd2"
+          - "gnula"
+          - "allcalidad"
       type:
         description: "Content type to sync (movie, series, or both)"
         required: false
