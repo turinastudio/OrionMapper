@@ -1,6 +1,7 @@
 [
   {
     "imdb_id": "tt0099864",
+    "provider_variants": {},
     "providers": {
       "serieskao": "it-eso"
     },
@@ -12,17 +13,25 @@
   },
   {
     "imdb_id": "tt0075520",
+    "provider_variants": {
+      "serieskao": [
+        "jesus-de-nazaret-2",
+        "jesus-de-nazaret-3",
+        "jesus-de-nazaret-4"
+      ]
+    },
     "providers": {
       "serieskao": "jesus-de-nazaret-1"
     },
     "title": "Jesús de Nazaret - 4",
     "tmdb_id": "19649",
     "type": "series",
-    "updated_at": 1788354441250,
+    "updated_at": 1788369845325,
     "year": 1977
   },
   {
     "imdb_id": "tt0346293",
+    "provider_variants": {},
     "providers": {
       "serieskao": "si-estuvieras-aqui-ccaOOm"
     },
@@ -34,6 +43,7 @@
   },
   {
     "imdb_id": "tt3069212",
+    "provider_variants": {},
     "providers": {
       "serieskao": "street-fighter-el-puno-del-asesino"
     },
@@ -45,6 +55,7 @@
   },
   {
     "imdb_id": "tt1379164",
+    "provider_variants": {},
     "providers": {
       "serieskao": "stretch-armstrong-la-fuga"
     },
@@ -56,6 +67,7 @@
   },
   {
     "imdb_id": "tt3494560",
+    "provider_variants": {},
     "providers": {
       "serieskao": "la-familia-del-barrio-la-pelicula"
     },
@@ -67,6 +79,7 @@
   },
   {
     "imdb_id": "tt8115702",
+    "provider_variants": {},
     "providers": {
       "serieskao": "tut-tut-cory-bolidos-navidad"
     },
@@ -78,6 +91,7 @@
   },
   {
     "imdb_id": "tt10394706",
+    "provider_variants": {},
     "providers": {
       "serieskao": "deathstroke-the-movie"
     },
@@ -89,6 +103,7 @@
   },
   {
     "imdb_id": "tt9322614",
+    "provider_variants": {},
     "providers": {
       "serieskao": "lego-jurassic-world-la-exhibicion-secreta"
     },
@@ -100,6 +115,7 @@
   },
   {
     "imdb_id": "tt13521004",
+    "provider_variants": {},
     "providers": {
       "serieskao": "horimiya"
     },
@@ -111,6 +127,7 @@
   },
   {
     "imdb_id": "tt14134334",
+    "provider_variants": {},
     "providers": {
       "serieskao": "my-little-pony-deja-tu-marca"
     },
@@ -122,6 +139,7 @@
   },
   {
     "imdb_id": "tt21970564",
+    "provider_variants": {},
     "providers": {
       "serieskao": "pokemon-the-arceus-chronicles"
     },
@@ -133,6 +151,7 @@
   },
   {
     "imdb_id": "tt22309638",
+    "provider_variants": {},
     "providers": {
       "serieskao": "los-ancianos-2022"
     },
@@ -144,6 +163,7 @@
   },
   {
     "imdb_id": "tt15387926",
+    "provider_variants": {},
     "providers": {
       "serieskao": "dora-say-hola-to-adventure"
     },
@@ -155,6 +175,7 @@
   },
   {
     "imdb_id": "tt37543147",
+    "provider_variants": {},
     "providers": {
       "serieskao": "ein-sommer-mit-paul-zQlF8h"
     },

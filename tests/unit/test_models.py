@@ -119,6 +119,24 @@ def test_canonical_mapping_add_provider_and_merge():
     assert merged.providers["poseidonhd2"] == "zombieland-saga"
 
 
+def test_canonical_mapping_preserves_multiple_slugs_for_one_provider():
+    mapping = CanonicalMapping(
+        tmdb_id="550",
+        title="Fight Club",
+        type=ContentType.MOVIE,
+        providers={"serieskao": "harry-el-sucio"},
+    )
+
+    mapping.add_provider("serieskao", "harry-el-sucio-FMJe6R")
+    mapping.add_provider("serieskao", "harry-el-sucio")
+
+    assert mapping.providers == {"serieskao": "harry-el-sucio"}
+    assert mapping.provider_variants == {"serieskao": ["harry-el-sucio-FMJe6R"]}
+    assert mapping.all_provider_slugs() == {
+        "serieskao": ["harry-el-sucio", "harry-el-sucio-FMJe6R"]
+    }
+
+
 def test_base64url_unpadded_encoding():
     provider = "gnula"
     slug = "pelicula-zombieland-saga"
@@ -306,4 +324,3 @@ def test_models_none_and_edge_inputs():
     assert m.imdb_id is None
     assert m.tmdb_id is None
     assert m.providers == {}
-

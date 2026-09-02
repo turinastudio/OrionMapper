@@ -41,6 +41,9 @@ async def test_reconciler_priority1_direct_both_ids():
         async def search(self, title, media_type, year=None, language="es-MX"):
             raise AssertionError("Should not make network call")
 
+        async def get_details(self, tmdb_id, media_type, language="es-419"):
+            return {"title": "Fight Club", "release_date": "1999-10-15"}
+
     reconciler = IdentityReconciler(tmdb_client=FailingTmdbClient())
     item = ScrapedItem(
         provider="serieskao",
@@ -99,7 +102,7 @@ async def test_reconciler_priority3_direct_tmdb_only(mock_http_client):
 @pytest.mark.asyncio
 async def test_reconciler_priority4_fuzzy_search_success(mock_http_client):
     tmdb = TmdbClient(http_client=mock_http_client)
-    reconciler = IdentityReconciler(tmdb_client=tmdb)
+    reconciler = IdentityReconciler(tmdb_client=tmdb, allow_title_match=True)
 
     item = ScrapedItem(
         provider="gnula",
@@ -118,7 +121,7 @@ async def test_reconciler_priority4_fuzzy_search_success(mock_http_client):
 @pytest.mark.asyncio
 async def test_reconciler_priority4_unresolvable_title_returns_none(mock_http_client):
     tmdb = TmdbClient(http_client=mock_http_client)
-    reconciler = IdentityReconciler(tmdb_client=tmdb)
+    reconciler = IdentityReconciler(tmdb_client=tmdb, allow_title_match=True)
 
     item = ScrapedItem(
         provider="gnula",
@@ -255,6 +258,9 @@ async def test_reconciler_exception_shielding_network_error():
         async def get_external_ids(self, tmdb_id, media_type):
             raise TimeoutError("Simulated timeout failure")
 
+        async def get_details(self, tmdb_id, media_type, language="es-419"):
+            raise TimeoutError("Simulated details timeout")
+
         async def search(self, title, media_type, year=None, language="es-MX"):
             raise RuntimeError("Simulated search error")
 
@@ -291,6 +297,9 @@ async def test_reconciler_transitive_coalescing_order_invariance():
         async def get_external_ids(self, tmdb_id, media_type):
             return None
 
+        async def get_details(self, tmdb_id, media_type, language="es-419"):
+            return None
+
         async def search(self, title, media_type, year=None, language="es-MX"):
             return []
 
@@ -318,4 +327,3 @@ async def test_reconciler_transitive_coalescing_order_invariance():
     res3 = await reconciler.reconcile_batch([i2, i3, i1])
     assert len(res3) == 1
     assert len(res3[0].providers) == 3
-

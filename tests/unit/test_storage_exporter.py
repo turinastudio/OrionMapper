@@ -163,6 +163,21 @@ class TestMasterMappingStore:
         assert store.count("movie") == 1
         assert store.get_by_provider_slug("poseidonhd2", "slug2") == merged
 
+    def test_add_or_update_indexes_provider_variants(self, temp_mappings_dir: Path):
+        store = MasterMappingStore(storage_dir=temp_mappings_dir)
+        mapping = CanonicalMapping(
+            tmdb_id="550",
+            title="Fight Club",
+            type="movie",
+            providers={"serieskao": "slug1"},
+            provider_variants={"serieskao": ["slug2"]},
+        )
+
+        stored = store.add_or_update(mapping)
+
+        assert store.get_by_provider_slug("serieskao", "slug1") == stored
+        assert store.get_by_provider_slug("serieskao", "slug2") == stored
+
     def test_add_or_update_transitive_bridging(self, temp_mappings_dir: Path):
         store = MasterMappingStore(storage_dir=temp_mappings_dir)
         # Entry 1: known TMDB ID but unknown IMDb

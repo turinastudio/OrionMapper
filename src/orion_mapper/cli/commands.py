@@ -12,8 +12,11 @@ from collections.abc import Sequence
 from pathlib import Path
 
 from orion_mapper.core.rate_limiter import TokenBucketLimiter
+from orion_mapper.matcher.normalizer import TitleNormalizer
 from orion_mapper.matcher.reconciler import IdentityReconciler
-from orion_mapper.models.item import ContentType, ScrapedItem
+from orion_mapper.matcher.scoring import FuzzyTitleMatcher
+from orion_mapper.models.item import ContentType, ScrapedDetail, ScrapedItem
+from orion_mapper.models.mapping import CanonicalMapping
 from orion_mapper.resolver.tmdb import TmdbClient
 from orion_mapper.scrapers import BaseScraper, get_registered_providers, get_scraper
 from orion_mapper.storage.master import MasterMappingStore, atomic_write_json
@@ -25,6 +28,7 @@ logger = logging.getLogger("orion_mapper.cli")
 # from the operational sync. Keep both implementations available for
 # explicit/manual runs, but exclude them from automatic ``all`` executions.
 DISABLED_AUTOMATIC_PROVIDERS = {"allcalidad", "gnula"}
+UNRESOLVED_DIR = Path("data/unresolved")
 
 
 def _load_sync_state(path: Path) -> dict[str, dict[str, int]]:
@@ -37,6 +41,48 @@ def _load_sync_state(path: Path) -> dict[str, dict[str, int]]:
 
 def _save_sync_state(path: Path, state: dict[str, dict[str, int]]) -> None:
     atomic_write_json(path, state)
+
+
+def _record_unresolved_records(
+    provider: str,
+    records_to_add: list[dict[str, object]],
+    output_dir: Path = UNRESOLVED_DIR,
+) -> None:
+    """Persist all provider entries that were not incorporated."""
+    if not records_to_add:
+        return
+    provider = provider.strip().lower()
+    path = output_dir / f"{provider}.json"
+    try:
+        existing = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    except (json.JSONDecodeError, OSError):
+        existing = []
+    records = {
+        (str(record.get("type", "")), str(record.get("slug", ""))): record
+        for record in existing if isinstance(record, dict)
+    }
+    for record in records_to_add:
+        records[(str(record.get("type", "")), str(record.get("slug", "")))] = record
+    atomic_write_json(path, sorted(records.values(), key=lambda r: (str(r["type"]), str(r["slug"]))))
+
+
+def _record_unresolved_items(items: list[ScrapedItem], output_dir: Path = UNRESOLVED_DIR) -> None:
+    """Persist provider items that lack both canonical identifiers."""
+    grouped: dict[str, list[ScrapedItem]] = {}
+    for item in items:
+        if item.imdb_id or item.tmdb_id:
+            continue
+        grouped.setdefault(item.provider.strip().lower(), []).append(item)
+
+    for provider, provider_items in grouped.items():
+        _record_unresolved_records(provider, [{
+                "provider": item.provider,
+                "slug": item.slug,
+                "title": item.title,
+                "year": item.year,
+                "type": item.type.value,
+                "reason": "missing_ids",
+            } for item in provider_items], output_dir=output_dir)
 
 
 def _audit_slug_sets(
@@ -203,6 +249,53 @@ def create_cli_parser() -> argparse.ArgumentParser:
         type=str,
         default="data/audit_report.json",
         help="Audit report path (default: data/audit_report.json)",
+    )
+
+    # 2. RECOVER AUDIT FINDINGS
+    recover_parser = subparsers.add_parser(
+        "recover-audit",
+        help="Recover catalog entries missing from an audit",
+        description="Fetches missing item details, validates their identity, and optionally adds only confirmed mappings",
+    )
+    recover_parser.add_argument(
+        "--provider", "-p", type=str, default=None,
+        help="Provider to recover (default: provider from the audit report)",
+    )
+    recover_parser.add_argument(
+        "--type", "-t", type=str, choices=["movie", "series"], default=None,
+        help="Content type to recover (default: type from the audit report)",
+    )
+    recover_parser.add_argument(
+        "--report", "-i", type=str, default="data/audit_report.json",
+        help="Audit report to read (default: data/audit_report.json)",
+    )
+    recover_parser.add_argument(
+        "--output", "-o", type=str, default="data/audit_recovery.json",
+        help="Recovery report path (default: data/audit_recovery.json)",
+    )
+    recover_parser.add_argument(
+        "--limit", "-l", type=int, default=None,
+        help="Maximum missing slugs to process",
+    )
+    recover_parser.add_argument(
+        "--mappings-dir", "-m", type=str, default=None,
+        help="Directory for master mappings (default: data/mappings)",
+    )
+    recover_parser.add_argument(
+        "--tmdb-key", "-k", type=str, default=None,
+        help="TMDB v3 API Key override",
+    )
+    recover_parser.add_argument(
+        "--rate-limit", "-r", type=float, default=None,
+        help="HTTP/TMDB rate limit (req/s)",
+    )
+    recover_parser.add_argument(
+        "--fuzzy-threshold", "-f", type=float, default=88.0,
+        help="Confidence threshold for TMDB matching (default: 88.0)",
+    )
+    recover_parser.add_argument(
+        "--dry-run", action="store_true", default=False,
+        help="Validate and report recoveries without modifying mappings",
     )
 
     # 2. MATCH
@@ -521,9 +614,9 @@ async def execute_audit(args: argparse.Namespace) -> int:
 
     mapped_by_provider: dict[str, set[str]] = {}
     for mapping in store.all_mappings():
-        for provider, slug in mapping.providers.items():
-            mapped_by_provider.setdefault(provider.strip().lower(), set()).add(
-                slug.strip().strip("/")
+        for provider, slugs in mapping.all_provider_slugs().items():
+            mapped_by_provider.setdefault(provider.strip().lower(), set()).update(
+                slug.strip().strip("/") for slug in slugs
             )
 
     reports: list[dict[str, object]] = []
@@ -599,6 +692,170 @@ async def execute_audit(args: argparse.Namespace) -> int:
 
     atomic_write_json(output_path, reports)
     logger.info("Audit report saved to %s", output_path)
+    return 0
+
+
+def _recovery_title_is_safe(source: ScrapedDetail, canonical: CanonicalMapping) -> bool:
+    """Reject clearly unrelated direct-ID results while allowing translations."""
+    source_title = TitleNormalizer.normalize(source.title)
+    canonical_title = TitleNormalizer.normalize(canonical.title)
+    if not source_title or not canonical_title:
+        return False
+    if source_title == canonical_title:
+        return True
+    overlap = FuzzyTitleMatcher.token_overlap(source_title, canonical_title)
+    if overlap > 0:
+        return True
+    # A translated title can have no shared tokens; retain it only when the
+    # release year corroborates the identity. Otherwise leave it for review.
+    return bool(source.year and canonical.year and source.year == canonical.year)
+
+
+async def execute_recover_audit(args: argparse.Namespace) -> int:
+    """Recover missing catalog slugs from a persisted audit report."""
+    report_path = Path(getattr(args, "report", None) or "data/audit_report.json")
+    output_path = Path(getattr(args, "output", None) or "data/audit_recovery.json")
+    try:
+        report_text = await asyncio.to_thread(report_path.read_text, encoding="utf-8")
+        raw_report = json.loads(report_text)
+    except (FileNotFoundError, json.JSONDecodeError, OSError) as exc:
+        logger.error("Could not read audit report %s: %s", report_path, exc)
+        return 1
+    if not isinstance(raw_report, list):
+        logger.error("Audit report must contain an array of reports")
+        return 1
+
+    provider_filter = (getattr(args, "provider", None) or "").strip().lower()
+    type_filter = getattr(args, "type", None)
+    reports = [
+        report for report in raw_report
+        if isinstance(report, dict)
+        and (not provider_filter or str(report.get("provider", "")).lower() == provider_filter)
+        and (not type_filter or report.get("type") == type_filter)
+    ]
+    if not reports:
+        logger.error("No matching report found in %s", report_path)
+        return 1
+
+    custom_rate = getattr(args, "rate_limit", None)
+    limiter = (
+        TokenBucketLimiter(rate=custom_rate, capacity=int(max(1, custom_rate)))
+        if custom_rate and custom_rate > 0 else None
+    )
+    store = MasterMappingStore(storage_dir=getattr(args, "mappings_dir", None))
+    tmdb_client = TmdbClient(api_key=getattr(args, "tmdb_key", None), rate_limiter=limiter)
+    reconciler = IdentityReconciler(
+        tmdb_client=tmdb_client,
+        confidence_threshold=getattr(args, "fuzzy_threshold", 88.0) or 88.0,
+    )
+    limit = getattr(args, "limit", None)
+    dry_run = getattr(args, "dry_run", False)
+    recovery_reports: list[dict[str, object]] = []
+
+    try:
+        for report in reports:
+            provider = str(report["provider"]).strip().lower()
+            content_type = ContentType(str(report["type"]))
+            slugs = [str(slug).strip().strip("/") for slug in report.get("missing_slugs", [])]
+            if limit is not None:
+                slugs = slugs[:max(0, limit)]
+            scraper = get_scraper(provider, rate_limiter=limiter)
+            recovered: list[dict[str, object]] = []
+            pending: list[dict[str, object]] = []
+            unresolved_items: list[ScrapedItem] = []
+
+            for index, slug in enumerate(slugs, 1):
+                logger.info("Recovering %s/%s: %s", index, len(slugs), slug)
+                detail = await scraper.fetch_detail(slug, content_type)
+                if detail is None:
+                    pending.append({"slug": slug, "reason": "detail_not_found"})
+                    continue
+                if not detail.imdb_id and not detail.tmdb_id:
+                    unresolved_items.append(detail)
+                if detail.type != content_type:
+                    pending.append({
+                        "slug": slug,
+                        "reason": "provider_type_mismatch",
+                        "provider_type": detail.type.value,
+                        "requested_type": content_type.value,
+                        "title": detail.title,
+                    })
+                    continue
+
+                # Resolve independently first. This prevents a candidate that
+                # fails validation from mutating an existing store entry.
+                mapping = await reconciler.reconcile_item(detail)
+                if mapping is None:
+                    pending.append({"slug": slug, "reason": "tmdb_unresolved", "title": detail.title})
+                    continue
+                if not _recovery_title_is_safe(detail, mapping):
+                    pending.append({
+                        "slug": slug,
+                        "reason": "title_year_mismatch",
+                        "provider_title": detail.title,
+                        "provider_year": detail.year,
+                        "resolved_title": mapping.title,
+                        "resolved_year": mapping.year,
+                        "imdb_id": mapping.imdb_id,
+                        "tmdb_id": mapping.tmdb_id,
+                    })
+                    continue
+
+                recovered.append({
+                    "slug": slug,
+                    "title": detail.title,
+                    "requested_type": content_type.value,
+                    "reclassified": mapping.type != content_type,
+                    "imdb_id": mapping.imdb_id,
+                    "tmdb_id": mapping.tmdb_id,
+                    "mapping": mapping.model_dump(mode="json"),
+                })
+                if not dry_run:
+                    store.add_or_update(mapping)
+
+            recovery_reports.append({
+                "provider": provider,
+                "type": content_type.value,
+                "requested": len(slugs),
+                "recovered": recovered,
+                "pending": pending,
+                "dry_run": dry_run,
+            })
+            if not dry_run:
+                _record_unresolved_items(unresolved_items)
+                _record_unresolved_records(
+                    provider,
+                    [
+                        {
+                            "provider": provider,
+                            "slug": str(entry.get("slug", "")),
+                            "title": entry.get("title") or entry.get("provider_title"),
+                            "year": entry.get("provider_year"),
+                            "type": content_type.value,
+                            "reason": entry.get("reason", "unresolved"),
+                            **{
+                                key: entry[key]
+                                for key in ("imdb_id", "tmdb_id", "resolved_title", "resolved_year")
+                                if key in entry
+                            },
+                        }
+                        for entry in pending
+                    ],
+                )
+
+        if not dry_run:
+            store.save()
+        atomic_write_json(output_path, recovery_reports)
+        recovered_count = sum(len(r["recovered"]) for r in recovery_reports)
+        pending_count = sum(len(r["pending"]) for r in recovery_reports)
+        logger.info(
+            "Audit recovery finished: %d recovered, %d pending; report saved to %s",
+            recovered_count, pending_count, output_path,
+        )
+    finally:
+        if tmdb_client._owns_http_client and hasattr(tmdb_client.http_client, "close"):
+            await tmdb_client.http_client.close()
+
     return 0
 
 
@@ -853,6 +1110,9 @@ async def execute_sync(args: argparse.Namespace) -> int:
         for m in reconciled_mappings:
             store.add_or_update(m)
 
+        if not dry_run:
+            _record_unresolved_items(all_scraped)
+
         # Phase 3: Persist Master Dataset & OrionServer Export
         if not dry_run:
             store.save()
@@ -904,6 +1164,8 @@ def main(argv: Sequence[str] | None = None) -> int:
             return asyncio.run(execute_scrape(args))
         elif args.command == "audit":
             return asyncio.run(execute_audit(args))
+        elif args.command == "recover-audit":
+            return asyncio.run(execute_recover_audit(args))
         elif args.command == "match":
             return asyncio.run(execute_match(args))
         elif args.command == "export":

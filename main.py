@@ -6,6 +6,7 @@ Usage:
     python main.py match --unmapped-only
     python main.py export --target data/orion_mappings
     python main.py sync --dry-run
+    python main.py recover-audit --dry-run
 """
 
 from __future__ import annotations

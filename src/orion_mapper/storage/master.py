@@ -78,8 +78,9 @@ class MasterMappingStore:
             self._by_tmdb[(str(mapping.tmdb_id).strip(), c_type)] = mapping
         if mapping.imdb_id:
             self._by_imdb[(str(mapping.imdb_id).strip().lower(), c_type)] = mapping
-        for prov, slug in mapping.providers.items():
-            self._by_provider[(str(prov).strip().lower(), str(slug).strip().strip("/"))] = mapping
+        for prov, slugs in mapping.all_provider_slugs().items():
+            for slug in slugs:
+                self._by_provider[(str(prov).strip().lower(), str(slug).strip().strip("/"))] = mapping
 
     def _unindex_mapping(self, mapping: CanonicalMapping) -> None:
         c_type = str(mapping.type.value if hasattr(mapping.type, "value") else mapping.type).lower()
@@ -91,10 +92,11 @@ class MasterMappingStore:
             imdb_key = (str(mapping.imdb_id).strip().lower(), c_type)
             if self._by_imdb.get(imdb_key) is mapping:
                 del self._by_imdb[imdb_key]
-        for prov, slug in mapping.providers.items():
-            prov_key = (str(prov).strip().lower(), str(slug).strip().strip("/"))
-            if self._by_provider.get(prov_key) is mapping:
-                del self._by_provider[prov_key]
+        for prov, slugs in mapping.all_provider_slugs().items():
+            for slug in slugs:
+                prov_key = (str(prov).strip().lower(), str(slug).strip().strip("/"))
+                if self._by_provider.get(prov_key) is mapping:
+                    del self._by_provider[prov_key]
 
     def add_or_update(self, mapping: CanonicalMapping) -> CanonicalMapping:
         """

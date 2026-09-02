@@ -22,11 +22,13 @@ class IdentityReconciler:
         normalizer: type[TitleNormalizer] | None = None,
         scorer: type[CandidateScorer] | None = None,
         confidence_threshold: float = 88.0,
+        allow_title_match: bool = False,
     ) -> None:
         self.tmdb_client = tmdb_client
         self.normalizer = normalizer or TitleNormalizer
         self.scorer = scorer or CandidateScorer
         self.confidence_threshold = confidence_threshold
+        self.allow_title_match = allow_title_match
 
     async def reconcile_item(
         self,
@@ -51,7 +53,7 @@ class IdentityReconciler:
         resolved_year: int | None = item.year
         resolved_type: ContentType = item.type
 
-        # Priority 1: Both IDs present -> zero network requests
+        # Priority 1: Both IDs present -> accept both IDs
         if tmdb_id and imdb_id:
             pass
 
@@ -65,16 +67,10 @@ class IdentityReconciler:
 
             if find_res:
                 tmdb_id = str(find_res["id"]) if find_res.get("id") is not None else None
-                if not resolved_title:
-                    resolved_title = (
-                        find_res.get("title")
-                        or find_res.get("name")
-                        or resolved_title
-                    )
-                if resolved_year is None:
-                    cand_year = self.scorer.extract_year(find_res)
-                    if cand_year is not None:
-                        resolved_year = cand_year
+                resolved_title = find_res.get("title") or find_res.get("name") or resolved_title
+                cand_year = self.scorer.extract_year(find_res)
+                if cand_year is not None:
+                    resolved_year = cand_year
                 media_type = str(find_res.get("media_type") or "").lower()
                 if media_type == "tv":
                     resolved_type = ContentType.SERIES
@@ -92,8 +88,22 @@ class IdentityReconciler:
             if ext_ids:
                 imdb_id = ext_ids.get("imdb_id")
 
+            if tmdb_id:
+                try:
+                    details = await self.tmdb_client.get_details(tmdb_id, item.type)
+                except Exception as exc:
+                    logger.warning("Error fetching TMDB details for %s: %s", tmdb_id, exc)
+                    details = None
+                if details:
+                    resolved_title = details.get("title") or details.get("name") or resolved_title
+                    detail_year = self.scorer.extract_year(details)
+                    if detail_year is not None:
+                        resolved_year = detail_year
+
         # Priority 4: Neither ID present -> Title Normalization + Search + Candidate Scoring
         else:
+            if not self.allow_title_match:
+                return None
             parsed = self.normalizer.parse(
                 item.title, provider_input=item.provider, year=item.year
             )

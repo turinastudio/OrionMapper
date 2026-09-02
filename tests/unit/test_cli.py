@@ -9,13 +9,13 @@ from unittest.mock import AsyncMock, MagicMock, patch
 import pytest
 
 from orion_mapper.cli.commands import (
+    _audit_slug_sets,
     app,
     create_cli_parser,
     execute_export,
     execute_match,
     execute_scrape,
     execute_sync,
-    _audit_slug_sets,
     main,
 )
 from orion_mapper.models.item import ContentType, ScrapedItem
@@ -803,6 +803,11 @@ class TestMainDispatcher:
     def test_main_sync_dispatch(self):
         with patch("orion_mapper.cli.commands.execute_sync", new=AsyncMock(return_value=0)):
             exit_code = main(["sync", "--dry-run"])
+            assert exit_code == 0
+
+    def test_main_recover_audit_dispatch(self):
+        with patch("orion_mapper.cli.commands.execute_recover_audit", new=AsyncMock(return_value=0)):
+            exit_code = main(["recover-audit", "--dry-run"])
             assert exit_code == 0
 
     def test_main_exception_handling_returns_1(self):

@@ -108,27 +108,28 @@ class OrionExporter:
                 total_bytes += bytes_w
 
             # 3. Export Provider Identity Mappings
-            for prov_name, slug_val in m.providers.items():
+            for prov_name, slug_values in m.all_provider_slugs().items():
                 norm_prov = prov_name.strip().lower()
-                norm_slug = slug_val.strip()
-                prov_key = self.encode_provider_key(norm_prov, norm_slug)
-                c_type_str = (
-                    str(m.type.value if hasattr(m.type, "value") else m.type).lower()
-                    if m.type
-                    else None
-                )
-                prov_export = IdentityMappingExport(
-                    provider=norm_prov,
-                    slug=norm_slug,
-                    imdb_id=m.imdb_id.strip().lower() if m.imdb_id else None,
-                    tmdb_id=m.tmdb_id,
-                    type=c_type_str,
-                    updatedAt=m.updated_at,
-                )
-                target = providers_dir / f"{prov_key}.json"
-                bytes_w = atomic_write_json(target, prov_export.model_dump(mode="json"))
-                provider_count += 1
-                total_bytes += bytes_w
+                for slug_val in slug_values:
+                    norm_slug = slug_val.strip()
+                    prov_key = self.encode_provider_key(norm_prov, norm_slug)
+                    c_type_str = (
+                        str(m.type.value if hasattr(m.type, "value") else m.type).lower()
+                        if m.type
+                        else None
+                    )
+                    prov_export = IdentityMappingExport(
+                        provider=norm_prov,
+                        slug=norm_slug,
+                        imdb_id=m.imdb_id.strip().lower() if m.imdb_id else None,
+                        tmdb_id=m.tmdb_id,
+                        type=c_type_str,
+                        updatedAt=m.updated_at,
+                    )
+                    target = providers_dir / f"{prov_key}.json"
+                    bytes_w = atomic_write_json(target, prov_export.model_dump(mode="json"))
+                    provider_count += 1
+                    total_bytes += bytes_w
 
         duration_ms = (time.perf_counter() - start_time) * 1000.0
 
