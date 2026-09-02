@@ -22,6 +22,17 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt8115702",
+    "providers": {
+      "serieskao": "tut-tut-cory-bolidos-navidad"
+    },
+    "title": "Tut Tut Cory Bólidos: Navidad",
+    "tmdb_id": "97266",
+    "type": "series",
+    "updated_at": 1788321022565,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt13521004",
     "providers": {
       "serieskao": "horimiya"
@@ -33,6 +44,17 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt14134334",
+    "providers": {
+      "serieskao": "my-little-pony-deja-tu-marca"
+    },
+    "title": "My Little Pony: Deja tu marca",
+    "tmdb_id": "158691",
+    "type": "series",
+    "updated_at": 1788320051073,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt21970564",
     "providers": {
       "serieskao": "pokemon-the-arceus-chronicles"
@@ -40,7 +62,7 @@
     "title": "Pokémon: Las crónicas de Arceus",
     "tmdb_id": "207567",
     "type": "series",
-    "updated_at": 1788315637615,
+    "updated_at": 1788319597514,
     "year": 2022
   },
   {
