@@ -7,6 +7,7 @@ import asyncio
 import json
 import logging
 import sys
+from collections import Counter
 from collections.abc import Sequence
 from pathlib import Path
 
@@ -36,6 +37,24 @@ def _load_sync_state(path: Path) -> dict[str, dict[str, int]]:
 
 def _save_sync_state(path: Path, state: dict[str, dict[str, int]]) -> None:
     atomic_write_json(path, state)
+
+
+def _audit_slug_sets(
+    catalog_slugs: list[str],
+    mapped_slugs: set[str],
+) -> dict[str, object]:
+    """Compare catalog slugs with mappings without consulting TMDB."""
+    normalized_catalog = [slug.strip().strip("/") for slug in catalog_slugs if slug.strip()]
+    catalog_counts = Counter(normalized_catalog)
+    unique_catalog = set(catalog_counts)
+    return {
+        "catalog_entries": len(normalized_catalog),
+        "catalog_unique_slugs": len(unique_catalog),
+        "catalog_duplicate_slugs": sum(count - 1 for count in catalog_counts.values() if count > 1),
+        "mapped_slugs": len(mapped_slugs),
+        "missing_slugs": sorted(unique_catalog - mapped_slugs),
+        "stale_mapped_slugs": sorted(mapped_slugs - unique_catalog),
+    }
 
 
 async def _enrich_scraped_items(scraper: BaseScraper, items: list[ScrapedItem]) -> None:
@@ -130,6 +149,48 @@ def create_cli_parser() -> argparse.ArgumentParser:
         help="Simulate scraping without saving raw output to disk",
     )
     scrape_parser.add_argument(
+        "--rate-limit",
+        "-r",
+        type=float,
+        default=None,
+        help="Override provider HTTP rate limit (req/s)",
+    )
+
+    # 2. AUDIT
+    audit_parser = subparsers.add_parser(
+        "audit",
+        help="Compare provider catalog slugs with stored mappings",
+        description="Audits catalog coverage without fetching item details or querying TMDB",
+    )
+    audit_parser.add_argument(
+        "--provider",
+        "-p",
+        type=str,
+        default="all",
+        help="Provider to audit: serieskao, poseidonhd2, or all (default: all)",
+    )
+    audit_parser.add_argument(
+        "--type",
+        "-t",
+        type=str,
+        choices=["movie", "series"],
+        default=None,
+        help="Content type filter: movie, series (default: both)",
+    )
+    audit_parser.add_argument(
+        "--max-pages",
+        type=int,
+        default=1000,
+        help="Maximum catalog pages to inspect per provider/type (default: 1000)",
+    )
+    audit_parser.add_argument(
+        "--mappings-dir",
+        "-m",
+        type=str,
+        default=None,
+        help="Directory containing movies.json and series.json (default: data/mappings)",
+    )
+    audit_parser.add_argument(
         "--rate-limit",
         "-r",
         type=float,
@@ -425,6 +486,91 @@ async def execute_scrape(args: argparse.Namespace) -> int:
                 atomic_write_json(file_path, [item.model_dump() for item in items])
 
     logger.info("Total items scraped across providers: %d", total_scraped)
+    return 0
+
+
+async def execute_audit(args: argparse.Namespace) -> int:
+    """Audit provider catalog coverage by comparing provider slugs."""
+    provider_arg = (getattr(args, "provider", None) or "all").strip().lower()
+    if provider_arg == "all":
+        provider_names = [
+            name
+            for name in get_registered_providers()
+            if name not in DISABLED_AUTOMATIC_PROVIDERS
+        ]
+    else:
+        provider_names = [provider_arg]
+
+    content_types = (
+        [ContentType(args.type)]
+        if getattr(args, "type", None)
+        else [ContentType.MOVIE, ContentType.SERIES]
+    )
+    max_pages = max(1, int(getattr(args, "max_pages", 1000) or 1000))
+    custom_rate = getattr(args, "rate_limit", None)
+    mappings_dir = getattr(args, "mappings_dir", None)
+    store = MasterMappingStore(storage_dir=mappings_dir)
+
+    mapped_by_provider: dict[str, set[str]] = {}
+    for mapping in store.all_mappings():
+        for provider, slug in mapping.providers.items():
+            mapped_by_provider.setdefault(provider.strip().lower(), set()).add(
+                slug.strip().strip("/")
+            )
+
+    for provider_name in provider_names:
+        limiter = (
+            TokenBucketLimiter(rate=custom_rate, capacity=int(max(1, custom_rate)))
+            if custom_rate and custom_rate > 0
+            else None
+        )
+        scraper = get_scraper(provider_name, rate_limiter=limiter)
+        for content_type in content_types:
+            if content_type not in scraper.supported_types:
+                continue
+
+            catalog_slugs: list[str] = []
+            duplicate_slugs: set[str] = set()
+            seen_slugs: set[str] = set()
+            exhausted = False
+            for page in range(1, max_pages + 1):
+                try:
+                    page_items = await scraper.fetch_catalog(
+                        content_type=content_type,
+                        page=page,
+                    )
+                except Exception as exc:
+                    logger.warning(
+                        "Audit failed fetching %s %s page %d: %s",
+                        provider_name,
+                        content_type.value,
+                        page,
+                        exc,
+                    )
+                    break
+
+                if not page_items:
+                    exhausted = True
+                    break
+
+                for item in page_items:
+                    slug = item.slug.strip().strip("/")
+                    if slug in seen_slugs:
+                        duplicate_slugs.add(slug)
+                    seen_slugs.add(slug)
+                    catalog_slugs.append(slug)
+
+            result = _audit_slug_sets(
+                catalog_slugs,
+                mapped_by_provider.get(provider_name.strip().lower(), set()),
+            )
+            result["provider"] = provider_name
+            result["type"] = content_type.value
+            result["pages_scanned"] = page if "page" in locals() else 0
+            result["catalog_exhausted"] = exhausted
+            result["duplicate_slugs"] = sorted(duplicate_slugs)
+            logger.info("Catalog audit: %s", json.dumps(result, ensure_ascii=False, sort_keys=True))
+
     return 0
 
 
@@ -724,6 +870,8 @@ def main(argv: Sequence[str] | None = None) -> int:
     try:
         if args.command == "scrape":
             return asyncio.run(execute_scrape(args))
+        elif args.command == "audit":
+            return asyncio.run(execute_audit(args))
         elif args.command == "match":
             return asyncio.run(execute_match(args))
         elif args.command == "export":

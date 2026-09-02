@@ -15,6 +15,7 @@ from orion_mapper.cli.commands import (
     execute_match,
     execute_scrape,
     execute_sync,
+    _audit_slug_sets,
     main,
 )
 from orion_mapper.models.item import ContentType, ScrapedItem
@@ -31,6 +32,18 @@ class TestCliParser:
         parser = create_cli_parser()
         assert parser.prog == "orion-mapper"
         assert "OrionMapper CLI" in parser.description
+
+    def test_audit_slug_sets_counts_duplicates_and_differences(self):
+        result = _audit_slug_sets(
+            ["one", "/two/", "two", "three"],
+            {"one", "old"},
+        )
+
+        assert result["catalog_entries"] == 4
+        assert result["catalog_unique_slugs"] == 3
+        assert result["catalog_duplicate_slugs"] == 1
+        assert result["missing_slugs"] == ["three", "two"]
+        assert result["stale_mapped_slugs"] == ["old"]
 
     def test_parser_version_flag(self):
         parser = create_cli_parser()
