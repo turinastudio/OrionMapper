@@ -1,5 +1,8 @@
 {
   "serieskao:movie": {
     "next_page": 1
+  },
+  "serieskao:series": {
+    "next_page": 26
   }
 }

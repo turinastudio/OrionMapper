@@ -47676,6 +47676,18 @@
     "year": 2005
   },
   {
+    "imdb_id": "tt0114030",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ogre-slayer-PUP5Bw"
+    },
+    "title": "Ogre Slayer",
+    "tmdb_id": "168850",
+    "type": "movie",
+    "updated_at": 1788378874087,
+    "year": 1994
+  },
+  {
     "imdb_id": "tt2630134",
     "provider_variants": {},
     "providers": {
@@ -90626,6 +90638,18 @@
     "type": "movie",
     "updated_at": 1788348862935,
     "year": 2018
+  },
+  {
+    "imdb_id": "tt16351432",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "oats-studios-gkaToA"
+    },
+    "title": "Oats Studios: Volume 1",
+    "tmdb_id": "534032",
+    "type": "movie",
+    "updated_at": 1788379255923,
+    "year": 2021
   },
   {
     "imdb_id": "tt7939428",
@@ -185264,6 +185288,18 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt33293130",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-agente-encubierta-XEfDE7"
+    },
+    "title": "The Legend",
+    "tmdb_id": "1578641",
+    "type": "movie",
+    "updated_at": 1788379371171,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt38938597",
     "provider_variants": {},
     "providers": {
@@ -185382,6 +185418,18 @@
     "type": "movie",
     "updated_at": 1788295128910,
     "year": 2026
+  },
+  {
+    "imdb_id": "tt21190116",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "yellow-hFZSSc"
+    },
+    "title": "Yellow",
+    "tmdb_id": "1589472",
+    "type": "movie",
+    "updated_at": 1788379306036,
+    "year": 2025
   },
   {
     "imdb_id": "tt37961727",
