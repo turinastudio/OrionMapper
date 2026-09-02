@@ -533,7 +533,21 @@ async def execute_audit(args: argparse.Namespace) -> int:
             duplicate_slugs: set[str] = set()
             seen_slugs: set[str] = set()
             exhausted = False
+            logger.info(
+                "Starting catalog audit for %s (%s), up to %d pages",
+                provider_name,
+                content_type.value,
+                max_pages,
+            )
             for page in range(1, max_pages + 1):
+                if page == 1 or page % 10 == 0:
+                    logger.info(
+                        "Auditing %s (%s): catalog page %d/%d",
+                        provider_name,
+                        content_type.value,
+                        page,
+                        max_pages,
+                    )
                 try:
                     page_items = await scraper.fetch_catalog(
                         content_type=content_type,
@@ -850,6 +864,10 @@ async def execute_sync(args: argparse.Namespace) -> int:
 
 def main(argv: Sequence[str] | None = None) -> int:
     """Main CLI dispatcher."""
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+    )
     parser = create_cli_parser()
 
     if argv is None:
