@@ -197,6 +197,13 @@ def create_cli_parser() -> argparse.ArgumentParser:
         default=None,
         help="Override provider HTTP rate limit (req/s)",
     )
+    audit_parser.add_argument(
+        "--output",
+        "-o",
+        type=str,
+        default="data/audit_report.json",
+        help="Audit report path (default: data/audit_report.json)",
+    )
 
     # 2. MATCH
     match_parser = subparsers.add_parser(
@@ -509,6 +516,7 @@ async def execute_audit(args: argparse.Namespace) -> int:
     max_pages = max(1, int(getattr(args, "max_pages", 1000) or 1000))
     custom_rate = getattr(args, "rate_limit", None)
     mappings_dir = getattr(args, "mappings_dir", None)
+    output_path = Path(getattr(args, "output", None) or "data/audit_report.json")
     store = MasterMappingStore(storage_dir=mappings_dir)
 
     mapped_by_provider: dict[str, set[str]] = {}
@@ -518,6 +526,7 @@ async def execute_audit(args: argparse.Namespace) -> int:
                 slug.strip().strip("/")
             )
 
+    reports: list[dict[str, object]] = []
     for provider_name in provider_names:
         limiter = (
             TokenBucketLimiter(rate=custom_rate, capacity=int(max(1, custom_rate)))
@@ -533,6 +542,7 @@ async def execute_audit(args: argparse.Namespace) -> int:
             duplicate_slugs: set[str] = set()
             seen_slugs: set[str] = set()
             exhausted = False
+            pages_scanned = 0
             logger.info(
                 "Starting catalog audit for %s (%s), up to %d pages",
                 provider_name,
@@ -540,6 +550,7 @@ async def execute_audit(args: argparse.Namespace) -> int:
                 max_pages,
             )
             for page in range(1, max_pages + 1):
+                pages_scanned = page
                 if page == 1 or page % 10 == 0:
                     logger.info(
                         "Auditing %s (%s): catalog page %d/%d",
@@ -580,11 +591,14 @@ async def execute_audit(args: argparse.Namespace) -> int:
             )
             result["provider"] = provider_name
             result["type"] = content_type.value
-            result["pages_scanned"] = page if "page" in locals() else 0
+            result["pages_scanned"] = pages_scanned
             result["catalog_exhausted"] = exhausted
             result["duplicate_slugs"] = sorted(duplicate_slugs)
+            reports.append(result)
             logger.info("Catalog audit: %s", json.dumps(result, ensure_ascii=False, sort_keys=True))
 
+    atomic_write_json(output_path, reports)
+    logger.info("Audit report saved to %s", output_path)
     return 0
 
 
