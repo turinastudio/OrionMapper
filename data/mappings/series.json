@@ -1,5 +1,16 @@
 [
   {
+    "imdb_id": "tt0099864",
+    "providers": {
+      "serieskao": "it-eso"
+    },
+    "title": "It (Eso)",
+    "tmdb_id": "19614",
+    "type": "series",
+    "updated_at": 1788351803981,
+    "year": 1990
+  },
+  {
     "imdb_id": "tt0346293",
     "providers": {
       "serieskao": "si-estuvieras-aqui-ccaOOm"
@@ -9,6 +20,17 @@
     "type": "series",
     "updated_at": 1788300327220,
     "year": 2003
+  },
+  {
+    "imdb_id": "tt3069212",
+    "providers": {
+      "serieskao": "street-fighter-el-puno-del-asesino"
+    },
+    "title": "Street Fighter: El puño del asesino",
+    "tmdb_id": "61873",
+    "type": "series",
+    "updated_at": 1788351915159,
+    "year": 2014
   },
   {
     "imdb_id": "tt1379164",
