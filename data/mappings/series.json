@@ -11,6 +11,17 @@
     "year": 2003
   },
   {
+    "imdb_id": "tt1379164",
+    "providers": {
+      "serieskao": "stretch-armstrong-la-fuga"
+    },
+    "title": "Stretch Armstrong: La Fuga",
+    "tmdb_id": "75116",
+    "type": "series",
+    "updated_at": 1788325319431,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt3494560",
     "providers": {
       "serieskao": "la-familia-del-barrio-la-pelicula"
@@ -30,6 +41,17 @@
     "tmdb_id": "97266",
     "type": "series",
     "updated_at": 1788321022565,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt10394706",
+    "providers": {
+      "serieskao": "deathstroke-the-movie"
+    },
+    "title": "Deathstroke: The Movie",
+    "tmdb_id": "97456",
+    "type": "series",
+    "updated_at": 1788325672954,
     "year": 2020
   },
   {
