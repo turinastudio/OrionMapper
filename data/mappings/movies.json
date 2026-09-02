@@ -980,7 +980,7 @@
     "title": "20.000 leguas de viaje submarino",
     "tmdb_id": "173",
     "type": "movie",
-    "updated_at": 1788320955463,
+    "updated_at": 1788382915110,
     "year": 1954
   },
   {
@@ -3152,7 +3152,7 @@
     "title": "Entrevista con el vampiro",
     "tmdb_id": "628",
     "type": "movie",
-    "updated_at": 1788354693722,
+    "updated_at": 1788383416918,
     "year": 1994
   },
   {
@@ -4076,7 +4076,7 @@
     "title": "Crueles intenciones",
     "tmdb_id": "796",
     "type": "movie",
-    "updated_at": 1788349193477,
+    "updated_at": 1788383239631,
     "year": 1999
   },
   {
@@ -20272,7 +20272,7 @@
     "title": "Rosario Tijeras",
     "tmdb_id": "10810",
     "type": "movie",
-    "updated_at": 1788351814989,
+    "updated_at": 1788382909097,
     "year": 2005
   },
   {
@@ -23192,7 +23192,7 @@
     "title": "Sentencia de muerte",
     "tmdb_id": "11835",
     "type": "movie",
-    "updated_at": 1788352616246,
+    "updated_at": 1788383180537,
     "year": 2007
   },
   {
@@ -29844,7 +29844,7 @@
     "title": "Como agua para chocolate",
     "tmdb_id": "18183",
     "type": "movie",
-    "updated_at": 1788348465283,
+    "updated_at": 1788383266676,
     "year": 1992
   },
   {
@@ -30648,7 +30648,7 @@
     "title": "La banda del patio",
     "tmdb_id": "19405",
     "type": "movie",
-    "updated_at": 1788356766801,
+    "updated_at": 1788382921121,
     "year": 2001
   },
   {
@@ -34668,7 +34668,7 @@
     "title": "Celda 211",
     "tmdb_id": "33273",
     "type": "movie",
-    "updated_at": 1788351085876,
+    "updated_at": 1788383150485,
     "year": 2009
   },
   {
@@ -38120,7 +38120,7 @@
     "title": "Jesus",
     "tmdb_id": "45139",
     "type": "movie",
-    "updated_at": 1788354442336,
+    "updated_at": 1788382905093,
     "year": 1979
   },
   {
@@ -39392,7 +39392,7 @@
     "title": "Legado de sangre",
     "tmdb_id": "51215",
     "type": "movie",
-    "updated_at": 1788349145405,
+    "updated_at": 1788383305737,
     "year": 2001
   },
   {
@@ -41312,7 +41312,7 @@
     "title": "Indomable",
     "tmdb_id": "70435",
     "type": "movie",
-    "updated_at": 1788352434961,
+    "updated_at": 1788382926126,
     "year": 2011
   },
   {
@@ -47684,7 +47684,7 @@
     "title": "Ogre Slayer",
     "tmdb_id": "168850",
     "type": "movie",
-    "updated_at": 1788378874087,
+    "updated_at": 1788382819156,
     "year": 1994
   },
   {
@@ -57582,6 +57582,18 @@
     "type": "movie",
     "updated_at": 1788352241651,
     "year": 2016
+  },
+  {
+    "imdb_id": "tt0174385",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-quijote-de-miguel-de-cervantes"
+    },
+    "title": "El Quijote de Miguel de Cervantes",
+    "tmdb_id": "313563",
+    "type": "movie",
+    "updated_at": 1788383008263,
+    "year": 1992
   },
   {
     "imdb_id": "tt4062536",
@@ -85488,7 +85500,7 @@
     "title": "Shifting Gears",
     "tmdb_id": "508632",
     "type": "movie",
-    "updated_at": 1788348122696,
+    "updated_at": 1788383018275,
     "year": 2018
   },
   {
@@ -92364,7 +92376,7 @@
     "title": "Pulso",
     "tmdb_id": "544617",
     "type": "movie",
-    "updated_at": 1788347916364,
+    "updated_at": 1788383075366,
     "year": 2018
   },
   {
@@ -93844,7 +93856,7 @@
     "title": "Karma",
     "tmdb_id": "553928",
     "type": "movie",
-    "updated_at": 1788348355086,
+    "updated_at": 1788383074361,
     "year": 2018
   },
   {
@@ -94904,7 +94916,7 @@
     "title": "La jaula",
     "tmdb_id": "560504",
     "type": "movie",
-    "updated_at": 1788319770581,
+    "updated_at": 1788383257659,
     "year": 2018
   },
   {
@@ -101772,7 +101784,7 @@
     "title": "Respira",
     "tmdb_id": "605755",
     "type": "movie",
-    "updated_at": 1788324419067,
+    "updated_at": 1788383331779,
     "year": 2019
   },
   {
@@ -103228,7 +103240,7 @@
     "title": "Los secretos que ocultamos",
     "tmdb_id": "615115",
     "type": "movie",
-    "updated_at": 1788321062625,
+    "updated_at": 1788383021278,
     "year": 2020
   },
   {
@@ -115100,7 +115112,7 @@
     "title": "La funeraria",
     "tmdb_id": "714277",
     "type": "movie",
-    "updated_at": 1788324903790,
+    "updated_at": 1788382984220,
     "year": 2020
   },
   {
@@ -131956,7 +131968,7 @@
     "title": "Furia",
     "tmdb_id": "866678",
     "type": "movie",
-    "updated_at": 1788324017457,
+    "updated_at": 1788382934141,
     "year": 2021
   },
   {
@@ -138176,7 +138188,7 @@
     "title": "Rivales",
     "tmdb_id": "937287",
     "type": "movie",
-    "updated_at": 1788306002740,
+    "updated_at": 1788383163508,
     "year": 2024
   },
   {
@@ -161552,7 +161564,7 @@
     "title": "Paradise",
     "tmdb_id": "1140066",
     "type": "movie",
-    "updated_at": 1788309378742,
+    "updated_at": 1788383164512,
     "year": 2023
   },
   {
@@ -162512,7 +162524,7 @@
     "title": "Angela",
     "tmdb_id": "1147964",
     "type": "movie",
-    "updated_at": 1788309036219,
+    "updated_at": 1788382945156,
     "year": 2023
   },
   {
@@ -164756,7 +164768,7 @@
     "title": "Sirenas",
     "tmdb_id": "1170719",
     "type": "movie",
-    "updated_at": 1788305756296,
+    "updated_at": 1788383012267,
     "year": 2024
   },
   {
@@ -172688,7 +172700,7 @@
     "title": "El Jardinero",
     "tmdb_id": "1255788",
     "type": "movie",
-    "updated_at": 1788303714950,
+    "updated_at": 1788383063345,
     "year": 2025
   },
   {
@@ -179296,7 +179308,7 @@
     "title": "Utopia",
     "tmdb_id": "1379587",
     "type": "movie",
-    "updated_at": 1788303072946,
+    "updated_at": 1788383005254,
     "year": 2024
   },
   {
@@ -179560,7 +179572,7 @@
     "title": "Revival",
     "tmdb_id": "1383557",
     "type": "movie",
-    "updated_at": 1788303149069,
+    "updated_at": 1788382889065,
     "year": 2024
   },
   {
@@ -185296,7 +185308,7 @@
     "title": "The Legend",
     "tmdb_id": "1578641",
     "type": "movie",
-    "updated_at": 1788379371171,
+    "updated_at": 1788382820954,
     "year": 2025
   },
   {
@@ -186176,6 +186188,18 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt28267514",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "gracias-el-siguiente"
+    },
+    "title": "kimler geldi kimler geçti",
+    "tmdb_id": "1695383",
+    "type": "movie",
+    "updated_at": 1788383408909,
+    "year": 2024
+  },
+  {
     "imdb_id": "tt42839367",
     "provider_variants": {},
     "providers": {
@@ -186246,6 +186270,18 @@
     "type": "movie",
     "updated_at": 1788295099838,
     "year": 2026
+  },
+  {
+    "imdb_id": "tt26656917",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-agency-la-agencia"
+    },
+    "title": "The Agency",
+    "tmdb_id": "1738197",
+    "type": "movie",
+    "updated_at": 1788383226610,
+    "year": 2024
   },
   {
     "imdb_id": "tt39750720",
