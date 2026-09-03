@@ -612,10 +612,14 @@ async def execute_audit(args: argparse.Namespace) -> int:
     output_path = Path(getattr(args, "output", None) or "data/audit_report.json")
     store = MasterMappingStore(storage_dir=mappings_dir)
 
-    mapped_by_provider: dict[str, set[str]] = {}
+    mapped_by_provider_type: dict[tuple[str, str], set[str]] = {}
     for mapping in store.all_mappings():
+        mapping_type = str(
+            mapping.type.value if hasattr(mapping.type, "value") else mapping.type
+        ).strip().lower()
         for provider, slugs in mapping.all_provider_slugs().items():
-            mapped_by_provider.setdefault(provider.strip().lower(), set()).update(
+            key = (provider.strip().lower(), mapping_type)
+            mapped_by_provider_type.setdefault(key, set()).update(
                 slug.strip().strip("/") for slug in slugs
             )
 
@@ -680,7 +684,9 @@ async def execute_audit(args: argparse.Namespace) -> int:
 
             result = _audit_slug_sets(
                 catalog_slugs,
-                mapped_by_provider.get(provider_name.strip().lower(), set()),
+                mapped_by_provider_type.get(
+                    (provider_name.strip().lower(), content_type.value), set()
+                ),
             )
             result["provider"] = provider_name
             result["type"] = content_type.value
