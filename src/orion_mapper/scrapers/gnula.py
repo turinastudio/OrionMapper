@@ -263,9 +263,11 @@ class GnulaScraper(BaseScraper):
                 for item in genres
             ]
 
+        detail_slug = _catalog_slug(post) or slug.strip().strip("/")
+
         return ScrapedDetail(
             provider=self.name,
-            slug=post.get("slug", slug),
+            slug=detail_slug,
             title=title,
             original_title=original_title,
             type=item_type,
