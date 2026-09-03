@@ -18,6 +18,7 @@ from orion_mapper.matcher.scoring import FuzzyTitleMatcher
 from orion_mapper.models.item import ContentType, ScrapedDetail, ScrapedItem
 from orion_mapper.models.mapping import CanonicalMapping
 from orion_mapper.resolver.tmdb import TmdbClient
+from orion_mapper.resolver.allcalidad_md5 import AllCalidadMd5Resolver, extract_md5
 from orion_mapper.scrapers import BaseScraper, get_registered_providers, get_scraper
 from orion_mapper.storage.master import MasterMappingStore, atomic_write_json
 from orion_mapper.storage.orion_exporter import OrionExporter
@@ -83,6 +84,38 @@ def _record_unresolved_items(items: list[ScrapedItem], output_dir: Path = UNRESO
                 "type": item.type.value,
                 "reason": "missing_ids",
             } for item in provider_items], output_dir=output_dir)
+
+
+def _resolve_allcalidad_md5(items: list[ScrapedItem]) -> int:
+    """Fill missing TMDB IDs for AllCalidad items from poster image MD5s.
+
+    AllCalidad embeds ``md5(str(tmdb_id))`` in image URLs; reversal is
+    offline via the sorted index (see resolver/allcalidad_md5). Items
+    that already carry a TMDB ID are untouched.
+    """
+    targets = [
+        item for item in items
+        if item.provider.strip().lower() == "allcalidad"
+        and not item.tmdb_id
+        and item.poster_url
+    ]
+    if not targets:
+        return 0
+    resolver = AllCalidadMd5Resolver()
+    resolved = 0
+    try:
+        for item in targets:
+            tmdb_id = resolver.resolve(extract_md5(item.poster_url))
+            if tmdb_id:
+                item.tmdb_id = tmdb_id
+                resolved += 1
+    finally:
+        resolver.close()
+    if resolved:
+        logger.info("Resolved %d/%d AllCalidad TMDB IDs from image MD5", resolved, len(targets))
+    else:
+        logger.warning("No AllCalidad TMDB IDs resolved from image MD5 (%d candidates)", len(targets))
+    return resolved
 
 
 def _audit_slug_sets(
@@ -776,6 +809,7 @@ async def execute_recover_audit(args: argparse.Namespace) -> int:
                 if detail is None:
                     pending.append({"slug": slug, "reason": "detail_not_found"})
                     continue
+                _resolve_allcalidad_md5([detail])
                 if not detail.imdb_id and not detail.tmdb_id:
                     unresolved_items.append(detail)
                 if detail.type != content_type:
@@ -1111,6 +1145,7 @@ async def execute_sync(args: argparse.Namespace) -> int:
 
         # Phase 2: Match and Reconcile
         logger.info("Reconciling %d total scraped items against TMDB/IMDb", len(all_scraped))
+        _resolve_allcalidad_md5(all_scraped)
         reconciled_mappings = await reconciler.reconcile_batch(all_scraped, master_store=store)
 
         for m in reconciled_mappings:

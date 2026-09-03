@@ -145,9 +145,11 @@ class MockTransport(httpx.AsyncBaseTransport):
 
         # AllCalidad endpoints
         if "allcalidad" in url_str:
+            if "zombieland" in url_str:
+                return httpx.Response(200, json=self.fixtures["allcalidad"]["single_series"], request=request)
             if "/api/rest/single" in path or "/api/rest/movie" in path or "550" in path:
                 return httpx.Response(200, json=self.fixtures["allcalidad"]["single_movie"], request=request)
-            if "/api/rest/series" in path or "82856" in path or "zombieland" in path:
+            if "/api/rest/series" in path or "82856" in path:
                 return httpx.Response(200, json=self.fixtures["allcalidad"]["single_series"], request=request)
             return httpx.Response(200, json=self.fixtures["allcalidad"]["listing_page1"], request=request)
 

@@ -1,13 +1,1 @@
-{
-  "id": 1050,
-  "slug": "el-club-de-la-lucha",
-  "title": "El Club de la Lucha",
-  "original_title": "Fight Club",
-  "type": "movie",
-  "year": 1999,
-  "release_date": "1999-10-15",
-  "tmdb_id": 550,
-  "imdb_id": "tt0137523",
-  "overview": "Un joven hastiado...",
-  "status": "published"
-}
+{"data":{"genres":[18,53],"images":{"backdrop":"/backdrops/01f78be6f7cad02658508fe4616098a9.webp","logo":"/logos/01f78be6f7cad02658508fe4616098a9.webp","poster":"/thumbs/01f78be6f7cad02658508fe4616098a9_hd.webp"},"original_title":"Fight Club","overview":"Un empleado de oficina insomne...","release_date":"1999-10-15","slug":"el-club-de-la-lucha","title":"El Club de la Lucha","type":"movies"},"error":false,"message":""}

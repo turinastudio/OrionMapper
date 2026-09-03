@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import urllib.parse
 from typing import Any, ClassVar
 
 from pydantic import ValidationError
@@ -9,6 +10,17 @@ from orion_mapper.models.item import ContentType, ScrapedDetail, ScrapedItem
 from orion_mapper.scrapers.base import BaseScraper
 
 logger = logging.getLogger(__name__)
+
+
+def _norm_slug(slug: str) -> str:
+    """Decode percent-encoded slugs (the API double-encodes non-Latin titles)."""
+    slug = slug.strip().strip("/")
+    for _ in range(2):
+        decoded = urllib.parse.unquote(slug)
+        if decoded == slug:
+            break
+        slug = decoded
+    return slug
 
 
 def _is_error_payload(data: Any) -> bool:
@@ -30,16 +42,70 @@ def _is_error_payload(data: Any) -> bool:
 
 class AllCalidadScraper(BaseScraper):
     """
-    Scraper for AllCalidad (https://allcalidad.ms).
-    Interacts with JSON REST API endpoints (/api/rest/listing, /api/rest/movie, /api/rest/series, /api/rest/single)
-    to retrieve items with direct TMDb and IMDb identifier payloads.
+    Scraper for AllCalidad (https://allcalidad.re).
+    Interacts with JSON REST API endpoints (/api/rest/listing, /api/rest/single)
+    using ``post_type=movies|tvshows``. Items carry no direct TMDB/IMDb IDs:
+    identity is resolved offline from the MD5 embedded in image URLs
+    (``md5(str(tmdb_id))``), see :mod:`orion_mapper.resolver.allcalidad_md5`.
     """
 
     name = "allcalidad"
-    base_url = "https://allcalidad.ms"
+    base_url = "https://allcalidad.re"
     supported_types: ClassVar[list[ContentType]] = [ContentType.MOVIE, ContentType.SERIES]
     page_size = 24
     default_rate_limit = 5.0
+
+    @staticmethod
+    def _post_type(ctype: ContentType) -> str:
+        return "movies" if ctype == ContentType.MOVIE else "tvshows"
+
+    @staticmethod
+    def _abs_image(url: str | None, base: str) -> str | None:
+        if not url or not isinstance(url, str):
+            return None
+        url = url.strip()
+        if not url:
+            return None
+        if url.startswith(("http://", "https://")):
+            return url
+        return base.rstrip("/") + "/" + url.lstrip("/")
+
+    @staticmethod
+    def _extract_year(raw: dict[str, Any]) -> int | None:
+        for key in ("year", "release_date", "releaseDate"):
+            value = raw.get(key)
+            if value is None:
+                continue
+            text = str(value).strip()
+            if len(text) >= 4 and text[:4].isdigit():
+                year = int(text[:4])
+                if 1880 <= year <= 2100:
+                    return year
+        return None
+
+    @staticmethod
+    def _unwrap_posts(body: Any) -> list[dict[str, Any]]:
+        if isinstance(body, dict):
+            data = body.get("data", body)
+            if isinstance(data, dict):
+                posts = data.get("posts", [])
+            elif isinstance(data, list):
+                posts = data
+            else:
+                posts = []
+        elif isinstance(body, list):
+            posts = body
+        else:
+            posts = []
+        return [p for p in posts if isinstance(p, dict)]
+
+    @staticmethod
+    def _unwrap_single(body: Any) -> dict[str, Any] | None:
+        if isinstance(body, dict):
+            data = body.get("data", body)
+            if isinstance(data, dict):
+                return data
+        return None
 
     def extract_identifiers(
         self, raw_data: dict[str, Any] | str
@@ -65,9 +131,13 @@ class AllCalidadScraper(BaseScraper):
         """Fetch a page of catalog items from AllCalidad REST API."""
         ctype = ContentType(content_type)
         url = self.build_url("/api/rest/listing")
-        params: dict[str, Any] = {"page": page, "type": ctype.value}
+        params: dict[str, Any] = {
+            "page": page,
+            "post_type": self._post_type(ctype),
+            "posts_per_page": self.page_size,
+        }
         if genre:
-            params["genre"] = genre
+            params["genres"] = genre
 
         try:
             res = await self.http_client.get(url, params=params)
@@ -78,43 +148,37 @@ class AllCalidadScraper(BaseScraper):
             logger.warning("[%s] Catalog fetch failed for %s: %s", self.name, url, exc)
             return []
 
-        if not isinstance(data, dict) or _is_error_payload(data):
+        if _is_error_payload(data):
             return []
 
-        raw_items = data.get("items", [])
-        if not isinstance(raw_items, list):
-            return []
+        raw_items = self._unwrap_posts(data)
 
         items: list[ScrapedItem] = []
         for raw in raw_items:
-            if not isinstance(raw, dict):
-                continue
             try:
                 slug = raw.get("slug", "")
                 if not slug or not isinstance(slug, str):
+                    continue
+                slug = _norm_slug(slug)
+                if not slug:
                     continue
                 title = raw.get("title", slug)
                 raw_type = str(raw.get("type", "")).lower()
                 item_type = (
                     ContentType.SERIES
-                    if raw_type in ("series", "tv", "serie")
+                    if raw_type in ("series", "tv", "tvshows", "serie")
                     else ContentType.MOVIE
                 )
 
-                year: int | None = None
-                if raw.get("year") is not None:
-                    try:
-                        year = int(str(raw["year"]).strip())
-                    except ValueError:
-                        year = None
-                elif raw.get("release_date"):
-                    d_str = str(raw["release_date"]).strip()
-                    if len(d_str) >= 4 and d_str[:4].isdigit():
-                        year = int(d_str[:4])
+                year = self._extract_year(raw)
 
                 tmdb_id = str(raw["tmdb_id"]) if raw.get("tmdb_id") is not None else None
                 imdb_id = str(raw["imdb_id"]).lower() if raw.get("imdb_id") is not None else None
-                poster = raw.get("poster") or raw.get("poster_url")
+                images = raw.get("images") if isinstance(raw.get("images"), dict) else {}
+                poster = self._abs_image(
+                    images.get("poster") or raw.get("poster") or raw.get("poster_url"),
+                    self.base_url,
+                )
 
                 items.append(
                     ScrapedItem(
@@ -147,37 +211,22 @@ class AllCalidadScraper(BaseScraper):
     ) -> ScrapedDetail | None:
         """Fetch detailed metadata for a given slug from AllCalidad REST API."""
         ctype = ContentType(content_type)
-        endpoint = (
-            f"/api/rest/movie/{slug}"
-            if ctype == ContentType.MOVIE
-            else f"/api/rest/series/{slug}"
-        )
+        slug = _norm_slug(slug)
 
         data: dict[str, Any] | None = None
-        # Try specialized REST endpoint first
+        # Canonical single endpoint: /api/rest/single?post_name=&post_type=
+        url = self.build_url("/api/rest/single")
+        params = {"post_name": slug, "post_type": self._post_type(ctype)}
         try:
-            res = await self.http_client.get(self.build_url(endpoint))
+            res = await self.http_client.get(url, params=params)
             if res.status_code == 200:
                 body = res.json()
                 if isinstance(body, dict) and not _is_error_payload(body):
-                    data = body
+                    data = self._unwrap_single(body)
         except Exception:
             pass
 
-        # Fallback to /api/rest/single query endpoint
         if not data:
-            url = self.build_url("/api/rest/single")
-            params = {"slug": slug, "type": ctype.value}
-            try:
-                res = await self.http_client.get(url, params=params)
-                if res.status_code == 200:
-                    body = res.json()
-                    if isinstance(body, dict) and not _is_error_payload(body):
-                        data = body
-            except Exception:
-                pass
-
-        if not data or not isinstance(data, dict) or _is_error_payload(data):
             return None
 
         title = data.get("title", slug)
@@ -185,30 +234,27 @@ class AllCalidadScraper(BaseScraper):
         raw_type = str(data.get("type", "")).lower()
         item_type = (
             ContentType.SERIES
-            if raw_type in ("series", "tv", "serie")
+            if raw_type in ("series", "tv", "tvshows", "serie")
             else ctype
         )
 
-        year: int | None = None
-        if data.get("year") is not None:
-            try:
-                year = int(str(data["year"]).strip())
-            except ValueError:
-                year = None
-        elif data.get("release_date"):
-            d_str = str(data["release_date"]).strip()
-            if len(d_str) >= 4 and d_str[:4].isdigit():
-                year = int(d_str[:4])
+        year = self._extract_year(data)
 
         tmdb_id = str(data["tmdb_id"]) if data.get("tmdb_id") is not None else None
         imdb_id = str(data["imdb_id"]).lower() if data.get("imdb_id") is not None else None
         overview = data.get("overview")
-        poster = data.get("poster") or data.get("poster_url")
+        images = data.get("images") if isinstance(data.get("images"), dict) else {}
+        poster = self._abs_image(
+            images.get("poster") or data.get("poster") or data.get("poster_url"),
+            self.base_url,
+        )
         genres = data.get("genres", [])
         if isinstance(genres, str):
             genres = [genres]
         elif not isinstance(genres, list):
             genres = []
+        else:
+            genres = [str(g) for g in genres]
 
         return ScrapedDetail(
             provider=self.name,

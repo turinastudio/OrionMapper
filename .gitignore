@@ -70,6 +70,7 @@ data/orion_mappings/
 data/audit_report.json
 data/audit_recovery.json
 data/unresolved/
+data/allcalidad/
 
 # Track Master Canonical Mappings
 !data/mappings/movies.json

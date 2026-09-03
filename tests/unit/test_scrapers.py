@@ -564,14 +564,17 @@ async def test_allcalidad_listing_parsing(mock_http_client):
     assert items[0].title == "El Club de la Lucha"
     assert items[0].type == ContentType.MOVIE
     assert items[0].year == 1999
-    assert items[0].tmdb_id == "550"
-    assert items[0].imdb_id == "tt0137523"
+    # The live API exposes no direct IDs; identity resolves via image MD5.
+    assert items[0].tmdb_id is None
+    assert items[0].imdb_id is None
+    assert "01f78be6f7cad02658508fe4616098a9" in (items[0].poster_url or "")
 
     assert items[1].slug == "zombieland-saga"
     assert items[1].type == ContentType.SERIES
     assert items[1].year == 2018
-    assert items[1].tmdb_id == "82856"
-    assert items[1].imdb_id == "tt15486"
+    assert items[1].tmdb_id is None
+    assert items[1].imdb_id is None
+    assert "8635d370cc11148464fdcadbaf313767" in (items[1].poster_url or "")
 
 
 @pytest.mark.asyncio
@@ -586,8 +589,9 @@ async def test_allcalidad_single_movie_parsing(mock_http_client):
     assert detail.original_title == "Fight Club"
     assert detail.type == ContentType.MOVIE
     assert detail.year == 1999
-    assert detail.tmdb_id == "550"
-    assert detail.imdb_id == "tt0137523"
+    assert detail.tmdb_id is None
+    assert detail.imdb_id is None
+    assert "01f78be6f7cad02658508fe4616098a9" in (detail.poster_url or "")
     assert detail.release_date == "1999-10-15"
 
 
@@ -601,24 +605,26 @@ async def test_allcalidad_single_series_parsing(mock_http_client):
     assert detail.title == "Zombieland Saga"
     assert detail.type == ContentType.SERIES
     assert detail.year == 2018
-    assert detail.tmdb_id == "82856"
-    assert detail.imdb_id == "tt15486"
+    assert detail.tmdb_id is None
+    assert detail.imdb_id is None
 
 
 @pytest.mark.asyncio
 async def test_allcalidad_release_date_to_year_conversion():
     listing = {
-        "status": "success",
-        "items": [
-            {
-                "slug": "oppenheimer",
-                "title": "Oppenheimer",
-                "type": "movie",
-                "release_date": "2023-07-21",
-                "tmdb_id": 872585,
-                "imdb_id": "tt15398776",
-            }
-        ],
+        "error": False,
+        "data": {
+            "posts": [
+                {
+                    "slug": "oppenheimer",
+                    "title": "Oppenheimer",
+                    "type": "movies",
+                    "release_date": "2023-07-21",
+                    "images": {"poster": "/thumbs/872585_hd.webp"},
+                }
+            ],
+            "pagination": {"page": 1},
+        },
     }
     client = httpx.AsyncClient(
         transport=StaticResponseTransport({"/api/rest/listing": (200, listing)})
@@ -628,8 +634,8 @@ async def test_allcalidad_release_date_to_year_conversion():
 
     assert len(items) == 1
     assert items[0].year == 2023
-    assert items[0].tmdb_id == "872585"
-    assert items[0].imdb_id == "tt15398776"
+    assert items[0].tmdb_id is None
+    assert items[0].imdb_id is None
     await client.aclose()
 
 
