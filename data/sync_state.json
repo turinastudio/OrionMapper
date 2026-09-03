@@ -2,6 +2,9 @@
   "gnula:movie": {
     "next_page": 1
   },
+  "gnula:series": {
+    "next_page": 56
+  },
   "serieskao:movie": {
     "next_page": 1
   },
