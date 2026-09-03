@@ -9,8 +9,10 @@ import pytest
 from orion_mapper.models.item import ContentType
 from orion_mapper.scrapers import (
     AllCalidadScraper,
+    AllPeliculasScraper,
     BaseScraper,
     GnulaScraper,
+    PelisGratisHDScraper,
     PoseidonHD2Scraper,
     PoseidonScraper,
     SeriesKaoScraper,
@@ -673,6 +675,36 @@ async def test_allcalidad_detail_404_returns_none(mock_http_client):
     scraper = AllCalidadScraper(http_client=mock_http_client)
     detail = await scraper.fetch_detail("item-999999999", ContentType.MOVIE)
     assert detail is None
+
+
+def test_allpeliculas_api_flavor_urls():
+    scraper = AllPeliculasScraper(http_client=None)
+    assert scraper.name == "allpeliculas"
+    url, params = scraper._listing_url(ContentType.MOVIE, 2)
+    assert url == "https://allpeliculas.la/wp-api/v1/listing/movies"
+    assert params["postType"] == "movies"
+    assert params["page"] == 2
+    url, params = scraper._single_url("some-slug", ContentType.SERIES)
+    assert url == "https://allpeliculas.la/wp-api/v1/single/tvshows"
+    assert params == {"slug": "some-slug", "postType": "tvshows"}
+
+
+def test_allcalidad_api_flavor_urls():
+    scraper = AllCalidadScraper(http_client=None)
+    url, params = scraper._listing_url(ContentType.MOVIE, 1)
+    assert url == "https://allcalidad.re/api/rest/listing"
+    assert params["post_type"] == "movies"
+    url, params = scraper._single_url("some-slug", ContentType.SERIES)
+    assert url == "https://allcalidad.re/api/rest/single"
+    assert params == {"post_name": "some-slug", "post_type": "tvshows"}
+
+
+def test_clone_scrapers_registered(mock_http_client):
+    assert isinstance(get_scraper("pelisgratishd", http_client=mock_http_client), PelisGratisHDScraper)
+    assert isinstance(get_scraper("pelisgratis", http_client=mock_http_client), PelisGratisHDScraper)
+    assert isinstance(get_scraper("allpeliculas", http_client=mock_http_client), AllPeliculasScraper)
+    providers = get_registered_providers()
+    assert {"pelisgratishd", "allpeliculas"} <= set(providers)
 
 
 # ==============================================================================

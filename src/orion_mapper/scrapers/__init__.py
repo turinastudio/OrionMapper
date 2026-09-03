@@ -5,6 +5,7 @@ from typing import Any
 from orion_mapper.core.http import AsyncHttpClient
 from orion_mapper.core.rate_limiter import TokenBucketLimiter
 from orion_mapper.scrapers.allcalidad import AllCalidadScraper
+from orion_mapper.scrapers.allpeliculas import AllPeliculasScraper
 from orion_mapper.scrapers.base import BaseScraper
 from orion_mapper.scrapers.gnula import GnulaScraper
 from orion_mapper.scrapers.poseidonhd2 import PoseidonHD2Scraper, PoseidonScraper
@@ -17,6 +18,7 @@ _DEFAULT_REGISTRY: dict[str, type[BaseScraper]] = {
     "poseidonhd2": PoseidonHD2Scraper,
     "gnula": GnulaScraper,
     "allcalidad": AllCalidadScraper,
+    "allpeliculas": AllPeliculasScraper,
 }
 
 _SCRAPER_REGISTRY: dict[str, type[BaseScraper]] = dict(_DEFAULT_REGISTRY)
@@ -93,6 +95,7 @@ def list_scrapers() -> list[str]:
 
 __all__ = [
     "AllCalidadScraper",
+    "AllPeliculasScraper",
     "BaseScraper",
     "GnulaScraper",
     "PelisGratisHDScraper",

@@ -54,6 +54,11 @@ class AllCalidadScraper(BaseScraper):
     supported_types: ClassVar[list[ContentType]] = [ContentType.MOVIE, ContentType.SERIES]
     page_size = 24
     default_rate_limit = 5.0
+    # API flavor. Clones (e.g. AllPeliculas) override these, mirroring
+    # OrionServer's AllCalidadSite variants.
+    api_base: ClassVar[str] = "/api/rest"
+    listing_style: ClassVar[str] = "post_type_query"  # or "type_path"
+    single_style: ClassVar[str] = "post_name_query"  # or "type_path"
 
     @staticmethod
     def _post_type(ctype: ContentType) -> str:
@@ -122,6 +127,42 @@ class AllCalidadScraper(BaseScraper):
             )
         return None, None
 
+    def _listing_url(self, ctype: ContentType, page: int, genre: str | None = None) -> tuple[str, dict[str, Any]]:
+        """Build the catalog listing URL and query params for the API flavor."""
+        post_type = self._post_type(ctype)
+        if self.listing_style == "type_path":
+            url = self.build_url(f"{self.api_base}/listing/{post_type}")
+            params: dict[str, Any] = {
+                "postType": post_type,
+                "page": page,
+                "postsPerPage": self.page_size,
+                "orderBy": "latest",
+                "order": "desc",
+            }
+        else:
+            url = self.build_url(f"{self.api_base}/listing")
+            params = {
+                "page": page,
+                "post_type": post_type,
+                "posts_per_page": self.page_size,
+            }
+        if genre:
+            params["genres"] = genre
+        return url, params
+
+    def _single_url(self, slug: str, ctype: ContentType) -> tuple[str, dict[str, Any]]:
+        """Build the detail URL and query params for the API flavor."""
+        post_type = self._post_type(ctype)
+        if self.single_style == "type_path":
+            return (
+                self.build_url(f"{self.api_base}/single/{post_type}"),
+                {"slug": slug, "postType": post_type},
+            )
+        return (
+            self.build_url(f"{self.api_base}/single"),
+            {"post_name": slug, "post_type": post_type},
+        )
+
     async def fetch_catalog(
         self,
         content_type: ContentType | str,
@@ -130,14 +171,7 @@ class AllCalidadScraper(BaseScraper):
     ) -> list[ScrapedItem]:
         """Fetch a page of catalog items from AllCalidad REST API."""
         ctype = ContentType(content_type)
-        url = self.build_url("/api/rest/listing")
-        params: dict[str, Any] = {
-            "page": page,
-            "post_type": self._post_type(ctype),
-            "posts_per_page": self.page_size,
-        }
-        if genre:
-            params["genres"] = genre
+        url, params = self._listing_url(ctype, page, genre)
 
         try:
             res = await self.http_client.get(url, params=params)
@@ -214,9 +248,8 @@ class AllCalidadScraper(BaseScraper):
         slug = _norm_slug(slug)
 
         data: dict[str, Any] | None = None
-        # Canonical single endpoint: /api/rest/single?post_name=&post_type=
-        url = self.build_url("/api/rest/single")
-        params = {"post_name": slug, "post_type": self._post_type(ctype)}
+        # Canonical single endpoint (flavor-dependent URL/params).
+        url, params = self._single_url(slug, ctype)
         try:
             res = await self.http_client.get(url, params=params)
             if res.status_code == 200:
