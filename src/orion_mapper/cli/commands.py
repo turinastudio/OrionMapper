@@ -67,6 +67,58 @@ def _record_unresolved_records(
     atomic_write_json(path, sorted(records.values(), key=lambda r: (str(r["type"]), str(r["slug"]))))
 
 
+def _load_unresolved_slugs(
+    provider: str,
+    content_type: str,
+    output_dir: Path = UNRESOLVED_DIR,
+) -> set[str]:
+    """Return slugs already recorded as pending for a provider/type.
+
+    These are cases a previous run could not resolve; reprocessing them on
+    every audit wastes provider and TMDB quota for the same outcome.
+    """
+    path = output_dir / f"{provider.strip().lower()}.json"
+    try:
+        existing = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    except (json.JSONDecodeError, OSError):
+        return set()
+    return {
+        str(record.get("slug", "")).strip().strip("/")
+        for record in existing
+        if isinstance(record, dict) and str(record.get("type", "")) == content_type
+    }
+
+
+def _prune_unresolved_slugs(
+    provider: str,
+    slugs: list[str],
+    content_type: str,
+    output_dir: Path = UNRESOLVED_DIR,
+) -> int:
+    """Remove recovered slugs from the unresolved backlog. Returns count removed."""
+    if not slugs:
+        return 0
+    provider = provider.strip().lower()
+    path = output_dir / f"{provider}.json"
+    try:
+        existing = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    except (json.JSONDecodeError, OSError):
+        return 0
+    doomed = {s.strip().strip("/") for s in slugs}
+    kept = [
+        record for record in existing
+        if not (
+            isinstance(record, dict)
+            and str(record.get("type", "")) == content_type
+            and str(record.get("slug", "")).strip().strip("/") in doomed
+        )
+    ]
+    removed = len(existing) - len(kept)
+    if removed:
+        atomic_write_json(path, sorted(kept, key=lambda r: (str(r["type"]), str(r["slug"]))))
+    return removed
+
+
 def _record_unresolved_items(items: list[ScrapedItem], output_dir: Path = UNRESOLVED_DIR) -> None:
     """Persist provider items that lack both canonical identifiers."""
     grouped: dict[str, list[ScrapedItem]] = {}
@@ -329,6 +381,10 @@ def create_cli_parser() -> argparse.ArgumentParser:
     recover_parser.add_argument(
         "--dry-run", action="store_true", default=False,
         help="Validate and report recoveries without modifying mappings",
+    )
+    recover_parser.add_argument(
+        "--retry-pending", action="store_true", default=False,
+        help="Reprocess slugs already recorded in data/unresolved (default: skip them to save quota)",
     )
 
     # 2. MATCH
@@ -789,6 +845,7 @@ async def execute_recover_audit(args: argparse.Namespace) -> int:
     )
     limit = getattr(args, "limit", None)
     dry_run = getattr(args, "dry_run", False)
+    retry_pending = getattr(args, "retry_pending", False)
     recovery_reports: list[dict[str, object]] = []
 
     try:
@@ -798,6 +855,20 @@ async def execute_recover_audit(args: argparse.Namespace) -> int:
             slugs = [str(slug).strip().strip("/") for slug in report.get("missing_slugs", [])]
             if limit is not None:
                 slugs = slugs[:max(0, limit)]
+            # Skip slugs a previous run already failed on, unless forced.
+            # They live in data/unresolved/<provider>.json with the same outcome.
+            skipped: list[dict[str, object]] = []
+            if not retry_pending:
+                known_pending = _load_unresolved_slugs(provider, content_type.value)
+                if known_pending:
+                    kept = [s for s in slugs if s not in known_pending]
+                    skipped = [{"slug": s, "reason": "already_pending"} for s in slugs if s in known_pending]
+                    if skipped:
+                        logger.info(
+                            "Skipping %d already-pending %s/%s slugs (use --retry-pending to force)",
+                            len(skipped), provider, content_type.value,
+                        )
+                    slugs = kept
             scraper = get_scraper(provider, rate_limiter=limiter)
             recovered: list[dict[str, object]] = []
             pending: list[dict[str, object]] = []
@@ -856,12 +927,18 @@ async def execute_recover_audit(args: argparse.Namespace) -> int:
             recovery_reports.append({
                 "provider": provider,
                 "type": content_type.value,
-                "requested": len(slugs),
+                "requested": len(slugs) + len(skipped),
                 "recovered": recovered,
                 "pending": pending,
+                "skipped": skipped,
                 "dry_run": dry_run,
             })
             if not dry_run:
+                _prune_unresolved_slugs(
+                    provider,
+                    [str(entry.get("slug", "")) for entry in recovered],
+                    content_type.value,
+                )
                 _record_unresolved_items(unresolved_items)
                 _record_unresolved_records(
                     provider,
@@ -888,9 +965,10 @@ async def execute_recover_audit(args: argparse.Namespace) -> int:
         atomic_write_json(output_path, recovery_reports)
         recovered_count = sum(len(r["recovered"]) for r in recovery_reports)
         pending_count = sum(len(r["pending"]) for r in recovery_reports)
+        skipped_count = sum(len(r.get("skipped", [])) for r in recovery_reports)
         logger.info(
-            "Audit recovery finished: %d recovered, %d pending; report saved to %s",
-            recovered_count, pending_count, output_path,
+            "Audit recovery finished: %d recovered, %d pending, %d skipped (already pending); report saved to %s",
+            recovered_count, pending_count, skipped_count, output_path,
         )
     finally:
         if tmdb_client._owns_http_client and hasattr(tmdb_client.http_client, "close"):
