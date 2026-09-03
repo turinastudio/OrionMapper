@@ -32,6 +32,10 @@ class SeriesKaoScraper(BaseScraper):
     supported_types: ClassVar[list[ContentType]] = [ContentType.MOVIE, ContentType.SERIES]
     page_size = 24
     default_rate_limit = 5.0
+    # Catalog card selectors. Mirrors (e.g. PelisGratisHD) override this.
+    card_selectors: ClassVar[str] = (
+        "article.card, a.poster-card, .item-list .item, article.item, .item"
+    )
 
     def extract_identifiers(
         self, raw_data: dict[str, Any] | str
@@ -81,9 +85,7 @@ class SeriesKaoScraper(BaseScraper):
 
         # SeriesKao currently uses ``article.card``.  Keep the legacy selectors
         # because older mirrors/fixtures still expose ``.item`` cards.
-        card_elements = soup.select(
-            "article.card, a.poster-card, .item-list .item, article.item, .item"
-        )
+        card_elements = soup.select(self.card_selectors)
         for card in card_elements:
             try:
                 # In the legacy layout the card contains the anchor; in the

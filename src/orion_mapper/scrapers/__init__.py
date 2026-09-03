@@ -8,10 +8,12 @@ from orion_mapper.scrapers.allcalidad import AllCalidadScraper
 from orion_mapper.scrapers.base import BaseScraper
 from orion_mapper.scrapers.gnula import GnulaScraper
 from orion_mapper.scrapers.poseidonhd2 import PoseidonHD2Scraper, PoseidonScraper
+from orion_mapper.scrapers.pelisgratishd import PelisGratisHDScraper
 from orion_mapper.scrapers.serieskao import SeriesKaoScraper
 
 _DEFAULT_REGISTRY: dict[str, type[BaseScraper]] = {
     "serieskao": SeriesKaoScraper,
+    "pelisgratishd": PelisGratisHDScraper,
     "poseidonhd2": PoseidonHD2Scraper,
     "gnula": GnulaScraper,
     "allcalidad": AllCalidadScraper,
@@ -22,6 +24,7 @@ _SCRAPER_REGISTRY: dict[str, type[BaseScraper]] = dict(_DEFAULT_REGISTRY)
 _DEFAULT_ALIASES: dict[str, str] = {
     "poseidon": "poseidonhd2",
     "series-kao": "serieskao",
+    "pelisgratis": "pelisgratishd",
     "all-calidad": "allcalidad",
 }
 
@@ -92,6 +95,7 @@ __all__ = [
     "AllCalidadScraper",
     "BaseScraper",
     "GnulaScraper",
+    "PelisGratisHDScraper",
     "PoseidonHD2Scraper",
     "PoseidonScraper",
     "SeriesKaoScraper",
