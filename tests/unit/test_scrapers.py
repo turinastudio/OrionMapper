@@ -416,6 +416,61 @@ async def test_gnula_catalog_parsing(mock_http_client):
 
 
 @pytest.mark.asyncio
+async def test_gnula_live_archive_payload_and_routes():
+    payload = {
+        "props": {"pageProps": {"results": {"data": [{
+            "url": {"slug": "movies/i-want-your-sex"},
+            "titles": {"name": "I Want Your Sex"},
+            "releaseDate": "2026-01-01",
+            "TMDbId": 1288059,
+            "IMDbId": "tt1234567",
+            "images": {"poster": "https://img.example/poster.jpg"},
+        }]}}}
+    }
+    html = f'<script id="__NEXT_DATA__">{json.dumps(payload)}</script>'
+    client = httpx.AsyncClient(
+        transport=StaticResponseTransport({"/archives/movies": (200, html)})
+    )
+    scraper = GnulaScraper(http_client=client)
+
+    items = await scraper.fetch_catalog(ContentType.MOVIE, page=1)
+
+    assert len(items) == 1
+    assert items[0].slug == "i-want-your-sex"
+    assert items[0].title == "I Want Your Sex"
+    assert items[0].year == 2026
+    assert items[0].tmdb_id == "1288059"
+    assert items[0].imdb_id == "tt1234567"
+    assert items[0].url == "https://gnula.life/movies/i-want-your-sex"
+    await client.aclose()
+
+
+@pytest.mark.asyncio
+async def test_gnula_series_archive_defaults_missing_type_to_series():
+    payload = {
+        "props": {"pageProps": {"lastSeries": [{
+            "url": {"slug": "series/ted-lasso"},
+            "titles": {"name": "Ted Lasso"},
+            "releaseDate": "2020-08-14",
+            "TMDbId": 97546,
+            "IMDbId": "tt10986410",
+        }]}}
+    }
+    html = f'<script id="__NEXT_DATA__">{json.dumps(payload)}</script>'
+    client = httpx.AsyncClient(
+        transport=StaticResponseTransport({"/archives/series": (200, html)})
+    )
+    scraper = GnulaScraper(http_client=client)
+
+    items = await scraper.fetch_catalog(ContentType.SERIES, page=1)
+
+    assert len(items) == 1
+    assert items[0].type == ContentType.SERIES
+    assert items[0].url == "https://gnula.life/series/ted-lasso"
+    await client.aclose()
+
+
+@pytest.mark.asyncio
 async def test_gnula_detail_movie_extraction(mock_http_client):
     scraper = GnulaScraper(http_client=mock_http_client)
     detail = await scraper.fetch_detail("pelicula-el-club-de-la-lucha", ContentType.MOVIE)
