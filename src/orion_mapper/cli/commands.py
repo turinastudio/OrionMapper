@@ -139,15 +139,16 @@ def _record_unresolved_items(items: list[ScrapedItem], output_dir: Path = UNRESO
 
 
 def _resolve_allcalidad_md5(items: list[ScrapedItem]) -> int:
-    """Fill missing TMDB IDs for AllCalidad items from poster image MD5s.
+    """Fill missing TMDB IDs for AllCalidad-family items from poster image MD5s.
 
-    AllCalidad embeds ``md5(str(tmdb_id))`` in image URLs; reversal is
-    offline via the sorted index (see resolver/allcalidad_md5). Items
-    that already carry a TMDB ID are untouched.
+    AllCalidad and its AllPeliculas clone embed ``md5(str(tmdb_id))`` in
+    image URLs; reversal is offline via the sorted index
+    (see resolver/allcalidad_md5). Items that already carry a TMDB ID
+    are untouched.
     """
     targets = [
         item for item in items
-        if item.provider.strip().lower() == "allcalidad"
+        if item.provider.strip().lower() in ("allcalidad", "allpeliculas")
         and not item.tmdb_id
         and item.poster_url
     ]
@@ -164,9 +165,9 @@ def _resolve_allcalidad_md5(items: list[ScrapedItem]) -> int:
     finally:
         resolver.close()
     if resolved:
-        logger.info("Resolved %d/%d AllCalidad TMDB IDs from image MD5", resolved, len(targets))
+        logger.info("Resolved %d/%d AllCalidad-family TMDB IDs from image MD5", resolved, len(targets))
     else:
-        logger.warning("No AllCalidad TMDB IDs resolved from image MD5 (%d candidates)", len(targets))
+        logger.warning("No AllCalidad-family TMDB IDs resolved from image MD5 (%d candidates)", len(targets))
     return resolved
 
 
