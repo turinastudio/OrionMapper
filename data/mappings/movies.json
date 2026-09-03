@@ -1568,7 +1568,7 @@
     "title": "Fargo",
     "tmdb_id": "275",
     "type": "movie",
-    "updated_at": 1788348339058,
+    "updated_at": 1788398938359,
     "year": 1996
   },
   {
@@ -2636,7 +2636,7 @@
     "title": "Constantine",
     "tmdb_id": "561",
     "type": "movie",
-    "updated_at": 1788351743885,
+    "updated_at": 1788398979428,
     "year": 2005
   },
   {
@@ -7900,7 +7900,7 @@
     "title": "Perdidos en el espacio",
     "tmdb_id": "2157",
     "type": "movie",
-    "updated_at": 1788320951456,
+    "updated_at": 1788398808138,
     "year": 1998
   },
   {
@@ -11104,7 +11104,7 @@
     "title": "El bosque",
     "tmdb_id": "6947",
     "type": "movie",
-    "updated_at": 1788352706384,
+    "updated_at": 1788398785098,
     "year": 2004
   },
   {
@@ -11248,7 +11248,7 @@
     "title": "Van Helsing",
     "tmdb_id": "7131",
     "type": "movie",
-    "updated_at": 1788352002287,
+    "updated_at": 1788398868238,
     "year": 2004
   },
   {
@@ -15676,7 +15676,7 @@
     "title": "Supergirl",
     "tmdb_id": "9651",
     "type": "movie",
-    "updated_at": 1788352197588,
+    "updated_at": 1788398971411,
     "year": 1984
   },
   {
@@ -16108,7 +16108,7 @@
     "title": "Hannibal",
     "tmdb_id": "9740",
     "type": "movie",
-    "updated_at": 1788356336149,
+    "updated_at": 1788398926336,
     "year": 2001
   },
   {
@@ -18004,7 +18004,7 @@
     "title": "Buffy la cazavampiros",
     "tmdb_id": "10206",
     "type": "movie",
-    "updated_at": 1788348358089,
+    "updated_at": 1788398867241,
     "year": 1992
   },
   {
@@ -19144,7 +19144,7 @@
     "title": "Outlander",
     "tmdb_id": "10529",
     "type": "movie",
-    "updated_at": 1788354932095,
+    "updated_at": 1788398941362,
     "year": 2008
   },
   {
@@ -23008,7 +23008,7 @@
     "title": "Una serie de eventos desafortunados",
     "tmdb_id": "11774",
     "type": "movie",
-    "updated_at": 1788325264352,
+    "updated_at": 1788398886269,
     "year": 2004
   },
   {
@@ -25148,7 +25148,7 @@
     "title": "Watchmen",
     "tmdb_id": "13183",
     "type": "movie",
-    "updated_at": 1788397880258,
+    "updated_at": 1788398689936,
     "year": 2009
   },
   {
@@ -35400,7 +35400,7 @@
     "title": "X-Men",
     "tmdb_id": "36657",
     "type": "movie",
-    "updated_at": 1788356458327,
+    "updated_at": 1788399009473,
     "year": 2000
   },
   {
@@ -39224,7 +39224,7 @@
     "title": "Hanna",
     "tmdb_id": "50456",
     "type": "movie",
-    "updated_at": 1788397901293,
+    "updated_at": 1788398691940,
     "year": 2011
   },
   {
@@ -40196,7 +40196,7 @@
     "title": "Warrior",
     "tmdb_id": "59440",
     "type": "movie",
-    "updated_at": 1788397897286,
+    "updated_at": 1788398690939,
     "year": 2011
   },
   {
@@ -46568,7 +46568,7 @@
     "title": "Liga de la Justicia",
     "tmdb_id": "141052",
     "type": "movie",
-    "updated_at": 1788351552585,
+    "updated_at": 1788398904299,
     "year": 2017
   },
   {
@@ -62620,7 +62620,7 @@
     "title": "Siren",
     "tmdb_id": "355506",
     "type": "movie",
-    "updated_at": 1788352020334,
+    "updated_at": 1788398798124,
     "year": 2016
   },
   {
@@ -67256,7 +67256,7 @@
     "title": "Barry",
     "tmdb_id": "397717",
     "type": "movie",
-    "updated_at": 1788348471289,
+    "updated_at": 1788398781092,
     "year": 2016
   },
   {
@@ -97796,7 +97796,7 @@
     "title": "Crisis",
     "tmdb_id": "580532",
     "type": "movie",
-    "updated_at": 1788324410054,
+    "updated_at": 1788398864232,
     "year": 2021
   },
   {
@@ -109628,7 +109628,7 @@
     "title": "The Innocents",
     "tmdb_id": "660942",
     "type": "movie",
-    "updated_at": 1788314774265,
+    "updated_at": 1788398794117,
     "year": 2021
   },
   {
@@ -128076,7 +128076,7 @@
     "title": "Miénteme",
     "tmdb_id": "833950",
     "type": "movie",
-    "updated_at": 1788315656656,
+    "updated_at": 1788398910308,
     "year": 2022
   },
   {
@@ -135980,7 +135980,7 @@
     "title": "Scorpion",
     "tmdb_id": "914434",
     "type": "movie",
-    "updated_at": 1788303391489,
+    "updated_at": 1788398920340,
     "year": 2018
   },
   {
@@ -186414,6 +186414,18 @@
     "type": "movie",
     "updated_at": 1788295081791,
     "year": 2026
+  },
+  {
+    "imdb_id": "tt3322312",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marvels-daredevil"
+    },
+    "title": "Daredevil",
+    "tmdb_id": "1747255",
+    "type": "movie",
+    "updated_at": 1788399007470,
+    "year": 2015
   },
   {
     "imdb_id": "tt7423538",

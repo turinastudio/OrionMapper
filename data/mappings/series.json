@@ -36,6 +36,18 @@
     "year": 1973
   },
   {
+    "imdb_id": "tt0165598",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "aquellos-maravillosos-70"
+    },
+    "title": "That '70s Show",
+    "tmdb_id": "52",
+    "type": "series",
+    "updated_at": 1788398730009,
+    "year": 1998
+  },
+  {
     "imdb_id": "tt0105941",
     "provider_variants": {},
     "providers": {
@@ -240,6 +252,18 @@
     "year": 2005
   },
   {
+    "imdb_id": "tt0096697",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-simpsons"
+    },
+    "title": "The Simpsons",
+    "tmdb_id": "456",
+    "type": "series",
+    "updated_at": 1788399012482,
+    "year": 1989
+  },
+  {
     "imdb_id": "tt0147746",
     "provider_variants": {},
     "providers": {
@@ -286,6 +310,18 @@
     "type": "series",
     "updated_at": 1788396457474,
     "year": 2005
+  },
+  {
+    "imdb_id": "tt0343314",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jovenes-titanes"
+    },
+    "title": "Teen Titans",
+    "tmdb_id": "604",
+    "type": "series",
+    "updated_at": 1788398823163,
+    "year": 2003
   },
   {
     "imdb_id": "tt0115341",
@@ -432,6 +468,18 @@
     "year": 1987
   },
   {
+    "imdb_id": "tt0799862",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "caprica"
+    },
+    "title": "Caprica",
+    "tmdb_id": "877",
+    "type": "series",
+    "updated_at": 1788398736017,
+    "year": 2010
+  },
+  {
     "imdb_id": "tt0112175",
     "provider_variants": {},
     "providers": {
@@ -480,6 +528,18 @@
     "year": 1983
   },
   {
+    "imdb_id": "tt0804503",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mad-men"
+    },
+    "title": "Mad Men",
+    "tmdb_id": "1104",
+    "type": "series",
+    "updated_at": 1788398699955,
+    "year": 2007
+  },
+  {
     "imdb_id": "tt0904208",
     "provider_variants": {},
     "providers": {
@@ -516,6 +576,54 @@
     "year": 1999
   },
   {
+    "imdb_id": "tt0397442",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "gossip-girl"
+    },
+    "title": "Gossip Girl",
+    "tmdb_id": "1395",
+    "type": "series",
+    "updated_at": 1788398865239,
+    "year": 2007
+  },
+  {
+    "imdb_id": "tt0903747",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "breaking-bad"
+    },
+    "title": "Breaking Bad",
+    "tmdb_id": "1396",
+    "type": "series",
+    "updated_at": 1788399002462,
+    "year": 2008
+  },
+  {
+    "imdb_id": "tt0141842",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-sopranos"
+    },
+    "title": "The Sopranos",
+    "tmdb_id": "1398",
+    "type": "series",
+    "updated_at": 1788398993447,
+    "year": 1999
+  },
+  {
+    "imdb_id": "tt0944947",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "game-of-thrones"
+    },
+    "title": "Game of Thrones",
+    "tmdb_id": "1399",
+    "type": "series",
+    "updated_at": 1788399011478,
+    "year": 2011
+  },
+  {
     "imdb_id": "tt0098904",
     "provider_variants": {},
     "providers": {
@@ -540,6 +648,90 @@
     "year": 2011
   },
   {
+    "imdb_id": "tt1520211",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-walking-dead"
+    },
+    "title": "The Walking Dead",
+    "tmdb_id": "1402",
+    "type": "series",
+    "updated_at": 1788399008473,
+    "year": 2010
+  },
+  {
+    "imdb_id": "tt2364582",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marvels-agents-of-shield"
+    },
+    "title": "Marvel's Agents of S.H.I.E.L.D.",
+    "tmdb_id": "1403",
+    "type": "series",
+    "updated_at": 1788398969411,
+    "year": 2013
+  },
+  {
+    "imdb_id": "tt0773262",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dexter"
+    },
+    "title": "Dexter",
+    "tmdb_id": "1405",
+    "type": "series",
+    "updated_at": 1788398951378,
+    "year": 2006
+  },
+  {
+    "imdb_id": "tt0348914",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "deadwood"
+    },
+    "title": "Deadwood",
+    "tmdb_id": "1406",
+    "type": "series",
+    "updated_at": 1788398959388,
+    "year": 2004
+  },
+  {
+    "imdb_id": "tt1796960",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "homeland"
+    },
+    "title": "Homeland",
+    "tmdb_id": "1407",
+    "type": "series",
+    "updated_at": 1788398948376,
+    "year": 2011
+  },
+  {
+    "imdb_id": "tt0412142",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "house"
+    },
+    "title": "House",
+    "tmdb_id": "1408",
+    "type": "series",
+    "updated_at": 1788398973414,
+    "year": 2004
+  },
+  {
+    "imdb_id": "tt1124373",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "hijos-de-la-anarqua"
+    },
+    "title": "Sons of Anarchy",
+    "tmdb_id": "1409",
+    "type": "series",
+    "updated_at": 1788398912313,
+    "year": 2008
+  },
+  {
     "imdb_id": "tt1839578",
     "provider_variants": {},
     "providers": {
@@ -549,6 +741,18 @@
     "tmdb_id": "1411",
     "type": "series",
     "updated_at": 1788379207813,
+    "year": 2011
+  },
+  {
+    "imdb_id": "tt1844624",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "american-horror-story"
+    },
+    "title": "American Horror Story",
+    "tmdb_id": "1413",
+    "type": "series",
+    "updated_at": 1788398988438,
     "year": 2011
   },
   {
@@ -562,6 +766,18 @@
     "type": "series",
     "updated_at": 1788397637858,
     "year": 2002
+  },
+  {
+    "imdb_id": "tt2191671",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "elementary"
+    },
+    "title": "Elementary",
+    "tmdb_id": "1415",
+    "type": "series",
+    "updated_at": 1788398741024,
+    "year": 2012
   },
   {
     "imdb_id": "tt0413573",
@@ -588,6 +804,42 @@
     "year": 2009
   },
   {
+    "imdb_id": "tt0898266",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-big-bang-theory"
+    },
+    "title": "The Big Bang Theory",
+    "tmdb_id": "1418",
+    "type": "series",
+    "updated_at": 1788398984432,
+    "year": 2007
+  },
+  {
+    "imdb_id": "tt1219024",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "castle"
+    },
+    "title": "Castle",
+    "tmdb_id": "1419",
+    "type": "series",
+    "updated_at": 1788398871250,
+    "year": 2009
+  },
+  {
+    "imdb_id": "tt1826940",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "new-girl"
+    },
+    "title": "New Girl",
+    "tmdb_id": "1420",
+    "type": "series",
+    "updated_at": 1788398770087,
+    "year": 2011
+  },
+  {
     "imdb_id": "tt1442437",
     "provider_variants": {},
     "providers": {
@@ -610,6 +862,42 @@
     "type": "series",
     "updated_at": 1788397728010,
     "year": 2009
+  },
+  {
+    "imdb_id": "tt2249007",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ray-donovan"
+    },
+    "title": "Ray Donovan",
+    "tmdb_id": "1423",
+    "type": "series",
+    "updated_at": 1788398717991,
+    "year": 2013
+  },
+  {
+    "imdb_id": "tt2372162",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "orange-is-the-new-black"
+    },
+    "title": "Orange Is the New Black",
+    "tmdb_id": "1424",
+    "type": "series",
+    "updated_at": 1788398980429,
+    "year": 2013
+  },
+  {
+    "imdb_id": "tt1856010",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "house-of-cards"
+    },
+    "title": "House of Cards",
+    "tmdb_id": "1425",
+    "type": "series",
+    "updated_at": 1788398982427,
+    "year": 2013
   },
   {
     "imdb_id": "tt0081846",
@@ -646,6 +934,66 @@
     "type": "series",
     "updated_at": 1788397541705,
     "year": 2005
+  },
+  {
+    "imdb_id": "tt0182576",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "family-guy"
+    },
+    "title": "Family Guy",
+    "tmdb_id": "1434",
+    "type": "series",
+    "updated_at": 1788398855218,
+    "year": 1999
+  },
+  {
+    "imdb_id": "tt1489428",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "justified-la-ley-de-raylan"
+    },
+    "title": "Justified",
+    "tmdb_id": "1436",
+    "type": "series",
+    "updated_at": 1788398748035,
+    "year": 2010
+  },
+  {
+    "imdb_id": "tt0306414",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-wire"
+    },
+    "title": "The Wire",
+    "tmdb_id": "1438",
+    "type": "series",
+    "updated_at": 1788398698970,
+    "year": 2002
+  },
+  {
+    "imdb_id": "tt0491738",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "psych"
+    },
+    "title": "Psych",
+    "tmdb_id": "1447",
+    "type": "series",
+    "updated_at": 1788398716993,
+    "year": 2006
+  },
+  {
+    "imdb_id": "tt0389564",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-4400"
+    },
+    "title": "The 4400",
+    "tmdb_id": "1481",
+    "type": "series",
+    "updated_at": 1788398838191,
+    "year": 2004
   },
   {
     "imdb_id": "tt0247729",
@@ -696,6 +1044,42 @@
     "year": 2005
   },
   {
+    "imdb_id": "tt0979432",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "boardwalk-empire"
+    },
+    "title": "Boardwalk Empire",
+    "tmdb_id": "1621",
+    "type": "series",
+    "updated_at": 1788398931345,
+    "year": 2010
+  },
+  {
+    "imdb_id": "tt0460681",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "supernatural"
+    },
+    "title": "Supernatural",
+    "tmdb_id": "1622",
+    "type": "series",
+    "updated_at": 1788398788107,
+    "year": 2005
+  },
+  {
+    "imdb_id": "tt0813715",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "heroes"
+    },
+    "title": "Heroes",
+    "tmdb_id": "1639",
+    "type": "series",
+    "updated_at": 1788398949374,
+    "year": 2006
+  },
+  {
     "imdb_id": "tt0061250",
     "provider_variants": {},
     "providers": {
@@ -706,6 +1090,18 @@
     "type": "series",
     "updated_at": 1788387073066,
     "year": 1967
+  },
+  {
+    "imdb_id": "tt0108778",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "friends"
+    },
+    "title": "Friends",
+    "tmdb_id": "1668",
+    "type": "series",
+    "updated_at": 1788398937353,
+    "year": 1994
   },
   {
     "imdb_id": "tt0312172",
@@ -792,6 +1188,42 @@
     "year": 2007
   },
   {
+    "imdb_id": "tt0384766",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "rome"
+    },
+    "title": "Rome",
+    "tmdb_id": "1891",
+    "type": "series",
+    "updated_at": 1788398995448,
+    "year": 2005
+  },
+  {
+    "imdb_id": "tt0098800",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-principe-del-rap"
+    },
+    "title": "The Fresh Prince of Bel-Air",
+    "tmdb_id": "1892",
+    "type": "series",
+    "updated_at": 1788398873246,
+    "year": 1990
+  },
+  {
+    "imdb_id": "tt0460627",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bones"
+    },
+    "title": "Bones",
+    "tmdb_id": "1911",
+    "type": "series",
+    "updated_at": 1788398737018,
+    "year": 2005
+  },
+  {
     "imdb_id": "tt0098936",
     "provider_variants": {},
     "providers": {
@@ -838,6 +1270,30 @@
     "type": "series",
     "updated_at": 1788396219089,
     "year": 2004
+  },
+  {
+    "imdb_id": "tt0407362",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "battlestar-galactica-2004"
+    },
+    "title": "Battlestar Galactica",
+    "tmdb_id": "1972",
+    "type": "series",
+    "updated_at": 1788398708971,
+    "year": 2004
+  },
+  {
+    "imdb_id": "tt0285331",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "24"
+    },
+    "title": "24",
+    "tmdb_id": "1973",
+    "type": "series",
+    "updated_at": 1788398934349,
+    "year": 2001
   },
   {
     "imdb_id": "tt0476918",
@@ -888,6 +1344,18 @@
     "year": 2005
   },
   {
+    "imdb_id": "tt0212671",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "malcolm-in-the-middle"
+    },
+    "title": "Malcolm in the Middle",
+    "tmdb_id": "2004",
+    "type": "series",
+    "updated_at": 1788398899304,
+    "year": 2000
+  },
+  {
     "imdb_id": "tt0165052",
     "provider_variants": {},
     "providers": {
@@ -936,6 +1404,18 @@
     "year": 1999
   },
   {
+    "imdb_id": "tt0103359",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "batman-la-serie-animada"
+    },
+    "title": "Batman: The Animated Series",
+    "tmdb_id": "2098",
+    "type": "series",
+    "updated_at": 1788398746032,
+    "year": 1992
+  },
+  {
     "imdb_id": "tt0118375",
     "provider_variants": {},
     "providers": {
@@ -969,6 +1449,18 @@
     "tmdb_id": "2131",
     "type": "series",
     "updated_at": 1788397524679,
+    "year": 1997
+  },
+  {
+    "imdb_id": "tt0121955",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "south-park"
+    },
+    "title": "South Park",
+    "tmdb_id": "2190",
+    "type": "series",
+    "updated_at": 1788398856221,
     "year": 1997
   },
   {
@@ -1020,6 +1512,30 @@
     "year": 2006
   },
   {
+    "imdb_id": "tt0455275",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "prison-break"
+    },
+    "title": "Prison Break",
+    "tmdb_id": "2288",
+    "type": "series",
+    "updated_at": 1788398986436,
+    "year": 2005
+  },
+  {
+    "imdb_id": "tt0374455",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "stargate-atlantis"
+    },
+    "title": "Stargate Atlantis",
+    "tmdb_id": "2290",
+    "type": "series",
+    "updated_at": 1788398936353,
+    "year": 2004
+  },
+  {
     "imdb_id": "tt0366005",
     "provider_variants": {},
     "providers": {
@@ -1066,6 +1582,18 @@
     "type": "series",
     "updated_at": 1788396225090,
     "year": 1962
+  },
+  {
+    "imdb_id": "tt0193676",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jovenes-y-rebeldes"
+    },
+    "title": "Freaks and Geeks",
+    "tmdb_id": "2382",
+    "type": "series",
+    "updated_at": 1788398922342,
+    "year": 1999
   },
   {
     "imdb_id": "tt0083437",
@@ -1116,6 +1644,18 @@
     "year": 2004
   },
   {
+    "imdb_id": "tt0280277",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mr-bean-animado"
+    },
+    "title": "Mr. Bean: The Animated Series",
+    "tmdb_id": "2530",
+    "type": "series",
+    "updated_at": 1788398745029,
+    "year": 2002
+  },
+  {
     "imdb_id": "tt0320969",
     "provider_variants": {},
     "providers": {
@@ -1164,6 +1704,18 @@
     "year": 2003
   },
   {
+    "imdb_id": "tt0369179",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dos-hombres-y-medio"
+    },
+    "title": "Two and a Half Men",
+    "tmdb_id": "2691",
+    "type": "series",
+    "updated_at": 1788398758055,
+    "year": 2003
+  },
+  {
     "imdb_id": "tt0278238",
     "provider_variants": {},
     "providers": {
@@ -1174,6 +1726,18 @@
     "type": "series",
     "updated_at": 1788382845994,
     "year": 2001
+  },
+  {
+    "imdb_id": "tt0203259",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ley-y-orden-unidad-de-victimas-especiales"
+    },
+    "title": "Law & Order: Special Victims Unit",
+    "tmdb_id": "2734",
+    "type": "series",
+    "updated_at": 1788398738022,
+    "year": 1999
   },
   {
     "imdb_id": "tt0283226",
@@ -1222,6 +1786,30 @@
     "type": "series",
     "updated_at": 1788383166515,
     "year": 1994
+  },
+  {
+    "imdb_id": "tt0758790",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-tudors"
+    },
+    "title": "The Tudors",
+    "tmdb_id": "2942",
+    "type": "series",
+    "updated_at": 1788398965403,
+    "year": 2007
+  },
+  {
+    "imdb_id": "tt1759761",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "veep"
+    },
+    "title": "Veep",
+    "tmdb_id": "2947",
+    "type": "series",
+    "updated_at": 1788398718989,
+    "year": 2012
   },
   {
     "imdb_id": "tt0888357",
@@ -1320,6 +1908,18 @@
     "year": 2001
   },
   {
+    "imdb_id": "tt0976192",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-espectacular-hombre-araa"
+    },
+    "title": "The Spectacular Spider-Man",
+    "tmdb_id": "3854",
+    "type": "series",
+    "updated_at": 1788398877265,
+    "year": 2008
+  },
+  {
     "imdb_id": "tt0775372",
     "provider_variants": {},
     "providers": {
@@ -1354,6 +1954,18 @@
     "type": "series",
     "updated_at": 1788396466490,
     "year": 2005
+  },
+  {
+    "imdb_id": "tt0106179",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-x-files"
+    },
+    "title": "The X-Files",
+    "tmdb_id": "4087",
+    "type": "series",
+    "updated_at": 1788398992445,
+    "year": 1993
   },
   {
     "imdb_id": "tt0458290",
@@ -1500,6 +2112,30 @@
     "year": 1994
   },
   {
+    "imdb_id": "tt0279600",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "smallville"
+    },
+    "title": "Smallville",
+    "tmdb_id": "4604",
+    "type": "series",
+    "updated_at": 1788398957394,
+    "year": 2001
+  },
+  {
+    "imdb_id": "tt0411008",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "lost"
+    },
+    "title": "Lost",
+    "tmdb_id": "4607",
+    "type": "series",
+    "updated_at": 1788399006469,
+    "year": 2004
+  },
+  {
     "imdb_id": "tt0493093",
     "provider_variants": {},
     "providers": {
@@ -1510,6 +2146,18 @@
     "type": "series",
     "updated_at": 1788387135180,
     "year": 2006
+  },
+  {
+    "imdb_id": "tt0185906",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "hermanos-de-sangre"
+    },
+    "title": "Band of Brothers",
+    "tmdb_id": "4613",
+    "type": "series",
+    "updated_at": 1788398944367,
+    "year": 2001
   },
   {
     "imdb_id": "tt0111999",
@@ -1536,6 +2184,18 @@
     "year": 1995
   },
   {
+    "imdb_id": "tt0796264",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "eureka"
+    },
+    "title": "Eureka",
+    "tmdb_id": "4620",
+    "type": "series",
+    "updated_at": 1788398861238,
+    "year": 2006
+  },
+  {
     "imdb_id": "tt0465327",
     "provider_variants": {},
     "providers": {
@@ -1546,6 +2206,18 @@
     "type": "series",
     "updated_at": 1788382826964,
     "year": 2006
+  },
+  {
+    "imdb_id": "tt0118266",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-nuevas-aventuras-de-batman"
+    },
+    "title": "The New Batman Adventures",
+    "tmdb_id": "4625",
+    "type": "series",
+    "updated_at": 1788398739021,
+    "year": 1997
   },
   {
     "imdb_id": "tt0235918",
@@ -1596,6 +2268,18 @@
     "year": 2005
   },
   {
+    "imdb_id": "tt1024810",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-internado"
+    },
+    "title": "The Boarding School",
+    "tmdb_id": "4743",
+    "type": "series",
+    "updated_at": 1788398769071,
+    "year": 2007
+  },
+  {
     "imdb_id": "tt0197911",
     "provider_variants": {},
     "providers": {
@@ -1644,6 +2328,42 @@
     "year": 1988
   },
   {
+    "imdb_id": "tt0972534",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "icarly"
+    },
+    "title": "iCarly",
+    "tmdb_id": "5371",
+    "type": "series",
+    "updated_at": 1788398866236,
+    "year": 2007
+  },
+  {
+    "imdb_id": "tt1244387",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sin-senos-no-hay-paraiso"
+    },
+    "title": "Without Breasts There Is No Paradise",
+    "tmdb_id": "5451",
+    "type": "series",
+    "updated_at": 1788398752049,
+    "year": 2008
+  },
+  {
+    "imdb_id": "tt1196946",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-mentalista"
+    },
+    "title": "The Mentalist",
+    "tmdb_id": "5920",
+    "type": "series",
+    "updated_at": 1788398925333,
+    "year": 2008
+  },
+  {
     "imdb_id": "tt0083475",
     "provider_variants": {},
     "providers": {
@@ -1678,6 +2398,18 @@
     "type": "series",
     "updated_at": 1788383189548,
     "year": 1959
+  },
+  {
+    "imdb_id": "tt0772145",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "wolverine-and-the-x-men"
+    },
+    "title": "Wolverine and the X-Men",
+    "tmdb_id": "6549",
+    "type": "series",
+    "updated_at": 1788399005470,
+    "year": 2009
   },
   {
     "imdb_id": "tt1173427",
@@ -1728,6 +2460,18 @@
     "year": 2006
   },
   {
+    "imdb_id": "tt0892700",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-pinguinos-de-madagascar"
+    },
+    "title": "The Penguins of Madagascar",
+    "tmdb_id": "7869",
+    "type": "series",
+    "updated_at": 1788398750038,
+    "year": 2008
+  },
+  {
     "imdb_id": "tt1140100",
     "provider_variants": {},
     "providers": {
@@ -1774,6 +2518,18 @@
     "type": "series",
     "updated_at": 1788387044017,
     "year": 1995
+  },
+  {
+    "imdb_id": "tt0844441",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "true-blood"
+    },
+    "title": "True Blood",
+    "tmdb_id": "10545",
+    "type": "series",
+    "updated_at": 1788399001468,
+    "year": 2008
   },
   {
     "imdb_id": "tt0387763",
@@ -1932,6 +2688,30 @@
     "year": 2009
   },
   {
+    "imdb_id": "tt1213404",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-auto-fantstico"
+    },
+    "title": "Knight Rider",
+    "tmdb_id": "15655",
+    "type": "series",
+    "updated_at": 1788398812147,
+    "year": 2008
+  },
+  {
+    "imdb_id": "tt1213218",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "batman-the-brave-and-the-bold"
+    },
+    "title": "Batman: The Brave and the Bold",
+    "tmdb_id": "15804",
+    "type": "series",
+    "updated_at": 1788398882259,
+    "year": 2008
+  },
+  {
     "imdb_id": "tt0233127",
     "provider_variants": {},
     "providers": {
@@ -1956,6 +2736,18 @@
     "year": 2009
   },
   {
+    "imdb_id": "tt0374463",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-pacific"
+    },
+    "title": "The Pacific",
+    "tmdb_id": "16997",
+    "type": "series",
+    "updated_at": 1788398939362,
+    "year": 2010
+  },
+  {
     "imdb_id": "tt1600757",
     "provider_variants": {},
     "providers": {
@@ -1978,6 +2770,30 @@
     "type": "series",
     "updated_at": 1788396124937,
     "year": 2005
+  },
+  {
+    "imdb_id": "tt1660055",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "scooby-doo-mystery-incorporated"
+    },
+    "title": "Scooby-Doo! Mystery Incorporated",
+    "tmdb_id": "18123",
+    "type": "series",
+    "updated_at": 1788398852215,
+    "year": 2010
+  },
+  {
+    "imdb_id": "tt1405406",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-vampire-diaries"
+    },
+    "title": "The Vampire Diaries",
+    "tmdb_id": "18165",
+    "type": "series",
+    "updated_at": 1788398983429,
+    "year": 2009
   },
   {
     "imdb_id": "tt1439031",
@@ -2079,8 +2895,32 @@
     "title": "Jesús de Nazaret - 4",
     "tmdb_id": "19649",
     "type": "series",
-    "updated_at": 1788397850207,
+    "updated_at": 1788398688936,
     "year": 1977
+  },
+  {
+    "imdb_id": "tt1475582",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sherlock"
+    },
+    "title": "Sherlock",
+    "tmdb_id": "19885",
+    "type": "series",
+    "updated_at": 1788398999455,
+    "year": 2010
+  },
+  {
+    "imdb_id": "tt1358522",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "white-collar"
+    },
+    "title": "White Collar",
+    "tmdb_id": "21510",
+    "type": "series",
+    "updated_at": 1788398958391,
+    "year": 2009
   },
   {
     "imdb_id": "tt0112111",
@@ -2191,6 +3031,18 @@
     "year": 2010
   },
   {
+    "imdb_id": "tt1604099",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "victorious"
+    },
+    "title": "Victorious",
+    "tmdb_id": "31251",
+    "type": "series",
+    "updated_at": 1788398859229,
+    "year": 2010
+  },
+  {
     "imdb_id": "tt1131746",
     "provider_variants": {},
     "providers": {
@@ -2215,6 +3067,18 @@
     "year": 2010
   },
   {
+    "imdb_id": "tt1704637",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-reina-del-sur"
+    },
+    "title": "La Reina del Sur",
+    "tmdb_id": "31586",
+    "type": "series",
+    "updated_at": 1788398702961,
+    "year": 2011
+  },
+  {
     "imdb_id": "tt0062544",
     "provider_variants": {},
     "providers": {
@@ -2225,6 +3089,18 @@
     "type": "series",
     "updated_at": 1788386968896,
     "year": 1968
+  },
+  {
+    "imdb_id": "tt1578873",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "pretty-little-liars"
+    },
+    "title": "Pretty Little Liars",
+    "tmdb_id": "31917",
+    "type": "series",
+    "updated_at": 1788398884263,
+    "year": 2010
   },
   {
     "imdb_id": "tt1344204",
@@ -2263,6 +3139,18 @@
     "year": 2010
   },
   {
+    "imdb_id": "tt1492179",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "strike-back"
+    },
+    "title": "Strike Back",
+    "tmdb_id": "32573",
+    "type": "series",
+    "updated_at": 1788398935350,
+    "year": 2010
+  },
+  {
     "imdb_id": "tt1726839",
     "provider_variants": {},
     "providers": {
@@ -2287,6 +3175,18 @@
     "year": 1972
   },
   {
+    "imdb_id": "tt1595859",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "blue-bloods-familia-de-policias"
+    },
+    "title": "Blue Bloods",
+    "tmdb_id": "32692",
+    "type": "series",
+    "updated_at": 1788398728006,
+    "year": 2010
+  },
+  {
     "imdb_id": "tt1561755",
     "provider_variants": {},
     "providers": {
@@ -2299,6 +3199,30 @@
     "year": 2011
   },
   {
+    "imdb_id": "tt1600194",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "hawai-50"
+    },
+    "title": "Hawaii Five-0",
+    "tmdb_id": "32798",
+    "type": "series",
+    "updated_at": 1788398742025,
+    "year": 2010
+  },
+  {
+    "imdb_id": "tt1641384",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-joven-liga-de-la-justicia"
+    },
+    "title": "Young Justice",
+    "tmdb_id": "33217",
+    "type": "series",
+    "updated_at": 1788398902296,
+    "year": 2010
+  },
+  {
     "imdb_id": "tt22177770",
     "provider_variants": {},
     "providers": {
@@ -2309,6 +3233,18 @@
     "type": "series",
     "updated_at": 1788386919816,
     "year": 2022
+  },
+  {
+    "imdb_id": "tt1626038",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-vengadoreslos-hroes-mas-poderosos-del-planeta"
+    },
+    "title": "The Avengers: Earth's Mightiest Heroes",
+    "tmdb_id": "33623",
+    "type": "series",
+    "updated_at": 1788398905301,
+    "year": 2010
   },
   {
     "imdb_id": "tt1765510",
@@ -2335,6 +3271,30 @@
     "year": 2010
   },
   {
+    "imdb_id": "tt1672189",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "camelot"
+    },
+    "title": "Camelot",
+    "tmdb_id": "33958",
+    "type": "series",
+    "updated_at": 1788398927338,
+    "year": 2011
+  },
+  {
+    "imdb_id": "tt1586680",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "shameless"
+    },
+    "title": "Shameless",
+    "tmdb_id": "34307",
+    "type": "series",
+    "updated_at": 1788398800126,
+    "year": 2011
+  },
+  {
     "imdb_id": "tt1812523",
     "provider_variants": {},
     "providers": {
@@ -2347,6 +3307,42 @@
     "year": 2012
   },
   {
+    "imdb_id": "tt1722512",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marvels-ultimate-spider-man"
+    },
+    "title": "Marvel's Ultimate Spider-Man",
+    "tmdb_id": "34391",
+    "type": "series",
+    "updated_at": 1788398876251,
+    "year": 2012
+  },
+  {
+    "imdb_id": "tt1637727",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-killing"
+    },
+    "title": "The Killing",
+    "tmdb_id": "34415",
+    "type": "series",
+    "updated_at": 1788398972412,
+    "year": 2011
+  },
+  {
+    "imdb_id": "tt1567432",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "teen-wolf"
+    },
+    "title": "Teen Wolf",
+    "tmdb_id": "34524",
+    "type": "series",
+    "updated_at": 1788398975417,
+    "year": 2011
+  },
+  {
     "imdb_id": "tt1848220",
     "provider_variants": {},
     "providers": {
@@ -2356,6 +3352,18 @@
     "tmdb_id": "34899",
     "type": "series",
     "updated_at": 1788387075117,
+    "year": 2011
+  },
+  {
+    "imdb_id": "tt1462059",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "falling-skies"
+    },
+    "title": "Falling Skies",
+    "tmdb_id": "34967",
+    "type": "series",
+    "updated_at": 1788398954385,
     "year": 2011
   },
   {
@@ -2395,6 +3403,18 @@
     "year": 2010
   },
   {
+    "imdb_id": "tt1632701",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "suits"
+    },
+    "title": "Suits",
+    "tmdb_id": "37680",
+    "type": "series",
+    "updated_at": 1788398890274,
+    "year": 2011
+  },
+  {
     "imdb_id": "tt2462600",
     "provider_variants": {},
     "providers": {
@@ -2407,6 +3427,18 @@
     "year": 2010
   },
   {
+    "imdb_id": "tt2357547",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jessica-jones"
+    },
+    "title": "Marvel's Jessica Jones",
+    "tmdb_id": "38472",
+    "type": "series",
+    "updated_at": 1788398981439,
+    "year": 2015
+  },
+  {
     "imdb_id": "tt1871731",
     "provider_variants": {},
     "providers": {
@@ -2417,6 +3449,18 @@
     "type": "series",
     "updated_at": 1788379036443,
     "year": 2012
+  },
+  {
+    "imdb_id": "tt1865769",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jessie"
+    },
+    "title": "Jessie",
+    "tmdb_id": "38974",
+    "type": "series",
+    "updated_at": 1788398862228,
+    "year": 2011
   },
   {
     "imdb_id": "tt1843230",
@@ -2443,6 +3487,30 @@
     "year": 2011
   },
   {
+    "imdb_id": "tt1830617",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "grimm"
+    },
+    "title": "Grimm",
+    "tmdb_id": "39351",
+    "type": "series",
+    "updated_at": 1788398932346,
+    "year": 2011
+  },
+  {
+    "imdb_id": "tt1943524",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-finder"
+    },
+    "title": "The Finder",
+    "tmdb_id": "39360",
+    "type": "series",
+    "updated_at": 1788398805133,
+    "year": 2012
+  },
+  {
     "imdb_id": "tt1797404",
     "provider_variants": {},
     "providers": {
@@ -2453,6 +3521,18 @@
     "type": "series",
     "updated_at": 1788378902154,
     "year": 2012
+  },
+  {
+    "imdb_id": "tt6048596",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-sinner"
+    },
+    "title": "The Sinner",
+    "tmdb_id": "39852",
+    "type": "series",
+    "updated_at": 1788398829188,
+    "year": 2017
   },
   {
     "imdb_id": "tt1545214",
@@ -2467,6 +3547,18 @@
     "year": 2011
   },
   {
+    "imdb_id": "tt2455514",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marvels-hulk-and-the-agents-of-smash"
+    },
+    "title": "Marvel's Hulk and the Agents of S.M.A.S.H.",
+    "tmdb_id": "40044",
+    "type": "series",
+    "updated_at": 1788398816162,
+    "year": 2013
+  },
+  {
     "imdb_id": "tt1608383",
     "provider_variants": {},
     "providers": {
@@ -2477,6 +3569,42 @@
     "type": "series",
     "updated_at": 1788382922118,
     "year": 2012
+  },
+  {
+    "imdb_id": "tt1865718",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "gravity-falls"
+    },
+    "title": "Gravity Falls",
+    "tmdb_id": "40075",
+    "type": "series",
+    "updated_at": 1788398874248,
+    "year": 2012
+  },
+  {
+    "imdb_id": "tt2022170",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-client-list"
+    },
+    "title": "The Client List",
+    "tmdb_id": "40244",
+    "type": "series",
+    "updated_at": 1788398956389,
+    "year": 2012
+  },
+  {
+    "imdb_id": "tt2094262",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "da-vincis-demons"
+    },
+    "title": "Da Vinci's Demons",
+    "tmdb_id": "40293",
+    "type": "series",
+    "updated_at": 1788398978420,
+    "year": 2013
   },
   {
     "imdb_id": "tt1724587",
@@ -2503,6 +3631,18 @@
     "year": 2013
   },
   {
+    "imdb_id": "tt2017109",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "banshee"
+    },
+    "title": "Banshee",
+    "tmdb_id": "41727",
+    "type": "series",
+    "updated_at": 1788398985452,
+    "year": 2013
+  },
+  {
     "imdb_id": "tt2021319",
     "provider_variants": {},
     "providers": {
@@ -2524,6 +3664,18 @@
     "tmdb_id": "42009",
     "type": "series",
     "updated_at": 1788379446357,
+    "year": 2011
+  },
+  {
+    "imdb_id": "tt1788634",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-barco"
+    },
+    "title": "The Boat",
+    "tmdb_id": "42035",
+    "type": "series",
+    "updated_at": 1788398809150,
     "year": 2011
   },
   {
@@ -2575,6 +3727,18 @@
     "year": 2015
   },
   {
+    "imdb_id": "tt1954347",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "continuum"
+    },
+    "title": "Continuum",
+    "tmdb_id": "43020",
+    "type": "series",
+    "updated_at": 1788398947372,
+    "year": 2012
+  },
+  {
     "imdb_id": "tt2187850",
     "provider_variants": {},
     "providers": {
@@ -2584,6 +3748,18 @@
     "tmdb_id": "43348",
     "type": "series",
     "updated_at": 1788396110915,
+    "year": 2012
+  },
+  {
+    "imdb_id": "tt2261391",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "chicago-fire"
+    },
+    "title": "Chicago Fire",
+    "tmdb_id": "44006",
+    "type": "series",
+    "updated_at": 1788398782097,
     "year": 2012
   },
   {
@@ -2597,6 +3773,18 @@
     "type": "series",
     "updated_at": 1788397672920,
     "year": 2012
+  },
+  {
+    "imdb_id": "tt2306299",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "vikings"
+    },
+    "title": "Vikings",
+    "tmdb_id": "44217",
+    "type": "series",
+    "updated_at": 1788398998454,
+    "year": 2013
   },
   {
     "imdb_id": "tt2226342",
@@ -2623,6 +3811,42 @@
     "year": 1997
   },
   {
+    "imdb_id": "tt2777882",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-senor-de-los-cielos"
+    },
+    "title": "El Señor de los Cielos",
+    "tmdb_id": "44953",
+    "type": "series",
+    "updated_at": 1788398849208,
+    "year": 2013
+  },
+  {
+    "imdb_id": "tt2593336",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-hombre-inocente"
+    },
+    "title": "The Innocent Man",
+    "tmdb_id": "44969",
+    "type": "series",
+    "updated_at": 1788398712985,
+    "year": 2012
+  },
+  {
+    "imdb_id": "tt2071645",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-following"
+    },
+    "title": "The Following",
+    "tmdb_id": "45094",
+    "type": "series",
+    "updated_at": 1788398952381,
+    "year": 2013
+  },
+  {
     "imdb_id": "tt2771780",
     "provider_variants": {},
     "providers": {
@@ -2647,6 +3871,18 @@
     "year": 2012
   },
   {
+    "imdb_id": "tt2487090",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sam-cat"
+    },
+    "title": "Sam & Cat",
+    "tmdb_id": "45666",
+    "type": "series",
+    "updated_at": 1788398900291,
+    "year": 2013
+  },
+  {
     "imdb_id": "tt10375568",
     "provider_variants": {},
     "providers": {
@@ -2657,6 +3893,18 @@
     "type": "series",
     "updated_at": 1788383039305,
     "year": 2020
+  },
+  {
+    "imdb_id": "tt1442449",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "spartacus"
+    },
+    "title": "Spartacus",
+    "tmdb_id": "46296",
+    "type": "series",
+    "updated_at": 1788399004466,
+    "year": 2010
   },
   {
     "imdb_id": "tt2640044",
@@ -2683,6 +3931,30 @@
     "year": 2013
   },
   {
+    "imdb_id": "tt1898069",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "american-gods"
+    },
+    "title": "American Gods",
+    "tmdb_id": "46639",
+    "type": "series",
+    "updated_at": 1788398850209,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt2356777",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "true-detective"
+    },
+    "title": "True Detective",
+    "tmdb_id": "46648",
+    "type": "series",
+    "updated_at": 1788398997456,
+    "year": 2014
+  },
+  {
     "imdb_id": "tt2341339",
     "provider_variants": {},
     "providers": {
@@ -2692,6 +3964,42 @@
     "tmdb_id": "46698",
     "type": "series",
     "updated_at": 1788382879052,
+    "year": 2012
+  },
+  {
+    "imdb_id": "tt2188671",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bates-motel"
+    },
+    "title": "Bates Motel",
+    "tmdb_id": "46786",
+    "type": "series",
+    "updated_at": 1788399000485,
+    "year": 2013
+  },
+  {
+    "imdb_id": "tt2632424",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-originals"
+    },
+    "title": "The Originals",
+    "tmdb_id": "46896",
+    "type": "series",
+    "updated_at": 1788398889271,
+    "year": 2013
+  },
+  {
+    "imdb_id": "tt2293002",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ben-10-omniverse"
+    },
+    "title": "Ben 10: Omniverse",
+    "tmdb_id": "46922",
+    "type": "series",
+    "updated_at": 1788398826168,
     "year": 2012
   },
   {
@@ -2719,7 +4027,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788397386501,
+    "updated_at": 1788398687143,
     "year": 2003
   },
   {
@@ -2747,6 +4055,30 @@
     "year": 2013
   },
   {
+    "imdb_id": "tt3865236",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "into-the-badlands"
+    },
+    "title": "Into the Badlands",
+    "tmdb_id": "47450",
+    "type": "series",
+    "updated_at": 1788398966400,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt2654620",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-strain"
+    },
+    "title": "The Strain",
+    "tmdb_id": "47640",
+    "type": "series",
+    "updated_at": 1788398942375,
+    "year": 2014
+  },
+  {
     "imdb_id": "tt17371078",
     "provider_variants": {},
     "providers": {
@@ -2757,6 +4089,18 @@
     "type": "series",
     "updated_at": 1788387237330,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt2375692",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "black-sails"
+    },
+    "title": "Black Sails",
+    "tmdb_id": "47665",
+    "type": "series",
+    "updated_at": 1788398976417,
+    "year": 2014
   },
   {
     "imdb_id": "tt14531842",
@@ -2783,6 +4127,18 @@
     "year": 2013
   },
   {
+    "imdb_id": "tt2661044",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-100"
+    },
+    "title": "The 100",
+    "tmdb_id": "48866",
+    "type": "series",
+    "updated_at": 1788398970405,
+    "year": 2014
+  },
+  {
     "imdb_id": "tt2660806",
     "provider_variants": {},
     "providers": {
@@ -2807,6 +4163,18 @@
     "year": 2014
   },
   {
+    "imdb_id": "tt2647544",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sleepy-hollow"
+    },
+    "title": "Sleepy Hollow",
+    "tmdb_id": "50825",
+    "type": "series",
+    "updated_at": 1788398962401,
+    "year": 2013
+  },
+  {
     "imdb_id": "tt16492950",
     "provider_variants": {},
     "providers": {
@@ -2817,6 +4185,18 @@
     "type": "series",
     "updated_at": 1788397527683,
     "year": 2022
+  },
+  {
+    "imdb_id": "tt2189221",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "defiance"
+    },
+    "title": "Defiance",
+    "tmdb_id": "51704",
+    "type": "series",
+    "updated_at": 1788398933348,
+    "year": 2013
   },
   {
     "imdb_id": "tt1877889",
@@ -2843,6 +4223,66 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt2618986",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "wayward-pines"
+    },
+    "title": "Wayward Pines",
+    "tmdb_id": "53425",
+    "type": "series",
+    "updated_at": 1788398863229,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt2699128",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-leftovers"
+    },
+    "title": "The Leftovers",
+    "tmdb_id": "54344",
+    "type": "series",
+    "updated_at": 1788398977418,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt3281796",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "power"
+    },
+    "title": "Power",
+    "tmdb_id": "54650",
+    "type": "series",
+    "updated_at": 1788398840191,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt2628232",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "penny-dreadful"
+    },
+    "title": "Penny Dreadful",
+    "tmdb_id": "54671",
+    "type": "series",
+    "updated_at": 1788398955383,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt2234222",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "orphan-black"
+    },
+    "title": "Orphan Black",
+    "tmdb_id": "56296",
+    "type": "series",
+    "updated_at": 1788398930343,
+    "year": 2013
+  },
+  {
     "imdb_id": "tt2372220",
     "provider_variants": {},
     "providers": {
@@ -2853,6 +4293,18 @@
     "type": "series",
     "updated_at": 1788396359318,
     "year": 2013
+  },
+  {
+    "imdb_id": "tt0436992",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "doctor-who"
+    },
+    "title": "Doctor Who",
+    "tmdb_id": "57243",
+    "type": "series",
+    "updated_at": 1788398755052,
+    "year": 2005
   },
   {
     "imdb_id": "tt3184708",
@@ -2889,6 +4341,54 @@
     "type": "series",
     "updated_at": 1788397581768,
     "year": 2021
+  },
+  {
+    "imdb_id": "tt6121710",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "diablo-guardian"
+    },
+    "title": "Diablo Guardián",
+    "tmdb_id": "58347",
+    "type": "series",
+    "updated_at": 1788398786104,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt2395695",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "cosmos-una-odisea-en-el-espacio-tiempo"
+    },
+    "title": "Cosmos",
+    "tmdb_id": "58474",
+    "type": "series",
+    "updated_at": 1788398940366,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt2758950",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "helix"
+    },
+    "title": "Helix",
+    "tmdb_id": "58811",
+    "type": "series",
+    "updated_at": 1788398950377,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt2805096",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "chicago-pd"
+    },
+    "title": "Chicago P.D.",
+    "tmdb_id": "58841",
+    "type": "series",
+    "updated_at": 1788398733015,
+    "year": 2014
   },
   {
     "imdb_id": "tt2137109",
@@ -2939,6 +4439,18 @@
     "year": 2012
   },
   {
+    "imdb_id": "tt2794380",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "liv-and-maddie"
+    },
+    "title": "Liv and Maddie",
+    "tmdb_id": "59375",
+    "type": "series",
+    "updated_at": 1788398990443,
+    "year": 2013
+  },
+  {
     "imdb_id": "tt1360377",
     "provider_variants": {},
     "providers": {
@@ -2949,6 +4461,30 @@
     "type": "series",
     "updated_at": 1788379235879,
     "year": 2009
+  },
+  {
+    "imdb_id": "tt2455546",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-vengadores-unidos"
+    },
+    "title": "Marvel's Avengers",
+    "tmdb_id": "59427",
+    "type": "series",
+    "updated_at": 1788398815154,
+    "year": 2013
+  },
+  {
+    "imdb_id": "tt3032476",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "better-call-saul"
+    },
+    "title": "Better Call Saul",
+    "tmdb_id": "60059",
+    "type": "series",
+    "updated_at": 1788399010480,
+    "year": 2015
   },
   {
     "imdb_id": "tt0289649",
@@ -2975,6 +4511,30 @@
     "year": 2014
   },
   {
+    "imdb_id": "tt2575988",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "silicon-valley"
+    },
+    "title": "Silicon Valley",
+    "tmdb_id": "60573",
+    "type": "series",
+    "updated_at": 1788398964406,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt2442560",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "peaky-blinders"
+    },
+    "title": "Peaky Blinders",
+    "tmdb_id": "60574",
+    "type": "series",
+    "updated_at": 1788398709972,
+    "year": 2013
+  },
+  {
     "imdb_id": "tt3502248",
     "provider_variants": {},
     "providers": {
@@ -2984,6 +4544,78 @@
     "tmdb_id": "60585",
     "type": "series",
     "updated_at": 1788396445451,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt2861424",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "rick-and-morty"
+    },
+    "title": "Rick and Morty",
+    "tmdb_id": "60625",
+    "type": "series",
+    "updated_at": 1788398878255,
+    "year": 2013
+  },
+  {
+    "imdb_id": "tt3337194",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "abierto-hasta-el-amanecer-2014"
+    },
+    "title": "From Dusk Till Dawn: The Series",
+    "tmdb_id": "60626",
+    "type": "series",
+    "updated_at": 1788398961392,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt2189461",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marco-polo"
+    },
+    "title": "Marco Polo",
+    "tmdb_id": "60699",
+    "type": "series",
+    "updated_at": 1788398928341,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt3107288",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-flash"
+    },
+    "title": "The Flash",
+    "tmdb_id": "60735",
+    "type": "series",
+    "updated_at": 1788398991445,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt2402207",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-last-ship"
+    },
+    "title": "The Last Ship",
+    "tmdb_id": "60802",
+    "type": "series",
+    "updated_at": 1788398994452,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt3501584",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "izombie"
+    },
+    "title": "iZombie",
+    "tmdb_id": "60866",
+    "type": "series",
+    "updated_at": 1788398914315,
     "year": 2015
   },
   {
@@ -3011,6 +4643,42 @@
     "year": 2014
   },
   {
+    "imdb_id": "tt3148266",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "12-monos"
+    },
+    "title": "12 Monkeys",
+    "tmdb_id": "60948",
+    "type": "series",
+    "updated_at": 1788398894280,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt3205802",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "how-to-get-away-with-murder"
+    },
+    "title": "How to Get Away with Murder",
+    "tmdb_id": "61056",
+    "type": "series",
+    "updated_at": 1788398907304,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt3566838",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "astuta-y-soltera"
+    },
+    "title": "Cunning Single Lady",
+    "tmdb_id": "61150",
+    "type": "series",
+    "updated_at": 1788398765064,
+    "year": 2014
+  },
+  {
     "imdb_id": "tt4163486",
     "provider_variants": {},
     "providers": {
@@ -3035,6 +4703,30 @@
     "year": 2013
   },
   {
+    "imdb_id": "tt3398228",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bojack-horseman"
+    },
+    "title": "BoJack Horseman",
+    "tmdb_id": "61222",
+    "type": "series",
+    "updated_at": 1788398879256,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt3973768",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "hand-of-god"
+    },
+    "title": "Hand of God",
+    "tmdb_id": "61263",
+    "type": "series",
+    "updated_at": 1788398881258,
+    "year": 2014
+  },
+  {
     "imdb_id": "tt3638584",
     "provider_variants": {},
     "providers": {
@@ -3045,6 +4737,30 @@
     "type": "series",
     "updated_at": 1788386941857,
     "year": 2014
+  },
+  {
+    "imdb_id": "tt3843168",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "z-nation"
+    },
+    "title": "Z Nation",
+    "tmdb_id": "61345",
+    "type": "series",
+    "updated_at": 1788398960396,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt3475734",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marvels-agent-carter"
+    },
+    "title": "Marvel's Agent Carter",
+    "tmdb_id": "61550",
+    "type": "series",
+    "updated_at": 1788398996454,
+    "year": 2015
   },
   {
     "imdb_id": "tt2950342",
@@ -3083,6 +4799,18 @@
     "year": 2015
   },
   {
+    "imdb_id": "tt2431438",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sense8"
+    },
+    "title": "Sense8",
+    "tmdb_id": "61664",
+    "type": "series",
+    "updated_at": 1788398974415,
+    "year": 2015
+  },
+  {
     "imdb_id": "tt4284216",
     "provider_variants": {},
     "providers": {
@@ -3092,6 +4820,18 @@
     "tmdb_id": "61670",
     "type": "series",
     "updated_at": 1788396066835,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt3807022",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "viva-el-rey-julien"
+    },
+    "title": "All Hail King Julien",
+    "tmdb_id": "61751",
+    "type": "series",
+    "updated_at": 1788398760057,
     "year": 2014
   },
   {
@@ -3129,6 +4869,18 @@
     "type": "series",
     "updated_at": 1788379128639,
     "year": 2014
+  },
+  {
+    "imdb_id": "tt1399664",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-night-manager"
+    },
+    "title": "The Night Manager",
+    "tmdb_id": "61859",
+    "type": "series",
+    "updated_at": 1788398704967,
+    "year": 2016
   },
   {
     "imdb_id": "tt3069212",
@@ -3179,6 +4931,30 @@
     "year": 2014
   },
   {
+    "imdb_id": "tt1740299",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-man-in-the-high-castle"
+    },
+    "title": "The Man in the High Castle",
+    "tmdb_id": "62017",
+    "type": "series",
+    "updated_at": 1788398763061,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4145384",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "scream-queens"
+    },
+    "title": "Scream Queens",
+    "tmdb_id": "62046",
+    "type": "series",
+    "updated_at": 1788398918340,
+    "year": 2015
+  },
+  {
     "imdb_id": "tt4343108",
     "provider_variants": {},
     "providers": {
@@ -3189,6 +4965,66 @@
     "type": "series",
     "updated_at": 1788379312049,
     "year": 2015
+  },
+  {
+    "imdb_id": "tt4406248",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "vixen"
+    },
+    "title": "Vixen",
+    "tmdb_id": "62125",
+    "type": "series",
+    "updated_at": 1788398909310,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt3322314",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "luke-cage"
+    },
+    "title": "Marvel's Luke Cage",
+    "tmdb_id": "62126",
+    "type": "series",
+    "updated_at": 1788398911309,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt3322310",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marvels-iron-fist"
+    },
+    "title": "Marvel's Iron Fist",
+    "tmdb_id": "62127",
+    "type": "series",
+    "updated_at": 1788398880258,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt4189022",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ash-vs-evil-dead"
+    },
+    "title": "Ash vs Evil Dead",
+    "tmdb_id": "62264",
+    "type": "series",
+    "updated_at": 1788398943365,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4230076",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marvels-the-defenders"
+    },
+    "title": "Marvel's The Defenders",
+    "tmdb_id": "62285",
+    "type": "series",
+    "updated_at": 1788398846214,
+    "year": 2017
   },
   {
     "imdb_id": "tt1180522",
@@ -3203,6 +5039,30 @@
     "year": 2008
   },
   {
+    "imdb_id": "tt4132692",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "between"
+    },
+    "title": "Between",
+    "tmdb_id": "62433",
+    "type": "series",
+    "updated_at": 1788398913312,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4524056",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "vis-a-vis"
+    },
+    "title": "Locked Up",
+    "tmdb_id": "62455",
+    "type": "series",
+    "updated_at": 1788398773081,
+    "year": 2015
+  },
+  {
     "imdb_id": "tt3530726",
     "provider_variants": {},
     "providers": {
@@ -3213,6 +5073,42 @@
     "type": "series",
     "updated_at": 1788396468489,
     "year": 2015
+  },
+  {
+    "imdb_id": "tt3250026",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "zoo"
+    },
+    "title": "Zoo",
+    "tmdb_id": "62517",
+    "type": "series",
+    "updated_at": 1788398923331,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4158110",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mr-robot"
+    },
+    "title": "Mr. Robot",
+    "tmdb_id": "62560",
+    "type": "series",
+    "updated_at": 1788398968403,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4532368",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dcs-legends-of-tomorrow"
+    },
+    "title": "DC's Legends of Tomorrow",
+    "tmdb_id": "62643",
+    "type": "series",
+    "updated_at": 1788398953382,
+    "year": 2016
   },
   {
     "imdb_id": "tt4477976",
@@ -3227,6 +5123,42 @@
     "year": 2015
   },
   {
+    "imdb_id": "tt4655480",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "chicago-med"
+    },
+    "title": "Chicago Med",
+    "tmdb_id": "62650",
+    "type": "series",
+    "updated_at": 1788398740026,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4422836",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "limitless"
+    },
+    "title": "Limitless",
+    "tmdb_id": "62687",
+    "type": "series",
+    "updated_at": 1788398987443,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4474344",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "blindspot"
+    },
+    "title": "Blindspot",
+    "tmdb_id": "62710",
+    "type": "series",
+    "updated_at": 1788398799128,
+    "year": 2015
+  },
+  {
     "imdb_id": "tt3216608",
     "provider_variants": {},
     "providers": {
@@ -3237,6 +5169,42 @@
     "type": "series",
     "updated_at": 1788387128189,
     "year": 2015
+  },
+  {
+    "imdb_id": "tt4428122",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "quantico"
+    },
+    "title": "Quantico",
+    "tmdb_id": "62816",
+    "type": "series",
+    "updated_at": 1788398921339,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt3921180",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "scream"
+    },
+    "title": "Scream: The TV Series",
+    "tmdb_id": "62823",
+    "type": "series",
+    "updated_at": 1788398946381,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4209256",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "colony"
+    },
+    "title": "Colony",
+    "tmdb_id": "62858",
+    "type": "series",
+    "updated_at": 1788398916317,
+    "year": 2016
   },
   {
     "imdb_id": "tt3952746",
@@ -3263,6 +5231,102 @@
     "year": 2016
   },
   {
+    "imdb_id": "tt4052886",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "lucifer"
+    },
+    "title": "Lucifer",
+    "tmdb_id": "63174",
+    "type": "series",
+    "updated_at": 1788398814149,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt4176370",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marvels-guardians-of-the-galaxy"
+    },
+    "title": "Marvel's Guardians of the Galaxy",
+    "tmdb_id": "63181",
+    "type": "series",
+    "updated_at": 1788398832193,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4192782",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "glitch"
+    },
+    "title": "Glitch",
+    "tmdb_id": "63201",
+    "type": "series",
+    "updated_at": 1788398906299,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4145054",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "cazadores-de-sombras"
+    },
+    "title": "Shadowhunters",
+    "tmdb_id": "63210",
+    "type": "series",
+    "updated_at": 1788398963399,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt0475784",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "westworld"
+    },
+    "title": "Westworld",
+    "tmdb_id": "63247",
+    "type": "series",
+    "updated_at": 1788398908313,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt4680240",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "club-de-cuervos"
+    },
+    "title": "Club de Cuervos",
+    "tmdb_id": "63314",
+    "type": "series",
+    "updated_at": 1788398705967,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4179452",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-last-kingdom"
+    },
+    "title": "The Last Kingdom",
+    "tmdb_id": "63333",
+    "type": "series",
+    "updated_at": 1788398783095,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt2707408",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "narcos"
+    },
+    "title": "Narcos",
+    "tmdb_id": "63351",
+    "type": "series",
+    "updated_at": 1788398919324,
+    "year": 2015
+  },
+  {
     "imdb_id": "tt4839610",
     "provider_variants": {},
     "providers": {
@@ -3284,6 +5348,30 @@
     "tmdb_id": "63522",
     "type": "series",
     "updated_at": 1788397559734,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt3986586",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fuller-house"
+    },
+    "title": "Fuller House",
+    "tmdb_id": "63623",
+    "type": "series",
+    "updated_at": 1788398945368,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt3230854",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-expanse"
+    },
+    "title": "The Expanse",
+    "tmdb_id": "63639",
+    "type": "series",
+    "updated_at": 1788398897284,
     "year": 2015
   },
   {
@@ -3335,6 +5423,18 @@
     "year": 2014
   },
   {
+    "imdb_id": "tt1051220",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-crnicas-de-shannara"
+    },
+    "title": "The Shannara Chronicles",
+    "tmdb_id": "64122",
+    "type": "series",
+    "updated_at": 1788398830174,
+    "year": 2016
+  },
+  {
     "imdb_id": "tt5011816",
     "provider_variants": {},
     "providers": {
@@ -3345,6 +5445,30 @@
     "type": "series",
     "updated_at": 1788397846204,
     "year": 2015
+  },
+  {
+    "imdb_id": "tt4215734",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "be-cool-scooby-doo"
+    },
+    "title": "Be Cool, Scooby-Doo!",
+    "tmdb_id": "64228",
+    "type": "series",
+    "updated_at": 1788398853216,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt5016504",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "preacher"
+    },
+    "title": "Preacher",
+    "tmdb_id": "64230",
+    "type": "series",
+    "updated_at": 1788398844202,
+    "year": 2016
   },
   {
     "imdb_id": "tt3830558",
@@ -3359,6 +5483,30 @@
     "year": 2015
   },
   {
+    "imdb_id": "tt3846642",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-girlfriend-experience"
+    },
+    "title": "The Girlfriend Experience",
+    "tmdb_id": "64387",
+    "type": "series",
+    "updated_at": 1788398893282,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt4229954",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "outcast"
+    },
+    "title": "Outcast",
+    "tmdb_id": "64394",
+    "type": "series",
+    "updated_at": 1788398929342,
+    "year": 2016
+  },
+  {
     "imdb_id": "tt1807824",
     "provider_variants": {},
     "providers": {
@@ -3371,6 +5519,54 @@
     "year": 2008
   },
   {
+    "imdb_id": "tt4254242",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-magicians"
+    },
+    "title": "The Magicians",
+    "tmdb_id": "64432",
+    "type": "series",
+    "updated_at": 1788398917320,
+    "year": 2015
+  },
+  {
+    "imdb_id": "tt4118584",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "shades-of-blue"
+    },
+    "title": "Shades of Blue",
+    "tmdb_id": "64433",
+    "type": "series",
+    "updated_at": 1788398967407,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt2879552",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "112263"
+    },
+    "title": "11.22.63",
+    "tmdb_id": "64464",
+    "type": "series",
+    "updated_at": 1788398842197,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt2788432",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "american-crime-story"
+    },
+    "title": "American Crime Story",
+    "tmdb_id": "64513",
+    "type": "series",
+    "updated_at": 1788398898290,
+    "year": 2016
+  },
+  {
     "imdb_id": "tt3468798",
     "provider_variants": {},
     "providers": {
@@ -3380,6 +5576,18 @@
     "tmdb_id": "64551",
     "type": "series",
     "updated_at": 1788397703969,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt4686698",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "frontier"
+    },
+    "title": "Frontier",
+    "tmdb_id": "64555",
+    "type": "series",
+    "updated_at": 1788398870243,
     "year": 2016
   },
   {
@@ -3407,6 +5615,18 @@
     "year": 2013
   },
   {
+    "imdb_id": "tt4925000",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "descendientes-del-sol"
+    },
+    "title": "Descendants of the Sun",
+    "tmdb_id": "65143",
+    "type": "series",
+    "updated_at": 1788398747036,
+    "year": 2016
+  },
+  {
     "imdb_id": "tt4953128",
     "provider_variants": {},
     "providers": {
@@ -3429,6 +5649,42 @@
     "type": "series",
     "updated_at": 1788397841198,
     "year": 2015
+  },
+  {
+    "imdb_id": "tt4800878",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "stan-lees-lucky-man"
+    },
+    "title": "Stan Lee's Lucky Man",
+    "tmdb_id": "65386",
+    "type": "series",
+    "updated_at": 1788398885272,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt4786824",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-crown"
+    },
+    "title": "The Crown",
+    "tmdb_id": "65494",
+    "type": "series",
+    "updated_at": 1788398901298,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5193358",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "wanted"
+    },
+    "title": "Wanted",
+    "tmdb_id": "65628",
+    "type": "series",
+    "updated_at": 1788398797125,
+    "year": 2016
   },
   {
     "imdb_id": "tt3647998",
@@ -3467,6 +5723,18 @@
     "year": 1993
   },
   {
+    "imdb_id": "tt4878326",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "wynonna-earp"
+    },
+    "title": "Wynonna Earp",
+    "tmdb_id": "65988",
+    "type": "series",
+    "updated_at": 1788398883263,
+    "year": 2016
+  },
+  {
     "imdb_id": "tt4460878",
     "provider_variants": {},
     "providers": {
@@ -3477,6 +5745,42 @@
     "type": "series",
     "updated_at": 1788378895138,
     "year": 2016
+  },
+  {
+    "imdb_id": "tt5614844",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marvels-cloak-dagger"
+    },
+    "title": "Marvel's Cloak & Dagger",
+    "tmdb_id": "66190",
+    "type": "series",
+    "updated_at": 1788398764097,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt2401256",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-night-of"
+    },
+    "title": "The Night Of",
+    "tmdb_id": "66276",
+    "type": "series",
+    "updated_at": 1788398915316,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt3920596",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "big-little-lies"
+    },
+    "title": "Big Little Lies",
+    "tmdb_id": "66292",
+    "type": "series",
+    "updated_at": 1788398703966,
+    "year": 2017
   },
   {
     "imdb_id": "tt5028002",
@@ -3503,6 +5807,18 @@
     "year": 2016
   },
   {
+    "imdb_id": "tt5797194",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "w-entre-2-mundos"
+    },
+    "title": "W",
+    "tmdb_id": "66330",
+    "type": "series",
+    "updated_at": 1788398813147,
+    "year": 2016
+  },
+  {
     "imdb_id": "tt5580664",
     "provider_variants": {},
     "providers": {
@@ -3512,6 +5828,18 @@
     "tmdb_id": "66558",
     "type": "series",
     "updated_at": 1788379006378,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt4955642",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-good-place"
+    },
+    "title": "The Good Place",
+    "tmdb_id": "66573",
+    "type": "series",
+    "updated_at": 1788398824163,
     "year": 2016
   },
   {
@@ -3527,6 +5855,42 @@
     "year": 1995
   },
   {
+    "imdb_id": "tt4574334",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "stranger-things"
+    },
+    "title": "Stranger Things",
+    "tmdb_id": "66732",
+    "type": "series",
+    "updated_at": 1788398924333,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5511582",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "timeless"
+    },
+    "title": "Timeless",
+    "tmdb_id": "66786",
+    "type": "series",
+    "updated_at": 1788398843199,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt1837492",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "por-trece-razones"
+    },
+    "title": "13 Reasons Why",
+    "tmdb_id": "66788",
+    "type": "series",
+    "updated_at": 1788398869241,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt4798814",
     "provider_variants": {},
     "providers": {
@@ -3539,6 +5903,78 @@
     "year": 2016
   },
   {
+    "imdb_id": "tt4181172",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "shooter"
+    },
+    "title": "Shooter",
+    "tmdb_id": "66857",
+    "type": "series",
+    "updated_at": 1788398888271,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5296406",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sucesor-designado"
+    },
+    "title": "Designated Survivor",
+    "tmdb_id": "67026",
+    "type": "series",
+    "updated_at": 1788398780105,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt1399045",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "macgyver"
+    },
+    "title": "MacGyver",
+    "tmdb_id": "67133",
+    "type": "series",
+    "updated_at": 1788398722994,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5368542",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-exorcist"
+    },
+    "title": "The Exorcist",
+    "tmdb_id": "67135",
+    "type": "series",
+    "updated_at": 1788398837191,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5555260",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "this-is-us"
+    },
+    "title": "This Is Us",
+    "tmdb_id": "67136",
+    "type": "series",
+    "updated_at": 1788398811142,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5820976",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-marginal"
+    },
+    "title": "El marginal",
+    "tmdb_id": "67166",
+    "type": "series",
+    "updated_at": 1788398696954,
+    "year": 2016
+  },
+  {
     "imdb_id": "tt4549142",
     "provider_variants": {},
     "providers": {
@@ -3548,6 +5984,66 @@
     "tmdb_id": "67175",
     "type": "series",
     "updated_at": 1788379033435,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5675620",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marvels-the-punisher"
+    },
+    "title": "Marvel's The Punisher",
+    "tmdb_id": "67178",
+    "type": "series",
+    "updated_at": 1788398828181,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt5114356",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "legion"
+    },
+    "title": "Legion",
+    "tmdb_id": "67195",
+    "type": "series",
+    "updated_at": 1788398872247,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt5171438",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "star-trek-discovery"
+    },
+    "title": "Star Trek: Discovery",
+    "tmdb_id": "67198",
+    "type": "series",
+    "updated_at": 1788398834187,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt5676412",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sin-senos-si-hay-paraiso"
+    },
+    "title": "Sin senos sí hay paraíso",
+    "tmdb_id": "67335",
+    "type": "series",
+    "updated_at": 1788398751040,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt4687880",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "goliath"
+    },
+    "title": "Goliath",
+    "tmdb_id": "67384",
+    "type": "series",
+    "updated_at": 1788398734015,
     "year": 2016
   },
   {
@@ -3575,6 +6071,18 @@
     "year": 2016
   },
   {
+    "imdb_id": "tt6682754",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jean-claude-van-johnson"
+    },
+    "title": "Jean-Claude Van Johnson",
+    "tmdb_id": "67497",
+    "type": "series",
+    "updated_at": 1788398825167,
+    "year": 2016
+  },
+  {
     "imdb_id": "tt5439480",
     "provider_variants": {},
     "providers": {
@@ -3599,6 +6107,66 @@
     "year": 2016
   },
   {
+    "imdb_id": "tt5651844",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "viajeros"
+    },
+    "title": "Travelers",
+    "tmdb_id": "67683",
+    "type": "series",
+    "updated_at": 1788398821160,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5174766",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "beyond"
+    },
+    "title": "Beyond",
+    "tmdb_id": "67726",
+    "type": "series",
+    "updated_at": 1788398835190,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt5290382",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mindhunter"
+    },
+    "title": "MINDHUNTER",
+    "tmdb_id": "67744",
+    "type": "series",
+    "updated_at": 1788398833181,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt4820370",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "channel-zero"
+    },
+    "title": "Channel Zero",
+    "tmdb_id": "67752",
+    "type": "series",
+    "updated_at": 1788398753046,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt4047038",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dirk-gently"
+    },
+    "title": "Dirk Gently's Holistic Detective Agency",
+    "tmdb_id": "67773",
+    "type": "series",
+    "updated_at": 1788398700960,
+    "year": 2016
+  },
+  {
     "imdb_id": "tt7112114",
     "provider_variants": {},
     "providers": {
@@ -3611,6 +6179,42 @@
     "year": 2016
   },
   {
+    "imdb_id": "tt5994364",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "goblin"
+    },
+    "title": "Guardian: The Lonely and Great God",
+    "tmdb_id": "67915",
+    "type": "series",
+    "updated_at": 1788398831180,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5839454",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "paranoid"
+    },
+    "title": "Paranoid",
+    "tmdb_id": "67960",
+    "type": "series",
+    "updated_at": 1788398892278,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5640060",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "chicago-justice"
+    },
+    "title": "Chicago Justice",
+    "tmdb_id": "67993",
+    "type": "series",
+    "updated_at": 1788398771078,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt4859164",
     "provider_variants": {},
     "providers": {
@@ -3620,6 +6224,30 @@
     "tmdb_id": "68073",
     "type": "series",
     "updated_at": 1788382851002,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5210146",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "llamame-bruna-"
+    },
+    "title": "Call Me Bruna",
+    "tmdb_id": "68202",
+    "type": "series",
+    "updated_at": 1788398818154,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt1734135",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "trollhunters-cuentos-de-arcadia"
+    },
+    "title": "Trollhunters: Tales of Arcadia",
+    "tmdb_id": "68267",
+    "type": "series",
+    "updated_at": 1788398719990,
     "year": 2016
   },
   {
@@ -3635,6 +6263,18 @@
     "year": 2016
   },
   {
+    "imdb_id": "tt5639976",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-mist"
+    },
+    "title": "The Mist",
+    "tmdb_id": "68315",
+    "type": "series",
+    "updated_at": 1788398839190,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt4437732",
     "provider_variants": {},
     "providers": {
@@ -3645,6 +6285,54 @@
     "type": "series",
     "updated_at": 1788378917190,
     "year": 2015
+  },
+  {
+    "imdb_id": "tt6157148",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-hada-de-las-pesas-kim-bok-joo"
+    },
+    "title": "Weightlifting Fairy Kim Bok-joo",
+    "tmdb_id": "68349",
+    "type": "series",
+    "updated_at": 1788398743031,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5670764",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-colina-de-watership"
+    },
+    "title": "Watership Down",
+    "tmdb_id": "68394",
+    "type": "series",
+    "updated_at": 1788398721992,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt4939064",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mars"
+    },
+    "title": "Mars",
+    "tmdb_id": "68427",
+    "type": "series",
+    "updated_at": 1788398896288,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt4922804",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "3"
+    },
+    "title": "3%",
+    "tmdb_id": "68467",
+    "type": "series",
+    "updated_at": 1788398895283,
+    "year": 2016
   },
   {
     "imdb_id": "tt5607976",
@@ -3669,6 +6357,18 @@
     "type": "series",
     "updated_at": 1788383280695,
     "year": 2017
+  },
+  {
+    "imdb_id": "tt6233538",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "roman-empire-reign-of-blood"
+    },
+    "title": "Roman Empire",
+    "tmdb_id": "68708",
+    "type": "series",
+    "updated_at": 1788398887269,
+    "year": 2016
   },
   {
     "imdb_id": "tt4154858",
@@ -3707,6 +6407,54 @@
     "year": 2016
   },
   {
+    "imdb_id": "tt5420376",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "riverdale"
+    },
+    "title": "Riverdale",
+    "tmdb_id": "69050",
+    "type": "series",
+    "updated_at": 1788398860227,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt4635282",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-oa"
+    },
+    "title": "The OA",
+    "tmdb_id": "69061",
+    "type": "series",
+    "updated_at": 1788398891276,
+    "year": 2016
+  },
+  {
+    "imdb_id": "tt5834204",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-cuento-de-la-criada"
+    },
+    "title": "The Handmaid's Tale",
+    "tmdb_id": "69478",
+    "type": "series",
+    "updated_at": 1788398749037,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt5071412",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ozark"
+    },
+    "title": "Ozark",
+    "tmdb_id": "69740",
+    "type": "series",
+    "updated_at": 1788398847216,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt4218824",
     "provider_variants": {},
     "providers": {
@@ -3716,6 +6464,18 @@
     "tmdb_id": "69776",
     "type": "series",
     "updated_at": 1788396043802,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt1984119",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "feud"
+    },
+    "title": "FEUD",
+    "tmdb_id": "69851",
+    "type": "series",
+    "updated_at": 1788398795119,
     "year": 2017
   },
   {
@@ -3743,6 +6503,54 @@
     "year": 2017
   },
   {
+    "imdb_id": "tt5705956",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-princesa-blanca"
+    },
+    "title": "The White Princess",
+    "tmdb_id": "70215",
+    "type": "series",
+    "updated_at": 1788398854215,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6091694",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "origins-the-journey-of-humankind"
+    },
+    "title": "Origins: The Journey of Humankind",
+    "tmdb_id": "70386",
+    "type": "series",
+    "updated_at": 1788398857229,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt5038900",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-leyendas"
+    },
+    "title": "Legend Quest",
+    "tmdb_id": "70420",
+    "type": "series",
+    "updated_at": 1788398875250,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt2649356",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "heridas-abiertas"
+    },
+    "title": "Sharp Objects",
+    "tmdb_id": "70453",
+    "type": "series",
+    "updated_at": 1788398762061,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt5932548",
     "provider_variants": {},
     "providers": {
@@ -3767,6 +6575,54 @@
     "year": 2017
   },
   {
+    "imdb_id": "tt6170874",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "salvation"
+    },
+    "title": "Salvation",
+    "tmdb_id": "70513",
+    "type": "series",
+    "updated_at": 1788398791120,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt5753856",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dark"
+    },
+    "title": "Dark",
+    "tmdb_id": "70523",
+    "type": "series",
+    "updated_at": 1788398827172,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6611916",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "kingdom"
+    },
+    "title": "Kingdom",
+    "tmdb_id": "70593",
+    "type": "series",
+    "updated_at": 1788398707969,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt6032762",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "man-to-man"
+    },
+    "title": "Man to Man",
+    "tmdb_id": "70595",
+    "type": "series",
+    "updated_at": 1788398706986,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt6477270",
     "provider_variants": {},
     "providers": {
@@ -3776,6 +6632,18 @@
     "tmdb_id": "70875",
     "type": "series",
     "updated_at": 1788378858054,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6495756",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ingobernable"
+    },
+    "title": "Ingobernable",
+    "tmdb_id": "70897",
+    "type": "series",
+    "updated_at": 1788398851209,
     "year": 2017
   },
   {
@@ -3801,6 +6669,138 @@
     "type": "series",
     "updated_at": 1788396356302,
     "year": 2018
+  },
+  {
+    "imdb_id": "tt5674718",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-chicas-del-cable"
+    },
+    "title": "Cable Girls",
+    "tmdb_id": "71225",
+    "type": "series",
+    "updated_at": 1788398858223,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt4276624",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "krypton"
+    },
+    "title": "Krypton",
+    "tmdb_id": "71340",
+    "type": "series",
+    "updated_at": 1788398725031,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt6692188",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-chapo"
+    },
+    "title": "El Chapo",
+    "tmdb_id": "71411",
+    "type": "series",
+    "updated_at": 1788398848205,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6468322",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-casa-de-papel"
+    },
+    "title": "Money Heist",
+    "tmdb_id": "71446",
+    "type": "series",
+    "updated_at": 1788398819156,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6807662",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-nuevas-leyendas-de-mono"
+    },
+    "title": "The New Legends of Monkey",
+    "tmdb_id": "71577",
+    "type": "series",
+    "updated_at": 1788398807141,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt6315640",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "atpico"
+    },
+    "title": "Atypical",
+    "tmdb_id": "71578",
+    "type": "series",
+    "updated_at": 1788398841193,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6045840",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "black-lightning"
+    },
+    "title": "Black Lightning",
+    "tmdb_id": "71663",
+    "type": "series",
+    "updated_at": 1788398820173,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt6439752",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "snowfall"
+    },
+    "title": "Snowfall",
+    "tmdb_id": "71694",
+    "type": "series",
+    "updated_at": 1788398776087,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6470478",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-good-doctor"
+    },
+    "title": "The Good Doctor",
+    "tmdb_id": "71712",
+    "type": "series",
+    "updated_at": 1788398789105,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6474378",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "good-girls"
+    },
+    "title": "Good Girls",
+    "tmdb_id": "71715",
+    "type": "series",
+    "updated_at": 1788398802128,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt6226232",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-joven-sheldon"
+    },
+    "title": "Young Sheldon",
+    "tmdb_id": "71728",
+    "type": "series",
+    "updated_at": 1788398801130,
+    "year": 2017
   },
   {
     "imdb_id": "tt5691552",
@@ -3875,6 +6875,30 @@
     "year": 2017
   },
   {
+    "imdb_id": "tt5720168",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marlon"
+    },
+    "title": "Marlon",
+    "tmdb_id": "71887",
+    "type": "series",
+    "updated_at": 1788398766066,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt5565334",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "amigos-de-la-universidad"
+    },
+    "title": "Friends from College",
+    "tmdb_id": "71890",
+    "type": "series",
+    "updated_at": 1788398713981,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt5180504",
     "provider_variants": {},
     "providers": {
@@ -3909,6 +6933,18 @@
     "type": "series",
     "updated_at": 1788396262153,
     "year": 2019
+  },
+  {
+    "imdb_id": "tt6128300",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dinastia"
+    },
+    "title": "Dynasty",
+    "tmdb_id": "72002",
+    "type": "series",
+    "updated_at": 1788398759055,
+    "year": 2017
   },
   {
     "imdb_id": "tt0247128",
@@ -3971,6 +7007,42 @@
     "year": 2017
   },
   {
+    "imdb_id": "tt4944694",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-catedral-del-mar"
+    },
+    "title": "Cathedral of the Sea",
+    "tmdb_id": "72613",
+    "type": "series",
+    "updated_at": 1788398772084,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt6913288",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-fragilidad-de-los-cuerpos"
+    },
+    "title": "The Fragility of Bodies",
+    "tmdb_id": "72651",
+    "type": "series",
+    "updated_at": 1788398756049,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6135682",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "marvels-spider-man"
+    },
+    "title": "Marvel's Spider-Man",
+    "tmdb_id": "72705",
+    "type": "series",
+    "updated_at": 1788398845201,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt6486762",
     "provider_variants": {},
     "providers": {
@@ -4007,6 +7079,30 @@
     "year": 2018
   },
   {
+    "imdb_id": "tt6794990",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "absentia"
+    },
+    "title": "Absentia",
+    "tmdb_id": "72755",
+    "type": "series",
+    "updated_at": 1788398803136,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6763664",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-maldicion-de-hill-house"
+    },
+    "title": "The Haunting of Hill House",
+    "tmdb_id": "72844",
+    "type": "series",
+    "updated_at": 1788398768069,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt3952772",
     "provider_variants": {},
     "providers": {
@@ -4017,6 +7113,18 @@
     "type": "series",
     "updated_at": 1788382830975,
     "year": 2017
+  },
+  {
+    "imdb_id": "tt5363918",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "desencanto"
+    },
+    "title": "Disenchantment",
+    "tmdb_id": "73021",
+    "type": "series",
+    "updated_at": 1788398767068,
+    "year": 2018
   },
   {
     "imdb_id": "tt8074528",
@@ -4031,6 +7139,18 @@
     "year": 2018
   },
   {
+    "imdb_id": "tt4975856",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "future-man"
+    },
+    "title": "Future Man",
+    "tmdb_id": "73157",
+    "type": "series",
+    "updated_at": 1788398810143,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt5152136",
     "provider_variants": {},
     "providers": {
@@ -4043,6 +7163,54 @@
     "year": 2015
   },
   {
+    "imdb_id": "tt5057054",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jack-ryan-de-tom-clancy"
+    },
+    "title": "Tom Clancy's Jack Ryan",
+    "tmdb_id": "73375",
+    "type": "series",
+    "updated_at": 1788398744030,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt5580146",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "maniac"
+    },
+    "title": "Maniac",
+    "tmdb_id": "73411",
+    "type": "series",
+    "updated_at": 1788398784099,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt5516154",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "godless"
+    },
+    "title": "Godless",
+    "tmdb_id": "73467",
+    "type": "series",
+    "updated_at": 1788398779091,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6128262",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "gunpowder"
+    },
+    "title": "Gunpowder",
+    "tmdb_id": "73550",
+    "type": "series",
+    "updated_at": 1788398778088,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt4236770",
     "provider_variants": {},
     "providers": {
@@ -4053,6 +7221,18 @@
     "type": "series",
     "updated_at": 1788397542705,
     "year": 2018
+  },
+  {
+    "imdb_id": "tt7197684",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "suburra"
+    },
+    "title": "Suburra: Blood on Rome",
+    "tmdb_id": "73671",
+    "type": "series",
+    "updated_at": 1788398693962,
+    "year": 2017
   },
   {
     "imdb_id": "tt1487513",
@@ -4076,6 +7256,42 @@
     "tmdb_id": "73778",
     "type": "series",
     "updated_at": 1788382868033,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6130902",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "lore"
+    },
+    "title": "Lore",
+    "tmdb_id": "73987",
+    "type": "series",
+    "updated_at": 1788398790111,
+    "year": 2017
+  },
+  {
+    "imdb_id": "tt6483832",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-resident"
+    },
+    "title": "The Resident",
+    "tmdb_id": "74016",
+    "type": "series",
+    "updated_at": 1788398787102,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt6524350",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "big-mouth"
+    },
+    "title": "Big Mouth",
+    "tmdb_id": "74204",
+    "type": "series",
+    "updated_at": 1788398836189,
     "year": 2017
   },
   {
@@ -4103,6 +7319,18 @@
     "year": 2019
   },
   {
+    "imdb_id": "tt6257970",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-end-of-the-fucking-world"
+    },
+    "title": "The End of the F***ing World",
+    "tmdb_id": "74577",
+    "type": "series",
+    "updated_at": 1788398822160,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt6574360",
     "provider_variants": {},
     "providers": {
@@ -4127,6 +7355,30 @@
     "year": 2017
   },
   {
+    "imdb_id": "tt7042146",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "carmen-sandiego"
+    },
+    "title": "Carmen Sandiego",
+    "tmdb_id": "74728",
+    "type": "series",
+    "updated_at": 1788398710977,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt6616260",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "deadwind"
+    },
+    "title": "Deadwind",
+    "tmdb_id": "74802",
+    "type": "series",
+    "updated_at": 1788398793117,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt6498784",
     "provider_variants": {},
     "providers": {
@@ -4137,6 +7389,18 @@
     "type": "series",
     "updated_at": 1788397826169,
     "year": 2016
+  },
+  {
+    "imdb_id": "tt1312171",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-umbrella-academy"
+    },
+    "title": "The Umbrella Academy",
+    "tmdb_id": "75006",
+    "type": "series",
+    "updated_at": 1788398697951,
+    "year": 2019
   },
   {
     "imdb_id": "tt1379164",
@@ -4163,6 +7427,18 @@
     "year": 2018
   },
   {
+    "imdb_id": "tt7235466",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "9-1-1"
+    },
+    "title": "9-1-1",
+    "tmdb_id": "75219",
+    "type": "series",
+    "updated_at": 1788398775086,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt8649544",
     "provider_variants": {},
     "providers": {
@@ -4173,6 +7449,18 @@
     "type": "series",
     "updated_at": 1788386943858,
     "year": 2022
+  },
+  {
+    "imdb_id": "tt1043813",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "titanes"
+    },
+    "title": "Titans",
+    "tmdb_id": "75450",
+    "type": "series",
+    "updated_at": 1788398715982,
+    "year": 2018
   },
   {
     "imdb_id": "tt7019028",
@@ -4235,6 +7523,18 @@
     "year": 2018
   },
   {
+    "imdb_id": "tt7078710",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "everything-sucks"
+    },
+    "title": "Everything Sucks!",
+    "tmdb_id": "76438",
+    "type": "series",
+    "updated_at": 1788398817154,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt1190634",
     "provider_variants": {},
     "providers": {
@@ -4247,6 +7547,18 @@
     "year": 2019
   },
   {
+    "imdb_id": "tt7134908",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "elite"
+    },
+    "title": "Elite",
+    "tmdb_id": "76669",
+    "type": "series",
+    "updated_at": 1788398774080,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt7243884",
     "provider_variants": {},
     "providers": {
@@ -4257,6 +7569,18 @@
     "type": "series",
     "updated_at": 1788396272166,
     "year": 2019
+  },
+  {
+    "imdb_id": "tt6656238",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-rain"
+    },
+    "title": "The Rain",
+    "tmdb_id": "76719",
+    "type": "series",
+    "updated_at": 1788398806134,
+    "year": 2018
   },
   {
     "imdb_id": "tt7879820",
@@ -4319,6 +7643,18 @@
     "year": 2019
   },
   {
+    "imdb_id": "tt7741824",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "un-jefe-en-panales-de-vuelta-a-los-negocios"
+    },
+    "title": "The Boss Baby: Back in Business",
+    "tmdb_id": "77606",
+    "type": "series",
+    "updated_at": 1788398761060,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt7242816",
     "provider_variants": {},
     "providers": {
@@ -4341,6 +7677,18 @@
     "type": "series",
     "updated_at": 1788382847998,
     "year": 2015
+  },
+  {
+    "imdb_id": "tt7335184",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "you"
+    },
+    "title": "You",
+    "tmdb_id": "78191",
+    "type": "series",
+    "updated_at": 1788398720993,
+    "year": 2018
   },
   {
     "imdb_id": "tt8303474",
@@ -4377,6 +7725,30 @@
     "type": "series",
     "updated_at": 1788396287194,
     "year": 2019
+  },
+  {
+    "imdb_id": "tt8045690",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "luis-miguel-la-serie"
+    },
+    "title": "Luis Miguel: The Series",
+    "tmdb_id": "79008",
+    "type": "series",
+    "updated_at": 1788398804132,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt7668518",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "hakan-el-protector"
+    },
+    "title": "The Protector",
+    "tmdb_id": "79026",
+    "type": "series",
+    "updated_at": 1788398726009,
+    "year": 2018
   },
   {
     "imdb_id": "tt7713450",
@@ -4424,6 +7796,18 @@
     "tmdb_id": "79093",
     "type": "series",
     "updated_at": 1788378887122,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt7569592",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-escalofriantes-aventuras-de-sabrina"
+    },
+    "title": "Chilling Adventures of Sabrina",
+    "tmdb_id": "79242",
+    "type": "series",
+    "updated_at": 1788398754047,
     "year": 2018
   },
   {
@@ -4643,6 +8027,18 @@
     "year": 2018
   },
   {
+    "imdb_id": "tt6193336",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-hollow"
+    },
+    "title": "The Hollow",
+    "tmdb_id": "79948",
+    "type": "series",
+    "updated_at": 1788398694947,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt7820906",
     "provider_variants": {},
     "providers": {
@@ -4689,6 +8085,54 @@
     "type": "series",
     "updated_at": 1788397514662,
     "year": 2019
+  },
+  {
+    "imdb_id": "tt8387348",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-casa-de-las-flores"
+    },
+    "title": "The House of Flowers",
+    "tmdb_id": "80169",
+    "type": "series",
+    "updated_at": 1788398796119,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt6110648",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-purge"
+    },
+    "title": "The Purge",
+    "tmdb_id": "80213",
+    "type": "series",
+    "updated_at": 1788398777085,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt8560918",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-reina-del-flow"
+    },
+    "title": "The Queen of Flow",
+    "tmdb_id": "80240",
+    "type": "series",
+    "updated_at": 1788398711976,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt7493974",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bodyguard"
+    },
+    "title": "Bodyguard",
+    "tmdb_id": "80307",
+    "type": "series",
+    "updated_at": 1788398735015,
+    "year": 2018
   },
   {
     "imdb_id": "tt7008682",
@@ -4751,6 +8195,18 @@
     "year": 2018
   },
   {
+    "imdb_id": "tt5909930",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ghoul"
+    },
+    "title": "GHOUL",
+    "tmdb_id": "80707",
+    "type": "series",
+    "updated_at": 1788398792111,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt8534662",
     "provider_variants": {},
     "providers": {
@@ -4760,6 +8216,18 @@
     "tmdb_id": "80719",
     "type": "series",
     "updated_at": 1788379391221,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt7491982",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fbi"
+    },
+    "title": "FBI",
+    "tmdb_id": "80748",
+    "type": "series",
+    "updated_at": 1788398695948,
     "year": 2018
   },
   {
@@ -4785,6 +8253,18 @@
     "type": "series",
     "updated_at": 1788397720001,
     "year": 2021
+  },
+  {
+    "imdb_id": "tt8714904",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "narcos-mexico"
+    },
+    "title": "Narcos: Mexico",
+    "tmdb_id": "80968",
+    "type": "series",
+    "updated_at": 1788398727001,
+    "year": 2018
   },
   {
     "imdb_id": "tt8688814",
@@ -4859,6 +8339,18 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt7767422",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sex-education-1"
+    },
+    "title": "Sex Education",
+    "tmdb_id": "81356",
+    "type": "series",
+    "updated_at": 1788398714982,
+    "year": 2019
+  },
+  {
     "imdb_id": "tt8064302",
     "provider_variants": {},
     "providers": {
@@ -4916,6 +8408,18 @@
     "tmdb_id": "81747",
     "type": "series",
     "updated_at": 1788397796128,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt8235236",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "paradise-police"
+    },
+    "title": "Paradise PD",
+    "tmdb_id": "81983",
+    "type": "series",
+    "updated_at": 1788398729003,
     "year": 2018
   },
   {
@@ -5025,6 +8529,18 @@
     "type": "series",
     "updated_at": 1788396302218,
     "year": 2019
+  },
+  {
+    "imdb_id": "tt7645192",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "baby"
+    },
+    "title": "Baby",
+    "tmdb_id": "82700",
+    "type": "series",
+    "updated_at": 1788398731015,
+    "year": 2018
   },
   {
     "imdb_id": "tt8046422",
@@ -5147,6 +8663,18 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt9077192",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "al-borde-de-la-realidad"
+    },
+    "title": "Haunted",
+    "tmdb_id": "83247",
+    "type": "series",
+    "updated_at": 1788398757057,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt7945720",
     "provider_variants": {},
     "providers": {
@@ -5255,6 +8783,30 @@
     "year": 2019
   },
   {
+    "imdb_id": "tt7736544",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-3-de-abajo-cuentos-de-arcadia"
+    },
+    "title": "3Below: Tales of Arcadia",
+    "tmdb_id": "84154",
+    "type": "series",
+    "updated_at": 1788398723997,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt6025022",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "liga-de-la-justicia-ilimitada"
+    },
+    "title": "Justice League Unlimited",
+    "tmdb_id": "84200",
+    "type": "series",
+    "updated_at": 1788398903297,
+    "year": 2004
+  },
+  {
     "imdb_id": "tt7765404",
     "provider_variants": {},
     "providers": {
@@ -5276,6 +8828,18 @@
     "tmdb_id": "84380",
     "type": "series",
     "updated_at": 1788397756056,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt7949200",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "nicky-jam-el-ganador"
+    },
+    "title": "Nicky Jam: El Ganador",
+    "tmdb_id": "84452",
+    "type": "series",
+    "updated_at": 1788398732020,
     "year": 2018
   },
   {
@@ -5373,6 +8937,18 @@
     "type": "series",
     "updated_at": 1788379102595,
     "year": 2018
+  },
+  {
+    "imdb_id": "tt7520794",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "muneca-rusa"
+    },
+    "title": "Russian Doll",
+    "tmdb_id": "84977",
+    "type": "series",
+    "updated_at": 1788398701959,
+    "year": 2019
   },
   {
     "imdb_id": "tt7661390",
@@ -5876,6 +9452,18 @@
     "tmdb_id": "87172",
     "type": "series",
     "updated_at": 1788397913314,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt9817218",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "losers"
+    },
+    "title": "Losers",
+    "tmdb_id": "87216",
+    "type": "series",
+    "updated_at": 1788398692960,
     "year": 2019
   },
   {
@@ -7569,6 +11157,18 @@
     "type": "series",
     "updated_at": 1788397644869,
     "year": 2021
+  },
+  {
+    "imdb_id": "tt10448912",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fear-the-walking-dead"
+    },
+    "title": "Dani Who?",
+    "tmdb_id": "95292",
+    "type": "series",
+    "updated_at": 1788398989446,
+    "year": 2019
   },
   {
     "imdb_id": "tt11248266",
@@ -30791,7 +34391,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788397387450,
+    "updated_at": 1788398687930,
     "year": 2026
   },
   {
@@ -32629,6 +36229,18 @@
     "type": "series",
     "updated_at": 1788396453469,
     "year": 2022
+  },
+  {
+    "imdb_id": "tt1758429",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "spartacus-gods-of-the-arena"
+    },
+    "title": "Spartacus",
+    "tmdb_id": null,
+    "type": "series",
+    "updated_at": 1788399003465,
+    "year": 2010
   },
   {
     "imdb_id": "tt15208918",
