@@ -36,6 +36,18 @@
     "year": 1998
   },
   {
+    "imdb_id": "tt0387714",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "rugrats-crecidos"
+    },
+    "title": "All Grown Up!",
+    "tmdb_id": "130",
+    "type": "series",
+    "updated_at": 1788396479508,
+    "year": 2003
+  },
+  {
     "imdb_id": "tt0318233",
     "provider_variants": {},
     "providers": {
@@ -72,6 +84,18 @@
     "year": 2006
   },
   {
+    "imdb_id": "tt0451461",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "my-gym-partners-a-monkey"
+    },
+    "title": "My Gym Partner's a Monkey",
+    "tmdb_id": "234",
+    "type": "series",
+    "updated_at": 1788396243119,
+    "year": 2005
+  },
+  {
     "imdb_id": "tt0407398",
     "provider_variants": {},
     "providers": {
@@ -82,6 +106,30 @@
     "type": "series",
     "updated_at": 1788379137662,
     "year": 2004
+  },
+  {
+    "imdb_id": "tt0353115",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mucha-lucha"
+    },
+    "title": "¡Mucha Lucha!",
+    "tmdb_id": "288",
+    "type": "series",
+    "updated_at": 1788396444450,
+    "year": 2002
+  },
+  {
+    "imdb_id": "tt0429305",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jake-long-dragon-americano"
+    },
+    "title": "American Dragon: Jake Long",
+    "tmdb_id": "346",
+    "type": "series",
+    "updated_at": 1788396220083,
+    "year": 2005
   },
   {
     "imdb_id": "tt0805663",
@@ -120,6 +168,30 @@
     "year": 2000
   },
   {
+    "imdb_id": "tt0851851",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "terminator-las-cronicas-de-sarah-connor"
+    },
+    "title": "Terminator: The Sarah Connor Chronicles",
+    "tmdb_id": "433",
+    "type": "series",
+    "updated_at": 1788396232103,
+    "year": 2008
+  },
+  {
+    "imdb_id": "tt0419348",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-life-and-times-of-juniper-lee"
+    },
+    "title": "The Life and Times of Juniper Lee",
+    "tmdb_id": "446",
+    "type": "series",
+    "updated_at": 1788396242122,
+    "year": 2005
+  },
+  {
     "imdb_id": "tt0293737",
     "provider_variants": {},
     "providers": {
@@ -130,6 +202,18 @@
     "type": "series",
     "updated_at": 1788382892069,
     "year": 2001
+  },
+  {
+    "imdb_id": "tt0419315",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "campamento-lazlo"
+    },
+    "title": "Camp Lazlo",
+    "tmdb_id": "557",
+    "type": "series",
+    "updated_at": 1788396457474,
+    "year": 2005
   },
   {
     "imdb_id": "tt0149460",
@@ -166,6 +250,18 @@
     "type": "series",
     "updated_at": 1788387059047,
     "year": 1993
+  },
+  {
+    "imdb_id": "tt0247827",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "x-men-evolucion"
+    },
+    "title": "X-Men: Evolution",
+    "tmdb_id": "668",
+    "type": "series",
+    "updated_at": 1788396052807,
+    "year": 2000
   },
   {
     "imdb_id": "tt0338580",
@@ -240,6 +336,18 @@
     "year": 1999
   },
   {
+    "imdb_id": "tt0098904",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "seinfeld"
+    },
+    "title": "Seinfeld",
+    "tmdb_id": "1400",
+    "type": "series",
+    "updated_at": 1788396378340,
+    "year": 1989
+  },
+  {
     "imdb_id": "tt1699748",
     "provider_variants": {},
     "providers": {
@@ -288,6 +396,18 @@
     "year": 1998
   },
   {
+    "imdb_id": "tt0405576",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "manual-de-supervivencia-escolar-de-ned"
+    },
+    "title": "Ned's Declassified School Survival Guide",
+    "tmdb_id": "1600",
+    "type": "series",
+    "updated_at": 1788396260148,
+    "year": 2004
+  },
+  {
     "imdb_id": "tt0460644",
     "provider_variants": {},
     "providers": {
@@ -310,6 +430,30 @@
     "type": "series",
     "updated_at": 1788387073066,
     "year": 1967
+  },
+  {
+    "imdb_id": "tt0312172",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "monk"
+    },
+    "title": "Monk",
+    "tmdb_id": "1695",
+    "type": "series",
+    "updated_at": 1788396480517,
+    "year": 2002
+  },
+  {
+    "imdb_id": "tt0419326",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mansion-foster-para-amigos-imaginarios"
+    },
+    "title": "Foster's Home for Imaginary Friends",
+    "tmdb_id": "1720",
+    "type": "series",
+    "updated_at": 1788396235105,
+    "year": 2004
   },
   {
     "imdb_id": "tt0415463",
@@ -336,6 +480,42 @@
     "year": 2002
   },
   {
+    "imdb_id": "tt0852863",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "phineas-y-ferb"
+    },
+    "title": "Phineas and Ferb",
+    "tmdb_id": "1877",
+    "type": "series",
+    "updated_at": 1788396218080,
+    "year": 2007
+  },
+  {
+    "imdb_id": "tt0098936",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "twin-peaks"
+    },
+    "title": "Twin Peaks",
+    "tmdb_id": "1920",
+    "type": "series",
+    "updated_at": 1788396422414,
+    "year": 1990
+  },
+  {
+    "imdb_id": "tt0057751",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-isla-de-gilligan"
+    },
+    "title": "Gilligan's Island",
+    "tmdb_id": "1921",
+    "type": "series",
+    "updated_at": 1788396446452,
+    "year": 1964
+  },
+  {
     "imdb_id": "tt0318883",
     "provider_variants": {},
     "providers": {
@@ -346,6 +526,18 @@
     "type": "series",
     "updated_at": 1788378886115,
     "year": 2002
+  },
+  {
+    "imdb_id": "tt0386176",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dave-el-barbaro"
+    },
+    "title": "Dave the Barbarian",
+    "tmdb_id": "1960",
+    "type": "series",
+    "updated_at": 1788396219089,
+    "year": 2004
   },
   {
     "imdb_id": "tt0158552",
@@ -420,6 +612,18 @@
     "year": 1997
   },
   {
+    "imdb_id": "tt0320808",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jimmy-neutron-el-nino-genio"
+    },
+    "title": "The Adventures of Jimmy Neutron: Boy Genius",
+    "tmdb_id": "2129",
+    "type": "series",
+    "updated_at": 1788396217085,
+    "year": 2002
+  },
+  {
     "imdb_id": "tt0144700",
     "provider_variants": {},
     "providers": {
@@ -430,6 +634,18 @@
     "type": "series",
     "updated_at": 1788386913804,
     "year": 1997
+  },
+  {
+    "imdb_id": "tt0112123",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "pinky-y-cerebro"
+    },
+    "title": "Pinky and the Brain",
+    "tmdb_id": "2228",
+    "type": "series",
+    "updated_at": 1788396038784,
+    "year": 1995
   },
   {
     "imdb_id": "tt0103428",
@@ -444,6 +660,18 @@
     "year": 1992
   },
   {
+    "imdb_id": "tt0366005",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "danny-phantom"
+    },
+    "title": "Danny Phantom",
+    "tmdb_id": "2309",
+    "type": "series",
+    "updated_at": 1788396436436,
+    "year": 2004
+  },
+  {
     "imdb_id": "tt0106080",
     "provider_variants": {},
     "providers": {
@@ -454,6 +682,30 @@
     "type": "series",
     "updated_at": 1788378955280,
     "year": 1993
+  },
+  {
+    "imdb_id": "tt0055683",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-supersonicos"
+    },
+    "title": "The Jetsons",
+    "tmdb_id": "2362",
+    "type": "series",
+    "updated_at": 1788396225090,
+    "year": 1962
+  },
+  {
+    "imdb_id": "tt0118360",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "johnny-bravo"
+    },
+    "title": "Johnny Bravo",
+    "tmdb_id": "2405",
+    "type": "series",
+    "updated_at": 1788396099886,
+    "year": 1997
   },
   {
     "imdb_id": "tt0167743",
@@ -552,6 +804,18 @@
     "year": 1994
   },
   {
+    "imdb_id": "tt0888357",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sin-tetas-no-hay-paraiso"
+    },
+    "title": "Without Breast There Is No Paradise",
+    "tmdb_id": "3016",
+    "type": "series",
+    "updated_at": 1788396481514,
+    "year": 2006
+  },
+  {
     "imdb_id": "tt0115218",
     "provider_variants": {},
     "providers": {
@@ -562,6 +826,18 @@
     "type": "series",
     "updated_at": 1788382967196,
     "year": 1994
+  },
+  {
+    "imdb_id": "tt0361243",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "star-wars-las-guerras-clon"
+    },
+    "title": "Star Wars: Clone Wars",
+    "tmdb_id": "3122",
+    "type": "series",
+    "updated_at": 1788396042791,
+    "year": 2003
   },
   {
     "imdb_id": "tt1772685",
@@ -576,6 +852,42 @@
     "year": 2007
   },
   {
+    "imdb_id": "tt0235923",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "invasor-zim"
+    },
+    "title": "Invader ZIM",
+    "tmdb_id": "3793",
+    "type": "series",
+    "updated_at": 1788396261156,
+    "year": 2001
+  },
+  {
+    "imdb_id": "tt0452046",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mentes-criminales"
+    },
+    "title": "Criminal Minds",
+    "tmdb_id": "4057",
+    "type": "series",
+    "updated_at": 1788396466490,
+    "year": 2005
+  },
+  {
+    "imdb_id": "tt0115157",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-laboratorio-de-dexter"
+    },
+    "title": "Dexter's Laboratory",
+    "tmdb_id": "4229",
+    "type": "series",
+    "updated_at": 1788396406386,
+    "year": 1996
+  },
+  {
     "imdb_id": "tt0198254",
     "provider_variants": {},
     "providers": {
@@ -588,6 +900,18 @@
     "year": 1990
   },
   {
+    "imdb_id": "tt0111970",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fenomenoide"
+    },
+    "title": "Freakazoid!",
+    "tmdb_id": "4334",
+    "type": "series",
+    "updated_at": 1788396259163,
+    "year": 1995
+  },
+  {
     "imdb_id": "tt0386180",
     "provider_variants": {},
     "providers": {
@@ -598,6 +922,18 @@
     "type": "series",
     "updated_at": 1788386985923,
     "year": 2004
+  },
+  {
+    "imdb_id": "tt0112197",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "timon-y-pumba"
+    },
+    "title": "Timon and Pumbaa",
+    "tmdb_id": "4429",
+    "type": "series",
+    "updated_at": 1788396282180,
+    "year": 1995
   },
   {
     "imdb_id": "tt0058805",
@@ -684,6 +1020,30 @@
     "year": 2006
   },
   {
+    "imdb_id": "tt0235918",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-padrinos-magicos"
+    },
+    "title": "The Fairly OddParents",
+    "tmdb_id": "4630",
+    "type": "series",
+    "updated_at": 1788396057818,
+    "year": 2001
+  },
+  {
+    "imdb_id": "tt0050079",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-zorro"
+    },
+    "title": "Zorro",
+    "tmdb_id": "4681",
+    "type": "series",
+    "updated_at": 1788396100886,
+    "year": 1957
+  },
+  {
     "imdb_id": "tt0197911",
     "provider_variants": {},
     "providers": {
@@ -756,6 +1116,18 @@
     "year": 2007
   },
   {
+    "imdb_id": "tt1178180",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-maravillosas-desventuras-de-flapjack"
+    },
+    "title": "The Marvelous Misadventures of Flapjack",
+    "tmdb_id": "6673",
+    "type": "series",
+    "updated_at": 1788396234107,
+    "year": 2008
+  },
+  {
     "imdb_id": "tt0891369",
     "provider_variants": {},
     "providers": {
@@ -766,6 +1138,18 @@
     "type": "series",
     "updated_at": 1788378864068,
     "year": 2006
+  },
+  {
+    "imdb_id": "tt1140100",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "chowder"
+    },
+    "title": "Chowder",
+    "tmdb_id": "9907",
+    "type": "series",
+    "updated_at": 1788396188034,
+    "year": 2007
   },
   {
     "imdb_id": "tt0281474",
@@ -850,6 +1234,54 @@
     "type": "series",
     "updated_at": 1788379287011,
     "year": 2008
+  },
+  {
+    "imdb_id": "tt0126171",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "she-ra-la-princesa-del-poder"
+    },
+    "title": "She-Ra: Princess of Power",
+    "tmdb_id": "14755",
+    "type": "series",
+    "updated_at": 1788396316237,
+    "year": 1985
+  },
+  {
+    "imdb_id": "tt0233127",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "yo-soy-betty-la-fea"
+    },
+    "title": "Yo soy Betty, la fea",
+    "tmdb_id": "16286",
+    "type": "series",
+    "updated_at": 1788396181019,
+    "year": 1999
+  },
+  {
+    "imdb_id": "tt1600757",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "kick-buttowski"
+    },
+    "title": "Kick Buttowski: Suburban Daredevil",
+    "tmdb_id": "17572",
+    "type": "series",
+    "updated_at": 1788396421409,
+    "year": 2010
+  },
+  {
+    "imdb_id": "tt0469247",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "vecinos"
+    },
+    "title": "Vecinos",
+    "tmdb_id": "18011",
+    "type": "series",
+    "updated_at": 1788396124937,
+    "year": 2005
   },
   {
     "imdb_id": "tt1439031",
@@ -1060,6 +1492,42 @@
     "type": "series",
     "updated_at": 1788383031293,
     "year": 2010
+  },
+  {
+    "imdb_id": "tt1709198",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sym-bionic-titan"
+    },
+    "title": "Sym-Bionic Titan",
+    "tmdb_id": "32315",
+    "type": "series",
+    "updated_at": 1788396438439,
+    "year": 2010
+  },
+  {
+    "imdb_id": "tt1621748",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ugly-americans"
+    },
+    "title": "Ugly Americans",
+    "tmdb_id": "32351",
+    "type": "series",
+    "updated_at": 1788396296206,
+    "year": 2010
+  },
+  {
+    "imdb_id": "tt1726839",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-show-de-los-looney-tunes"
+    },
+    "title": "The Looney Tunes Show",
+    "tmdb_id": "32605",
+    "type": "series",
+    "updated_at": 1788396418403,
+    "year": 2011
   },
   {
     "imdb_id": "tt10726260",
@@ -1290,6 +1758,18 @@
     "year": 2006
   },
   {
+    "imdb_id": "tt2187850",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "pablo-escobar-el-patron-del-mal"
+    },
+    "title": "Pablo Escobar: The Drug Lord",
+    "tmdb_id": "43348",
+    "type": "series",
+    "updated_at": 1788396110915,
+    "year": 2012
+  },
+  {
     "imdb_id": "tt2226342",
     "provider_variants": {},
     "providers": {
@@ -1398,7 +1878,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788386828749,
+    "updated_at": 1788395969764,
     "year": 2003
   },
   {
@@ -1462,6 +1942,18 @@
     "year": 2013
   },
   {
+    "imdb_id": "tt2372220",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-reina-blanca"
+    },
+    "title": "The White Queen",
+    "tmdb_id": "57092",
+    "type": "series",
+    "updated_at": 1788396359318,
+    "year": 2013
+  },
+  {
     "imdb_id": "tt2733252",
     "provider_variants": {},
     "providers": {
@@ -1522,6 +2014,42 @@
     "year": 2009
   },
   {
+    "imdb_id": "tt0289649",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "okupas"
+    },
+    "title": "Okupas",
+    "tmdb_id": "60549",
+    "type": "series",
+    "updated_at": 1788396442445,
+    "year": 2000
+  },
+  {
+    "imdb_id": "tt2930604",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "star-wars-rebels"
+    },
+    "title": "Star Wars Rebels",
+    "tmdb_id": "60554",
+    "type": "series",
+    "updated_at": 1788396205057,
+    "year": 2014
+  },
+  {
+    "imdb_id": "tt3502248",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bosch"
+    },
+    "title": "Bosch",
+    "tmdb_id": "60585",
+    "type": "series",
+    "updated_at": 1788396445451,
+    "year": 2015
+  },
+  {
     "imdb_id": "tt2474952",
     "provider_variants": {},
     "providers": {
@@ -1570,6 +2098,18 @@
     "year": 2014
   },
   {
+    "imdb_id": "tt2950342",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mr-pickles"
+    },
+    "title": "Mr. Pickles",
+    "tmdb_id": "61593",
+    "type": "series",
+    "updated_at": 1788396281182,
+    "year": 2014
+  },
+  {
     "imdb_id": "tt3718778",
     "provider_variants": {},
     "providers": {
@@ -1592,6 +2132,18 @@
     "type": "series",
     "updated_at": 1788383038304,
     "year": 2015
+  },
+  {
+    "imdb_id": "tt4284216",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sanador"
+    },
+    "title": "Healer",
+    "tmdb_id": "61670",
+    "type": "series",
+    "updated_at": 1788396066835,
+    "year": 2014
   },
   {
     "imdb_id": "tt2644032",
@@ -1678,6 +2230,18 @@
     "year": 2015
   },
   {
+    "imdb_id": "tt3530726",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-astronaut-wives-club"
+    },
+    "title": "The Astronaut Wives Club",
+    "tmdb_id": "62458",
+    "type": "series",
+    "updated_at": 1788396468489,
+    "year": 2015
+  },
+  {
     "imdb_id": "tt3216608",
     "provider_variants": {},
     "providers": {
@@ -1726,6 +2290,18 @@
     "year": 2015
   },
   {
+    "imdb_id": "tt3904068",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "senora-acero"
+    },
+    "title": "Senora Acero",
+    "tmdb_id": "63764",
+    "type": "series",
+    "updated_at": 1788396050809,
+    "year": 2014
+  },
+  {
     "imdb_id": "tt1807824",
     "provider_variants": {},
     "providers": {
@@ -1748,6 +2324,18 @@
     "type": "series",
     "updated_at": 1788379215832,
     "year": 2015
+  },
+  {
+    "imdb_id": "tt4953128",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "animals"
+    },
+    "title": "Animals.",
+    "tmdb_id": "65228",
+    "type": "series",
+    "updated_at": 1788396278190,
+    "year": 2016
   },
   {
     "imdb_id": "tt3647998",
@@ -1906,6 +2494,18 @@
     "year": 2016
   },
   {
+    "imdb_id": "tt7112114",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "nosotros-los-guapos"
+    },
+    "title": "Nosotros los Guapos",
+    "tmdb_id": "67872",
+    "type": "series",
+    "updated_at": 1788396297207,
+    "year": 2016
+  },
+  {
     "imdb_id": "tt4859164",
     "provider_variants": {},
     "providers": {
@@ -1978,6 +2578,18 @@
     "year": 2016
   },
   {
+    "imdb_id": "tt4218824",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jeff-y-unos-aliens"
+    },
+    "title": "Jeff and Some Aliens",
+    "tmdb_id": "69776",
+    "type": "series",
+    "updated_at": 1788396043802,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt4902964",
     "provider_variants": {},
     "providers": {
@@ -2014,6 +2626,30 @@
     "year": 2017
   },
   {
+    "imdb_id": "tt6510950",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "condor"
+    },
+    "title": "Condor",
+    "tmdb_id": "71146",
+    "type": "series",
+    "updated_at": 1788396356302,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt5691552",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-orville"
+    },
+    "title": "The Orville",
+    "tmdb_id": "71738",
+    "type": "series",
+    "updated_at": 1788396340279,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt6503244",
     "provider_variants": {},
     "providers": {
@@ -2026,6 +2662,18 @@
     "year": 2017
   },
   {
+    "imdb_id": "tt6905542",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "cristal-oscuro-la-era-de-la-resistencia"
+    },
+    "title": "The Dark Crystal: Age of Resistance",
+    "tmdb_id": "71809",
+    "type": "series",
+    "updated_at": 1788396268162,
+    "year": 2019
+  },
+  {
     "imdb_id": "tt6865906",
     "provider_variants": {},
     "providers": {
@@ -2036,6 +2684,18 @@
     "type": "series",
     "updated_at": 1788383037308,
     "year": 2017
+  },
+  {
+    "imdb_id": "tt1869454",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "good-omens"
+    },
+    "title": "Good Omens",
+    "tmdb_id": "71915",
+    "type": "series",
+    "updated_at": 1788396262153,
+    "year": 2019
   },
   {
     "imdb_id": "tt0247128",
@@ -2086,6 +2746,18 @@
     "year": 2017
   },
   {
+    "imdb_id": "tt6110318",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ley-y-orden-true-crime-el-caso-menendez"
+    },
+    "title": "Law & Order True Crime",
+    "tmdb_id": "72496",
+    "type": "series",
+    "updated_at": 1788396420409,
+    "year": 2017
+  },
+  {
     "imdb_id": "tt6486762",
     "provider_variants": {},
     "providers": {
@@ -2108,6 +2780,18 @@
     "type": "series",
     "updated_at": 1788382830975,
     "year": 2017
+  },
+  {
+    "imdb_id": "tt8074528",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-chica-que-limpia"
+    },
+    "title": "The Cleaning Lady",
+    "tmdb_id": "73043",
+    "type": "series",
+    "updated_at": 1788396460524,
+    "year": 2018
   },
   {
     "imdb_id": "tt5152136",
@@ -2218,6 +2902,30 @@
     "year": 2018
   },
   {
+    "imdb_id": "tt7243884",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "catalina-la-grande"
+    },
+    "title": "Catherine the Great",
+    "tmdb_id": "76692",
+    "type": "series",
+    "updated_at": 1788396272166,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt7563270",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sweetbitter"
+    },
+    "title": "Sweetbitter",
+    "tmdb_id": "77032",
+    "type": "series",
+    "updated_at": 1788396275171,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt4816058",
     "provider_variants": {},
     "providers": {
@@ -2228,6 +2936,30 @@
     "type": "series",
     "updated_at": 1788382847998,
     "year": 2015
+  },
+  {
+    "imdb_id": "tt8303474",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "utopia-2020"
+    },
+    "title": "Utopia",
+    "tmdb_id": "78903",
+    "type": "series",
+    "updated_at": 1788396301217,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt7529770",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "miracle-workers"
+    },
+    "title": "Miracle Workers",
+    "tmdb_id": "78950",
+    "type": "series",
+    "updated_at": 1788396287194,
+    "year": 2019
   },
   {
     "imdb_id": "tt7713450",
@@ -2252,6 +2984,18 @@
     "type": "series",
     "updated_at": 1788378887122,
     "year": 2018
+  },
+  {
+    "imdb_id": "tt8036272",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "tuca-bertie"
+    },
+    "title": "Tuca & Bertie",
+    "tmdb_id": "79356",
+    "type": "series",
+    "updated_at": 1788396470491,
+    "year": 2019
   },
   {
     "imdb_id": "tt8421152",
@@ -2288,6 +3032,54 @@
     "type": "series",
     "updated_at": 1788379163726,
     "year": 2020
+  },
+  {
+    "imdb_id": "tt8421350",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "manifest"
+    },
+    "title": "Manifest",
+    "tmdb_id": "79696",
+    "type": "series",
+    "updated_at": 1788396258145,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt0496199",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-hija-del-mariachi"
+    },
+    "title": "La hija del Mariachi",
+    "tmdb_id": "79699",
+    "type": "series",
+    "updated_at": 1788396117914,
+    "year": 2006
+  },
+  {
+    "imdb_id": "tt7745956",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "she-ra-y-las-princesas-del-poder"
+    },
+    "title": "She-Ra and the Princesses of Power",
+    "tmdb_id": "79732",
+    "type": "series",
+    "updated_at": 1788396317238,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt7587890",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-rookie"
+    },
+    "title": "The Rookie",
+    "tmdb_id": "79744",
+    "type": "series",
+    "updated_at": 1788396215075,
+    "year": 2018
   },
   {
     "imdb_id": "tt8005374",
@@ -2374,6 +3166,18 @@
     "year": 2010
   },
   {
+    "imdb_id": "tt7255502",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-metodo-kominsky"
+    },
+    "title": "The Kominsky Method",
+    "tmdb_id": "81290",
+    "type": "series",
+    "updated_at": 1788396407396,
+    "year": 2018
+  },
+  {
     "imdb_id": "tt7671598",
     "provider_variants": {},
     "providers": {
@@ -2384,6 +3188,18 @@
     "type": "series",
     "updated_at": 1788379370170,
     "year": 2020
+  },
+  {
+    "imdb_id": "tt8783930",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-mujer-del-viajero-en-el-tiempo"
+    },
+    "title": "The Time Traveler's Wife",
+    "tmdb_id": "81322",
+    "type": "series",
+    "updated_at": 1788396202059,
+    "year": 2022
   },
   {
     "imdb_id": "tt2235412",
@@ -2410,6 +3226,42 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt8696768",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-sonrisa-se-ha-ido-de-tus-ojos"
+    },
+    "title": "The Smile Has Left Your Eyes",
+    "tmdb_id": "82501",
+    "type": "series",
+    "updated_at": 1788396116924,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt8962124",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "emily-en-paris"
+    },
+    "title": "Emily in Paris",
+    "tmdb_id": "82596",
+    "type": "series",
+    "updated_at": 1788396487546,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt9068332",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bless-the-harts"
+    },
+    "title": "Bless the Harts",
+    "tmdb_id": "82653",
+    "type": "series",
+    "updated_at": 1788396302218,
+    "year": 2019
+  },
+  {
     "imdb_id": "tt8046422",
     "provider_variants": {},
     "providers": {
@@ -2420,6 +3272,18 @@
     "type": "series",
     "updated_at": 1788383082376,
     "year": 2017
+  },
+  {
+    "imdb_id": "tt7678620",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bluey"
+    },
+    "title": "Bluey",
+    "tmdb_id": "82728",
+    "type": "series",
+    "updated_at": 1788396023759,
+    "year": 2018
   },
   {
     "imdb_id": "tt6272944",
@@ -2434,6 +3298,78 @@
     "year": 2017
   },
   {
+    "imdb_id": "tt8634332",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-gemstone"
+    },
+    "title": "The Righteous Gemstones",
+    "tmdb_id": "82782",
+    "type": "series",
+    "updated_at": 1788396271166,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt9117054",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "spinning-out"
+    },
+    "title": "Spinning Out",
+    "tmdb_id": "83050",
+    "type": "series",
+    "updated_at": 1788396284187,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt8415836",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-gabinete-de-curiosidades-de-guillermo-del-toro"
+    },
+    "title": "Guillermo del Toro's Cabinet of Curiosities",
+    "tmdb_id": "83659",
+    "type": "series",
+    "updated_at": 1788396011742,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt8134470",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-undoing"
+    },
+    "title": "The Undoing",
+    "tmdb_id": "83851",
+    "type": "series",
+    "updated_at": 1788396320244,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt9253284",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "star-wars-andor"
+    },
+    "title": "Andor",
+    "tmdb_id": "83867",
+    "type": "series",
+    "updated_at": 1788396048802,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt8575476",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "hache"
+    },
+    "title": "Hache",
+    "tmdb_id": "84112",
+    "type": "series",
+    "updated_at": 1788396365320,
+    "year": 2019
+  },
+  {
     "imdb_id": "tt7765404",
     "provider_variants": {},
     "providers": {
@@ -2444,6 +3380,30 @@
     "type": "series",
     "updated_at": 1788387371554,
     "year": 2019
+  },
+  {
+    "imdb_id": "tt7661046",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dollface"
+    },
+    "title": "Dollface",
+    "tmdb_id": "84584",
+    "type": "series",
+    "updated_at": 1788396279179,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt7631058",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-senor-de-los-anillos-los-anillos-de-poder"
+    },
+    "title": "The Lord of the Rings: The Rings of Power",
+    "tmdb_id": "84773",
+    "type": "series",
+    "updated_at": 1788396064827,
+    "year": 2022
   },
   {
     "imdb_id": "tt8783862",
@@ -2467,6 +3427,18 @@
     "tmdb_id": "85077",
     "type": "series",
     "updated_at": 1788386909796,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt8050740",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "anfibilandia"
+    },
+    "title": "Amphibia",
+    "tmdb_id": "85349",
+    "type": "series",
+    "updated_at": 1788396246126,
     "year": 2019
   },
   {
@@ -2518,6 +3490,30 @@
     "year": 2017
   },
   {
+    "imdb_id": "tt7772602",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "in-the-dark"
+    },
+    "title": "In the Dark",
+    "tmdb_id": "85727",
+    "type": "series",
+    "updated_at": 1788396292198,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt6625730",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "patria"
+    },
+    "title": "Patria",
+    "tmdb_id": "85964",
+    "type": "series",
+    "updated_at": 1788396311232,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt7945066",
     "provider_variants": {},
     "providers": {
@@ -2530,6 +3526,54 @@
     "year": 2019
   },
   {
+    "imdb_id": "tt8101850",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "undone"
+    },
+    "title": "Undone",
+    "tmdb_id": "86340",
+    "type": "series",
+    "updated_at": 1788396269160,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt7440726",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "your-honor"
+    },
+    "title": "Your Honor",
+    "tmdb_id": "86430",
+    "type": "series",
+    "updated_at": 1788396385353,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt8509922",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dolly-parton-acordes-del-corazon"
+    },
+    "title": "Dolly Parton's Heartstrings",
+    "tmdb_id": "86456",
+    "type": "series",
+    "updated_at": 1788396233103,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt7718110",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "hightown"
+    },
+    "title": "Hightown",
+    "tmdb_id": "86588",
+    "type": "series",
+    "updated_at": 1788396216077,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt9573980",
     "provider_variants": {},
     "providers": {
@@ -2539,6 +3583,42 @@
     "tmdb_id": "86951",
     "type": "series",
     "updated_at": 1788378993350,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt9340526",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "p-valley"
+    },
+    "title": "P-Valley",
+    "tmdb_id": "87017",
+    "type": "series",
+    "updated_at": 1788396319242,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt9012876",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-baile-de-las-luciernagas"
+    },
+    "title": "Firefly Lane",
+    "tmdb_id": "87049",
+    "type": "series",
+    "updated_at": 1788396366323,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt8694364",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "years-and-years"
+    },
+    "title": "Years and Years",
+    "tmdb_id": "87104",
+    "type": "series",
+    "updated_at": 1788396263154,
     "year": 2019
   },
   {
@@ -2554,6 +3634,30 @@
     "year": 2019
   },
   {
+    "imdb_id": "tt8517780",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "si-no-te-hubiese-conocido"
+    },
+    "title": "If I Hadn't Met You",
+    "tmdb_id": "87611",
+    "type": "series",
+    "updated_at": 1788396273167,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt8425404",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-bay"
+    },
+    "title": "The Bay",
+    "tmdb_id": "87773",
+    "type": "series",
+    "updated_at": 1788396274169,
+    "year": 2019
+  },
+  {
     "imdb_id": "tt10027990",
     "provider_variants": {},
     "providers": {
@@ -2564,6 +3668,90 @@
     "type": "series",
     "updated_at": 1788379300019,
     "year": 2019
+  },
+  {
+    "imdb_id": "tt9637536",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jesus-su-vida"
+    },
+    "title": "Jesus: His Life",
+    "tmdb_id": "87856",
+    "type": "series",
+    "updated_at": 1788396346292,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt7772588",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "para-toda-la-humanidad"
+    },
+    "title": "For All Mankind",
+    "tmdb_id": "87917",
+    "type": "series",
+    "updated_at": 1788396402379,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt9814900",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "trailer-park-boys-the-animated-series"
+    },
+    "title": "Trailer Park Boys: The Animated Series",
+    "tmdb_id": "88071",
+    "type": "series",
+    "updated_at": 1788396270161,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt0425118",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-innegable-verdad"
+    },
+    "title": "I Know This Much Is True",
+    "tmdb_id": "88166",
+    "type": "series",
+    "updated_at": 1788396241118,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt9184994",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "como-vender-drogas-online-a-toda-pastilla"
+    },
+    "title": "How to Sell Drugs Online (Fast)",
+    "tmdb_id": "88236",
+    "type": "series",
+    "updated_at": 1788396441443,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt8403536",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mr-iglesias"
+    },
+    "title": "Mr. Iglesias",
+    "tmdb_id": "88378",
+    "type": "series",
+    "updated_at": 1788396458472,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt9848536",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "we-are-who-we-are"
+    },
+    "title": "We Are Who We Are",
+    "tmdb_id": "88713",
+    "type": "series",
+    "updated_at": 1788396212069,
+    "year": 2020
   },
   {
     "imdb_id": "tt9046782",
@@ -2578,6 +3766,18 @@
     "year": 2019
   },
   {
+    "imdb_id": "tt10266874",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "helstrom"
+    },
+    "title": "Helstrom",
+    "tmdb_id": "88987",
+    "type": "series",
+    "updated_at": 1788396315236,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt7661472",
     "provider_variants": {},
     "providers": {
@@ -2588,6 +3788,18 @@
     "type": "series",
     "updated_at": 1788378934221,
     "year": 2018
+  },
+  {
+    "imdb_id": "tt10423460",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "family-business"
+    },
+    "title": "Family Business",
+    "tmdb_id": "89785",
+    "type": "series",
+    "updated_at": 1788396293204,
+    "year": 2019
   },
   {
     "imdb_id": "tt10466872",
@@ -2602,6 +3814,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt10482370",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-tercer-dia"
+    },
+    "title": "The Third Day",
+    "tmdb_id": "90259",
+    "type": "series",
+    "updated_at": 1788396323248,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt7203552",
     "provider_variants": {},
     "providers": {
@@ -2612,6 +3836,18 @@
     "type": "series",
     "updated_at": 1788379435328,
     "year": 2019
+  },
+  {
+    "imdb_id": "tt2887954",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "tokyo-vice"
+    },
+    "title": "Tokyo Vice",
+    "tmdb_id": "90296",
+    "type": "series",
+    "updated_at": 1788396344285,
+    "year": 2022
   },
   {
     "imdb_id": "tt8610082",
@@ -2626,6 +3862,30 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt9319668",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "1899"
+    },
+    "title": "1899",
+    "tmdb_id": "90669",
+    "type": "series",
+    "updated_at": 1788395985697,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt1751634",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sandman"
+    },
+    "title": "The Sandman",
+    "tmdb_id": "90802",
+    "type": "series",
+    "updated_at": 1788396090883,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt9860690",
     "provider_variants": {},
     "providers": {
@@ -2638,6 +3898,42 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt7671070",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "industry"
+    },
+    "title": "Industry",
+    "tmdb_id": "90812",
+    "type": "series",
+    "updated_at": 1788396352302,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt9113406",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "wu-tang-an-american-saga"
+    },
+    "title": "Wu-Tang: An American Saga",
+    "tmdb_id": "90870",
+    "type": "series",
+    "updated_at": 1788396277174,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt10574236",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "estacion-once"
+    },
+    "title": "Station Eleven",
+    "tmdb_id": "90972",
+    "type": "series",
+    "updated_at": 1788396485519,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt9272514",
     "provider_variants": {},
     "providers": {
@@ -2647,6 +3943,42 @@
     "tmdb_id": "91502",
     "type": "series",
     "updated_at": 1788379404254,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt8332130",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "beforeigners-los-visitantes"
+    },
+    "title": "Beforeigners",
+    "tmdb_id": "91520",
+    "type": "series",
+    "updated_at": 1788396369326,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt9359220",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-joven-wallander"
+    },
+    "title": "Young Wallander",
+    "tmdb_id": "91545",
+    "type": "series",
+    "updated_at": 1788396330271,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt10327354",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "prodigal-son"
+    },
+    "title": "Prodigal Son",
+    "tmdb_id": "91875",
+    "type": "series",
+    "updated_at": 1788396395367,
     "year": 2019
   },
   {
@@ -2662,6 +3994,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt9639820",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "en-el-corredor-de-la-muerte"
+    },
+    "title": "On Death Row",
+    "tmdb_id": "92500",
+    "type": "series",
+    "updated_at": 1788396372333,
+    "year": 2019
+  },
+  {
     "imdb_id": "tt10684374",
     "provider_variants": {},
     "providers": {
@@ -2672,6 +4016,30 @@
     "type": "series",
     "updated_at": 1788379124635,
     "year": 2021
+  },
+  {
+    "imdb_id": "tt10857164",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ms-marvel"
+    },
+    "title": "Ms. Marvel",
+    "tmdb_id": "92782",
+    "type": "series",
+    "updated_at": 1788396187033,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt10857160",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "she-hulk-defensora-de-heroes"
+    },
+    "title": "She-Hulk: Attorney at Law",
+    "tmdb_id": "92783",
+    "type": "series",
+    "updated_at": 1788396079852,
+    "year": 2022
   },
   {
     "imdb_id": "tt8041658",
@@ -2686,6 +4054,30 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt8466564",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "obi-wan-kenobi"
+    },
+    "title": "Obi-Wan Kenobi",
+    "tmdb_id": "92830",
+    "type": "series",
+    "updated_at": 1788396199049,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt10919290",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "centauria"
+    },
+    "title": "Centaurworld",
+    "tmdb_id": "93233",
+    "type": "series",
+    "updated_at": 1788396443453,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt9165462",
     "provider_variants": {},
     "providers": {
@@ -2695,6 +4087,30 @@
     "tmdb_id": "93260",
     "type": "series",
     "updated_at": 1788382827977,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt8129450",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bendita-paciencia"
+    },
+    "title": "Breeders",
+    "tmdb_id": "93290",
+    "type": "series",
+    "updated_at": 1788396213070,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt7826108",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "como-criar-a-un-superheroe"
+    },
+    "title": "Raising Dion",
+    "tmdb_id": "93392",
+    "type": "series",
+    "updated_at": 1788396482514,
     "year": 2019
   },
   {
@@ -2708,6 +4124,30 @@
     "type": "series",
     "updated_at": 1788379438337,
     "year": 2019
+  },
+  {
+    "imdb_id": "tt9460858",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-valla"
+    },
+    "title": "The Barrier",
+    "tmdb_id": "93522",
+    "type": "series",
+    "updated_at": 1788396298220,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt8000970",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "trigonometry"
+    },
+    "title": "Trigonometry",
+    "tmdb_id": "93704",
+    "type": "series",
+    "updated_at": 1788396426416,
+    "year": 2020
   },
   {
     "imdb_id": "tt10551256",
@@ -2734,6 +4174,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt10244612",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "oktoberfest-sangre-y-cerveza"
+    },
+    "title": "Oktoberfest: Beer and Blood",
+    "tmdb_id": "94002",
+    "type": "series",
+    "updated_at": 1788396305222,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt11016042",
     "provider_variants": {},
     "providers": {
@@ -2758,6 +4210,18 @@
     "year": 2019
   },
   {
+    "imdb_id": "tt9281190",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-dragon-el-regreso-de-un-guerrero"
+    },
+    "title": "El Dragón: Return of a Warrior",
+    "tmdb_id": "94154",
+    "type": "series",
+    "updated_at": 1788396286227,
+    "year": 2019
+  },
+  {
     "imdb_id": "tt11097240",
     "provider_variants": {},
     "providers": {
@@ -2768,6 +4232,30 @@
     "type": "series",
     "updated_at": 1788387013969,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt13714610",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "steven-universe-future"
+    },
+    "title": "Steven Universe Future",
+    "tmdb_id": "94280",
+    "type": "series",
+    "updated_at": 1788396440444,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt9742936",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fbi-most-wanted"
+    },
+    "title": "FBI: Most Wanted",
+    "tmdb_id": "94372",
+    "type": "series",
+    "updated_at": 1788396411393,
+    "year": 2020
   },
   {
     "imdb_id": "tt10228032",
@@ -2782,6 +4270,30 @@
     "year": 2019
   },
   {
+    "imdb_id": "tt9074360",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "trackers"
+    },
+    "title": "Trackers",
+    "tmdb_id": "94923",
+    "type": "series",
+    "updated_at": 1788396290200,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt8879940",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mythic-quest"
+    },
+    "title": "Mythic Quest",
+    "tmdb_id": "94951",
+    "type": "series",
+    "updated_at": 1788396419404,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt7216636",
     "provider_variants": {},
     "providers": {
@@ -2794,6 +4306,90 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt11198330",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-casa-del-dragon"
+    },
+    "title": "House of the Dragon",
+    "tmdb_id": "94997",
+    "type": "series",
+    "updated_at": 1788396072837,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt10814438",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "betty"
+    },
+    "title": "Betty",
+    "tmdb_id": "95170",
+    "type": "series",
+    "updated_at": 1788396427436,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt10324164",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "planeta-prehistorico"
+    },
+    "title": "Prehistoric Planet",
+    "tmdb_id": "95171",
+    "type": "series",
+    "updated_at": 1788396200052,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11242246",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-equalizer"
+    },
+    "title": "The Equalizer",
+    "tmdb_id": "95205",
+    "type": "series",
+    "updated_at": 1788396488523,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt2983222",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "retame"
+    },
+    "title": "Dare Me",
+    "tmdb_id": "95259",
+    "type": "series",
+    "updated_at": 1788396403381,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt11248266",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-colapso"
+    },
+    "title": "The Collapse",
+    "tmdb_id": "95324",
+    "type": "series",
+    "updated_at": 1788396370334,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt0429087",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "shantaram"
+    },
+    "title": "Shantaram",
+    "tmdb_id": "95341",
+    "type": "series",
+    "updated_at": 1788396022760,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt26545992",
     "provider_variants": {},
     "providers": {
@@ -2804,6 +4400,42 @@
     "type": "series",
     "updated_at": 1788378904158,
     "year": 2026
+  },
+  {
+    "imdb_id": "tt11280740",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "separacion"
+    },
+    "title": "Severance",
+    "tmdb_id": "95396",
+    "type": "series",
+    "updated_at": 1788396331265,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt8291284",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-peripheral"
+    },
+    "title": "The Peripheral",
+    "tmdb_id": "95403",
+    "type": "series",
+    "updated_at": 1788396016751,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt5875444",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "slow-horses"
+    },
+    "title": "Slow Horses",
+    "tmdb_id": "95480",
+    "type": "series",
+    "updated_at": 1788396251140,
+    "year": 2022
   },
   {
     "imdb_id": "tt8773420",
@@ -2842,6 +4474,42 @@
     "year": 2019
   },
   {
+    "imdb_id": "tt10483610",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "capitani"
+    },
+    "title": "Capitani",
+    "tmdb_id": "95638",
+    "type": "series",
+    "updated_at": 1788396368322,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt3319460",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-historia-de-lisey"
+    },
+    "title": "Lisey's Story",
+    "tmdb_id": "95839",
+    "type": "series",
+    "updated_at": 1788396430422,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt8765446",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "upright"
+    },
+    "title": "Upright",
+    "tmdb_id": "95913",
+    "type": "series",
+    "updated_at": 1788396285187,
+    "year": 2019
+  },
+  {
     "imdb_id": "tt11305746",
     "provider_variants": {},
     "providers": {
@@ -2852,6 +4520,30 @@
     "type": "series",
     "updated_at": 1788382872037,
     "year": 2019
+  },
+  {
+    "imdb_id": "tt9731222",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-vecino"
+    },
+    "title": "The Neighbor",
+    "tmdb_id": "96425",
+    "type": "series",
+    "updated_at": 1788396404381,
+    "year": 2019
+  },
+  {
+    "imdb_id": "tt9244578",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-gran-imperio-otomano"
+    },
+    "title": "Rise of Empires: Ottoman",
+    "tmdb_id": "96481",
+    "type": "series",
+    "updated_at": 1788396283188,
+    "year": 2020
   },
   {
     "imdb_id": "tt10826054",
@@ -2902,6 +4594,18 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt11238096",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-mister"
+    },
+    "title": "Big Shot",
+    "tmdb_id": "96716",
+    "type": "series",
+    "updated_at": 1788396417404,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt9077350",
     "provider_variants": {},
     "providers": {
@@ -2912,6 +4616,18 @@
     "type": "series",
     "updated_at": 1788378857154,
     "year": 2018
+  },
+  {
+    "imdb_id": "tt9698442",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "detras-de-sus-ojos"
+    },
+    "title": "Behind Her Eyes",
+    "tmdb_id": "97173",
+    "type": "series",
+    "updated_at": 1788396374334,
+    "year": 2021
   },
   {
     "imdb_id": "tt8115702",
@@ -2962,6 +4678,54 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt10732104",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "power-book-ii-ghost"
+    },
+    "title": "Power Book II: Ghost",
+    "tmdb_id": "97890",
+    "type": "series",
+    "updated_at": 1788396447462,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt11712058",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "alcalde-de-kingstown"
+    },
+    "title": "Mayor of Kingstown",
+    "tmdb_id": "97951",
+    "type": "series",
+    "updated_at": 1788396345287,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt14518692",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "narcosantos"
+    },
+    "title": "Narco-Saints",
+    "tmdb_id": "97970",
+    "type": "series",
+    "updated_at": 1788396059819,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13998320",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "se-rentan-cuartos"
+    },
+    "title": "Se rentan cuartos",
+    "tmdb_id": "98013",
+    "type": "series",
+    "updated_at": 1788396409396,
+    "year": 2019
+  },
+  {
     "imdb_id": "tt10982034",
     "provider_variants": {},
     "providers": {
@@ -2971,6 +4735,18 @@
     "tmdb_id": "98177",
     "type": "series",
     "updated_at": 1788378944242,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt11416026",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "its-pony"
+    },
+    "title": "It's Pony",
+    "tmdb_id": "98240",
+    "type": "series",
+    "updated_at": 1788396390359,
     "year": 2020
   },
   {
@@ -2984,6 +4760,30 @@
     "type": "series",
     "updated_at": 1788382825964,
     "year": 2020
+  },
+  {
+    "imdb_id": "tt15564662",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bang-bang-baby"
+    },
+    "title": "Bang Bang Baby",
+    "tmdb_id": "98734",
+    "type": "series",
+    "updated_at": 1788396324249,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt9170236",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sabes-quien-es"
+    },
+    "title": "PIECES OF HER",
+    "tmdb_id": "99002",
+    "type": "series",
+    "updated_at": 1788396462483,
+    "year": 2022
   },
   {
     "imdb_id": "tt9322614",
@@ -3022,6 +4822,30 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt10436284",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "kampamento-koral-bob-esponja-primeras-aventuras"
+    },
+    "title": "Kamp Koral: SpongeBob's Under Years",
+    "tmdb_id": "99588",
+    "type": "series",
+    "updated_at": 1788396382355,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt10098620",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "feel-good"
+    },
+    "title": "Feel Good",
+    "tmdb_id": "99610",
+    "type": "series",
+    "updated_at": 1788396408390,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt12846096",
     "provider_variants": {},
     "providers": {
@@ -3031,6 +4855,18 @@
     "tmdb_id": "99654",
     "type": "series",
     "updated_at": 1788387261368,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt7939218",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "devils"
+    },
+    "title": "Devils",
+    "tmdb_id": "99741",
+    "type": "series",
+    "updated_at": 1788396361314,
     "year": 2020
   },
   {
@@ -3055,6 +4891,18 @@
     "tmdb_id": "99807",
     "type": "series",
     "updated_at": 1788379353140,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt8619594",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "three-busy-debras"
+    },
+    "title": "Three Busy Debras",
+    "tmdb_id": "99858",
+    "type": "series",
+    "updated_at": 1788396328255,
     "year": 2020
   },
   {
@@ -3106,6 +4954,18 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt8905884",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "adult-material"
+    },
+    "title": "Adult Material",
+    "tmdb_id": "100444",
+    "type": "series",
+    "updated_at": 1788396228096,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt10394844",
     "provider_variants": {},
     "providers": {
@@ -3115,6 +4975,30 @@
     "tmdb_id": "100771",
     "type": "series",
     "updated_at": 1788379282997,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt11933966",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ollie-y-los-monstruos"
+    },
+    "title": "Ollie's Pack",
+    "tmdb_id": "100796",
+    "type": "series",
+    "updated_at": 1788396032775,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt10516352",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "love-101"
+    },
+    "title": "Love 101",
+    "tmdb_id": "100897",
+    "type": "series",
+    "updated_at": 1788396289196,
     "year": 2020
   },
   {
@@ -3178,6 +5062,42 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt8259114",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-asesino-sin-rostro"
+    },
+    "title": "I'll Be Gone in the Dark",
+    "tmdb_id": "103023",
+    "type": "series",
+    "updated_at": 1788396291199,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt12312250",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jeffrey-epstein-asquerosamente-rico"
+    },
+    "title": "Jeffrey Epstein: Filthy Rich",
+    "tmdb_id": "103506",
+    "type": "series",
+    "updated_at": 1788396303215,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt12327578",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "star-trek-strange-new-worlds"
+    },
+    "title": "Star Trek: Strange New Worlds",
+    "tmdb_id": "103516",
+    "type": "series",
+    "updated_at": 1788396266157,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt12324366",
     "provider_variants": {},
     "providers": {
@@ -3202,6 +5122,18 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt8521376",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "little-voice"
+    },
+    "title": "Little Voice",
+    "tmdb_id": "103783",
+    "type": "series",
+    "updated_at": 1788396380343,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt10577736",
     "provider_variants": {},
     "providers": {
@@ -3211,6 +5143,18 @@
     "tmdb_id": "103913",
     "type": "series",
     "updated_at": 1788379249910,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt10473150",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "grand-army"
+    },
+    "title": "Grand Army",
+    "tmdb_id": "104229",
+    "type": "series",
+    "updated_at": 1788396309229,
     "year": 2020
   },
   {
@@ -3286,6 +5230,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt12177218",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "caminantes"
+    },
+    "title": "Caminantes",
+    "tmdb_id": "105849",
+    "type": "series",
+    "updated_at": 1788396185027,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt12762512",
     "provider_variants": {},
     "providers": {
@@ -3296,6 +5252,30 @@
     "type": "series",
     "updated_at": 1788387437652,
     "year": 2022
+  },
+  {
+    "imdb_id": "tt11952974",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "surrealestate"
+    },
+    "title": "SurrealEstate",
+    "tmdb_id": "106148",
+    "type": "series",
+    "updated_at": 1788396125930,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt9849190",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "little-birds"
+    },
+    "title": "Little Birds",
+    "tmdb_id": "106149",
+    "type": "series",
+    "updated_at": 1788396401381,
+    "year": 2020
   },
   {
     "imdb_id": "tt12677870",
@@ -3319,6 +5299,18 @@
     "tmdb_id": "106238",
     "type": "series",
     "updated_at": 1788383340798,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt10183988",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "julie-and-the-phantoms"
+    },
+    "title": "Julie and the Phantoms",
+    "tmdb_id": "106292",
+    "type": "series",
+    "updated_at": 1788396295208,
     "year": 2020
   },
   {
@@ -3346,6 +5338,42 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt2953250",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-luminosas"
+    },
+    "title": "Shining Girls",
+    "tmdb_id": "106388",
+    "type": "series",
+    "updated_at": 1788396300225,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt10623646",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "paper-girls"
+    },
+    "title": "Paper Girls",
+    "tmdb_id": "106431",
+    "type": "series",
+    "updated_at": 1788396106906,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt12614214",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-afterparty"
+    },
+    "title": "The Afterparty",
+    "tmdb_id": "106454",
+    "type": "series",
+    "updated_at": 1788396230098,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt12753698",
     "provider_variants": {},
     "providers": {
@@ -3368,6 +5396,18 @@
     "type": "series",
     "updated_at": 1788387424628,
     "year": 2022
+  },
+  {
+    "imdb_id": "tt12411074",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "paranormal"
+    },
+    "title": "Paranormal",
+    "tmdb_id": "106590",
+    "type": "series",
+    "updated_at": 1788396312233,
+    "year": 2020
   },
   {
     "imdb_id": "tt11694186",
@@ -3406,6 +5446,18 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt8226360",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "un-equipo-muy-especial"
+    },
+    "title": "A League of Their Own",
+    "tmdb_id": "107005",
+    "type": "series",
+    "updated_at": 1788396084870,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt11691774",
     "provider_variants": {},
     "providers": {
@@ -3418,6 +5470,42 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt12851512",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-girl-from-plainville"
+    },
+    "title": "The Girl from Plainville",
+    "tmdb_id": "107114",
+    "type": "series",
+    "updated_at": 1788396134944,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt10404698",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "monsterland"
+    },
+    "title": "Monsterland",
+    "tmdb_id": "107119",
+    "type": "series",
+    "updated_at": 1788396307224,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt6951546",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "animaniacs"
+    },
+    "title": "Animaniacs",
+    "tmdb_id": "107124",
+    "type": "series",
+    "updated_at": 1788396318239,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt11621710",
     "provider_variants": {},
     "providers": {
@@ -3428,6 +5516,66 @@
     "type": "series",
     "updated_at": 1788379271963,
     "year": 2021
+  },
+  {
+    "imdb_id": "tt9310390",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-marquesa"
+    },
+    "title": "The Duchess",
+    "tmdb_id": "107363",
+    "type": "series",
+    "updated_at": 1788396294204,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt12878838",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bel-air"
+    },
+    "title": "Bel-Air",
+    "tmdb_id": "107365",
+    "type": "series",
+    "updated_at": 1788396483517,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11834592",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "gaslit"
+    },
+    "title": "Gaslit",
+    "tmdb_id": "107407",
+    "type": "series",
+    "updated_at": 1788396253135,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt12945004",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fernando"
+    },
+    "title": "Fernando",
+    "tmdb_id": "107543",
+    "type": "series",
+    "updated_at": 1788396375338,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt12976224",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-serpiente-de-essex"
+    },
+    "title": "The Essex Serpent",
+    "tmdb_id": "108171",
+    "type": "series",
+    "updated_at": 1788396204055,
+    "year": 2022
   },
   {
     "imdb_id": "tt31937954",
@@ -3454,6 +5602,18 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt9660182",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "resident-evil-2022"
+    },
+    "title": "Resident Evil",
+    "tmdb_id": "108296",
+    "type": "series",
+    "updated_at": 1788396131938,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt13530014",
     "provider_variants": {},
     "providers": {
@@ -3476,6 +5636,18 @@
     "type": "series",
     "updated_at": 1788386915809,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt3283594",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "despues-del-huracan"
+    },
+    "title": "Five Days at Memorial",
+    "tmdb_id": "108664",
+    "type": "series",
+    "updated_at": 1788396056813,
+    "year": 2022
   },
   {
     "imdb_id": "tt11714912",
@@ -3502,6 +5674,42 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt10151772",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sneakerheads"
+    },
+    "title": "Sneakerheads",
+    "tmdb_id": "109616",
+    "type": "series",
+    "updated_at": 1788396299215,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt13089270",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-maravilloso-mundo-de-mickey-mouse"
+    },
+    "title": "The Wonderful World of Mickey Mouse",
+    "tmdb_id": "109930",
+    "type": "series",
+    "updated_at": 1788396364318,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt11000902",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "nuestra-bandera-significa-muerte"
+    },
+    "title": "Our Flag Means Death",
+    "tmdb_id": "109939",
+    "type": "series",
+    "updated_at": 1788396237112,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt10814036",
     "provider_variants": {},
     "providers": {
@@ -3512,6 +5720,66 @@
     "type": "series",
     "updated_at": 1788387360526,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt9677638",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "beartown"
+    },
+    "title": "Beartown",
+    "tmdb_id": "110173",
+    "type": "series",
+    "updated_at": 1788396165995,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt13110256",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "song-exploder"
+    },
+    "title": "Song Exploder",
+    "tmdb_id": "110186",
+    "type": "series",
+    "updated_at": 1788396304221,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt8888462",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "pachinko"
+    },
+    "title": "Pachinko",
+    "tmdb_id": "110382",
+    "type": "series",
+    "updated_at": 1788396433429,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt12939836",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "detlev-rohwedder-un-crimen-perfecto"
+    },
+    "title": "A Perfect Crime",
+    "tmdb_id": "110412",
+    "type": "series",
+    "updated_at": 1788396306222,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt13075042",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "pequenas-mentirosas-pecado-original"
+    },
+    "title": "Pretty Little Liars: Original Sin",
+    "tmdb_id": "110531",
+    "type": "series",
+    "updated_at": 1788396107898,
+    "year": 2022
   },
   {
     "imdb_id": "tt13173144",
@@ -3526,6 +5794,18 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt13070478",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-universidad-para-sordos"
+    },
+    "title": "Deaf U",
+    "tmdb_id": "110749",
+    "type": "series",
+    "updated_at": 1788396308237,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt10801534",
     "provider_variants": {},
     "providers": {
@@ -3535,6 +5815,18 @@
     "tmdb_id": "110971",
     "type": "series",
     "updated_at": 1788387191247,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt11455654",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-montana-de-la-muerte-el-incidente-del-paso-dyatlov"
+    },
+    "title": "Dead Mountain: The Dyatlov Pass Incident",
+    "tmdb_id": "111088",
+    "type": "series",
+    "updated_at": 1788396472495,
     "year": 2020
   },
   {
@@ -3574,6 +5866,90 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt9308682",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-liberator"
+    },
+    "title": "The Liberator",
+    "tmdb_id": "111462",
+    "type": "series",
+    "updated_at": 1788396313233,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt13315156",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-primera-muerte"
+    },
+    "title": "First Kill",
+    "tmdb_id": "111616",
+    "type": "series",
+    "updated_at": 1788396183021,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt1758589",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dash-y-lily"
+    },
+    "title": "Dash & Lily",
+    "tmdb_id": "111625",
+    "type": "series",
+    "updated_at": 1788396314239,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt13269706",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "seduced-inside-the-nxivm-cult"
+    },
+    "title": "Seduced: Inside the NXIVM Cult",
+    "tmdb_id": "111647",
+    "type": "series",
+    "updated_at": 1788396376336,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt10888876",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "amor-y-anarquia"
+    },
+    "title": "Love & Anarchy",
+    "tmdb_id": "111743",
+    "type": "series",
+    "updated_at": 1788396226092,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt10147520",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-favoritos-de-midas"
+    },
+    "title": "The Minions of Midas",
+    "tmdb_id": "111761",
+    "type": "series",
+    "updated_at": 1788396227094,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt5645432",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-old-man"
+    },
+    "title": "The Old Man",
+    "tmdb_id": "111800",
+    "type": "series",
+    "updated_at": 1788396086869,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt13135714",
     "provider_variants": {},
     "providers": {
@@ -3598,6 +5974,30 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt13361448",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "cielo-nocturno"
+    },
+    "title": "Night Sky",
+    "tmdb_id": "111894",
+    "type": "series",
+    "updated_at": 1788396206061,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13263106",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "asesinato-en-middle-beach"
+    },
+    "title": "Murder on Middle Beach",
+    "tmdb_id": "112111",
+    "type": "series",
+    "updated_at": 1788396322251,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt13366604",
     "provider_variants": {},
     "providers": {
@@ -3608,6 +6008,30 @@
     "type": "series",
     "updated_at": 1788387284404,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt13365348",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "archivo-81"
+    },
+    "title": "Archive 81",
+    "tmdb_id": "112314",
+    "type": "series",
+    "updated_at": 1788396484517,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11951234",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "visita-de-navidad"
+    },
+    "title": "Over Christmas",
+    "tmdb_id": "112538",
+    "type": "series",
+    "updated_at": 1788396357304,
+    "year": 2020
   },
   {
     "imdb_id": "tt14273790",
@@ -3622,6 +6046,66 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt11301642",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "nos-conocimos-en-estambul"
+    },
+    "title": "Ethos",
+    "tmdb_id": "112745",
+    "type": "series",
+    "updated_at": 1788396358307,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt13696452",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-casa-de-papel-corea"
+    },
+    "title": "Money Heist: Korea - Joint Economic Area",
+    "tmdb_id": "112836",
+    "type": "series",
+    "updated_at": 1788396161993,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt22479848",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "somebody"
+    },
+    "title": "Somebody",
+    "tmdb_id": "112837",
+    "type": "series",
+    "updated_at": 1788395984695,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13274038",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "belleza-verdadera"
+    },
+    "title": "True Beauty",
+    "tmdb_id": "112888",
+    "type": "series",
+    "updated_at": 1788396126932,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt11252090",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-hardy-boys"
+    },
+    "title": "The Hardy Boys",
+    "tmdb_id": "112945",
+    "type": "series",
+    "updated_at": 1788396245121,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt12844622",
     "provider_variants": {},
     "providers": {
@@ -3631,6 +6115,18 @@
     "tmdb_id": "113098",
     "type": "series",
     "updated_at": 1788383351810,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt13464340",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "otras-galaxias"
+    },
+    "title": "Alien Worlds",
+    "tmdb_id": "113178",
+    "type": "series",
+    "updated_at": 1788396321247,
     "year": 2020
   },
   {
@@ -3644,6 +6140,54 @@
     "type": "series",
     "updated_at": 1788387152193,
     "year": 2020
+  },
+  {
+    "imdb_id": "tt10662034",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mr-mayor"
+    },
+    "title": "Mr. Mayor",
+    "tmdb_id": "113477",
+    "type": "series",
+    "updated_at": 1788396450468,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt10973800",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "equinox"
+    },
+    "title": "Equinox",
+    "tmdb_id": "113600",
+    "type": "series",
+    "updated_at": 1788396353304,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt10985096",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "call-me-kat"
+    },
+    "title": "Call Me Kat",
+    "tmdb_id": "113627",
+    "type": "series",
+    "updated_at": 1788396399375,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt11658082",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "3-caminos"
+    },
+    "title": "3 Caminos",
+    "tmdb_id": "113791",
+    "type": "series",
+    "updated_at": 1788396371328,
+    "year": 2021
   },
   {
     "imdb_id": "tt12160826",
@@ -3682,6 +6226,90 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt12748084",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "anatomia-de-un-escandalo"
+    },
+    "title": "Anatomy of a Scandal",
+    "tmdb_id": "113984",
+    "type": "series",
+    "updated_at": 1788396343283,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11685912",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "outer-range"
+    },
+    "title": "Outer Range",
+    "tmdb_id": "113985",
+    "type": "series",
+    "updated_at": 1788396257145,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11471892",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "como-meterse-en-un-jardin"
+    },
+    "title": "Landscapers",
+    "tmdb_id": "113987",
+    "type": "series",
+    "updated_at": 1788396451461,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt13540900",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-imputado-de-la-habitacion-2806"
+    },
+    "title": "Room 2806: The Accusation",
+    "tmdb_id": "114003",
+    "type": "series",
+    "updated_at": 1788396381346,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt13111040",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-oferta"
+    },
+    "title": "The Offer",
+    "tmdb_id": "114068",
+    "type": "series",
+    "updated_at": 1788396252143,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt8652602",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-internacionales"
+    },
+    "title": "The Internationals",
+    "tmdb_id": "114091",
+    "type": "series",
+    "updated_at": 1788396354311,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt15373506",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "papas-por-encargo"
+    },
+    "title": "Daddies on Request",
+    "tmdb_id": "114138",
+    "type": "series",
+    "updated_at": 1788396132942,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt13453828",
     "provider_variants": {},
     "providers": {
@@ -3692,6 +6320,18 @@
     "type": "series",
     "updated_at": 1788382976215,
     "year": 2020
+  },
+  {
+    "imdb_id": "tt13861620",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-idiota-preferido-de-dios"
+    },
+    "title": "God's Favorite Idiot",
+    "tmdb_id": "114201",
+    "type": "series",
+    "updated_at": 1788396174014,
+    "year": 2022
   },
   {
     "imdb_id": "tt13617024",
@@ -3716,6 +6356,18 @@
     "type": "series",
     "updated_at": 1788387164209,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt13622958",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "baymax"
+    },
+    "title": "Baymax!",
+    "tmdb_id": "114466",
+    "type": "series",
+    "updated_at": 1788396153977,
+    "year": 2022
   },
   {
     "imdb_id": "tt13623126",
@@ -3790,6 +6442,18 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt11981568",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "cars-en-la-carretera"
+    },
+    "title": "Cars on the Road",
+    "tmdb_id": "114502",
+    "type": "series",
+    "updated_at": 1788396061826,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt13623608",
     "provider_variants": {},
     "providers": {
@@ -3812,6 +6476,18 @@
     "type": "series",
     "updated_at": 1788379064509,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt13200640",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "besos-al-aire"
+    },
+    "title": "Besos al aire",
+    "tmdb_id": "114841",
+    "type": "series",
+    "updated_at": 1788396392362,
+    "year": 2021
   },
   {
     "imdb_id": "tt9794044",
@@ -3838,6 +6514,30 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt13322572",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "big-timber"
+    },
+    "title": "Big Timber",
+    "tmdb_id": "114992",
+    "type": "series",
+    "updated_at": 1788396429422,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt13649692",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "surviving-death"
+    },
+    "title": "Surviving Death",
+    "tmdb_id": "115391",
+    "type": "series",
+    "updated_at": 1788396360310,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt13731400",
     "provider_variants": {},
     "providers": {
@@ -3862,6 +6562,102 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt13649314",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "irma-vep"
+    },
+    "title": "Irma Vep",
+    "tmdb_id": "115626",
+    "type": "series",
+    "updated_at": 1788396180019,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13751472",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bump"
+    },
+    "title": "Bump",
+    "tmdb_id": "115639",
+    "type": "series",
+    "updated_at": 1788396473498,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt13656220",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "somos-los-brooklyn-saints"
+    },
+    "title": "We Are: The Brooklyn Saints",
+    "tmdb_id": "115756",
+    "type": "series",
+    "updated_at": 1788396491528,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt13858416",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dino-ranch"
+    },
+    "title": "Dino Ranch",
+    "tmdb_id": "115895",
+    "type": "series",
+    "updated_at": 1788396031774,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt12879632",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-bebe"
+    },
+    "title": "The Baby",
+    "tmdb_id": "115915",
+    "type": "series",
+    "updated_at": 1788396254136,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11714334",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sin-limites-con-chris-hemsworth"
+    },
+    "title": "Limitless with Chris Hemsworth",
+    "tmdb_id": "115996",
+    "type": "series",
+    "updated_at": 1788395982694,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt10948294",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-great-escapists-salir-de-la-isla"
+    },
+    "title": "The Great Escapists",
+    "tmdb_id": "116034",
+    "type": "series",
+    "updated_at": 1788396379354,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt12837188",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-lady-and-the-dale"
+    },
+    "title": "The Lady and the Dale",
+    "tmdb_id": "116111",
+    "type": "series",
+    "updated_at": 1788396400377,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt13669128",
     "provider_variants": {},
     "providers": {
@@ -3871,6 +6667,30 @@
     "tmdb_id": "116386",
     "type": "series",
     "updated_at": 1788387229315,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt10312854",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "kenan"
+    },
+    "title": "Kenan",
+    "tmdb_id": "116609",
+    "type": "series",
+    "updated_at": 1788396000723,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt11127412",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "finding-alice"
+    },
+    "title": "Finding Alice",
+    "tmdb_id": "116620",
+    "type": "series",
+    "updated_at": 1788396363321,
     "year": 2021
   },
   {
@@ -3886,6 +6706,42 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt13833978",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-abogado-del-lincoln"
+    },
+    "title": "The Lincoln Lawyer",
+    "tmdb_id": "116799",
+    "type": "series",
+    "updated_at": 1788396224089,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13837672",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "escena-del-crimen-desaparicion-en-el-hotel-cecil"
+    },
+    "title": "Crime Scene: The Vanishing at the Cecil Hotel",
+    "tmdb_id": "116989",
+    "type": "series",
+    "updated_at": 1788396373333,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt13303478",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "somos-ositos"
+    },
+    "title": "We Baby Bears",
+    "tmdb_id": "117030",
+    "type": "series",
+    "updated_at": 1788396471496,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt13911628",
     "provider_variants": {},
     "providers": {
@@ -3896,6 +6752,30 @@
     "type": "series",
     "updated_at": 1788387112130,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt10813940",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ginny-y-georgia"
+    },
+    "title": "Ginny & Georgia",
+    "tmdb_id": "117581",
+    "type": "series",
+    "updated_at": 1788396377341,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt10541088",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-granja-de-clarkson"
+    },
+    "title": "Clarkson's Farm",
+    "tmdb_id": "117648",
+    "type": "series",
+    "updated_at": 1788396412401,
+    "year": 2021
   },
   {
     "imdb_id": "tt13929756",
@@ -3934,6 +6814,54 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt14022350",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-serpent-queen"
+    },
+    "title": "The Serpent Queen",
+    "tmdb_id": "118189",
+    "type": "series",
+    "updated_at": 1788396020753,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11947418",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "minx"
+    },
+    "title": "Minx",
+    "tmdb_id": "118303",
+    "type": "series",
+    "updated_at": 1788396394365,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13990468",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "allen-v-farrow"
+    },
+    "title": "Allen v. Farrow",
+    "tmdb_id": "118321",
+    "type": "series",
+    "updated_at": 1788396388358,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt13991232",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "1883"
+    },
+    "title": "1883",
+    "tmdb_id": "118357",
+    "type": "series",
+    "updated_at": 1788396249135,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt14028208",
     "provider_variants": {},
     "providers": {
@@ -3946,6 +6874,30 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt10681240",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-templanza"
+    },
+    "title": "The Vineyard",
+    "tmdb_id": "118587",
+    "type": "series",
+    "updated_at": 1788396398376,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt10622124",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-negociadora"
+    },
+    "title": "La Negociadora",
+    "tmdb_id": "118630",
+    "type": "series",
+    "updated_at": 1788396367325,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt14044212",
     "provider_variants": {},
     "providers": {
@@ -3956,6 +6908,30 @@
     "type": "series",
     "updated_at": 1788386957876,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt10758074",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-hombre-que-cayo-a-la-tierra"
+    },
+    "title": "The Man Who Fell to Earth",
+    "tmdb_id": "118663",
+    "type": "series",
+    "updated_at": 1788396256141,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14502780",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fin-de-semana-en-familia"
+    },
+    "title": "Weekend Family",
+    "tmdb_id": "118904",
+    "type": "series",
+    "updated_at": 1788396197045,
+    "year": 2022
   },
   {
     "imdb_id": "tt14069590",
@@ -3994,6 +6970,30 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt11717394",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "country-comfort"
+    },
+    "title": "Country Comfort",
+    "tmdb_id": "119180",
+    "type": "series",
+    "updated_at": 1788396391368,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt13879466",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-one"
+    },
+    "title": "The One",
+    "tmdb_id": "119284",
+    "type": "series",
+    "updated_at": 1788396387357,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt14115938",
     "provider_variants": {},
     "providers": {
@@ -4003,6 +7003,42 @@
     "tmdb_id": "119495",
     "type": "series",
     "updated_at": 1788378861063,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt10540276",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dinero-facil"
+    },
+    "title": "Snabba Cash",
+    "tmdb_id": "119565",
+    "type": "series",
+    "updated_at": 1788396397369,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt10380896",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-fantasmas-de-la-ciudad"
+    },
+    "title": "City of Ghosts",
+    "tmdb_id": "119831",
+    "type": "series",
+    "updated_at": 1788396389361,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt13351446",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-guardaespiritus-del-bosque"
+    },
+    "title": "Spirit Rangers",
+    "tmdb_id": "119847",
+    "type": "series",
+    "updated_at": 1788396028768,
     "year": 2022
   },
   {
@@ -4018,6 +7054,18 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt14091172",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "nevenka"
+    },
+    "title": "Nevenka, Breaking the Silence",
+    "tmdb_id": "120040",
+    "type": "series",
+    "updated_at": 1788396384360,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt13914146",
     "provider_variants": {},
     "providers": {
@@ -4027,6 +7075,18 @@
     "tmdb_id": "120140",
     "type": "series",
     "updated_at": 1788379116621,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt9064858",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ellos"
+    },
+    "title": "Them",
+    "tmdb_id": "120462",
+    "type": "series",
+    "updated_at": 1788396439439,
     "year": 2021
   },
   {
@@ -4042,6 +7102,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt14223858",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "esto-es-un-atraco-el-mayor-robo-de-arte-del-mundo"
+    },
+    "title": "This Is a Robbery: The World's Biggest Art Heist",
+    "tmdb_id": "120582",
+    "type": "series",
+    "updated_at": 1788396396372,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt12083014",
     "provider_variants": {},
     "providers": {
@@ -4052,6 +7124,18 @@
     "type": "series",
     "updated_at": 1788379317063,
     "year": 2021
+  },
+  {
+    "imdb_id": "tt11743610",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-lista-terminal"
+    },
+    "title": "The Terminal List",
+    "tmdb_id": "120911",
+    "type": "series",
+    "updated_at": 1788396150973,
+    "year": 2022
   },
   {
     "imdb_id": "tt14269590",
@@ -4078,6 +7162,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt10945036",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-familia-upshaw"
+    },
+    "title": "The Upshaws",
+    "tmdb_id": "121509",
+    "type": "series",
+    "updated_at": 1788396152978,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt14307470",
     "provider_variants": {},
     "providers": {
@@ -4088,6 +7184,18 @@
     "type": "series",
     "updated_at": 1788387412619,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt14449470",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fbi-internacional"
+    },
+    "title": "FBI: International",
+    "tmdb_id": "121658",
+    "type": "series",
+    "updated_at": 1788396455468,
+    "year": 2021
   },
   {
     "imdb_id": "tt13664452",
@@ -4102,6 +7210,54 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt10948716",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "desde-dentro"
+    },
+    "title": "Inside Man",
+    "tmdb_id": "121710",
+    "type": "series",
+    "updated_at": 1788396002725,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11563256",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "santa-evita"
+    },
+    "title": "Santa Evita",
+    "tmdb_id": "122048",
+    "type": "series",
+    "updated_at": 1788396113909,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14584108",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "siempre-fui-yo"
+    },
+    "title": "It Was Always Me",
+    "tmdb_id": "122053",
+    "type": "series",
+    "updated_at": 1788396173008,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11744280",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bajo-el-fuego"
+    },
+    "title": "Under Fire",
+    "tmdb_id": "122169",
+    "type": "series",
+    "updated_at": 1788396070883,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt12887536",
     "provider_variants": {},
     "providers": {
@@ -4111,6 +7267,18 @@
     "tmdb_id": "122194",
     "type": "series",
     "updated_at": 1788387072059,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt12708514",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mi-profesora-favorita"
+    },
+    "title": "Head of the Class",
+    "tmdb_id": "122197",
+    "type": "series",
+    "updated_at": 1788396336276,
     "year": 2021
   },
   {
@@ -4138,6 +7306,18 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt10344410",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "panic"
+    },
+    "title": "Panic",
+    "tmdb_id": "122530",
+    "type": "series",
+    "updated_at": 1788396405388,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt14164922",
     "provider_variants": {},
     "providers": {
@@ -4150,6 +7330,18 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt11737794",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "run-the-world"
+    },
+    "title": "Run the World",
+    "tmdb_id": "123084",
+    "type": "series",
+    "updated_at": 1788396435434,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt14417718",
     "provider_variants": {},
     "providers": {
@@ -4160,6 +7352,30 @@
     "type": "series",
     "updated_at": 1788387266377,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt14460684",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-sonido-de-la-magia"
+    },
+    "title": "The Sound of Magic",
+    "tmdb_id": "123349",
+    "type": "series",
+    "updated_at": 1788396239112,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14463542",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "intimidad"
+    },
+    "title": "Intimacy",
+    "tmdb_id": "123534",
+    "type": "series",
+    "updated_at": 1788396182024,
+    "year": 2022
   },
   {
     "imdb_id": "tt14833612",
@@ -4198,6 +7414,54 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt15257704",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "hype-house"
+    },
+    "title": "Hype House",
+    "tmdb_id": "124031",
+    "type": "series",
+    "updated_at": 1788396478508,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt10244600",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "lakers-tiempo-de-ganar"
+    },
+    "title": "Winning Time: The Rise of the Lakers Dynasty",
+    "tmdb_id": "124067",
+    "type": "series",
+    "updated_at": 1788396348307,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11815682",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "hacks"
+    },
+    "title": "Hacks",
+    "tmdb_id": "124101",
+    "type": "series",
+    "updated_at": 1788396198048,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt9813792",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "from"
+    },
+    "title": "FROM",
+    "tmdb_id": "124364",
+    "type": "series",
+    "updated_at": 1788396037783,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14586350",
     "provider_variants": {},
     "providers": {
@@ -4208,6 +7472,42 @@
     "type": "series",
     "updated_at": 1788387331481,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt10638036",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "heartstopper"
+    },
+    "title": "Heartstopper",
+    "tmdb_id": "124834",
+    "type": "series",
+    "updated_at": 1788396326255,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13195218",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "todos-mienten"
+    },
+    "title": "You Shall Not Lie",
+    "tmdb_id": "124902",
+    "type": "series",
+    "updated_at": 1788396465485,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14574154",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dentro-del-cuerpo-humano"
+    },
+    "title": "Human: The World Within",
+    "tmdb_id": "125027",
+    "type": "series",
+    "updated_at": 1788396410392,
+    "year": 2021
   },
   {
     "imdb_id": "tt11188682",
@@ -4222,6 +7522,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt12198014",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "little-demon"
+    },
+    "title": "Little Demon",
+    "tmdb_id": "125392",
+    "type": "series",
+    "updated_at": 1788396012746,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14192428",
     "provider_variants": {},
     "providers": {
@@ -4231,6 +7543,18 @@
     "tmdb_id": "125398",
     "type": "series",
     "updated_at": 1788379272960,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11871764",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-familia-proud-mayor-y-mejor"
+    },
+    "title": "The Proud Family: Louder and Prouder",
+    "tmdb_id": "125438",
+    "type": "series",
+    "updated_at": 1788396329262,
     "year": 2022
   },
   {
@@ -4270,6 +7594,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt14664414",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "jovenes-altezas"
+    },
+    "title": "Young Royals",
+    "tmdb_id": "125910",
+    "type": "series",
+    "updated_at": 1788396425417,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt14681924",
     "provider_variants": {},
     "providers": {
@@ -4282,6 +7618,30 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt14218830",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "abbott-elementary"
+    },
+    "title": "Abbott Elementary",
+    "tmdb_id": "125935",
+    "type": "series",
+    "updated_at": 1788396247126,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt14192504",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-ciudad-es-nuestra"
+    },
+    "title": "We Own This City",
+    "tmdb_id": "125949",
+    "type": "series",
+    "updated_at": 1788396211069,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14688458",
     "provider_variants": {},
     "providers": {
@@ -4292,6 +7652,18 @@
     "type": "series",
     "updated_at": 1788387320466,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt11379026",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fantasmas"
+    },
+    "title": "Ghosts",
+    "tmdb_id": "126027",
+    "type": "series",
+    "updated_at": 1788395995721,
+    "year": 2021
   },
   {
     "imdb_id": "tt14418052",
@@ -4318,6 +7690,54 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt11525188",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "chapelwaite"
+    },
+    "title": "Chapelwaite",
+    "tmdb_id": "126118",
+    "type": "series",
+    "updated_at": 1788396193040,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt14675456",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-muchacha-que-limpia"
+    },
+    "title": "La muchacha que limpia",
+    "tmdb_id": "126120",
+    "type": "series",
+    "updated_at": 1788396423413,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt12682076",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "aquellos-maravillosos-anos"
+    },
+    "title": "The Wonder Years",
+    "tmdb_id": "126164",
+    "type": "series",
+    "updated_at": 1788396449457,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt13444912",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-club-de-la-medianoche"
+    },
+    "title": "The Midnight Club",
+    "tmdb_id": "126254",
+    "type": "series",
+    "updated_at": 1788396033783,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt2788316",
     "provider_variants": {},
     "providers": {
@@ -4328,6 +7748,30 @@
     "type": "series",
     "updated_at": 1788386939852,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt14719590",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "somos"
+    },
+    "title": "Somos.",
+    "tmdb_id": "126386",
+    "type": "series",
+    "updated_at": 1788396424414,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt11898920",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "naomi-osaka"
+    },
+    "title": "Naomi Osaka",
+    "tmdb_id": "126387",
+    "type": "series",
+    "updated_at": 1788396434446,
+    "year": 2021
   },
   {
     "imdb_id": "tt14734548",
@@ -4342,6 +7786,18 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt17473062",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "rookie-cops"
+    },
+    "title": "Rookie Cops",
+    "tmdb_id": "126484",
+    "type": "series",
+    "updated_at": 1788396026764,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt24640580",
     "provider_variants": {},
     "providers": {
@@ -4352,6 +7808,66 @@
     "type": "series",
     "updated_at": 1788386960881,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt12074628",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "smiling-friends"
+    },
+    "title": "Smiling Friends",
+    "tmdb_id": "126506",
+    "type": "series",
+    "updated_at": 1788396093878,
+    "year": 2020
+  },
+  {
+    "imdb_id": "tt14675560",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "elite-historias-breves-carla-samuel"
+    },
+    "title": "Elite Short Stories: Carla Samuel",
+    "tmdb_id": "126525",
+    "type": "series",
+    "updated_at": 1788396416413,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt14671790",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "elite-historias-breves-nadia-guzman"
+    },
+    "title": "Elite Short Stories: Nadia Guzmán",
+    "tmdb_id": "126526",
+    "type": "series",
+    "updated_at": 1788396413397,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt14676004",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "elite-historias-breves-omar-ander-alexis"
+    },
+    "title": "Elite Short Stories: Omar Ander Alexis",
+    "tmdb_id": "126528",
+    "type": "series",
+    "updated_at": 1788396415403,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt14668192",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "elite-historias-breves-guzman-caye-rebe"
+    },
+    "title": "Elite Short Stories: Guzmán Caye Rebe",
+    "tmdb_id": "126531",
+    "type": "series",
+    "updated_at": 1788396414413,
+    "year": 2021
   },
   {
     "imdb_id": "tt14153790",
@@ -4378,6 +7894,42 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt12915960",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-show-de-patricio-estrella"
+    },
+    "title": "The Patrick Star Show",
+    "tmdb_id": "126824",
+    "type": "series",
+    "updated_at": 1788396229098,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt14734228",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "with-love"
+    },
+    "title": "With Love",
+    "tmdb_id": "126914",
+    "type": "series",
+    "updated_at": 1788396456470,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt14825954",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "excepcion"
+    },
+    "title": "exception",
+    "tmdb_id": "127325",
+    "type": "series",
+    "updated_at": 1788396025763,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt12809802",
     "provider_variants": {},
     "providers": {
@@ -4402,6 +7954,30 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt14040910",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "queens"
+    },
+    "title": "Queens",
+    "tmdb_id": "127390",
+    "type": "series",
+    "updated_at": 1788396448452,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt13106334",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "alma"
+    },
+    "title": "The Girl in the Mirror",
+    "tmdb_id": "127424",
+    "type": "series",
+    "updated_at": 1788396074842,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt26315487",
     "provider_variants": {},
     "providers": {
@@ -4412,6 +7988,30 @@
     "type": "series",
     "updated_at": 1788387269378,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt14821886",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "guerra-de-vecinos"
+    },
+    "title": "The War Next-door",
+    "tmdb_id": "127571",
+    "type": "series",
+    "updated_at": 1788396431428,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt4257262",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "american-gigolo"
+    },
+    "title": "American Gigolo",
+    "tmdb_id": "127585",
+    "type": "series",
+    "updated_at": 1788396049806,
+    "year": 2022
   },
   {
     "imdb_id": "tt10862280",
@@ -4426,6 +8026,18 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt13694702",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "apariencias"
+    },
+    "title": "Surface",
+    "tmdb_id": "127641",
+    "type": "series",
+    "updated_at": 1788396105898,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14877120",
     "provider_variants": {},
     "providers": {
@@ -4436,6 +8048,18 @@
     "type": "series",
     "updated_at": 1788387264378,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt13393400",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "middlemost-post"
+    },
+    "title": "Middlemost Post",
+    "tmdb_id": "127727",
+    "type": "series",
+    "updated_at": 1788396044791,
+    "year": 2021
   },
   {
     "imdb_id": "tt15061770",
@@ -4450,6 +8074,18 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt14075308",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-galan-la-tv-cambio-el-no"
+    },
+    "title": "The Heartthrob: TV Changed, He Didn’t",
+    "tmdb_id": "127943",
+    "type": "series",
+    "updated_at": 1788396184030,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14903834",
     "provider_variants": {},
     "providers": {
@@ -4460,6 +8096,30 @@
     "type": "series",
     "updated_at": 1788387314451,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt13308276",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-herederos-de-la-tierra"
+    },
+    "title": "Heirs to the Land",
+    "tmdb_id": "128008",
+    "type": "series",
+    "updated_at": 1788396334268,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13457822",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bienvenidos-a-eden"
+    },
+    "title": "Welcome to Eden",
+    "tmdb_id": "128010",
+    "type": "series",
+    "updated_at": 1788396264163,
+    "year": 2022
   },
   {
     "imdb_id": "tt13980362",
@@ -4498,6 +8158,30 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt1998372",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "por-mandato-del-cielo"
+    },
+    "title": "Under the Banner of Heaven",
+    "tmdb_id": "128095",
+    "type": "series",
+    "updated_at": 1788396111912,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14923244",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-winchesters"
+    },
+    "title": "The Winchesters",
+    "tmdb_id": "128113",
+    "type": "series",
+    "updated_at": 1788396019753,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14936146",
     "provider_variants": {},
     "providers": {
@@ -4532,6 +8216,18 @@
     "type": "series",
     "updated_at": 1788387271394,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt14362262",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-encargado"
+    },
+    "title": "The Boss",
+    "tmdb_id": "128306",
+    "type": "series",
+    "updated_at": 1788396008742,
+    "year": 2022
   },
   {
     "imdb_id": "tt15657520",
@@ -4582,6 +8278,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt15566204",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "tierra-incognita"
+    },
+    "title": "Tierra Incognita",
+    "tmdb_id": "128384",
+    "type": "series",
+    "updated_at": 1788396060821,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt13275654",
     "provider_variants": {},
     "providers": {
@@ -4603,6 +8311,30 @@
     "tmdb_id": "128676",
     "type": "series",
     "updated_at": 1788387382561,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14902026",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "infiniti"
+    },
+    "title": "Infiniti",
+    "tmdb_id": "128798",
+    "type": "series",
+    "updated_at": 1788396053811,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13925166",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-reto-de-summer"
+    },
+    "title": "Surviving Summer",
+    "tmdb_id": "129141",
+    "type": "series",
+    "updated_at": 1788396186026,
     "year": 2022
   },
   {
@@ -4654,6 +8386,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt17513352",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "veinticinco-veintiuno"
+    },
+    "title": "Twenty Five Twenty One",
+    "tmdb_id": "129888",
+    "type": "series",
+    "updated_at": 1788396276172,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt12052892",
     "provider_variants": {},
     "providers": {
@@ -4678,6 +8422,18 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt18783984",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "kung-fu-panda-el-caballero-del-dragon"
+    },
+    "title": "Kung Fu Panda: The Dragon Knight",
+    "tmdb_id": "129959",
+    "type": "series",
+    "updated_at": 1788396133956,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt11714502",
     "provider_variants": {},
     "providers": {
@@ -4688,6 +8444,30 @@
     "type": "series",
     "updated_at": 1788379162713,
     "year": 2021
+  },
+  {
+    "imdb_id": "tt13018148",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dime-mas-mentiras"
+    },
+    "title": "Tell Me Lies",
+    "tmdb_id": "130464",
+    "type": "series",
+    "updated_at": 1788396040787,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt15096728",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-gran-inundacion"
+    },
+    "title": "High Water",
+    "tmdb_id": "130477",
+    "type": "series",
+    "updated_at": 1788396036787,
+    "year": 2022
   },
   {
     "imdb_id": "tt14675860",
@@ -4738,6 +8518,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt15213258",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "reina"
+    },
+    "title": "Queen",
+    "tmdb_id": "130950",
+    "type": "series",
+    "updated_at": 1788396158988,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14730768",
     "provider_variants": {},
     "providers": {
@@ -4748,6 +8540,18 @@
     "type": "series",
     "updated_at": 1788386994938,
     "year": 2021
+  },
+  {
+    "imdb_id": "tt15181094",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "treinta-y-nueve"
+    },
+    "title": "Thirty-Nine",
+    "tmdb_id": "131028",
+    "type": "series",
+    "updated_at": 1788396210066,
+    "year": 2022
   },
   {
     "imdb_id": "tt15232564",
@@ -4798,6 +8602,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt15341198",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "una-madre-perfecta"
+    },
+    "title": "The Perfect Mother",
+    "tmdb_id": "131431",
+    "type": "series",
+    "updated_at": 1788396191040,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt13720112",
     "provider_variants": {},
     "providers": {
@@ -4846,6 +8662,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt15301854",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "de-vuelta-a-los-15"
+    },
+    "title": "Back to 15",
+    "tmdb_id": "132009",
+    "type": "series",
+    "updated_at": 1788396461480,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt15303234",
     "provider_variants": {},
     "providers": {
@@ -4870,6 +8698,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt21289712",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "una-familia-ejemplar"
+    },
+    "title": "A Model Family",
+    "tmdb_id": "132171",
+    "type": "series",
+    "updated_at": 1788396082859,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt22882128",
     "provider_variants": {},
     "providers": {
@@ -4880,6 +8720,18 @@
     "type": "series",
     "updated_at": 1788387344503,
     "year": 2022
+  },
+  {
+    "imdb_id": "tt10163204",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "reyka"
+    },
+    "title": "Reyka",
+    "tmdb_id": "132629",
+    "type": "series",
+    "updated_at": 1788396058820,
+    "year": 2021
   },
   {
     "imdb_id": "tt15358446",
@@ -4918,6 +8770,30 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt21875462",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "erase-un-amor-rural"
+    },
+    "title": "Once Upon a Small Town",
+    "tmdb_id": "133678",
+    "type": "series",
+    "updated_at": 1788396001735,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt15432016",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-diablo-en-ohio"
+    },
+    "title": "Devil in Ohio",
+    "tmdb_id": "133700",
+    "type": "series",
+    "updated_at": 1788396063825,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14261112",
     "provider_variants": {},
     "providers": {
@@ -4928,6 +8804,30 @@
     "type": "series",
     "updated_at": 1788387198263,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt15268768",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "deseos-vip"
+    },
+    "title": "Remarriage & Desires",
+    "tmdb_id": "133775",
+    "type": "series",
+    "updated_at": 1788396128934,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt12545180",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "tom-a-los-10"
+    },
+    "title": "Ten Year Old Tom",
+    "tmdb_id": "133808",
+    "type": "series",
+    "updated_at": 1788396145969,
+    "year": 2021
   },
   {
     "imdb_id": "tt15439048",
@@ -4942,6 +8842,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt13018574",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dos-veranos"
+    },
+    "title": "Two Summers",
+    "tmdb_id": "133979",
+    "type": "series",
+    "updated_at": 1788396189048,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt15227418",
     "provider_variants": {},
     "providers": {
@@ -4954,6 +8866,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt14447042",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "asesino-del-olvido"
+    },
+    "title": "Before I Forget",
+    "tmdb_id": "134174",
+    "type": "series",
+    "updated_at": 1788396214072,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt15672294",
     "provider_variants": {},
     "providers": {
@@ -4963,6 +8887,18 @@
     "tmdb_id": "134465",
     "type": "series",
     "updated_at": 1788387285467,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt21828868",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-hermanas"
+    },
+    "title": "Little Women",
+    "tmdb_id": "134675",
+    "type": "series",
+    "updated_at": 1788395993721,
     "year": 2022
   },
   {
@@ -4978,6 +8914,42 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt13561292",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "maldivas"
+    },
+    "title": "Maldivas",
+    "tmdb_id": "134955",
+    "type": "series",
+    "updated_at": 1788396175016,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt9569528",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "queer-as-folk"
+    },
+    "title": "Queer as Folk",
+    "tmdb_id": "134967",
+    "type": "series",
+    "updated_at": 1788396168000,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt15390524",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "carrera-al-exito"
+    },
+    "title": "Partner Track",
+    "tmdb_id": "135035",
+    "type": "series",
+    "updated_at": 1788396068833,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt22373732",
     "provider_variants": {},
     "providers": {
@@ -4987,6 +8959,30 @@
     "tmdb_id": "135155",
     "type": "series",
     "updated_at": 1788387425630,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14129418",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ragdoll"
+    },
+    "title": "Ragdoll",
+    "tmdb_id": "135156",
+    "type": "series",
+    "updated_at": 1788396148966,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt20859920",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "alquimia-de-almas"
+    },
+    "title": "Alchemy of Souls",
+    "tmdb_id": "135157",
+    "type": "series",
+    "updated_at": 1788396089871,
     "year": 2022
   },
   {
@@ -5038,6 +9034,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt7492014",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fairfax"
+    },
+    "title": "Fairfax",
+    "tmdb_id": "135597",
+    "type": "series",
+    "updated_at": 1788396164999,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt15552018",
     "provider_variants": {},
     "providers": {
@@ -5074,6 +9082,30 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt19115260",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "our-blues"
+    },
+    "title": "Our Blues",
+    "tmdb_id": "135840",
+    "type": "series",
+    "updated_at": 1788396104893,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt18265192",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "grid"
+    },
+    "title": "Grid",
+    "tmdb_id": "135894",
+    "type": "series",
+    "updated_at": 1788396062822,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt15591076",
     "provider_variants": {},
     "providers": {
@@ -5084,6 +9116,18 @@
     "type": "series",
     "updated_at": 1788387403599,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt13317582",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "club-estambul"
+    },
+    "title": "The Club",
+    "tmdb_id": "136125",
+    "type": "series",
+    "updated_at": 1788396475523,
+    "year": 2021
   },
   {
     "imdb_id": "tt12014840",
@@ -5098,6 +9142,18 @@
     "year": 2020
   },
   {
+    "imdb_id": "tt15669534",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "tales-of-the-walking-dead"
+    },
+    "title": "Tales of the Walking Dead",
+    "tmdb_id": "136248",
+    "type": "series",
+    "updated_at": 1788395983695,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt21344706",
     "provider_variants": {},
     "providers": {
@@ -5110,6 +9166,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt12882128",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "harriet-la-espia"
+    },
+    "title": "Harriet the Spy",
+    "tmdb_id": "136300",
+    "type": "series",
+    "updated_at": 1788396196042,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt15677150",
     "provider_variants": {},
     "providers": {
@@ -5120,6 +9188,30 @@
     "type": "series",
     "updated_at": 1788387390583,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt14452776",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-bear-2022"
+    },
+    "title": "The Bear",
+    "tmdb_id": "136315",
+    "type": "series",
+    "updated_at": 1788396030781,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt15758116",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dragones-los-nueve-reinos"
+    },
+    "title": "Dragons: The Nine Realms",
+    "tmdb_id": "136322",
+    "type": "series",
+    "updated_at": 1788396192040,
+    "year": 2021
   },
   {
     "imdb_id": "tt11470588",
@@ -5146,6 +9238,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt18926162",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "manana"
+    },
+    "title": "Tomorrow",
+    "tmdb_id": "136369",
+    "type": "series",
+    "updated_at": 1788396194040,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt16044540",
     "provider_variants": {},
     "providers": {
@@ -5168,6 +9272,18 @@
     "type": "series",
     "updated_at": 1788386920820,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt14735382",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "anomalias"
+    },
+    "title": "Glitch",
+    "tmdb_id": "136699",
+    "type": "series",
+    "updated_at": 1788396034779,
+    "year": 2022
   },
   {
     "imdb_id": "tt19887704",
@@ -5194,6 +9310,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt13790652",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "single-drunk-female"
+    },
+    "title": "Single Drunk Female",
+    "tmdb_id": "136739",
+    "type": "series",
+    "updated_at": 1788396144971,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt9174600",
     "provider_variants": {},
     "providers": {
@@ -5203,6 +9331,18 @@
     "tmdb_id": "136741",
     "type": "series",
     "updated_at": 1788379440346,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt7908756",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "shining-vale"
+    },
+    "title": "Shining Vale",
+    "tmdb_id": "136745",
+    "type": "series",
+    "updated_at": 1788396332266,
     "year": 2022
   },
   {
@@ -5228,6 +9368,18 @@
     "type": "series",
     "updated_at": 1788387434658,
     "year": 2021
+  },
+  {
+    "imdb_id": "tt14253638",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "express"
+    },
+    "title": "Express",
+    "tmdb_id": "136998",
+    "type": "series",
+    "updated_at": 1788396486521,
+    "year": 2022
   },
   {
     "imdb_id": "tt22002370",
@@ -5263,6 +9415,30 @@
     "tmdb_id": "137164",
     "type": "series",
     "updated_at": 1788379149682,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt13784364",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "historias-de-una-generacion-con-el-papa-francisco"
+    },
+    "title": "Stories of a Generation - with Pope Francis",
+    "tmdb_id": "137440",
+    "type": "series",
+    "updated_at": 1788396490526,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt16306836",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "elite-historias-breves-patrick"
+    },
+    "title": "Elite Short Stories: Patrick",
+    "tmdb_id": "137571",
+    "type": "series",
+    "updated_at": 1788396489524,
     "year": 2021
   },
   {
@@ -5350,6 +9526,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt14272704",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "rilakkuma-va-al-parque-tematico"
+    },
+    "title": "Rilakkuma's Theme Park Adventure",
+    "tmdb_id": "138273",
+    "type": "series",
+    "updated_at": 1788396069835,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14351748",
     "provider_variants": {},
     "providers": {
@@ -5410,6 +9598,18 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt21049186",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "cafe-minamdang"
+    },
+    "title": "Café Minamdang",
+    "tmdb_id": "138663",
+    "type": "series",
+    "updated_at": 1788396088867,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14586544",
     "provider_variants": {},
     "providers": {
@@ -5419,6 +9619,18 @@
     "tmdb_id": "138971",
     "type": "series",
     "updated_at": 1788387399591,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14432384",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "theodosia"
+    },
+    "title": "Theodosia",
+    "tmdb_id": "139061",
+    "type": "series",
+    "updated_at": 1788396255140,
     "year": 2022
   },
   {
@@ -5446,6 +9658,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt12005828",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "no-me-conocen"
+    },
+    "title": "You Don't Know Me",
+    "tmdb_id": "139686",
+    "type": "series",
+    "updated_at": 1788396170005,
+    "year": 2021
+  },
+  {
     "imdb_id": "tt16283666",
     "provider_variants": {},
     "providers": {
@@ -5455,6 +9679,18 @@
     "tmdb_id": "139798",
     "type": "series",
     "updated_at": 1788379187768,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt12104930",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "kitz"
+    },
+    "title": "Kitz",
+    "tmdb_id": "139799",
+    "type": "series",
+    "updated_at": 1788396476508,
     "year": 2021
   },
   {
@@ -5482,6 +9718,54 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt5232622",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-chica-de-antes"
+    },
+    "title": "The Girl Before",
+    "tmdb_id": "152365",
+    "type": "series",
+    "updated_at": 1788396341282,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt15140592",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-inclemencias-del-amor"
+    },
+    "title": "Forecasting Love and Weather",
+    "tmdb_id": "152511",
+    "type": "series",
+    "updated_at": 1788396238110,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11269100",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sisi"
+    },
+    "title": "Sisi",
+    "tmdb_id": "153282",
+    "type": "series",
+    "updated_at": 1788395999735,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt16390162",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-chicas-de-surfside"
+    },
+    "title": "Surfside Girls",
+    "tmdb_id": "153307",
+    "type": "series",
+    "updated_at": 1788396075846,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt16358384",
     "provider_variants": {},
     "providers": {
@@ -5491,6 +9775,42 @@
     "tmdb_id": "153312",
     "type": "series",
     "updated_at": 1788387422628,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14362156",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-enviados"
+    },
+    "title": "The Envoys",
+    "tmdb_id": "153411",
+    "type": "series",
+    "updated_at": 1788396454470,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt11947288",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "nate-el-grande"
+    },
+    "title": "Big Nate",
+    "tmdb_id": "153528",
+    "type": "series",
+    "updated_at": 1788396337272,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt16432198",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "super-sorda"
+    },
+    "title": "El Deafo",
+    "tmdb_id": "153571",
+    "type": "series",
+    "updated_at": 1788396477503,
     "year": 2022
   },
   {
@@ -5506,6 +9826,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt14168162",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bosch-legacy"
+    },
+    "title": "Bosch: Legacy",
+    "tmdb_id": "153657",
+    "type": "series",
+    "updated_at": 1788396209072,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt11301504",
     "provider_variants": {},
     "providers": {
@@ -5518,6 +9850,42 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt16389768",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-villains-of-valley-view"
+    },
+    "title": "The Villains of Valley View",
+    "tmdb_id": "153715",
+    "type": "series",
+    "updated_at": 1788395994715,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14088994",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "all-american-homecoming"
+    },
+    "title": "All American: Homecoming",
+    "tmdb_id": "153723",
+    "type": "series",
+    "updated_at": 1788396176031,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14160712",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "estos-ojos-negros"
+    },
+    "title": "Yeh Kaali Kaali Ankhein",
+    "tmdb_id": "153950",
+    "type": "series",
+    "updated_at": 1788396452463,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt27111295",
     "provider_variants": {},
     "providers": {
@@ -5528,6 +9896,30 @@
     "type": "series",
     "updated_at": 1788383262667,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt14555372",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "cecilia"
+    },
+    "title": "Cecilia",
+    "tmdb_id": "154117",
+    "type": "series",
+    "updated_at": 1788396474497,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt8681148",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "esto-te-va-a-doler"
+    },
+    "title": "This Is Going to Hurt",
+    "tmdb_id": "154359",
+    "type": "series",
+    "updated_at": 1788396347289,
+    "year": 2022
   },
   {
     "imdb_id": "tt14403178",
@@ -5551,6 +9943,18 @@
     "tmdb_id": "154521",
     "type": "series",
     "updated_at": 1788387257364,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt12027896",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "angry-birds-locuras-de-verano"
+    },
+    "title": "Angry Birds: Summer Madness",
+    "tmdb_id": "154647",
+    "type": "series",
+    "updated_at": 1788396464487,
     "year": 2022
   },
   {
@@ -5578,6 +9982,30 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt14819828",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "propuesta-laboral"
+    },
+    "title": "Business Proposal",
+    "tmdb_id": "154825",
+    "type": "series",
+    "updated_at": 1788396221084,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt15146130",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mi-diario-de-liberacion"
+    },
+    "title": "My Liberation Notes",
+    "tmdb_id": "154887",
+    "type": "series",
+    "updated_at": 1788396127933,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt15964848",
     "provider_variants": {},
     "providers": {
@@ -5600,6 +10028,18 @@
     "type": "series",
     "updated_at": 1788386870735,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt16539880",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-divina-gula"
+    },
+    "title": "Heavenly Bites: Mexico",
+    "tmdb_id": "155099",
+    "type": "series",
+    "updated_at": 1788396467490,
+    "year": 2022
   },
   {
     "imdb_id": "tt16969708",
@@ -5662,6 +10102,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt12379170",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "cielo-grande"
+    },
+    "title": "Secrets of Summer",
+    "tmdb_id": "155545",
+    "type": "series",
+    "updated_at": 1788396339276,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt5493424",
     "provider_variants": {},
     "providers": {
@@ -5672,6 +10124,42 @@
     "type": "series",
     "updated_at": 1788383052330,
     "year": 2015
+  },
+  {
+    "imdb_id": "tt17047510",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "vaya-familia-claus"
+    },
+    "title": "The Santa Clauses",
+    "tmdb_id": "155631",
+    "type": "series",
+    "updated_at": 1788395986700,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt16589104",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "senorita-89"
+    },
+    "title": "Señorita 89",
+    "tmdb_id": "155645",
+    "type": "series",
+    "updated_at": 1788396248150,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13587032",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "iosi-el-espia-arrepentido"
+    },
+    "title": "Yosi, the Regretful Spy",
+    "tmdb_id": "155646",
+    "type": "series",
+    "updated_at": 1788396267157,
+    "year": 2022
   },
   {
     "imdb_id": "tt27282525",
@@ -5686,6 +10174,30 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt11212198",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "maldito-rap"
+    },
+    "title": "Rap Sh!t",
+    "tmdb_id": "155772",
+    "type": "series",
+    "updated_at": 1788396118916,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11987198",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-cronicas-de-cucu"
+    },
+    "title": "Gordita Chronicles",
+    "tmdb_id": "155775",
+    "type": "series",
+    "updated_at": 1788396160990,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt13362852",
     "provider_variants": {},
     "providers": {
@@ -5696,6 +10208,54 @@
     "type": "series",
     "updated_at": 1788387089088,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt13292830",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "batwheels"
+    },
+    "title": "Batwheels",
+    "tmdb_id": "155780",
+    "type": "series",
+    "updated_at": 1788396054809,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13956560",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fidelidad"
+    },
+    "title": "Devotion, a Story of Love and Desire",
+    "tmdb_id": "155795",
+    "type": "series",
+    "updated_at": 1788396459476,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14494894",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "juanpis-gonzalez-la-serie"
+    },
+    "title": "Juanpis González - The Series",
+    "tmdb_id": "155895",
+    "type": "series",
+    "updated_at": 1788396469495,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt17156544",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-vida-secreta-de-nuestras-mascotas"
+    },
+    "title": "The Secret Life of Our Pets",
+    "tmdb_id": "155973",
+    "type": "series",
+    "updated_at": 1788396081858,
+    "year": 2022
   },
   {
     "imdb_id": "tt10059166",
@@ -5732,6 +10292,18 @@
     "type": "series",
     "updated_at": 1788386841693,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt14412362",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "chloe"
+    },
+    "title": "Chloe",
+    "tmdb_id": "156507",
+    "type": "series",
+    "updated_at": 1788396162996,
+    "year": 2022
   },
   {
     "imdb_id": "tt13330286",
@@ -5818,6 +10390,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt15576994",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sagrada-familia"
+    },
+    "title": "Holy Family",
+    "tmdb_id": "156883",
+    "type": "series",
+    "updated_at": 1788396021757,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt26258200",
     "provider_variants": {},
     "providers": {
@@ -5854,6 +10438,30 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt13983670",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "daniel-spellbound"
+    },
+    "title": "Daniel Spellbound",
+    "tmdb_id": "156934",
+    "type": "series",
+    "updated_at": 1788396009737,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13271734",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ollie-esta-perdido"
+    },
+    "title": "Lost Ollie",
+    "tmdb_id": "156935",
+    "type": "series",
+    "updated_at": 1788396071848,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt15680030",
     "provider_variants": {},
     "providers": {
@@ -5875,6 +10483,30 @@
     "tmdb_id": "156965",
     "type": "series",
     "updated_at": 1788378963288,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt12304420",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "clark"
+    },
+    "title": "Clark",
+    "tmdb_id": "157008",
+    "type": "series",
+    "updated_at": 1788396265159,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14379784",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-hora-del-diablo"
+    },
+    "title": "The Devil's Hour",
+    "tmdb_id": "157061",
+    "type": "series",
+    "updated_at": 1788396005732,
     "year": 2022
   },
   {
@@ -5948,6 +10580,18 @@
     "type": "series",
     "updated_at": 1788387024983,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt13317508",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "medianoche-en-el-pera-palace"
+    },
+    "title": "Midnight at the Pera Palace",
+    "tmdb_id": "157219",
+    "type": "series",
+    "updated_at": 1788396463481,
+    "year": 2022
   },
   {
     "imdb_id": "tt13433814",
@@ -6046,6 +10690,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt15657742",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "robo-mundial"
+    },
+    "title": "The Stolen Cup",
+    "tmdb_id": "157664",
+    "type": "series",
+    "updated_at": 1788395990707,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt15399640",
     "provider_variants": {},
     "providers": {
@@ -6082,6 +10738,30 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt14298658",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "transformers-earthspark"
+    },
+    "title": "Transformers: EarthSpark",
+    "tmdb_id": "157747",
+    "type": "series",
+    "updated_at": 1788395988713,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14729118",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "prisma"
+    },
+    "title": "Prisma",
+    "tmdb_id": "158053",
+    "type": "series",
+    "updated_at": 1788396045794,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt11816814",
     "provider_variants": {},
     "providers": {
@@ -6092,6 +10772,30 @@
     "type": "series",
     "updated_at": 1788387181235,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt14906890",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "hermanos-robots-supergigantes"
+    },
+    "title": "Super Giant Robot Brothers",
+    "tmdb_id": "158138",
+    "type": "series",
+    "updated_at": 1788396092873,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt12642764",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dead-end-el-parque-del-terror"
+    },
+    "title": "Dead End: Paranormal Park",
+    "tmdb_id": "158139",
+    "type": "series",
+    "updated_at": 1788396172012,
+    "year": 2022
   },
   {
     "imdb_id": "tt16283758",
@@ -6116,6 +10820,18 @@
     "type": "series",
     "updated_at": 1788386878747,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt18302114",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ice-age-las-desventuras-de-scrat"
+    },
+    "title": "Ice Age: Scrat Tales",
+    "tmdb_id": "158307",
+    "type": "series",
+    "updated_at": 1788396349290,
+    "year": 2022
   },
   {
     "imdb_id": "tt27526180",
@@ -6166,6 +10882,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt18974572",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "palpito"
+    },
+    "title": "The Marked Heart",
+    "tmdb_id": "158916",
+    "type": "series",
+    "updated_at": 1788396338275,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14190592",
     "provider_variants": {},
     "providers": {
@@ -6214,6 +10942,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt14731416",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mecha-builders"
+    },
+    "title": "Mecha Builders",
+    "tmdb_id": "194703",
+    "type": "series",
+    "updated_at": 1788396051812,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt18552362",
     "provider_variants": {},
     "providers": {
@@ -6250,6 +10990,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt14016500",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-verano-en-que-me-enamore"
+    },
+    "title": "The Summer I Turned Pretty",
+    "tmdb_id": "194766",
+    "type": "series",
+    "updated_at": 1788396171006,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt24245988",
     "provider_variants": {},
     "providers": {
@@ -6260,6 +11012,18 @@
     "type": "series",
     "updated_at": 1788387091150,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt14369952",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "porno-y-helado"
+    },
+    "title": "Porn and Ice Cream",
+    "tmdb_id": "194807",
+    "type": "series",
+    "updated_at": 1788396342281,
+    "year": 2022
   },
   {
     "imdb_id": "tt20518582",
@@ -6322,6 +11086,42 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt17048678",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-ultimo-rey-el-hijo-del-pueblo"
+    },
+    "title": "El último rey: El hijo del pueblo",
+    "tmdb_id": "195366",
+    "type": "series",
+    "updated_at": 1788396078854,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt15185666",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "captive-audience-a-real-american-horror-story"
+    },
+    "title": "Captive Audience: A Real American Horror Story",
+    "tmdb_id": "195420",
+    "type": "series",
+    "updated_at": 1788396143964,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt18766206",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "mi-tio"
+    },
+    "title": "My Uncle",
+    "tmdb_id": "195623",
+    "type": "series",
+    "updated_at": 1788396236114,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14490706",
     "provider_variants": {},
     "providers": {
@@ -6334,6 +11134,54 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt15060900",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "club-de-mamas"
+    },
+    "title": "Green Mothers' Club",
+    "tmdb_id": "195747",
+    "type": "series",
+    "updated_at": 1788396130941,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt9319706",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "me-alegro-por-ti"
+    },
+    "title": "I Love That for You",
+    "tmdb_id": "195815",
+    "type": "series",
+    "updated_at": 1788396120924,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt9845070",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "last-light"
+    },
+    "title": "Last Light",
+    "tmdb_id": "195821",
+    "type": "series",
+    "updated_at": 1788395998723,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14117010",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "sigue-respirando"
+    },
+    "title": "Keep Breathing",
+    "tmdb_id": "195822",
+    "type": "series",
+    "updated_at": 1788396109902,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt16418896",
     "provider_variants": {},
     "providers": {
@@ -6344,6 +11192,30 @@
     "type": "series",
     "updated_at": 1788387346505,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt12717354",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "conejo-samurai-las-cronicas-de-usagi"
+    },
+    "title": "Samurai Rabbit: The Usagi Chronicles",
+    "tmdb_id": "195926",
+    "type": "series",
+    "updated_at": 1788396325263,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13317454",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "yakamoz-s-245"
+    },
+    "title": "Yakamoz S-245",
+    "tmdb_id": "195930",
+    "type": "series",
+    "updated_at": 1788396335270,
+    "year": 2022
   },
   {
     "imdb_id": "tt19637538",
@@ -6430,6 +11302,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt18925250",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "primate"
+    },
+    "title": "Primate",
+    "tmdb_id": "196574",
+    "type": "series",
+    "updated_at": 1788396244131,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt17640966",
     "provider_variants": {},
     "providers": {
@@ -6439,6 +11323,18 @@
     "tmdb_id": "196614",
     "type": "series",
     "updated_at": 1788379269957,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt11852810",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-cruzada"
+    },
+    "title": "The Quest",
+    "tmdb_id": "196749",
+    "type": "series",
+    "updated_at": 1788396240112,
     "year": 2022
   },
   {
@@ -6478,6 +11374,42 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt20192096",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "no-hay-boda-sin-caos"
+    },
+    "title": "Welcome to Wedding Hell",
+    "tmdb_id": "196907",
+    "type": "series",
+    "updated_at": 1788396097893,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt20869502",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "woo-una-abogada-extraordinaria"
+    },
+    "title": "Extraordinary Attorney Woo",
+    "tmdb_id": "197067",
+    "type": "series",
+    "updated_at": 1788396123960,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt20724990",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-sabor-del-destino"
+    },
+    "title": "Delicacies Destiny",
+    "tmdb_id": "197107",
+    "type": "series",
+    "updated_at": 1788396178017,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt19399602",
     "provider_variants": {},
     "providers": {
@@ -6502,6 +11434,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt15090462",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "42-dias-en-la-oscuridad"
+    },
+    "title": "42 Days of Darkness",
+    "tmdb_id": "197190",
+    "type": "series",
+    "updated_at": 1788396250134,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt19500224",
     "provider_variants": {},
     "providers": {
@@ -6512,6 +11456,30 @@
     "type": "series",
     "updated_at": 1788387274385,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt19671142",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "belleza-salvaje-2022"
+    },
+    "title": "Savage Beauty",
+    "tmdb_id": "197427",
+    "type": "series",
+    "updated_at": 1788396203056,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt19361940",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "un-jefe-en-panales-de-vuelta-en-la-cuna"
+    },
+    "title": "The Boss Baby: Back in the Crib",
+    "tmdb_id": "197429",
+    "type": "series",
+    "updated_at": 1788396201054,
+    "year": 2022
   },
   {
     "imdb_id": "tt12661338",
@@ -6536,6 +11504,18 @@
     "type": "series",
     "updated_at": 1788387109121,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt14271498",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "loot"
+    },
+    "title": "Loot",
+    "tmdb_id": "197449",
+    "type": "series",
+    "updated_at": 1788396156983,
+    "year": 2022
   },
   {
     "imdb_id": "tt17011496",
@@ -6598,6 +11578,42 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt19896998",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-bravas-fc"
+    },
+    "title": "Las Bravas F.C.",
+    "tmdb_id": "197549",
+    "type": "series",
+    "updated_at": 1788396208067,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13640670",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-hombre-contra-la-abeja"
+    },
+    "title": "Man vs Bee",
+    "tmdb_id": "197588",
+    "type": "series",
+    "updated_at": 1788396159989,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13238304",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ersan-kuneri"
+    },
+    "title": "The Life and Movies of Erşan Kuneri",
+    "tmdb_id": "197679",
+    "type": "series",
+    "updated_at": 1788396223093,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt26693803",
     "provider_variants": {},
     "providers": {
@@ -6608,6 +11624,18 @@
     "type": "series",
     "updated_at": 1788387158197,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt11444366",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "becoming-elizabeth"
+    },
+    "title": "Becoming Elizabeth",
+    "tmdb_id": "198085",
+    "type": "series",
+    "updated_at": 1788396166998,
+    "year": 2022
   },
   {
     "imdb_id": "tt27921612",
@@ -6632,6 +11660,18 @@
     "type": "series",
     "updated_at": 1788387240337,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt19799468",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "menudo-siempre-jovenes"
+    },
+    "title": "Menudo: Forever Young",
+    "tmdb_id": "198110",
+    "type": "series",
+    "updated_at": 1788396155979,
+    "year": 2022
   },
   {
     "imdb_id": "tt14728968",
@@ -6670,6 +11710,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt15469618",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "malas-hermanas"
+    },
+    "title": "Bad Sisters",
+    "tmdb_id": "199318",
+    "type": "series",
+    "updated_at": 1788396077850,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt19842834",
     "provider_variants": {},
     "providers": {
@@ -6704,6 +11756,18 @@
     "type": "series",
     "updated_at": 1788383374848,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt20873118",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "suzhal"
+    },
+    "title": "Suzhal - The Vortex",
+    "tmdb_id": "200861",
+    "type": "series",
+    "updated_at": 1788396169001,
+    "year": 2022
   },
   {
     "imdb_id": "tt19244304",
@@ -6742,6 +11806,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt22181096",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "con-su-permiso-senoria"
+    },
+    "title": "May It Please the Court",
+    "tmdb_id": "200945",
+    "type": "series",
+    "updated_at": 1788396003732,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt19768024",
     "provider_variants": {},
     "providers": {
@@ -6752,6 +11828,18 @@
     "type": "series",
     "updated_at": 1788386974904,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt9894516",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "oni-la-leyenda-del-dios-del-trueno"
+    },
+    "title": "ONI: Thunder God's Tale",
+    "tmdb_id": "201213",
+    "type": "series",
+    "updated_at": 1788396014744,
+    "year": 2022
   },
   {
     "imdb_id": "tt13745850",
@@ -6776,6 +11864,18 @@
     "type": "series",
     "updated_at": 1788387192263,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt15466144",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "desparejado"
+    },
+    "title": "Uncoupled",
+    "tmdb_id": "201380",
+    "type": "series",
+    "updated_at": 1788396103898,
+    "year": 2022
   },
   {
     "imdb_id": "tt14781286",
@@ -6826,6 +11926,30 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt20218952",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "lovely-little-farm"
+    },
+    "title": "Lovely Little Farm",
+    "tmdb_id": "201710",
+    "type": "series",
+    "updated_at": 1788396179019,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt16124614",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "blockbuster"
+    },
+    "title": "Blockbuster",
+    "tmdb_id": "201874",
+    "type": "series",
+    "updated_at": 1788395997724,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt15421858",
     "provider_variants": {},
     "providers": {
@@ -6847,6 +11971,18 @@
     "tmdb_id": "201992",
     "type": "series",
     "updated_at": 1788387214289,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt20113404",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "eirik-jensen-policia-o-delincuente"
+    },
+    "title": "Mr. Good: Cop or Crook?",
+    "tmdb_id": "202065",
+    "type": "series",
+    "updated_at": 1788396190032,
     "year": 2022
   },
   {
@@ -6874,6 +12010,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt17043230",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "quantum-leap-new"
+    },
+    "title": "Quantum Leap",
+    "tmdb_id": "202102",
+    "type": "series",
+    "updated_at": 1788395992711,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt20285780",
     "provider_variants": {},
     "providers": {
@@ -6896,6 +12044,30 @@
     "type": "series",
     "updated_at": 1788379253917,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt19729620",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "las-iguanas"
+    },
+    "title": "Iguanas",
+    "tmdb_id": "202219",
+    "type": "series",
+    "updated_at": 1788396207077,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt20252832",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "como-mandarlo-todo-a-la-mierda"
+    },
+    "title": "How to Screw It All Up",
+    "tmdb_id": "202246",
+    "type": "series",
+    "updated_at": 1788396141976,
+    "year": 2022
   },
   {
     "imdb_id": "tt18699118",
@@ -7018,6 +12190,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt14589904",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "farzar"
+    },
+    "title": "Farzar",
+    "tmdb_id": "202864",
+    "type": "series",
+    "updated_at": 1788396129936,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt20600980",
     "provider_variants": {},
     "providers": {
@@ -7052,6 +12236,18 @@
     "type": "series",
     "updated_at": 1788387322468,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt20723374",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "star-wars-las-cronicas-jedi"
+    },
+    "title": "Star Wars: Tales of the Jedi",
+    "tmdb_id": "203085",
+    "type": "series",
+    "updated_at": 1788396010739,
+    "year": 2022
   },
   {
     "imdb_id": "tt29225198",
@@ -7114,6 +12310,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt21332800",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "school-tales-la-serie"
+    },
+    "title": "School Tales the Series",
+    "tmdb_id": "203502",
+    "type": "series",
+    "updated_at": 1788396087867,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt20869432",
     "provider_variants": {},
     "providers": {
@@ -7160,6 +12368,18 @@
     "type": "series",
     "updated_at": 1788386938846,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt21050232",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bugs-bunny-builders"
+    },
+    "title": "Bugs Bunny Builders",
+    "tmdb_id": "203687",
+    "type": "series",
+    "updated_at": 1788396112906,
+    "year": 2022
   },
   {
     "imdb_id": "tt14075028",
@@ -7243,6 +12463,18 @@
     "tmdb_id": "204087",
     "type": "series",
     "updated_at": 1788379097570,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt21062288",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "muaythai-deporte-extremo"
+    },
+    "title": "Hurts Like Hell",
+    "tmdb_id": "204129",
+    "type": "series",
+    "updated_at": 1788396137953,
     "year": 2022
   },
   {
@@ -7342,6 +12574,42 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt10802170",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-ensayo"
+    },
+    "title": "The Rehearsal",
+    "tmdb_id": "204284",
+    "type": "series",
+    "updated_at": 1788396121925,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt21063148",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "d-b-cooper-donde-estas"
+    },
+    "title": "D.B. Cooper: Where Are You?!",
+    "tmdb_id": "204302",
+    "type": "series",
+    "updated_at": 1788396136948,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt21062540",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "como-cambiar-tu-mente"
+    },
+    "title": "How to Change Your Mind",
+    "tmdb_id": "204304",
+    "type": "series",
+    "updated_at": 1788396139953,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt14914464",
     "provider_variants": {},
     "providers": {
@@ -7354,6 +12622,30 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt20597418",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "first-class"
+    },
+    "title": "First Class",
+    "tmdb_id": "204417",
+    "type": "series",
+    "updated_at": 1788396154979,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt15292870",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "campamento-copo-de-nieve"
+    },
+    "title": "Snowflake Mountain",
+    "tmdb_id": "204418",
+    "type": "series",
+    "updated_at": 1788396151979,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt21088136",
     "provider_variants": {},
     "providers": {
@@ -7364,6 +12656,42 @@
     "type": "series",
     "updated_at": 1788386983919,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt12116498",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "al-borde-de-la-tierra"
+    },
+    "title": "Edge of the Earth",
+    "tmdb_id": "204570",
+    "type": "series",
+    "updated_at": 1788396094877,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt21107718",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "oddballs-bichos-raros"
+    },
+    "title": "Oddballs",
+    "tmdb_id": "204684",
+    "type": "series",
+    "updated_at": 1788396035782,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt15407486",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "negocios-son-negocios"
+    },
+    "title": "King of Stonks",
+    "tmdb_id": "204852",
+    "type": "series",
+    "updated_at": 1788396142973,
+    "year": 2022
   },
   {
     "imdb_id": "tt21158320",
@@ -7402,6 +12730,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt21098728",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-hombre-mas-odiado-de-internet"
+    },
+    "title": "The Most Hated Man on the Internet",
+    "tmdb_id": "205106",
+    "type": "series",
+    "updated_at": 1788396108899,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt19503218",
     "provider_variants": {},
     "providers": {
@@ -7438,6 +12778,42 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt14178824",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "asesinos-de-la-india-el-carnicero-de-delhi"
+    },
+    "title": "Indian Predator: The Butcher of Delhi",
+    "tmdb_id": "205434",
+    "type": "series",
+    "updated_at": 1788396122960,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt17641100",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-mujer-del-diablo"
+    },
+    "title": "La mujer del diablo",
+    "tmdb_id": "205442",
+    "type": "series",
+    "updated_at": 1788396115913,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt18814758",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "maria-felix-la-dona"
+    },
+    "title": "María Félix La Doña",
+    "tmdb_id": "205443",
+    "type": "series",
+    "updated_at": 1788396114914,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt21248600",
     "provider_variants": {},
     "providers": {
@@ -7460,6 +12836,54 @@
     "type": "series",
     "updated_at": 1788387124145,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt13259622",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "bee-and-puppycat-lazy-in-space"
+    },
+    "title": "Bee and PuppyCat",
+    "tmdb_id": "205783",
+    "type": "series",
+    "updated_at": 1788396039800,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt21195532",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-hora-de-la-justicia"
+    },
+    "title": "Justice Served",
+    "tmdb_id": "205788",
+    "type": "series",
+    "updated_at": 1788396102895,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14500830",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "reputacion-dudosa"
+    },
+    "title": "Reputación Dudosa",
+    "tmdb_id": "205799",
+    "type": "series",
+    "updated_at": 1788396138956,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt21264856",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "tamara-falco-la-marquesa"
+    },
+    "title": "Lady Tamara",
+    "tmdb_id": "205902",
+    "type": "series",
+    "updated_at": 1788396091879,
+    "year": 2022
   },
   {
     "imdb_id": "tt0284711",
@@ -7486,6 +12910,18 @@
     "year": 2021
   },
   {
+    "imdb_id": "tt15135104",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "kleo"
+    },
+    "title": "Kleo",
+    "tmdb_id": "206010",
+    "type": "series",
+    "updated_at": 1788396076848,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt20447008",
     "provider_variants": {},
     "providers": {
@@ -7496,6 +12932,54 @@
     "type": "series",
     "updated_at": 1788387123146,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt21292882",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "seleccion-argentina-la-serie-camino-a-qatar"
+    },
+    "title": "Argentine National Team, Road to Qatar",
+    "tmdb_id": "206085",
+    "type": "series",
+    "updated_at": 1788395996718,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt17641200",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "donde-hubo-fuego"
+    },
+    "title": "High Heat",
+    "tmdb_id": "206087",
+    "type": "series",
+    "updated_at": 1788396073849,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt21107750",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "disenando-miami"
+    },
+    "title": "Designing Miami",
+    "tmdb_id": "206088",
+    "type": "series",
+    "updated_at": 1788396046796,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt21217912",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "fiasco-total-woodstock-99"
+    },
+    "title": "Trainwreck: Woodstock '99",
+    "tmdb_id": "206246",
+    "type": "series",
+    "updated_at": 1788396095882,
+    "year": 2022
   },
   {
     "imdb_id": "tt27850500",
@@ -7520,6 +13004,18 @@
     "type": "series",
     "updated_at": 1788386940853,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt15261060",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "noticia-de-un-secuestro"
+    },
+    "title": "News of a Kidnapping",
+    "tmdb_id": "206637",
+    "type": "series",
+    "updated_at": 1788396083867,
+    "year": 2022
   },
   {
     "imdb_id": "tt28642797",
@@ -7558,6 +13054,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt21341988",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "ludik"
+    },
+    "title": "Ludik",
+    "tmdb_id": "206910",
+    "type": "series",
+    "updated_at": 1788396067831,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt21382958",
     "provider_variants": {},
     "providers": {
@@ -7580,6 +13088,18 @@
     "type": "series",
     "updated_at": 1788387099108,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt21388530",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-caso-cassez-vallarta-una-novela-criminal"
+    },
+    "title": "A Kidnapping Scandal: The Florence Cassez Affair",
+    "tmdb_id": "207242",
+    "type": "series",
+    "updated_at": 1788396065836,
+    "year": 2022
   },
   {
     "imdb_id": "tt18988142",
@@ -7714,6 +13234,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt23032890",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-venganza-de-los-otros"
+    },
+    "title": "Revenge of Others",
+    "tmdb_id": "208336",
+    "type": "series",
+    "updated_at": 1788395989708,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt21057450",
     "provider_variants": {},
     "providers": {
@@ -7760,6 +13292,18 @@
     "type": "series",
     "updated_at": 1788383367850,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt19265146",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "modern-love-tokio"
+    },
+    "title": "Modern Love Tokyo",
+    "tmdb_id": "208596",
+    "type": "series",
+    "updated_at": 1788396017767,
+    "year": 2022
   },
   {
     "imdb_id": "tt18412092",
@@ -7858,6 +13402,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt11883886",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-valle-olvidado"
+    },
+    "title": "The Forgotten Valley",
+    "tmdb_id": "209493",
+    "type": "series",
+    "updated_at": 1788396041791,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt22001792",
     "provider_variants": {},
     "providers": {
@@ -7930,6 +13486,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt11564258",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-playlist"
+    },
+    "title": "The Playlist",
+    "tmdb_id": "210195",
+    "type": "series",
+    "updated_at": 1788396027767,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt22187798",
     "provider_variants": {},
     "providers": {
@@ -7939,6 +13507,30 @@
     "tmdb_id": "210213",
     "type": "series",
     "updated_at": 1788387388582,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt14852808",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "vigilante"
+    },
+    "title": "The Watcher",
+    "tmdb_id": "210232",
+    "type": "series",
+    "updated_at": 1788396024760,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt13649396",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "el-hijo-bastardo-y-el-mismisimo-diablo"
+    },
+    "title": "The Bastard Son & the Devil Himself",
+    "tmdb_id": "210235",
+    "type": "series",
+    "updated_at": 1788396006747,
     "year": 2022
   },
   {
@@ -8026,6 +13618,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt19723774",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "la-banda-del-guante-verde"
+    },
+    "title": "The Green Glove Gang",
+    "tmdb_id": "210750",
+    "type": "series",
+    "updated_at": 1788396018751,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt15483276",
     "provider_variants": {},
     "providers": {
@@ -8074,6 +13678,18 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt22227040",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "28-dias-paranormales"
+    },
+    "title": "28 Days Haunted",
+    "tmdb_id": "210922",
+    "type": "series",
+    "updated_at": 1788396013744,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt22297722",
     "provider_variants": {},
     "providers": {
@@ -8083,6 +13699,18 @@
     "tmdb_id": "210942",
     "type": "series",
     "updated_at": 1788387432643,
+    "year": 2022
+  },
+  {
+    "imdb_id": "tt22012456",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "teletubbies"
+    },
+    "title": "Teletubbies",
+    "tmdb_id": "211069",
+    "type": "series",
+    "updated_at": 1788395987708,
     "year": 2022
   },
   {
@@ -8108,6 +13736,18 @@
     "type": "series",
     "updated_at": 1788387387585,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt21913196",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "i-love-you-you-hate-me"
+    },
+    "title": "I Love You, You Hate Me",
+    "tmdb_id": "211188",
+    "type": "series",
+    "updated_at": 1788396029771,
+    "year": 2022
   },
   {
     "imdb_id": "tt13875494",
@@ -10282,6 +15922,18 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt11953308",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "vamos-juan"
+    },
+    "title": "Vamos Juan",
+    "tmdb_id": "224428",
+    "type": "series",
+    "updated_at": 1788396355308,
+    "year": 2020
+  },
+  {
     "imdb_id": "tt27554432",
     "provider_variants": {},
     "providers": {
@@ -11816,6 +17468,18 @@
     "type": "series",
     "updated_at": 1788379148680,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt13623148",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "yo-soy-groot"
+    },
+    "title": "I Am Groot",
+    "tmdb_id": "232125",
+    "type": "series",
+    "updated_at": 1788396085867,
+    "year": 2022
   },
   {
     "imdb_id": "tt28664721",
@@ -19258,7 +24922,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788386829657,
+    "updated_at": 1788395970683,
     "year": 2026
   },
   {
@@ -20834,6 +26498,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt13207736",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "dahmer"
+    },
+    "title": "Dahmer - Monstruo: La historia de Jeffrey Dahmer",
+    "tmdb_id": null,
+    "type": "series",
+    "updated_at": 1788396047799,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt36266938",
     "provider_variants": {},
     "providers": {
@@ -20880,6 +26556,18 @@
     "type": "series",
     "updated_at": 1788383125451,
     "year": 1976
+  },
+  {
+    "imdb_id": "tt13295384",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "en-movimiento"
+    },
+    "title": "En movimiento",
+    "tmdb_id": null,
+    "type": "series",
+    "updated_at": 1788396310233,
+    "year": 2020
   },
   {
     "imdb_id": "tt15656572",
@@ -20942,6 +26630,18 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt21867762",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "los-pecados-de-nuestra-madre"
+    },
+    "title": "Los pecados de nuestra madre",
+    "tmdb_id": null,
+    "type": "series",
+    "updated_at": 1788396055826,
+    "year": 2022
+  },
+  {
     "imdb_id": "tt36600592",
     "provider_variants": {},
     "providers": {
@@ -20952,6 +26652,18 @@
     "type": "series",
     "updated_at": 1788383011267,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt21195494",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "oggy-y-las-cucarachas-la-nueva-generacion"
+    },
+    "title": "Oggy y las cucarachas: La nueva generación",
+    "tmdb_id": null,
+    "type": "series",
+    "updated_at": 1788396098884,
+    "year": 2022
   },
   {
     "imdb_id": "tt12360292",
@@ -21000,6 +26712,18 @@
     "type": "series",
     "updated_at": 1788383227608,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt17545274",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "simeone-vivir-partido-a-partido"
+    },
+    "title": "Simeone. Vivir partido a partido",
+    "tmdb_id": null,
+    "type": "series",
+    "updated_at": 1788396453469,
+    "year": 2022
   },
   {
     "imdb_id": "tt15208918",
