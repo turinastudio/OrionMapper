@@ -28,7 +28,7 @@ logger = logging.getLogger("orion_mapper.cli")
 # AllCalidad requires its MD5 identity table and Gnula is currently excluded
 # from the operational sync. Keep both implementations available for
 # explicit/manual runs, but exclude them from automatic ``all`` executions.
-DISABLED_AUTOMATIC_PROVIDERS = {"allcalidad", "gnula"}
+DISABLED_AUTOMATIC_PROVIDERS: set[str] = set()
 UNRESOLVED_DIR = Path("data/unresolved")
 
 

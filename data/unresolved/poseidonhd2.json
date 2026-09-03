@@ -1,0 +1,22 @@
+[
+  {
+    "provider": "poseidonhd2",
+    "reason": "detail_not_found",
+    "slug": "tt2407380/test",
+    "title": null,
+    "type": "movie",
+    "year": null
+  },
+  {
+    "imdb_id": null,
+    "provider": "poseidonhd2",
+    "reason": "title_year_mismatch",
+    "resolved_title": "สารคดีถ้ำหลวง สูญ-หา-เจอ-รอด-ฟื้น",
+    "resolved_year": 2019,
+    "slug": "81089/thai-cave-rescue",
+    "title": "Thai Cave Rescue",
+    "tmdb_id": "81089",
+    "type": "series",
+    "year": 2019
+  }
+]

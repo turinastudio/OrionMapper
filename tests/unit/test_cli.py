@@ -294,8 +294,9 @@ class TestCliScrapeCommand:
             )
             exit_code = await execute_scrape(args)
             assert exit_code == 0
-            assert mock_get.call_count == 1
+            assert mock_get.call_count == 2
             assert mock_get.call_args_list[0].args[0] == "serieskao"
+            assert mock_get.call_args_list[1].args[0] == "gnula"
 
     @pytest.mark.asyncio
     async def test_execute_scrape_dry_run_no_files_written(self, tmp_path: Path):

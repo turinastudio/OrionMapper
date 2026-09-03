@@ -1,0 +1,91 @@
+name: Weekly Audit
+
+# Full catalog audit + recovery, Sundays off-peak Argentina (UTC-3),
+# off-minute: 03:23 ART (06:23 UTC). Sequential per provider to avoid
+# concurrent pushes to main.
+"on":
+  schedule:
+    - cron: "23 6 * * 0"
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: "Provider to audit (empty for all)"
+        required: false
+        default: ""
+        type: string
+      dry_run:
+        description: "Dry run without committing changes"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    name: Full Catalog Audit & Recovery
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    concurrency:
+      group: weekly-audit
+      cancel-in-progress: false
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Restore AllCalidad MD5 index
+        run: |
+          mkdir -p data/allcalidad
+          if [ ! -f data/allcalidad/md5-index.bin ]; then
+            python -m orion_mapper.resolver.allcalidad_md5 --generate
+          fi
+
+      - name: Audit and recover all providers
+        env:
+          ORION_TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.provider }}" ]; then
+            PROVIDERS="${{ github.event.inputs.provider }}"
+          else
+            PROVIDERS="serieskao pelisgratishd gnula poseidonhd2 allcalidad allpeliculas"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY="--dry-run"
+          else
+            DRY=""
+          fi
+          for P in $PROVIDERS; do
+            echo "=== Auditing $P ==="
+            python main.py audit --provider "$P" --max-pages 1000 --rate-limit 1.0 -o "data/audit_${P}.json" || echo "audit $P failed, continuing"
+            echo "=== Recovering $P ==="
+            python main.py recover-audit --report "data/audit_${P}.json" --rate-limit 2.0 $DRY || echo "recover $P failed, continuing"
+          done
+
+      - name: Commit and push changes
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/mappings/movies.json data/mappings/series.json data/unresolved/
+          if git diff --staged --quiet; then
+            echo "No audit changes detected to commit."
+          else
+            git commit -m "chore(mappings): weekly audit recovery [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME:-main}" || true
+            git push
+          fi

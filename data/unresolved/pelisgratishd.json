@@ -1,0 +1,3006 @@
+[
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "-iexclatame",
+    "title": "¡Átame!",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "-oggy-y-las-cucarachas",
+    "title": "Oggy y las cucarachas",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "0719",
+    "title": "07:19",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "12-suicidal-teens",
+    "title": "12 Suicidal Teens",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "imdb_id": "tt34564059",
+    "provider": "pelisgratishd",
+    "reason": "title_year_mismatch",
+    "resolved_title": "The Runner",
+    "resolved_year": 2026,
+    "slug": "a-la-carrera-WelCff",
+    "title": "A la carrera",
+    "tmdb_id": "1386315",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "a-serial-killers-guide-to-life",
+    "title": "A Serial Killer&#39;s Guide to Life",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "aeropuerto-70",
+    "title": "Aeropuerto 70",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "all-good",
+    "title": "All Good",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "antes-de-marte",
+    "title": "Antes de Marte",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "az-budou-kravy-litat",
+    "title": "Az budou krávy lítat",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "bag-el-buen-amigo-gigante",
+    "title": "B.A.G. El Buen Amigo Gigante",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "ballenas-3d",
+    "title": "Ballenas 3D",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "bienvenida-a-montparnasse",
+    "title": "Bienvenida a Montparnasse",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "bodied",
+    "title": "Bodied",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "borde-del-miedo",
+    "title": "Borde del miedo",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "breaking-bad-the-movie",
+    "title": "Breaking Bad: The Movie",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "bull",
+    "title": "Bull",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "burkit",
+    "title": "Burkit",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "cabarete",
+    "title": "Cabarete",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "cabin-fever-reboot",
+    "title": "Cabin Fever: Reboot",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "caceria",
+    "title": "Cacería",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "calibre-45",
+    "title": "Calibre 45",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "imdb_id": "tt16155872",
+    "provider": "pelisgratishd",
+    "reason": "title_year_mismatch",
+    "resolved_title": "Cannelloni",
+    "resolved_year": 2026,
+    "slug": "canelones-ERbZo0",
+    "title": "Canelones",
+    "tmdb_id": "1743296",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "casi-heroes",
+    "title": "Casi heroes",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "coffee-shop-love-is-brewing",
+    "title": "Coffee Shop: Love is Brewing",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "comedia-inapropiada",
+    "title": "Comedia Inapropiada",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "dark-figure-of-crime",
+    "title": "Dark Figure of Crime",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "de-ninguna-manera-jose",
+    "title": "De ninguna manera José",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "desmadre-de-madres",
+    "title": "Desmadre de madres",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "dont-stop-me-now",
+    "title": "Don&#39;t Stop Me Now",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "door-lock",
+    "title": "Door Lock",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-ataque-del-dragon",
+    "title": "El ataque del dragón",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "imdb_id": "tt0414853",
+    "provider": "pelisgratishd",
+    "reason": "title_year_mismatch",
+    "resolved_title": "Barnyard",
+    "resolved_year": 2006,
+    "slug": "el-corral-una-fiesta-muy-besti-577BIY",
+    "title": "El corral, una fiesta muy bestia",
+    "tmdb_id": "9907",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-despertar-de-los-dragones-spl2",
+    "title": "El despertar de los dragones (SPL2)",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-encuentro",
+    "title": "El Encuentro",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-enjambre",
+    "title": "El enjambre",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-especialista-low-cost",
+    "title": "El especialista low cost",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-experimento-del-caos",
+    "title": "El Experimento del Caos",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-movimiento-divino",
+    "title": "El Movimiento Divino",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-secreto-de-las-calaveras-de-cristal",
+    "title": "El secreto de las calaveras de cristal",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-sueno-del-ladron",
+    "title": "El sueño del ladrón",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-vecindario-1br",
+    "title": "El vecindario (1BR)",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "elvis-asi-es-como-es",
+    "title": "Elvis: Así es como es",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "empezar-de-nuevo",
+    "title": "Empezar De Nuevo",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "en-el-silencio-de-la-noche",
+    "title": "En el silencio de la noche",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "erase-una-vez-un-cuento-al-reves",
+    "title": "Érase una vez un cuento al revés",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "eternidad",
+    "title": "Eternidad",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "euphoria-las-rayadas-no-son-eternas-parte-1",
+    "title": "Euphoria: Las rayadas no son eternas Parte 1",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "euphoria-los-perfectos-a-mamarla-parte-2",
+    "title": "Euphoria: Los perfectos a mamarla Parte 2",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "fantasma",
+    "title": "Fantasma",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "farewell-song-2019",
+    "title": "Farewell Song",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "fatal-fury-la-pelicula",
+    "title": "Fatal Fury: La Película",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "fragmentos",
+    "title": "Fragmentos",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "gangsta",
+    "title": "Gangsta",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "ghost-in-the-shell-stand-alone-complex-2nd-gig",
+    "title": "Ghost in the Shell: Stand Alone Complex 2nd GiG",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "girl-with-iron-arms-3",
+    "title": "Girl With Iron Arms 3",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "guapisima",
+    "title": "Guapísima",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "harold-y-kumar-van-al-castillo-blanco",
+    "title": "harold y kumar van al castillo blanco",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "heavy-gear-4-attack-of-the-behemoths",
+    "title": "Heavy Gear 4 Attack of the Behemoths",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "imdb_id": "tt3464902",
+    "provider": "pelisgratishd",
+    "reason": "title_year_mismatch",
+    "resolved_title": "The Lobster",
+    "resolved_year": 2015,
+    "slug": "hechizada",
+    "title": "Hechizada",
+    "tmdb_id": "254320",
+    "type": "movie",
+    "year": 2004
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "hipersomnia",
+    "title": "Hipersomnia",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "how-to-solve-your-own-murder",
+    "title": "How to Solve Your Own Murder",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "hoy-partido-a-las-tres",
+    "title": "Hoy partido a las tres",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "hwayi-a-monster-boy",
+    "title": "Hwayi: A Monster Boy",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "in-the-trap",
+    "title": "In the Trap",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "in-vino",
+    "title": "In Vino",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "into-the-dark-all-that-we-destroy",
+    "title": "Into the Dark: All That We Destroy",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "into-the-dark-the-body",
+    "title": "Into the Dark: The Body",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "jana",
+    "title": "Jana",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "juventud-salvaje",
+    "title": "Juventud salvaje",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "killer-single-dad",
+    "title": "Canción de cuna",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-casa-de-verano",
+    "title": "La casa de verano",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-caseta-magica",
+    "title": "La caseta mágica",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-esposa-perdida-de-robert-durst",
+    "title": "La Esposa Perdida de Robert Durst",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-flauta-de-los-pitufos",
+    "title": "La flauta de los pitufos",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-gran-pelicula-de-piglet",
+    "title": "La gran película de Piglet",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-inocencia-de-la-arana",
+    "title": "La inocencia de la araña",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-mascara-de-la-muerte-roja",
+    "title": "La máscara de la muerte roja",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-mascara-en-la-que-vives",
+    "title": "La máscara en la que vives",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-mirada-del-amor",
+    "title": "La mirada del amor",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-mujer-papa",
+    "title": "La mujer papa",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-pelicula-de-mi-vida",
+    "title": "La pelicula de mi vida",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-seduccion-de-michelle",
+    "title": "La seducción de Michelle",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "las-dos-vidas-de-audrey-rose",
+    "title": "Las dos vidas de Audrey Rose",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "las-manias-de-mama",
+    "title": "Las manías de mamá",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "las-nuevas-aventuras-de-caperucita-roja",
+    "title": "Las nuevas aventuras de Caperucita Roja",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "lego-dc-comics-super-heroes-la-liga-de-la-justicia-el-ataque",
+    "title": "LEGO DC Comics Super Heroes: La Liga de la Justicia - El ata",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "imdb_id": "tt35363310",
+    "provider": "pelisgratishd",
+    "reason": "title_year_mismatch",
+    "resolved_title": "Jean Valjean",
+    "resolved_year": 2025,
+    "slug": "los-miserables-el-origen-mRiLBV",
+    "title": "Los miserables. El origen",
+    "tmdb_id": "1376439",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "loud-krazy-love",
+    "title": "Loud Krazy Love",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "mas-alla-de-la-reencarnacion",
+    "title": "Más allá de la reencarnación",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "masaan",
+    "title": "Masaan",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "matar-una-reina",
+    "title": "Matar una reina",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "miedo-extremo",
+    "title": "Miedo Extremo",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "mision-estrella",
+    "title": "Misión Estrella",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "monster-of-the-deep",
+    "title": "Monster of The Deep",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "moz",
+    "title": "M.O.Ž.",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "nuestro-reino",
+    "title": "Nuestro reino",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "nueve-vidas",
+    "title": "Nueve Vidas",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "ocean-wonderland",
+    "title": "Un mundo maravilloso en el océano",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "outside-in",
+    "title": "Outside In",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "imdb_id": "tt7870102",
+    "provider": "pelisgratishd",
+    "reason": "title_year_mismatch",
+    "resolved_title": "Critical Thinking",
+    "resolved_year": 2020,
+    "slug": "pensamiento-critico-msooRq",
+    "title": "Pensamiento crítico",
+    "tmdb_id": "665877",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "posesion-demencial",
+    "title": "Posesión demencial",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "postman-pat-the-movie",
+    "title": "Postman Pat: The Movie",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "posverdad-desinformacion-y-coste-de-las-fake-news",
+    "title": "Posverdad: desinformación y coste de las fake news",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "queen-hungarian-rhapsody-live-in-budapest",
+    "title": "Queen: Hungarian Rhapsody - Live in Budapest",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "querida-vida",
+    "title": "Querida Vida",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "imdb_id": "tt0091309",
+    "provider": "pelisgratishd",
+    "reason": "title_year_mismatch",
+    "resolved_title": "They Were Eleven",
+    "resolved_year": 1986,
+    "slug": "quien-es-el-11o-pasajero-QNlJY8",
+    "title": "¿Quién es el 11º pasajero?",
+    "tmdb_id": "28214",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "quieres-ser-mi-vecino",
+    "title": "¿Quieres ser mi vecino?",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "raoul-taburin",
+    "title": "Raoul Taburin",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "revueltas-en-baltimore",
+    "title": "Revueltas en Baltimore",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "robot-no-8",
+    "title": "机器人8号",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "roseville",
+    "title": "Roseville",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "run-this-town",
+    "title": "Run This Town",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "salvar-o-morir",
+    "title": "Salvar o morir",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "sed",
+    "title": "Sed",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "sergio-and-sergei",
+    "title": "Sergio and Sergei",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "sexo-y-la-mente-adolescente",
+    "title": "Sexo y la Mente Adolescente",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "shootfighter",
+    "title": "Shootfighter",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "shootfighter-2",
+    "title": "Shootfighter 2",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "sobrevivir-a-lo-salvaje",
+    "title": "Sobrevivir a lo salvaje",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "south-park-especial-de-vacunacion",
+    "title": "South Park Especial de vacunación",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "testigo",
+    "title": "Testigo",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-bride",
+    "title": "The Bride",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-cage-2018",
+    "title": "The Cage",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-diary-of-diana-b",
+    "title": "The Diary of Diana B.",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-house-of-tomorrow",
+    "title": "The House of Tomorrow",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-king-of-fighters",
+    "title": "The King of Fighters",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-kings-letters-2019",
+    "title": "The King&#39;s Letters",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-last-reef",
+    "title": "The Last Reef",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-monkey-king-the-legend-begins",
+    "title": "The Monkey King: The Legend Begins",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-murder-of-nicole-brown-simpson",
+    "title": "The Murder of Nicole Brown Simpson",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-odd-family-zombie-on-sale",
+    "title": "The Odd Family: Zombie On Sale",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-oddsockeaters",
+    "title": "The Oddsockeaters",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-scythian-lamb",
+    "title": "The Scythian Lamb",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-warden",
+    "title": "The Warden",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "thor-el-martillo-de-los-dioses",
+    "title": "Thor: El martillo de los dioses",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "tierra-a-la-vista",
+    "title": "¡Tierra a la vista!",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "tierra-de-audaces",
+    "title": "Tierra de audaces",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "tierra-de-sangre",
+    "title": "Tierra de sangre",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "tom-y-jerry-robin-hood-y-el-raton-de-sherwood",
+    "title": "Tom y Jerry: Robin Hood y el ratón de Sherwood",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "tomorrows-a-new-day",
+    "title": "Tomorrow&#39;s a New Day",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "tour-balas-perdidas-en-madrid-morat",
+    "title": "Tour Balas Perdidas en Madrid-Morat",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "true-legend-king-of-beggars",
+    "title": "True Legend: King of Beggars",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "tu-kimi-y-yo",
+    "title": "Tú, Kimi y yo",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "un-enredo-amoroso",
+    "title": "Un enredo amoroso",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "un-loco-anda-suelto",
+    "title": "Un loco anda suelto",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "una-mision-de-locos",
+    "title": "Una misión de locos",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "unbeatable",
+    "title": "Unbeatable",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "until-i-meet-septembers-love",
+    "title": "Until I Meet September’s Love",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "varda-por-agnes",
+    "title": "Varda por Agnès",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "venganza-in-the-blood",
+    "title": "Venganza (In the Blood)",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "venom-postcredit",
+    "title": "Venom: Post Creditos",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "vivir-sin-aliento",
+    "title": "Vivir sin aliento",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "volando-libre",
+    "title": "Volando libre",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "winnie-pooh-una-primavera-con-rito",
+    "title": "Winnie Pooh: Una primavera con Rito",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "yu-gi-oh-3d-lazos-mas-alla-del-tiempo",
+    "title": "Yu-Gi-Oh! 3D: Lazos más allá del tiempo",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "a-black-lady-sketch-show",
+    "title": "A Black Lady Sketch Show",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "acapulco-shore",
+    "title": "Acapulco Shore",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "aj-and-the-queen",
+    "title": "AJ and the Queen",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "almost-family",
+    "title": "Almost Family",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "alta-mar",
+    "title": "Alta mar",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "altered-carbon",
+    "title": "Carbono Alterado",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "amor-eterno",
+    "title": "Amor Eterno",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "animal",
+    "title": "Animal",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "arenas-movedizas",
+    "title": "Arenas movedizas",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "ares",
+    "title": "Ares",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "arrow",
+    "title": "Arrow",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "atlanta",
+    "title": "Atlanta",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "ballers",
+    "title": "Jugadores",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "basketball-or-nothing",
+    "title": "Basketball or Nothing",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "bienvenidos-a-utmark",
+    "title": "Welcome to Utmark",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "bill-gates-bajo-la-lupa",
+    "title": "Bill Gates bajo la lupa",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "billions",
+    "title": "Billions",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "bitten",
+    "title": "Mordida",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "blood-oil",
+    "title": "Blood &amp; Oil",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "borgen-reino-poder-y-gloria",
+    "title": "Borgen: Reino, poder y gloria",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "briarpatch",
+    "title": "Briarpatch",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "bronco-la-serie",
+    "title": "Bronco La Serie",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "brooklyn-nine-nine",
+    "title": "Brooklyn Nine-Nine",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "califato",
+    "title": "Califato",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "caronte",
+    "title": "Caronte",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "carta-al-rey",
+    "title": "Carta al Rey",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "casi-feliz",
+    "title": "Casi Feliz",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "chambers",
+    "title": "Chambers",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "chance",
+    "title": "Chance",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "cheer",
+    "title": "Cheerleaders en acción",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "china-misteriosa-y-salvaje",
+    "title": "China: Misteriosa y salvaje",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "como-sobrevivir-soltero",
+    "title": "Cómo sobrevivir soltero",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "conversaciones-con-asesinos-las-cintas-de-john-wayne-gacy",
+    "title": "Conversaciones con asesinos: Las cintas de John Wayne Gacy",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "corderos-de-dios",
+    "title": "Lambs of God",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "criminal-alemania",
+    "title": "Criminal: Alemania",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "criminal-espana",
+    "title": "Criminal: España",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "criminal-francia",
+    "title": "Criminal: Francia",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "cuando-los-heroes-vuelan",
+    "title": "Cuando los héroes vuelan",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "curon",
+    "title": "Curon",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "damnation",
+    "title": "Damnation",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "dani-who",
+    "title": "Dani Who?",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "de-cita-en-cita",
+    "title": "De cita en cita",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "demasiado-viejo-para-morir-joven",
+    "title": "Muy viejo para morir joven",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "desenfrenadas",
+    "title": "Desenfrenadas",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "desplazados",
+    "title": "Desplazados",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "dia-a-dia",
+    "title": "Día a Día",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "dilema",
+    "title": "Dilema",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "distrito-salvaje",
+    "title": "Distrito salvaje",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "doctores",
+    "title": "Doctores",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "dollar",
+    "title": "Dollar",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "dr-brain",
+    "title": "Dr. Brain",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "drcula",
+    "title": "Drácula",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "easy",
+    "title": "Easy",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "edha",
+    "title": "Edha",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-angel-desobediente",
+    "title": "Bajo la Mirada de Nadie",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-bazar-de-la-caridad",
+    "title": "El Bazar de la Caridad",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-caso-alcasser",
+    "title": "El caso Alcàsser",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-coyote-y-el-correcaminos",
+    "title": "El Coyote y El Correcaminos",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-elegido",
+    "title": "El Elegido",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-espia",
+    "title": "El Espía",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-gobierno-segun-adam-conover",
+    "title": "La palabra con G según Adam Conover",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-gran-tour",
+    "title": "El Gran Tour",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-hombre-de-los-seis-millones-de-dolares",
+    "title": "El Hombre Nuclear",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-ilusionista",
+    "title": "El ilusionista",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-mochaorejas-hvJaqN",
+    "title": "El Mochaorejas",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-nazi-ivan-el-terrible",
+    "title": "El diablo de al lado",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-pentavirato",
+    "title": "El Pentavirato",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-peor-inquilino-del-mundo",
+    "title": "Los peores compañeros de casa del mundo",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-perfume",
+    "title": "El Perfume",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-presidente",
+    "title": "El Presidente",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-sexo-en-pocas-palabras",
+    "title": "El sexo, en pocas palabras",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "eres-lo-peor",
+    "title": "Eres lo peor",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "esta-mierda-me-supera",
+    "title": "Esta mierda me supera",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "extracurricular",
+    "title": "Extracurricular",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "extreme-engagement",
+    "title": "La máxima promesa",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "fleabag",
+    "title": "Fleabag",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "followers",
+    "title": "Seguidores",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "foodie-love",
+    "title": "Foodie Love",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "freud",
+    "title": "Freud",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "fringe",
+    "title": "Fringe",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "frontera-verde",
+    "title": "Frontera Verde",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "full-house",
+    "title": "Tres por tres",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "gentefied",
+    "title": "Gentefied",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "ghost-wars",
+    "title": "Ghost Wars",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "ghosted",
+    "title": "Ghosted",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "gigantes-de-la-industria",
+    "title": "Gigantes de la industria",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "girlboss",
+    "title": "Girlboss",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "go-vive-a-tu-manera",
+    "title": "GO! Vive a tu Manera",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "gotham",
+    "title": "Gotham",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "guia-astrologica-para-corazones-rotos",
+    "title": "Guía astrológica para corazones rotos",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "guilt",
+    "title": "Guilt",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "happy",
+    "title": "Happy!",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "happy-jail",
+    "title": "Happy Jail",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "hermandad",
+    "title": "Hermandad",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "hernan",
+    "title": "Hernán",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "heroes-reborn",
+    "title": "Héroes Reborn",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "historia-de-un-crimen-la-busqueda",
+    "title": "Historia de un crimen: la búsqueda",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "historias-de-san-francisco",
+    "title": "Historias de San Francisco",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "hollywood",
+    "title": "Hollywood",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "how-i-met-your-mother",
+    "title": "Cómo conocí a tu madre",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "how-to-rock",
+    "title": "How to Rock",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "hungry-ghosts",
+    "title": "Hungry Ghosts",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "incontrolablemente-enamorados",
+    "title": "Incontrolablemente Enamorados",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "into-the-night",
+    "title": "El camino de la noche",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "jett",
+    "title": "Jett",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "ju-on-origenes",
+    "title": "Ju-on: Origenes",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "jugar-con-fuego",
+    "title": "Jugar con fuego",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "kentaro-esta-embarazado",
+    "title": "El embarazo de Kentaro",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "kevin-can-wait",
+    "title": "Kevin puede esperar",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "kidding",
+    "title": "Kidding",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "killing-it",
+    "title": "Killing It",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "killjoys",
+    "title": "Killjoys",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "knightfall",
+    "title": "Knightfall",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "l-generacion-q",
+    "title": "La palabra L: Generación Q",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-amiga-estupenda",
+    "title": "La amiga estupenda",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-faccion-octubre",
+    "title": "La facción octubre",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-familia-grupo-conservador",
+    "title": "La Familia",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-luz-de-la-noche",
+    "title": "La luz de la noche",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-perturbacion",
+    "title": "La perturbación",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-suegra-que-te-pario",
+    "title": "La suegra que te parió",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-vida-y-beth",
+    "title": "La vida y Beth",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-zona-del-crepusculo",
+    "title": "La Dimensión Desconocida",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "las-del-hockey",
+    "title": "Las del hockey",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "las-luminarias",
+    "title": "Las Luminarias",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "lenox-hill",
+    "title": "Lenox Hill",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "lineas-eroticas",
+    "title": "Líneas eróticas",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "little-america",
+    "title": "Little America",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "los-borgia",
+    "title": "Los Borgia",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "los-espookys",
+    "title": "Los Espookys",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "los-hermanos-salvador",
+    "title": "Los hermanos Salvador",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "los-ultimos-zares",
+    "title": "Los Últimos Zares",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "los-vigilantes-de-malibu-la-serie",
+    "title": "Los vigilantes de Malibú",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "louie-el-rey-de-las-compras",
+    "title": "El rey de las compras Louis",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "luna-nera",
+    "title": "Luna nera",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "mal-de-amores-BYBCsZ",
+    "title": "Mal de amores",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "manhunt-unabomber",
+    "title": "Manhunt",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "matchday-inside-fc-barcelona",
+    "title": "Matchday: Dentro del FC Barcelona",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "maverix",
+    "title": "MaveriX",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "mcmillions",
+    "title": "McMillions",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "me-llamo-earl",
+    "title": "Mi nombre es Earl",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "medical-police",
+    "title": "Medical Police",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "megas-xlr",
+    "title": "Megas XLR",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "merli",
+    "title": "Merlí",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "mi-adorable-sam-soon",
+    "title": "Mi adorable Sam Soon",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "miami-vice",
+    "title": "División Miami",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "millennials",
+    "title": "Millennials",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "misfits",
+    "title": "Misfits Webisodes",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "ninis",
+    "title": "NINIS",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "nisman-el-fiscal-la-presidenta-y-el-espia",
+    "title": "Nisman: El fiscal, la presidenta y el espía",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "no-hables-con-extraos",
+    "title": "No hables con extraños",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "osmosis",
+    "title": "Osmosis",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "otra-semana-en-cartoon",
+    "title": "Otra semana en Cartoon",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "para-siempre",
+    "title": "Forever",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "pasadizo-de-emergencia",
+    "title": "Pasillos de Hospital",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "pequenas-mentirosas-perfeccionistas",
+    "title": "Pequeñas mentirosas: Perfeccionistas",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "pequenos-sabuesos",
+    "title": "Pequeños Sabuesos",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "pivoting",
+    "title": "Pivoting",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "poco-ortodoxa",
+    "title": "Poco ortodoxa",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "prueba-a",
+    "title": "Prueba A",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "queen-of-the-south",
+    "title": "La reina del sur",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "ramy",
+    "title": "Ramy",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "reality-z",
+    "title": "Reality Z",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "reas",
+    "title": "Reas",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "red-oaks",
+    "title": "Red Oaks",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "reunion-familiar",
+    "title": "Reunión familiar",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "rubirosa",
+    "title": "Rubirosa",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "run-coyote-run",
+    "title": "Run Coyote Run",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "rutherford-falls",
+    "title": "Rutherford Falls",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "samantha",
+    "title": "Samantha Br",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "santa-clarita-diet",
+    "title": "Santa Clarita Diet",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "seven-seconds",
+    "title": "Seven Seconds",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "siempre-bruja",
+    "title": "Siempre bruja",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "sintonia",
+    "title": "Sintonia",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "skylanders-academy",
+    "title": "Skylanders Academy",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "somos-la-ola",
+    "title": "Somos una ola",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "spectros",
+    "title": "Espectros",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "stranger",
+    "title": "Stranger",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "stumptown",
+    "title": "Stumptown",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "suena-sin-limites-dream-high",
+    "title": "Sueña Sin Limites",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "terriers",
+    "title": "Terriers",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-deuce",
+    "title": "The Deuce: Las Cronicas de Times Square",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-feed",
+    "title": "La Fuente",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-first-lady",
+    "title": "The First Lady",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-frankenstein-chronicles",
+    "title": "Las crónicas de Frankenstein",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-gifted",
+    "title": "Los Elegidos",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-good-wife",
+    "title": "La esposa ejemplar",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-hot-zone",
+    "title": "The Hot Zone",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-i-land",
+    "title": "The I-Land",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-politician",
+    "title": "El Político",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-ranch",
+    "title": "The Ranch",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-returned",
+    "title": "The Returned",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-rook",
+    "title": "The Rook",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-society",
+    "title": "The Society",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-son",
+    "title": "The Son",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-stranded",
+    "title": "The Stranded",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-unxplained",
+    "title": "Lo inexplicable",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "tijuana",
+    "title": "Tijuana",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "tom-swift",
+    "title": "Tom Swift",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "trabajar-eso-que-hacemos-todo-el-dia",
+    "title": "Trabajar: Eso que hacemos todo el día",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "traidores",
+    "title": "Traidores",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "transporter-the-series",
+    "title": "Transporter",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "turn-up-charlie",
+    "title": "Turn Up Charlie",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "una-confesion",
+    "title": "Una confesión",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "una-familia-de-diez",
+    "title": "Una familia de diez",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "under-the-dome",
+    "title": "Bajo el domo",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "utopia-falls",
+    "title": "Utopia Falls",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "v-wars",
+    "title": "V Wars",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "vampiros",
+    "title": "Vampiros",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "viaje-sangriento",
+    "title": "Bloodride",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "weeds",
+    "title": "Weeds",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "white-lines",
+    "title": "White Lines",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "wilfred",
+    "title": "Wilfred",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "wrecked",
+    "title": "Superperdidos",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "wu-assassins",
+    "title": "El Asesino del Wu",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "zerozerozero",
+    "title": "ZeroZeroZero",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "zona-blanca",
+    "title": "Zona Blanca",
+    "type": "series",
+    "year": null
+  }
+]

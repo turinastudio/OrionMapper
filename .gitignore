@@ -69,8 +69,12 @@ nosetests.xml
 data/orion_mappings/
 data/audit_report.json
 data/audit_recovery.json
-data/unresolved/
+data/audit_*.json
 data/allcalidad/
+# Unresolved backlog IS tracked: runners are ephemeral, so it must be
+# committed to persist between scheduled runs.
+data/unresolved/*
+!data/unresolved/*.json
 
 # Track Master Canonical Mappings
 !data/mappings/movies.json
