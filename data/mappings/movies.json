@@ -53515,7 +53515,7 @@
     "title": "Recuerdos perversos",
     "tmdb_id": "38410",
     "type": "movie",
-    "updated_at": 1788458586981,
+    "updated_at": 1788557536240,
     "year": 2007
   },
   {
@@ -133404,7 +133404,7 @@
     "title": "Oats Studios: Volume 1",
     "tmdb_id": "534032",
     "type": "movie",
-    "updated_at": 1788458586984,
+    "updated_at": 1788557541216,
     "year": 2021
   },
   {
@@ -157750,7 +157750,7 @@
     "title": "Misión Panamá",
     "tmdb_id": "628878",
     "type": "movie",
-    "updated_at": 1788464747774,
+    "updated_at": 1788557534225,
     "year": 2022
   },
   {
@@ -211743,7 +211743,7 @@
     "title": "CATO",
     "tmdb_id": "875460",
     "type": "movie",
-    "updated_at": 1788464741830,
+    "updated_at": 1788557535220,
     "year": 2021
   },
   {
@@ -238411,12 +238411,13 @@
     "imdb_id": "tt23640170",
     "provider_variants": {},
     "providers": {
-      "gnula": "conoce-a-los-barbaros"
+      "gnula": "conoce-a-los-barbaros",
+      "poseidonhd2": "1001736/conoce-a-los-barbaros"
     },
     "title": "Conoce a los Bárbaros",
     "tmdb_id": "1001736",
     "type": "movie",
-    "updated_at": 1788410739427,
+    "updated_at": 1788557532223,
     "year": 2024
   },
   {
@@ -266250,6 +266251,19 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt28014327",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "mayday",
+      "poseidonhd2": "1137844/mayday"
+    },
+    "title": "Mayday",
+    "tmdb_id": "1137844",
+    "type": "movie",
+    "updated_at": 1788557526217,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt18181882",
     "provider_variants": {},
     "providers": {
@@ -276309,18 +276323,29 @@
   },
   {
     "imdb_id": "tt29713815",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "pose"
+      ],
+      "poseidonhd2": [
+        "79084/pose"
+      ],
+      "serieskao": [
+        "pose"
+      ]
+    },
     "providers": {
       "allcalidad": "pose-2025",
       "allpeliculas": "pose-2025",
       "gnula": "pose",
+      "pelisgratishd": "pose-hETfiF",
       "poseidonhd2": "1199193/pose",
       "serieskao": "pose-hETfiF"
     },
     "title": "Pose",
     "tmdb_id": "1199193",
     "type": "movie",
-    "updated_at": 1788464741821,
+    "updated_at": 1788557513183,
     "year": 2025
   },
   {
@@ -282712,12 +282737,13 @@
     "imdb_id": "tt31122579",
     "provider_variants": {},
     "providers": {
-      "gnula": "atropia"
+      "gnula": "atropia",
+      "poseidonhd2": "1239288/atropia"
     },
     "title": "Atropia",
     "tmdb_id": "1239288",
     "type": "movie",
-    "updated_at": 1788410739427,
+    "updated_at": 1788557530221,
     "year": 2025
   },
   {
@@ -296247,13 +296273,15 @@
     "imdb_id": "tt33354945",
     "provider_variants": {},
     "providers": {
+      "gnula": "gandhari",
       "pelisgratishd": "gandhari-i8m2ti",
+      "poseidonhd2": "1355228/gandhari",
       "serieskao": "gandhari-i8m2ti"
     },
     "title": "Gandhari",
     "tmdb_id": "1355228",
     "type": "movie",
-    "updated_at": 1788523816442,
+    "updated_at": 1788557528217,
     "year": 2026
   },
   {
@@ -299553,6 +299581,8 @@
     "imdb_id": "tt34564059",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "carrera-contra-el-tiempo-2026",
+      "allpeliculas": "carrera-contra-el-tiempo-2026",
       "gnula": "carrera-contra-el-tiempo-1386315",
       "pelisgratishd": "a-la-carrera-WelCff",
       "poseidonhd2": "1386315/carrera-contra-el-tiempo",
@@ -299561,7 +299591,7 @@
     "title": "Carrera contra el tiempo",
     "tmdb_id": "1386315",
     "type": "movie",
-    "updated_at": 1788458947626,
+    "updated_at": 1788557509158,
     "year": 2026
   },
   {
@@ -312211,7 +312241,7 @@
     "title": "Yellow",
     "tmdb_id": "1589472",
     "type": "movie",
-    "updated_at": 1788458586984,
+    "updated_at": 1788557542218,
     "year": 2025
   },
   {
@@ -315257,6 +315287,8 @@
     "imdb_id": "tt43679852",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "lego-star-wars-the-mandalorian-2026",
+      "allpeliculas": "lego-star-wars-the-mandalorian-2026",
       "gnula": "lego-star-wars-the-mandalorian",
       "pelisgratishd": "lego-star-wars-the-mandalorian-eKIkUK",
       "poseidonhd2": "1731694/lego-star-wars-the-mandalorian",
@@ -315265,7 +315297,7 @@
     "title": "LEGO Star Wars: The Mandalorian",
     "tmdb_id": "1731694",
     "type": "movie",
-    "updated_at": 1788523815445,
+    "updated_at": 1788557511164,
     "year": 2026
   },
   {

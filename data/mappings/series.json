@@ -8994,7 +8994,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788523827460,
+    "updated_at": 1788557539201,
     "year": 2003
   },
   {
@@ -28090,7 +28090,7 @@
     "title": "Soulmates",
     "tmdb_id": "100771",
     "type": "series",
-    "updated_at": 1788458586984,
+    "updated_at": 1788557519191,
     "year": 2020
   },
   {
@@ -28439,12 +28439,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "hard",
-      "poseidonhd2": "102290/hard"
+      "pelisgratishd": "hard-brasil-NMsbBK",
+      "poseidonhd2": "102290/hard",
+      "serieskao": "hard-brasil-NMsbBK"
     },
     "title": "Hard Brasil",
     "tmdb_id": "102290",
     "type": "series",
-    "updated_at": 1788452160200,
+    "updated_at": 1788557537209,
     "year": 2020
   },
   {
@@ -29948,7 +29950,7 @@
     "title": "YOLO",
     "tmdb_id": "106925",
     "type": "series",
-    "updated_at": 1788464741852,
+    "updated_at": 1788557520200,
     "year": 2020
   },
   {
@@ -37383,12 +37385,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "professor-t",
-      "poseidonhd2": "126660/professor-t"
+      "pelisgratishd": "professor-t-A23E94",
+      "poseidonhd2": "126660/professor-t",
+      "serieskao": "professor-t-A23E94"
     },
     "title": "Professor T",
     "tmdb_id": "126660",
     "type": "series",
-    "updated_at": 1788452160198,
+    "updated_at": 1788557538212,
     "year": 2021
   },
   {
@@ -64150,7 +64154,7 @@
     "title": "Harlan Coben's Lazarus",
     "tmdb_id": "245827",
     "type": "series",
-    "updated_at": 1788464747776,
+    "updated_at": 1788557523215,
     "year": 2025
   },
   {
@@ -68179,7 +68183,7 @@
     "title": "The Assassin",
     "tmdb_id": "262352",
     "type": "series",
-    "updated_at": 1788464741849,
+    "updated_at": 1788557524214,
     "year": 2025
   },
   {
@@ -68314,12 +68318,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "la-agente-encubierta",
-      "poseidonhd2": "262920/la-agente-encubierta"
+      "pelisgratishd": "la-agente-encubierta-XEfDE7",
+      "poseidonhd2": "262920/la-agente-encubierta",
+      "serieskao": "la-agente-encubierta-XEfDE7"
     },
     "title": "La agente encubierta",
     "tmdb_id": "262920",
     "type": "series",
-    "updated_at": 1788452160185,
+    "updated_at": 1788557543219,
     "year": 2025
   },
   {
@@ -72693,7 +72699,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788523828456,
+    "updated_at": 1788557540216,
     "year": 2026
   },
   {

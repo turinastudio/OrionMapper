@@ -1845,11 +1845,11 @@
   },
   {
     "provider": "serieskao",
-    "reason": "tmdb_unresolved",
+    "reason": "missing_ids",
     "slug": "el-mochaorejas-hvJaqN",
     "title": "El Mochaorejas",
     "type": "series",
-    "year": null
+    "year": 2026
   },
   {
     "provider": "serieskao",
@@ -2192,6 +2192,14 @@
     "reason": "tmdb_unresolved",
     "slug": "jugar-con-fuego",
     "title": "Jugar con fuego",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "serieskao",
+    "reason": "missing_ids",
+    "slug": "kaidan-horror-classics-a2yLNb",
+    "title": "Kaidan Horror Classics",
     "type": "series",
     "year": null
   },
