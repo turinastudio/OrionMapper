@@ -1,14 +1,38 @@
 {
+  "allcalidad:movie": {
+    "next_page": 16
+  },
+  "allcalidad:series": {
+    "next_page": 16
+  },
+  "allpeliculas:movie": {
+    "next_page": 16
+  },
+  "allpeliculas:series": {
+    "next_page": 16
+  },
   "gnula:movie": {
-    "next_page": 1
+    "next_page": 16
   },
   "gnula:series": {
-    "next_page": 1
+    "next_page": 16
+  },
+  "pelisgratishd:movie": {
+    "next_page": 16
+  },
+  "pelisgratishd:series": {
+    "next_page": 16
+  },
+  "poseidonhd2:movie": {
+    "next_page": 16
+  },
+  "poseidonhd2:series": {
+    "next_page": 16
   },
   "serieskao:movie": {
-    "next_page": 1
+    "next_page": 16
   },
   "serieskao:series": {
-    "next_page": 1
+    "next_page": 16
   }
 }

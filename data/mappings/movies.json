@@ -12718,13 +12718,15 @@
     "imdb_id": "tt0398375",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "dicen-por-ahi-2005",
+      "allpeliculas": "dicen-por-ahi-2005",
       "pelisgratishd": "dicen-por-ahi",
       "serieskao": "dicen-por-ahi"
     },
     "title": "Dicen por ahí...",
     "tmdb_id": "2800",
     "type": "movie",
-    "updated_at": 1788458587018,
+    "updated_at": 1788523782384,
     "year": 2005
   },
   {
@@ -15787,6 +15789,8 @@
     "imdb_id": "tt0120791",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "hechizo-de-amor-1998",
+      "allpeliculas": "hechizo-de-amor-1998",
       "gnula": "hechizo-de-amor",
       "pelisgratishd": "hechizo-de-amor",
       "poseidonhd2": "6435/hechizo-de-amor",
@@ -15795,7 +15799,7 @@
     "title": "Hechizo de amor",
     "tmdb_id": "6435",
     "type": "movie",
-    "updated_at": 1788458587031,
+    "updated_at": 1788523774370,
     "year": 1998
   },
   {
@@ -20368,6 +20372,19 @@
     "type": "movie",
     "updated_at": 1788458587050,
     "year": 1998
+  },
+  {
+    "imdb_id": "tt0087803",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "1984-1984",
+      "allpeliculas": "1984-1984"
+    },
+    "title": "1984",
+    "tmdb_id": "9314",
+    "type": "movie",
+    "updated_at": 1788523772367,
+    "year": 1984
   },
   {
     "imdb_id": "tt0408790",
@@ -28070,6 +28087,8 @@
     "imdb_id": "tt0116683",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "jim-y-el-durazno-gigante-1996",
+      "allpeliculas": "jim-y-el-durazno-gigante-1996",
       "gnula": "jim-y-el-durazno-gigante",
       "pelisgratishd": "james-y-el-melocoton-gigante",
       "poseidonhd2": "10539/jim-y-el-durazno-gigante",
@@ -28078,7 +28097,7 @@
     "title": "James y el melocotón gigante",
     "tmdb_id": "10539",
     "type": "movie",
-    "updated_at": 1788458587003,
+    "updated_at": 1788523778377,
     "year": 1996
   },
   {
@@ -60389,6 +60408,8 @@
     "imdb_id": "tt1402488",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "happy-feet-el-pinguino-2-2011",
+      "allpeliculas": "happy-feet-el-pinguino-2-2011",
       "gnula": "happy-feet-el-pinguino-2",
       "pelisgratishd": "happy-feet-2",
       "poseidonhd2": "65759/happy-feet-el-pinguino-2",
@@ -60397,7 +60418,7 @@
     "title": "Happy Feet 2",
     "tmdb_id": "65759",
     "type": "movie",
-    "updated_at": 1788458587047,
+    "updated_at": 1788523776374,
     "year": 2011
   },
   {
@@ -70706,6 +70727,7 @@
     "provider_variants": {},
     "providers": {
       "allcalidad": "rio-2-2014",
+      "allpeliculas": "rio-2-2014",
       "gnula": "rio-2",
       "pelisgratishd": "rio-2",
       "poseidonhd2": "172385/rio-2",
@@ -70714,7 +70736,7 @@
     "title": "Río 2",
     "tmdb_id": "172385",
     "type": "movie",
-    "updated_at": 1788461251543,
+    "updated_at": 1788523780395,
     "year": 2014
   },
   {
@@ -191267,12 +191289,13 @@
     "providers": {
       "allcalidad": "newborn-2026",
       "allpeliculas": "newborn-2026",
-      "gnula": "newborn"
+      "gnula": "newborn",
+      "poseidonhd2": "787844/newborn"
     },
     "title": "Newborn",
     "tmdb_id": "787844",
     "type": "movie",
-    "updated_at": 1788464741818,
+    "updated_at": 1788523804432,
     "year": 2026
   },
   {
@@ -278433,6 +278456,19 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt20204886",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "kangaroo",
+      "poseidonhd2": "1214028/kangaroo"
+    },
+    "title": "Kangaroo",
+    "tmdb_id": "1214028",
+    "type": "movie",
+    "updated_at": 1788523800431,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt23736870",
     "provider_variants": {},
     "providers": {
@@ -288996,12 +289032,13 @@
     "providers": {
       "allcalidad": "lifehack-2026",
       "allpeliculas": "lifehack-2026",
-      "gnula": "lifehack"
+      "gnula": "lifehack",
+      "poseidonhd2": "1285669/lifehack"
     },
     "title": "LifeHack",
     "tmdb_id": "1285669",
     "type": "movie",
-    "updated_at": 1788464741817,
+    "updated_at": 1788523806448,
     "year": 2026
   },
   {
@@ -296207,6 +296244,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt33354945",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "gandhari-i8m2ti",
+      "serieskao": "gandhari-i8m2ti"
+    },
+    "title": "Gandhari",
+    "tmdb_id": "1355228",
+    "type": "movie",
+    "updated_at": 1788523816442,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt20859142",
     "provider_variants": {},
     "providers": {
@@ -297348,16 +297398,29 @@
   },
   {
     "imdb_id": "tt35819833",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "before"
+      ],
+      "poseidonhd2": [
+        "240920/before"
+      ],
+      "serieskao": [
+        "before"
+      ]
+    },
     "providers": {
+      "allcalidad": "before-2024",
+      "allpeliculas": "before-2024",
       "gnula": "before",
+      "pelisgratishd": "before-GlP9oP",
       "poseidonhd2": "1363899/before",
       "serieskao": "before-GlP9oP"
     },
     "title": "女神降臨 Before",
     "tmdb_id": "1363899",
     "type": "movie",
-    "updated_at": 1788452160117,
+    "updated_at": 1788523792409,
     "year": 2025
   },
   {
@@ -297623,12 +297686,13 @@
     "providers": {
       "allcalidad": "le-reve-americain-2026",
       "allpeliculas": "le-reve-americain-2026",
-      "gnula": "le-reve-americain"
+      "gnula": "le-reve-americain",
+      "poseidonhd2": "1365378/le-reve-americain"
     },
     "title": "Le rêve américain",
     "tmdb_id": "1365378",
     "type": "movie",
-    "updated_at": 1788464741815,
+    "updated_at": 1788523808444,
     "year": 2026
   },
   {
@@ -307458,6 +307522,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt36948232",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "just-play-dead-mujzth",
+      "serieskao": "just-play-dead-mujzth"
+    },
+    "title": "Just Play Dead",
+    "tmdb_id": "1480574",
+    "type": "movie",
+    "updated_at": 1788523822454,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt32351467",
     "provider_variants": {},
     "providers": {
@@ -308624,6 +308701,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt38351366",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "caravaggio-2P9Dxo",
+      "serieskao": "caravaggio-2P9Dxo"
+    },
+    "title": "Caravaggio",
+    "tmdb_id": "1496903",
+    "type": "movie",
+    "updated_at": 1788523820450,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt39088896",
     "provider_variants": {},
     "providers": {
@@ -309216,6 +309306,19 @@
     "tmdb_id": "1506323",
     "type": "movie",
     "updated_at": 1788464741819,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt37752275",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "clash-of-the-thundermans-JNkHEn",
+      "serieskao": "clash-of-the-thundermans-JNkHEn"
+    },
+    "title": "Clash of the Thundermans",
+    "tmdb_id": "1506560",
+    "type": "movie",
+    "updated_at": 1788523821476,
     "year": 2026
   },
   {
@@ -312439,16 +312542,27 @@
   },
   {
     "imdb_id": "tt34224947",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "animals"
+      ],
+      "poseidonhd2": [
+        "65228/animales"
+      ],
+      "serieskao": [
+        "animals"
+      ]
+    },
     "providers": {
       "gnula": "animales",
+      "pelisgratishd": "animales-TNI0mv",
       "poseidonhd2": "1599993/animales",
       "serieskao": "animales-TNI0mv"
     },
     "title": "Animales",
     "tmdb_id": "1599993",
     "type": "movie",
-    "updated_at": 1788452160117,
+    "updated_at": 1788523791403,
     "year": 2026
   },
   {
@@ -313337,12 +313451,13 @@
     "providers": {
       "allcalidad": "sunset-strip-killers-2026",
       "allpeliculas": "sunset-strip-killers-2026",
-      "gnula": "sunset-strip-killers"
+      "gnula": "sunset-strip-killers",
+      "poseidonhd2": "1631208/sunset-strip-killers"
     },
     "title": "Sunset Strip Killers",
     "tmdb_id": "1631208",
     "type": "movie",
-    "updated_at": 1788464741815,
+    "updated_at": 1788523810461,
     "year": 2026
   },
   {
@@ -314661,12 +314776,13 @@
     "imdb_id": "tt37001873",
     "provider_variants": {},
     "providers": {
-      "gnula": "we-cant-leave"
+      "gnula": "we-cant-leave",
+      "poseidonhd2": "1690070/we-cant-leave"
     },
     "title": "We Can't Leave",
     "tmdb_id": "1690070",
     "type": "movie",
-    "updated_at": 1788410735426,
+    "updated_at": 1788523812455,
     "year": 2025
   },
   {
@@ -314945,12 +315061,13 @@
     "imdb_id": "tt29277887",
     "provider_variants": {},
     "providers": {
-      "gnula": "a-texas-nightmare"
+      "gnula": "a-texas-nightmare",
+      "poseidonhd2": "1711662/a-texas-nightmare"
     },
     "title": "A Texas Nightmare",
     "tmdb_id": "1711662",
     "type": "movie",
-    "updated_at": 1788410735426,
+    "updated_at": 1788523814454,
     "year": 2025
   },
   {
@@ -315141,12 +315258,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "lego-star-wars-the-mandalorian",
-      "poseidonhd2": "1731694/lego-star-wars-the-mandalorian"
+      "pelisgratishd": "lego-star-wars-the-mandalorian-eKIkUK",
+      "poseidonhd2": "1731694/lego-star-wars-the-mandalorian",
+      "serieskao": "lego-star-wars-the-mandalorian-eKIkUK"
     },
     "title": "LEGO Star Wars: The Mandalorian",
     "tmdb_id": "1731694",
     "type": "movie",
-    "updated_at": 1788452160116,
+    "updated_at": 1788523815445,
     "year": 2026
   },
   {
@@ -315174,6 +315293,19 @@
     "type": "movie",
     "updated_at": 1788458586986,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt43700441",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "secretos-del-deporte-raygun-KhHDfy",
+      "serieskao": "secretos-del-deporte-raygun-KhHDfy"
+    },
+    "title": "Untold: Raygun: Breaking Badly",
+    "tmdb_id": "1739202",
+    "type": "movie",
+    "updated_at": 1788523818450,
+    "year": 2026
   },
   {
     "imdb_id": "tt39750720",
@@ -315232,6 +315364,21 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt41559858",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "fito-paez-el-mundo-cabe-en-una-cancion",
+      "pelisgratishd": "fito-paez-el-mundo-cabe-en-una-ZYlbmF",
+      "poseidonhd2": "1744876/fito-paez-el-mundo-cabe-en-una-cancion",
+      "serieskao": "fito-paez-el-mundo-cabe-en-una-ZYlbmF"
+    },
+    "title": "Fito Páez: El mundo cabe en una canción",
+    "tmdb_id": "1744876",
+    "type": "movie",
+    "updated_at": 1788523819447,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt39445906",
     "provider_variants": {},
     "providers": {
@@ -315282,6 +315429,19 @@
     "type": "movie",
     "updated_at": 1788464741814,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt44322266",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "momentos-decisivos-generacion--EgAdjb",
+      "serieskao": "momentos-decisivos-generacion--EgAdjb"
+    },
+    "title": "Turning Point: Generation 9/11",
+    "tmdb_id": "1752159",
+    "type": "movie",
+    "updated_at": 1788523817443,
+    "year": 2026
   },
   {
     "imdb_id": "tt7423538",

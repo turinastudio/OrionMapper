@@ -8994,7 +8994,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788458586982,
+    "updated_at": 1788523827460,
     "year": 2003
   },
   {
@@ -37100,12 +37100,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "vigil",
-      "poseidonhd2": "126167/vigil"
+      "pelisgratishd": "vigil-conspiracion-nuclear-d6iMcF",
+      "poseidonhd2": "126167/vigil",
+      "serieskao": "vigil-conspiracion-nuclear-d6iMcF"
     },
     "title": "Vigil: Conspiración nuclear",
     "tmdb_id": "126167",
     "type": "series",
-    "updated_at": 1788452160189,
+    "updated_at": 1788523824455,
     "year": 2021
   },
   {
@@ -71895,12 +71897,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "mal-de-amores",
-      "poseidonhd2": "290234/mal-de-amores"
+      "pelisgratishd": "mal-de-amores-BYBCsZ",
+      "poseidonhd2": "290234/mal-de-amores",
+      "serieskao": "mal-de-amores-BYBCsZ"
     },
     "title": "Mal de amores",
     "tmdb_id": "290234",
     "type": "series",
-    "updated_at": 1788452160184,
+    "updated_at": 1788523826461,
     "year": 2026
   },
   {
@@ -72689,7 +72693,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788458586983,
+    "updated_at": 1788523828456,
     "year": 2026
   },
   {
@@ -73839,6 +73843,19 @@
     "type": "series",
     "updated_at": 1788464741848,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt39019156",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "gone-FhoEIA",
+      "serieskao": "gone-FhoEIA"
+    },
+    "title": "Gone",
+    "tmdb_id": "306603",
+    "type": "series",
+    "updated_at": 1788523825458,
+    "year": 2026
   },
   {
     "imdb_id": "tt38624111",
