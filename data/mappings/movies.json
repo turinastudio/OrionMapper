@@ -543,8 +543,14 @@
   },
   {
     "imdb_id": "tt0430357",
-    "provider_variants": {},
+    "provider_variants": {
+      "poseidonhd2": [
+        "1908/miami-vice"
+      ]
+    },
     "providers": {
+      "allcalidad": "miami-vice-2006",
+      "allpeliculas": "miami-vice-2006",
       "gnula": "miami-vice",
       "pelisgratishd": "corrupcion-en-miami",
       "poseidonhd2": "82/miami-vice",
@@ -553,7 +559,7 @@
     "title": "Corrupción en Miami",
     "tmdb_id": "82",
     "type": "movie",
-    "updated_at": 1788458586997,
+    "updated_at": 1788642990843,
     "year": 2006
   },
   {
@@ -299183,6 +299189,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt34379051",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "a-cualquier-precio-1380417",
+      "poseidonhd2": "1380417/a-cualquier-precio"
+    },
+    "title": "A cualquier precio",
+    "tmdb_id": "1380417",
+    "type": "movie",
+    "updated_at": 1788643000925,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt34383359",
     "provider_variants": {},
     "providers": {
@@ -302518,6 +302537,19 @@
     "type": "movie",
     "updated_at": 1788458586968,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt38221401",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "ikatan-darah",
+      "poseidonhd2": "1421155/ikatan-darah"
+    },
+    "title": "Ikatan Darah",
+    "tmdb_id": "1421155",
+    "type": "movie",
+    "updated_at": 1788643004932,
+    "year": 2026
   },
   {
     "imdb_id": "tt35514520",
@@ -309512,6 +309544,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt37458495",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "2-1509599",
+      "poseidonhd2": "1509599/2"
+    },
+    "title": "கட்டா குஸ்தி 2",
+    "tmdb_id": "1509599",
+    "type": "movie",
+    "updated_at": 1788643002929,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt36754289",
     "provider_variants": {},
     "providers": {
@@ -313286,6 +313331,19 @@
     "tmdb_id": "1623125",
     "type": "movie",
     "updated_at": 1788452160118,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt39400168",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "blue-lock",
+      "poseidonhd2": "1623376/blue-lock"
+    },
+    "title": "Blue Lock",
+    "tmdb_id": "1623376",
+    "type": "movie",
+    "updated_at": 1788642998920,
     "year": 2026
   },
   {

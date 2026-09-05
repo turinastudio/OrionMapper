@@ -8994,7 +8994,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788607172564,
+    "updated_at": 1788643009870,
     "year": 2003
   },
   {
@@ -72768,7 +72768,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788607173540,
+    "updated_at": 1788643010870,
     "year": 2026
   },
   {
@@ -73218,13 +73218,15 @@
     "imdb_id": "tt42206645",
     "provider_variants": {},
     "providers": {
+      "gnula": "un-nuevo-comienzo",
       "pelisgratishd": "-Teaeb2",
+      "poseidonhd2": "299365/un-nuevo-comienzo",
       "serieskao": "-Teaeb2"
     },
     "title": "Reborn Rookie",
     "tmdb_id": "299365",
     "type": "series",
-    "updated_at": 1788607171560,
+    "updated_at": 1788643008868,
     "year": 2026
   },
   {
@@ -73293,6 +73295,19 @@
     "type": "series",
     "updated_at": 1788458586984,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt39496157",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "bloody-smart",
+      "poseidonhd2": "300259/bloody-smart"
+    },
+    "title": "聰明鎮",
+    "tmdb_id": "300259",
+    "type": "series",
+    "updated_at": 1788643006865,
+    "year": 2026
   },
   {
     "imdb_id": "tt38264832",
