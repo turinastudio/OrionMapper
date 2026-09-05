@@ -8994,7 +8994,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788557539201,
+    "updated_at": 1788607172564,
     "year": 2003
   },
   {
@@ -58825,15 +58825,21 @@
   },
   {
     "imdb_id": "tt28082463",
-    "provider_variants": {},
+    "provider_variants": {
+      "poseidonhd2": [
+        "173/20000-leguas-de-viaje-submarino"
+      ]
+    },
     "providers": {
       "gnula": "20000-leguas-de-viaje-submarino",
-      "poseidonhd2": "228212/20000-leguas-de-viaje-submarino"
+      "pelisgratishd": "20000-leguas-de-viaje-submarino",
+      "poseidonhd2": "228212/20000-leguas-de-viaje-submarino",
+      "serieskao": "20000-leguas-de-viaje-submarino"
     },
     "title": "20.000 leguas de viaje submarino",
     "tmdb_id": "228212",
     "type": "series",
-    "updated_at": 1788452160186,
+    "updated_at": 1788607177578,
     "year": 2025
   },
   {
@@ -63484,7 +63490,7 @@
     "title": "The Four Seasons",
     "tmdb_id": "243316",
     "type": "series",
-    "updated_at": 1788458586985,
+    "updated_at": 1788607152546,
     "year": 2025
   },
   {
@@ -64154,7 +64160,7 @@
     "title": "Harlan Coben's Lazarus",
     "tmdb_id": "245827",
     "type": "series",
-    "updated_at": 1788557523215,
+    "updated_at": 1788607135513,
     "year": 2025
   },
   {
@@ -64453,17 +64459,26 @@
   },
   {
     "imdb_id": "tt31429675",
-    "provider_variants": {},
+    "provider_variants": {
+      "gnula": [
+        "sirenes"
+      ],
+      "poseidonhd2": [
+        "1170719/sirenes"
+      ]
+    },
     "providers": {
       "allcalidad": "sirenas-2025",
       "allpeliculas": "sirenas-2025",
       "gnula": "sirenas",
-      "poseidonhd2": "246992/sirenas"
+      "pelisgratishd": "sirenas",
+      "poseidonhd2": "246992/sirenas",
+      "serieskao": "sirenas"
     },
     "title": "Sirenas",
     "tmdb_id": "246992",
     "type": "series",
-    "updated_at": 1788464741850,
+    "updated_at": 1788607185595,
     "year": 2025
   },
   {
@@ -65043,17 +65058,32 @@
   },
   {
     "imdb_id": "tt31710822",
-    "provider_variants": {},
+    "provider_variants": {
+      "allcalidad": [
+        "agentes-secretos-haywire-2011"
+      ],
+      "allpeliculas": [
+        "agentes-secretos-haywire-2011"
+      ],
+      "gnula": [
+        "agentes-secretos-haywire"
+      ],
+      "poseidonhd2": [
+        "70435/agentes-secretos-haywire"
+      ]
+    },
     "providers": {
       "allcalidad": "indomable-2025",
       "allpeliculas": "indomable-2025",
       "gnula": "indomable",
-      "poseidonhd2": "248852/indomable"
+      "pelisgratishd": "indomable",
+      "poseidonhd2": "248852/indomable",
+      "serieskao": "indomable"
     },
     "title": "Indomable",
     "tmdb_id": "248852",
     "type": "series",
-    "updated_at": 1788464741850,
+    "updated_at": 1788607179580,
     "year": 2025
   },
   {
@@ -66326,15 +66356,23 @@
   },
   {
     "imdb_id": "tt13951052",
-    "provider_variants": {},
+    "provider_variants": {
+      "poseidonhd2": [
+        "1383557/revival"
+      ]
+    },
     "providers": {
+      "allcalidad": "mas-alla-de-los-limites-de-la-muerte-2024",
+      "allpeliculas": "mas-alla-de-los-limites-de-la-muerte-2024",
       "gnula": "revival",
-      "poseidonhd2": "254013/revival"
+      "pelisgratishd": "revival",
+      "poseidonhd2": "254013/revival",
+      "serieskao": "revival"
     },
     "title": "Revival",
     "tmdb_id": "254013",
     "type": "series",
-    "updated_at": 1788452160186,
+    "updated_at": 1788607174568,
     "year": 2025
   },
   {
@@ -67771,15 +67809,21 @@
   },
   {
     "imdb_id": "tt31614348",
-    "provider_variants": {},
+    "provider_variants": {
+      "poseidonhd2": [
+        "508632/shifting-gears"
+      ]
+    },
     "providers": {
       "gnula": "shifting-gears",
-      "poseidonhd2": "260471/shifting-gears"
+      "pelisgratishd": "shifting-gears",
+      "poseidonhd2": "260471/shifting-gears",
+      "serieskao": "shifting-gears"
     },
     "title": "Cambio de marcha",
     "tmdb_id": "260471",
     "type": "series",
-    "updated_at": 1788452160186,
+    "updated_at": 1788607186598,
     "year": 2025
   },
   {
@@ -68183,7 +68227,7 @@
     "title": "The Assassin",
     "tmdb_id": "262352",
     "type": "series",
-    "updated_at": 1788557524214,
+    "updated_at": 1788607136519,
     "year": 2025
   },
   {
@@ -68287,17 +68331,29 @@
   },
   {
     "imdb_id": "tt33496221",
-    "provider_variants": {},
+    "provider_variants": {
+      "allcalidad": [
+        "los-secretos-que-guardamos-2020"
+      ],
+      "gnula": [
+        "los-secretos-que-guardamos"
+      ],
+      "poseidonhd2": [
+        "615115/los-secretos-que-guardamos"
+      ]
+    },
     "providers": {
       "allcalidad": "los-secretos-que-ocultamos-2025",
       "allpeliculas": "los-secretos-que-ocultamos-2025",
       "gnula": "los-secretos-que-ocultamos",
-      "poseidonhd2": "262878/los-secretos-que-ocultamos"
+      "pelisgratishd": "los-secretos-que-ocultamos",
+      "poseidonhd2": "262878/los-secretos-que-ocultamos",
+      "serieskao": "los-secretos-que-ocultamos"
     },
     "title": "Los secretos que ocultamos",
     "tmdb_id": "262878",
     "type": "series",
-    "updated_at": 1788464741849,
+    "updated_at": 1788607187600,
     "year": 2025
   },
   {
@@ -69859,6 +69915,8 @@
     "imdb_id": "tt35051401",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "el-palacio-del-este-2026",
+      "allpeliculas": "el-palacio-del-este-2026",
       "gnula": "el-palacio-del-este",
       "pelisgratishd": "el-palacio-del-este-c9LFJl",
       "poseidonhd2": "279323/el-palacio-del-este",
@@ -69867,7 +69925,7 @@
     "title": "The East Palace",
     "tmdb_id": "279323",
     "type": "series",
-    "updated_at": 1788458586982,
+    "updated_at": 1788607126483,
     "year": 2026
   },
   {
@@ -71902,6 +71960,8 @@
     "imdb_id": "tt32909469",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "mal-de-amores-2026",
+      "allpeliculas": "mal-de-amores-2026",
       "gnula": "mal-de-amores",
       "pelisgratishd": "mal-de-amores-BYBCsZ",
       "poseidonhd2": "290234/mal-de-amores",
@@ -71910,7 +71970,7 @@
     "title": "Mal de amores",
     "tmdb_id": "290234",
     "type": "series",
-    "updated_at": 1788523826461,
+    "updated_at": 1788607124478,
     "year": 2026
   },
   {
@@ -72266,15 +72326,24 @@
   },
   {
     "imdb_id": "tt36985714",
-    "provider_variants": {},
+    "provider_variants": {
+      "gnula": [
+        "la-funeraria"
+      ],
+      "poseidonhd2": [
+        "714277/la-funeraria"
+      ]
+    },
     "providers": {
       "gnula": "the-mortician",
-      "poseidonhd2": "291926/the-mortician"
+      "pelisgratishd": "la-funeraria",
+      "poseidonhd2": "291926/the-mortician",
+      "serieskao": "la-funeraria"
     },
     "title": "La funeraria",
     "tmdb_id": "291926",
     "type": "series",
-    "updated_at": 1788452160186,
+    "updated_at": 1788607182587,
     "year": 2025
   },
   {
@@ -72322,7 +72391,7 @@
     "title": "90 Minutes",
     "tmdb_id": "292052",
     "type": "series",
-    "updated_at": 1788458586985,
+    "updated_at": 1788607143535,
     "year": 2025
   },
   {
@@ -72699,7 +72768,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788557540216,
+    "updated_at": 1788607173540,
     "year": 2026
   },
   {
@@ -73144,6 +73213,19 @@
     "type": "series",
     "updated_at": 1788458586985,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt42206645",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "-Teaeb2",
+      "serieskao": "-Teaeb2"
+    },
+    "title": "Reborn Rookie",
+    "tmdb_id": "299365",
+    "type": "series",
+    "updated_at": 1788607171560,
+    "year": 2026
   },
   {
     "imdb_id": "tt27763549",

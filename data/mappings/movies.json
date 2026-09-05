@@ -29750,7 +29750,7 @@
     "title": "Rosario Tijeras",
     "tmdb_id": "10810",
     "type": "movie",
-    "updated_at": 1788458587035,
+    "updated_at": 1788607176572,
     "year": 2005
   },
   {
@@ -41242,7 +41242,7 @@
     "title": "Desaparecido",
     "tmdb_id": "15600",
     "type": "movie",
-    "updated_at": 1788458586972,
+    "updated_at": 1788607169572,
     "year": 1982
   },
   {
@@ -45036,7 +45036,7 @@
     "title": "La banda del patio",
     "tmdb_id": "19405",
     "type": "movie",
-    "updated_at": 1788458587055,
+    "updated_at": 1788607178586,
     "year": 2001
   },
   {
@@ -56184,7 +56184,7 @@
     "title": "Jesus",
     "tmdb_id": "45139",
     "type": "movie",
-    "updated_at": 1788464741842,
+    "updated_at": 1788607175583,
     "year": 1979
   },
   {
@@ -84838,7 +84838,7 @@
     "title": "El Quijote de Miguel de Cervantes",
     "tmdb_id": "313563",
     "type": "movie",
-    "updated_at": 1788458586985,
+    "updated_at": 1788607184592,
     "year": 1992
   },
   {
@@ -104076,16 +104076,27 @@
   },
   {
     "imdb_id": "tt3838034",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "solos"
+      ],
+      "poseidonhd2": [
+        "119279/solos"
+      ],
+      "serieskao": [
+        "solos"
+      ]
+    },
     "providers": {
       "gnula": "solos",
+      "pelisgratishd": "solos-xL3bzW",
       "poseidonhd2": "420950/solos",
       "serieskao": "solos-xL3bzW"
     },
     "title": "Solos",
     "tmdb_id": "420950",
     "type": "movie",
-    "updated_at": 1788452160179,
+    "updated_at": 1788607131509,
     "year": 2017
   },
   {
@@ -138688,7 +138699,7 @@
     "title": "Renacida de la Oscuridad",
     "tmdb_id": "554636",
     "type": "movie",
-    "updated_at": 1788458586971,
+    "updated_at": 1788607168571,
     "year": 2018
   },
   {
@@ -210274,7 +210285,7 @@
     "title": "Furia",
     "tmdb_id": "866678",
     "type": "movie",
-    "updated_at": 1788464741830,
+    "updated_at": 1788607180582,
     "year": 2021
   },
   {
@@ -266255,12 +266266,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "mayday",
-      "poseidonhd2": "1137844/mayday"
+      "pelisgratishd": "mayday-2KuZBw",
+      "poseidonhd2": "1137844/mayday",
+      "serieskao": "mayday-2KuZBw"
     },
     "title": "Mayday",
     "tmdb_id": "1137844",
     "type": "movie",
-    "updated_at": 1788557526217,
+    "updated_at": 1788607166551,
     "year": 2026
   },
   {
@@ -268311,7 +268324,7 @@
     "title": "Angela",
     "tmdb_id": "1147964",
     "type": "movie",
-    "updated_at": 1788464741826,
+    "updated_at": 1788607181585,
     "year": 2023
   },
   {
@@ -273608,6 +273621,21 @@
     "type": "movie",
     "updated_at": 1788452160159,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt6215522",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "bajo-tus-pies",
+      "pelisgratishd": "bajo-tus-pies-T17rke",
+      "poseidonhd2": "1180894/bajo-tus-pies",
+      "serieskao": "bajo-tus-pies-T17rke"
+    },
+    "title": "Bajo tus pies",
+    "tmdb_id": "1180894",
+    "type": "movie",
+    "updated_at": 1788607163543,
+    "year": 2026
   },
   {
     "imdb_id": "tt27611143",
@@ -287185,7 +287213,7 @@
     "title": "Quiero que me mantengan",
     "tmdb_id": "1269799",
     "type": "movie",
-    "updated_at": 1788464741824,
+    "updated_at": 1788607170574,
     "year": 2024
   },
   {
@@ -287967,7 +287995,7 @@
     "title": "The Magician's Raincoat",
     "tmdb_id": "1277172",
     "type": "movie",
-    "updated_at": 1788458586969,
+    "updated_at": 1788607167571,
     "year": 2024
   },
   {
@@ -293417,12 +293445,13 @@
       "allpeliculas": "marty-supremo-2025",
       "gnula": "marty-supremo",
       "pelisgratishd": "marty-supreme-GuA010",
+      "poseidonhd2": "1317288/marty-supremo",
       "serieskao": "marty-supreme-GuA010"
     },
     "title": "Marty Supreme",
     "tmdb_id": "1317288",
     "type": "movie",
-    "updated_at": 1788464741821,
+    "updated_at": 1788607160565,
     "year": 2025
   },
   {
@@ -299043,7 +299072,7 @@
     "title": "Utopia",
     "tmdb_id": "1379587",
     "type": "movie",
-    "updated_at": 1788464747771,
+    "updated_at": 1788607183600,
     "year": 2024
   },
   {
@@ -303931,6 +303960,19 @@
     "tmdb_id": "1433842",
     "type": "movie",
     "updated_at": 1788464741820,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt35890599",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "n121-bus-de-nuit",
+      "poseidonhd2": "1433929/n121-bus-de-nuit"
+    },
+    "title": "N121 Bus de nuit",
+    "tmdb_id": "1433929",
+    "type": "movie",
+    "updated_at": 1788607154549,
     "year": 2026
   },
   {
@@ -309996,6 +310038,21 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt37660509",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "en-el-camino-1517123",
+      "pelisgratishd": "en-el-camino-oBx9cr",
+      "poseidonhd2": "1517123/en-el-camino",
+      "serieskao": "en-el-camino-oBx9cr"
+    },
+    "title": "En el camino",
+    "tmdb_id": "1517123",
+    "type": "movie",
+    "updated_at": 1788607165547,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt37660542",
     "provider_variants": {},
     "providers": {
@@ -314356,12 +314413,13 @@
     "providers": {
       "allcalidad": "hasta-que-amanezca-2026",
       "allpeliculas": "hasta-que-amanezca-2026",
-      "gnula": "hasta-que-amanezca"
+      "gnula": "hasta-que-amanezca",
+      "poseidonhd2": "1661870/hasta-que-amanezca"
     },
     "title": "Hasta que amanezca",
     "tmdb_id": "1661870",
     "type": "movie",
-    "updated_at": 1788464741818,
+    "updated_at": 1788607162565,
     "year": 2026
   },
   {
@@ -315513,6 +315571,19 @@
     "type": "movie",
     "updated_at": 1788464741814,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt44942157",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "instadocus-el-avion-senuelo-wJbJ3I",
+      "serieskao": "instadocus-el-avion-senuelo-wJbJ3I"
+    },
+    "title": "Instadocs: The Decoy Plane",
+    "tmdb_id": "1760262",
+    "type": "movie",
+    "updated_at": 1788607164546,
+    "year": 2026
   },
   {
     "imdb_id": "tt10795658",
