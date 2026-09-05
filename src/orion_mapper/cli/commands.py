@@ -528,6 +528,13 @@ def create_cli_parser() -> argparse.ArgumentParser:
         help="Historical pages to overlap between runs (default: 5)",
     )
     sync_parser.add_argument(
+        "--head-only",
+        action="store_true",
+        default=False,
+        help="Scan only the newest head pages each run (for daily new-entry "
+        "mapping); skips the historical cursor walk and leaves sync_state.json untouched",
+    )
+    sync_parser.add_argument(
         "--state-file",
         type=str,
         default=None,
@@ -1147,24 +1154,30 @@ async def execute_sync(args: argparse.Namespace) -> int:
 
                 items_for_prov: list[ScrapedItem] = []
                 state_key = f"{prov_name.strip().lower()}:{c_type.value}"
-                provider_state = sync_state.get(state_key, {})
-                historical_cursor = max(1, int(provider_state.get("next_page", 1) or 1))
+                head_only = bool(getattr(args, "head_only", False))
                 effective_head_pages = min(head_pages, max_pages)
-                if historical_cursor <= effective_head_pages:
-                    historical_cursor = effective_head_pages + 1
-                historical_start = max(
-                    effective_head_pages + 1,
-                    historical_cursor - history_overlap,
-                )
-                historical_pages = list(
-                    range(
-                        historical_start,
-                        min(historical_cursor + pages_per_run, max_pages + 1),
+                if head_only:
+                    pages_to_scan = list(range(1, effective_head_pages + 1))
+                    historical_pages: list[int] = []
+                    next_cursor = max(1, int(sync_state.get(state_key, {}).get("next_page", 1) or 1))
+                else:
+                    provider_state = sync_state.get(state_key, {})
+                    historical_cursor = max(1, int(provider_state.get("next_page", 1) or 1))
+                    if historical_cursor <= effective_head_pages:
+                        historical_cursor = effective_head_pages + 1
+                    historical_start = max(
+                        effective_head_pages + 1,
+                        historical_cursor - history_overlap,
                     )
-                )
-                pages_to_scan = list(range(1, effective_head_pages + 1)) + historical_pages
-                pages_to_scan = list(dict.fromkeys(pages_to_scan))
-                next_cursor = historical_cursor
+                    historical_pages = list(
+                        range(
+                            historical_start,
+                            min(historical_cursor + pages_per_run, max_pages + 1),
+                        )
+                    )
+                    pages_to_scan = list(range(1, effective_head_pages + 1)) + historical_pages
+                    pages_to_scan = list(dict.fromkeys(pages_to_scan))
+                    next_cursor = historical_cursor
                 catalog_exhausted = False
 
                 for page in pages_to_scan:
@@ -1201,7 +1214,8 @@ async def execute_sync(args: argparse.Namespace) -> int:
 
                 if catalog_exhausted or next_cursor > max_pages:
                     next_cursor = 1
-                sync_state[state_key] = {"next_page": next_cursor}
+                if not head_only:
+                    sync_state[state_key] = {"next_page": next_cursor}
 
                 if page == max_pages and not catalog_exhausted:
                     logger.warning(

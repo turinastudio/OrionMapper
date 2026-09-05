@@ -131,7 +131,9 @@ jobs:
             ARGS="$ARGS --dry-run"
           fi
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            ARGS="$ARGS --head-pages 5 --pages-per-run 10 --history-overlap 5"
+            # Daily: only the 5 newest pages per provider/type (new entries).
+            # No historical cursor walk; sync_state.json stays untouched.
+            ARGS="$ARGS --head-pages 5 --head-only"
           fi
           python main.py $ARGS --rate-limit 1.0
 
