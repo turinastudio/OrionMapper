@@ -289116,6 +289116,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt32268691",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "aniquilacion-1284046",
+      "poseidonhd2": "1284046/aniquilacion"
+    },
+    "title": "Aniquilación",
+    "tmdb_id": "1284046",
+    "type": "movie",
+    "updated_at": 1788729763446,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt29344903",
     "provider_variants": {},
     "providers": {

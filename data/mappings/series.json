@@ -6493,6 +6493,8 @@
     "imdb_id": "tt1567432",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "lobo-adolescente-2011",
+      "allpeliculas": "lobo-adolescente-2011",
       "gnula": "lobo-adolescente",
       "pelisgratishd": "teen-wolf",
       "poseidonhd2": "34524/lobo-adolescente",
@@ -6501,7 +6503,7 @@
     "title": "Teen Wolf",
     "tmdb_id": "34524",
     "type": "series",
-    "updated_at": 1788458586994,
+    "updated_at": 1788729758370,
     "year": 2011
   },
   {
@@ -9171,7 +9173,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788694788097,
+    "updated_at": 1788729765360,
     "year": 2003
   },
   {
@@ -73945,7 +73947,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788694789099,
+    "updated_at": 1788729766362,
     "year": 2026
   },
   {
@@ -76212,6 +76214,19 @@
     "tmdb_id": "324434",
     "type": "series",
     "updated_at": 1788458586982,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt42172921",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "tierra-de-amor-y-coraje-UXeAqV",
+      "serieskao": "tierra-de-amor-y-coraje-UXeAqV"
+    },
+    "title": "Tierra de amor y coraje",
+    "tmdb_id": "325082",
+    "type": "series",
+    "updated_at": 1788729764381,
     "year": 2026
   },
   {
