@@ -256,6 +256,18 @@
     "year": null
   },
   {
+    "imdb_id": "tt37543147",
+    "provider": "pelisgratishd",
+    "reason": "title_year_mismatch",
+    "resolved_title": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
+    "resolved_year": 2026,
+    "slug": "ein-sommer-mit-paul-zQlF8h",
+    "title": "Ein Sommer mit Paul",
+    "tmdb_id": "295780",
+    "type": "movie",
+    "year": null
+  },
+  {
     "provider": "pelisgratishd",
     "reason": "tmdb_unresolved",
     "slug": "el-ataque-del-dragon",
@@ -788,6 +800,18 @@
     "year": null
   },
   {
+    "imdb_id": "tt15298578",
+    "provider": "pelisgratishd",
+    "reason": "title_year_mismatch",
+    "resolved_title": "Nightride",
+    "resolved_year": 2022,
+    "slug": "nightride",
+    "title": "90 minutos",
+    "tmdb_id": "865371",
+    "type": "movie",
+    "year": 2021
+  },
+  {
     "provider": "pelisgratishd",
     "reason": "tmdb_unresolved",
     "slug": "nuestro-reino",
@@ -976,6 +1000,18 @@
     "reason": "tmdb_unresolved",
     "slug": "shootfighter-2",
     "title": "Shootfighter 2",
+    "type": "movie",
+    "year": null
+  },
+  {
+    "imdb_id": "tt0346293",
+    "provider": "pelisgratishd",
+    "reason": "title_year_mismatch",
+    "resolved_title": "Hitler: The Rise of Evil",
+    "resolved_year": 2003,
+    "slug": "si-estuvieras-aqui-ccaOOm",
+    "title": "Si estuvieras aquí",
+    "tmdb_id": "46976",
     "type": "movie",
     "year": null
   },
@@ -1334,6 +1370,14 @@
   {
     "provider": "pelisgratishd",
     "reason": "tmdb_unresolved",
+    "slug": "ana",
+    "title": "Anne with an E",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
     "slug": "animal",
     "title": "Animal",
     "type": "series",
@@ -1686,6 +1730,14 @@
   {
     "provider": "pelisgratishd",
     "reason": "tmdb_unresolved",
+    "slug": "dracula",
+    "title": "Drácula",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
     "slug": "drcula",
     "title": "Drácula",
     "type": "series",
@@ -1726,8 +1778,24 @@
   {
     "provider": "pelisgratishd",
     "reason": "tmdb_unresolved",
+    "slug": "el-cartel-de-los-sapos",
+    "title": "El Cártel de los Sapos",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
     "slug": "el-caso-alcasser",
     "title": "El caso Alcàsser",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "el-club",
+    "title": "El Club",
     "type": "series",
     "year": null
   },
@@ -2118,6 +2186,14 @@
   {
     "provider": "pelisgratishd",
     "reason": "tmdb_unresolved",
+    "slug": "jinn",
+    "title": "Jinn",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
     "slug": "ju-on-origenes",
     "title": "Ju-on: Origenes",
     "type": "series",
@@ -2206,6 +2282,14 @@
   {
     "provider": "pelisgratishd",
     "reason": "tmdb_unresolved",
+    "slug": "la-cosa-del-pantano",
+    "title": "La cosa del pantano",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
     "slug": "la-faccion-octubre",
     "title": "La facción octubre",
     "type": "series",
@@ -2216,6 +2300,14 @@
     "reason": "tmdb_unresolved",
     "slug": "la-familia-grupo-conservador",
     "title": "La Familia",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "la-hermandad",
+    "title": "La Hermandad",
     "type": "series",
     "year": null
   },
@@ -2678,6 +2770,22 @@
   {
     "provider": "pelisgratishd",
     "reason": "tmdb_unresolved",
+    "slug": "skylines",
+    "title": "Skylines",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "slasher",
+    "title": "Slasher",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
     "slug": "somos-la-ola",
     "title": "Somos una ola",
     "type": "series",
@@ -2784,6 +2892,14 @@
     "reason": "tmdb_unresolved",
     "slug": "the-i-land",
     "title": "The I-Land",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "tmdb_unresolved",
+    "slug": "the-oath",
+    "title": "The Oath",
     "type": "series",
     "year": null
   },

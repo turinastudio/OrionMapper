@@ -12175,7 +12175,7 @@
     "title": "La Biblia",
     "tmdb_id": "2525",
     "type": "movie",
-    "updated_at": 1788464741845,
+    "updated_at": 1788693542183,
     "year": 1966
   },
   {
@@ -13493,12 +13493,13 @@
     "providers": {
       "gnula": "flash-gordon",
       "pelisgratishd": "flash-gordon",
+      "poseidonhd2": "3604/flash-gordon",
       "serieskao": "flash-gordon"
     },
     "title": "Flash Gordon",
     "tmdb_id": "3604",
     "type": "movie",
-    "updated_at": 1788458587028,
+    "updated_at": 1788694086898,
     "year": 1980
   },
   {
@@ -14016,7 +14017,7 @@
     "title": "Orgullo y prejuicio",
     "tmdb_id": "4348",
     "type": "movie",
-    "updated_at": 1788464741845,
+    "updated_at": 1788693546694,
     "year": 2005
   },
   {
@@ -14561,12 +14562,13 @@
       "allpeliculas": "el-curioso-caso-de-benjamin-button-2008",
       "gnula": "el-curioso-caso-de-benjamin-button",
       "pelisgratishd": "el-curioso-caso-de-benjamin-button",
+      "poseidonhd2": "4922/el-curioso-caso-de-benjamin-button",
       "serieskao": "el-curioso-caso-de-benjamin-button"
     },
     "title": "El curioso caso de Benjamin Button",
     "tmdb_id": "4922",
     "type": "movie",
-    "updated_at": 1788464741845,
+    "updated_at": 1788694104899,
     "year": 2008
   },
   {
@@ -29756,7 +29758,7 @@
     "title": "Rosario Tijeras",
     "tmdb_id": "10810",
     "type": "movie",
-    "updated_at": 1788607176572,
+    "updated_at": 1788693551239,
     "year": 2005
   },
   {
@@ -31321,12 +31323,13 @@
       "allpeliculas": "querida-agrande-al-bebe-1992",
       "gnula": "querida-agrande-al-bebe",
       "pelisgratishd": "carino-he-agrandado-al-nino",
+      "poseidonhd2": "11158/querida-agrande-al-bebe",
       "serieskao": "carino-he-agrandado-al-nino"
     },
     "title": "Cariño, he agrandado al niño",
     "tmdb_id": "11158",
     "type": "movie",
-    "updated_at": 1788464741820,
+    "updated_at": 1788694059571,
     "year": 1992
   },
   {
@@ -32357,12 +32360,13 @@
     "providers": {
       "gnula": "el-largo-beso-del-adios",
       "pelisgratishd": "el-largo-beso-del-adios",
+      "poseidonhd2": "11412/el-largo-beso-del-adios",
       "serieskao": "el-largo-beso-del-adios"
     },
     "title": "El largo beso del adiós",
     "tmdb_id": "11412",
     "type": "movie",
-    "updated_at": 1788458587028,
+    "updated_at": 1788694062679,
     "year": 1996
   },
   {
@@ -34123,7 +34127,7 @@
     "title": "Sentencia de muerte",
     "tmdb_id": "11835",
     "type": "movie",
-    "updated_at": 1788464741817,
+    "updated_at": 1788693551984,
     "year": 2007
   },
   {
@@ -34639,6 +34643,8 @@
     "imdb_id": "tt0378109",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "azul-extremo-2005",
+      "allpeliculas": "azul-extremo-2005",
       "gnula": "azul-extremo",
       "pelisgratishd": "inmersion-letal",
       "poseidonhd2": "11968/azul-extremo",
@@ -34647,7 +34653,7 @@
     "title": "Inmersión letal",
     "tmdb_id": "11968",
     "type": "movie",
-    "updated_at": 1788458587050,
+    "updated_at": 1788694531547,
     "year": 2005
   },
   {
@@ -38755,12 +38761,13 @@
     "providers": {
       "gnula": "el-ultimo-dragon",
       "pelisgratishd": "el-ultimo-dragon",
+      "poseidonhd2": "13938/el-ultimo-dragon",
       "serieskao": "el-ultimo-dragon"
     },
     "title": "El último dragón",
     "tmdb_id": "13938",
     "type": "movie",
-    "updated_at": 1788458587028,
+    "updated_at": 1788694075912,
     "year": 1985
   },
   {
@@ -39621,12 +39628,13 @@
     "imdb_id": "tt0449999",
     "provider_variants": {},
     "providers": {
-      "gnula": "kabhi-alvida-naa-kehna"
+      "gnula": "kabhi-alvida-naa-kehna",
+      "poseidonhd2": "14395/kabhi-alvida-naa-kehna"
     },
     "title": "Kabhi Alvida Naa Kehna",
     "tmdb_id": "14395",
     "type": "movie",
-    "updated_at": 1788413541019,
+    "updated_at": 1788694077915,
     "year": 2006
   },
   {
@@ -45042,7 +45050,7 @@
     "title": "La banda del patio",
     "tmdb_id": "19405",
     "type": "movie",
-    "updated_at": 1788607178586,
+    "updated_at": 1788693541444,
     "year": 2001
   },
   {
@@ -49228,7 +49236,7 @@
     "title": "Prehistoric Park",
     "tmdb_id": "26303",
     "type": "movie",
-    "updated_at": 1788458586987,
+    "updated_at": 1788693548188,
     "year": 2006
   },
   {
@@ -50862,6 +50870,19 @@
     "type": "movie",
     "updated_at": 1788458587027,
     "year": 1978
+  },
+  {
+    "imdb_id": "tt0155711",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "flawless-1999",
+      "allpeliculas": "flawless-1999"
+    },
+    "title": "Nadie es perfecto",
+    "tmdb_id": "31582",
+    "type": "movie",
+    "updated_at": 1788694534349,
+    "year": 1999
   },
   {
     "imdb_id": "tt0107096",
@@ -53816,12 +53837,13 @@
     "providers": {
       "gnula": "dragon-ball-z-los-guerreros-mas-poderosos",
       "pelisgratishd": "dragon-ball-z-guerreros-de-fuerza-ilimitada",
+      "poseidonhd2": "39103/dragon-ball-z-los-guerreros-mas-poderosos",
       "serieskao": "dragon-ball-z-guerreros-de-fuerza-ilimitada"
     },
     "title": "Dragon Ball Z: Guerreros de fuerza ilimitada",
     "tmdb_id": "39103",
     "type": "movie",
-    "updated_at": 1788458587055,
+    "updated_at": 1788694089899,
     "year": 1992
   },
   {
@@ -54102,12 +54124,13 @@
       "allpeliculas": "secretariat-2010",
       "gnula": "secretariat",
       "pelisgratishd": "campeon-secretariat",
+      "poseidonhd2": "39486/secretariat",
       "serieskao": "campeon-secretariat"
     },
     "title": "Campeón (Secretariat)",
     "tmdb_id": "39486",
     "type": "movie",
-    "updated_at": 1788464741820,
+    "updated_at": 1788694092910,
     "year": 2010
   },
   {
@@ -54134,12 +54157,13 @@
       "allcalidad": "red-2010",
       "gnula": "red",
       "pelisgratishd": "red",
+      "poseidonhd2": "39514/red",
       "serieskao": "red"
     },
     "title": "RED",
     "tmdb_id": "39514",
     "type": "movie",
-    "updated_at": 1788461251551,
+    "updated_at": 1788694093897,
     "year": 2010
   },
   {
@@ -56190,7 +56214,7 @@
     "title": "Jesus",
     "tmdb_id": "45139",
     "type": "movie",
-    "updated_at": 1788607175583,
+    "updated_at": 1788693539922,
     "year": 1979
   },
   {
@@ -59070,12 +59094,13 @@
       "allpeliculas": "sherlock-holmes-juego-de-sombras-2011",
       "gnula": "sherlock-holmes-juego-de-sombras",
       "pelisgratishd": "sherlock-holmes-juego-de-sombras",
+      "poseidonhd2": "58574/sherlock-holmes-juego-de-sombras",
       "serieskao": "sherlock-holmes-juego-de-sombras"
     },
     "title": "Sherlock Holmes: Juego de sombras",
     "tmdb_id": "58574",
     "type": "movie",
-    "updated_at": 1788464741819,
+    "updated_at": 1788694112898,
     "year": 2011
   },
   {
@@ -59773,7 +59798,7 @@
     "title": "The Land Before Time: Good Times and Good Friends",
     "tmdb_id": "62053",
     "type": "movie",
-    "updated_at": 1788458586988,
+    "updated_at": 1788693536906,
     "year": 2007
   },
   {
@@ -64678,12 +64703,13 @@
       "allpeliculas": "viaje-al-centro-de-la-tierra-2008",
       "gnula": "viaje-al-centro-de-la-tierra",
       "pelisgratishd": "viaje-al-centro-de-la-tierra",
+      "poseidonhd2": "88751/viaje-al-centro-de-la-tierra",
       "serieskao": "viaje-al-centro-de-la-tierra"
     },
     "title": "Viaje al centro de la Tierra",
     "tmdb_id": "88751",
     "type": "movie",
-    "updated_at": 1788464741842,
+    "updated_at": 1788694130899,
     "year": 2008
   },
   {
@@ -65541,7 +65567,7 @@
     "title": "The Foghorn Leghorn",
     "tmdb_id": "100364",
     "type": "movie",
-    "updated_at": 1788458586992,
+    "updated_at": 1788693535396,
     "year": 1948
   },
   {
@@ -68310,7 +68336,7 @@
     "title": "Dinosaurios",
     "tmdb_id": "136793",
     "type": "movie",
-    "updated_at": 1788458587054,
+    "updated_at": 1788693531493,
     "year": 2012
   },
   {
@@ -75763,12 +75789,13 @@
       "allpeliculas": "la-senal-2014",
       "gnula": "la-senal",
       "pelisgratishd": "la-senal",
+      "poseidonhd2": "242095/la-senal",
       "serieskao": "la-senal"
     },
     "title": "La señal",
     "tmdb_id": "242095",
     "type": "movie",
-    "updated_at": 1788464741841,
+    "updated_at": 1788694079902,
     "year": 2014
   },
   {
@@ -78378,12 +78405,13 @@
     "providers": {
       "gnula": "black-mass-estrictamente-criminal",
       "pelisgratishd": "black-mass-estrictamente-criminal",
+      "poseidonhd2": "261023/pacto-criminal",
       "serieskao": "black-mass-estrictamente-criminal"
     },
     "title": "Black Mass: Estrictamente criminal",
     "tmdb_id": "261023",
     "type": "movie",
-    "updated_at": 1788458587049,
+    "updated_at": 1788694080927,
     "year": 2015
   },
   {
@@ -80772,12 +80800,13 @@
     "providers": {
       "gnula": "siniestro-2",
       "pelisgratishd": "sinister-2",
+      "poseidonhd2": "283445/siniestro-2",
       "serieskao": "sinister-2"
     },
     "title": "Sinister 2",
     "tmdb_id": "283445",
     "type": "movie",
-    "updated_at": 1788458587049,
+    "updated_at": 1788694081912,
     "year": 2015
   },
   {
@@ -84760,12 +84789,13 @@
       "allpeliculas": "creed-corazon-de-campeon-2015",
       "gnula": "creed-corazon-de-campeon",
       "pelisgratishd": "creed-la-leyenda-de-rocky",
+      "poseidonhd2": "312221/creed-corazon-de-campeon",
       "serieskao": "creed-la-leyenda-de-rocky"
     },
     "title": "Creed. La leyenda de Rocky",
     "tmdb_id": "312221",
     "type": "movie",
-    "updated_at": 1788464747775,
+    "updated_at": 1788694082912,
     "year": 2015
   },
   {
@@ -84844,7 +84874,7 @@
     "title": "El Quijote de Miguel de Cervantes",
     "tmdb_id": "313563",
     "type": "movie",
-    "updated_at": 1788607184592,
+    "updated_at": 1788693536150,
     "year": 1992
   },
   {
@@ -85955,12 +85985,13 @@
     "providers": {
       "gnula": "mune-el-guardian-de-la-luna",
       "pelisgratishd": "mune-el-guardian-de-la-luna",
+      "poseidonhd2": "323661/mune-el-guardian-de-la-luna",
       "serieskao": "mune-el-guardian-de-la-luna"
     },
     "title": "Mune, el guardián de la luna",
     "tmdb_id": "323661",
     "type": "movie",
-    "updated_at": 1788458587032,
+    "updated_at": 1788694083909,
     "year": 2014
   },
   {
@@ -86343,17 +86374,29 @@
   },
   {
     "imdb_id": "tt1355631",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "infiltrado"
+      ],
+      "poseidonhd2": [
+        "61859/el-infiltrado"
+      ],
+      "serieskao": [
+        "the-night-manager"
+      ]
+    },
     "providers": {
       "allcalidad": "el-infiltrado-2016",
+      "allpeliculas": "el-infiltrado-2016",
       "gnula": "el-infiltrado",
+      "pelisgratishd": "the-night-manager",
       "poseidonhd2": "325789/el-infiltrado",
       "serieskao": "infiltrado"
     },
     "title": "Infiltrado",
     "tmdb_id": "325789",
     "type": "movie",
-    "updated_at": 1788461251532,
+    "updated_at": 1788694532365,
     "year": 2016
   },
   {
@@ -88508,13 +88551,14 @@
       "allcalidad": "hellraiser-ella-2022",
       "allpeliculas": "hellraiser-ella-2022",
       "gnula": "hellraiser-ella",
+      "pelisgratishd": "hellraiser-2022",
       "poseidonhd2": "338947/hellraiser-ella",
       "serieskao": "hellraiser-2022"
     },
     "title": "Hellraiser",
     "tmdb_id": "338947",
     "type": "movie",
-    "updated_at": 1788464741839,
+    "updated_at": 1788693519568,
     "year": 2022
   },
   {
@@ -89326,12 +89370,13 @@
       "allpeliculas": "animales-nocturnos-2016",
       "gnula": "animales-nocturnos",
       "pelisgratishd": "animales-nocturnos",
+      "poseidonhd2": "340666/animales-nocturnos",
       "serieskao": "animales-nocturnos"
     },
     "title": "Animales nocturnos",
     "tmdb_id": "340666",
     "type": "movie",
-    "updated_at": 1788464741839,
+    "updated_at": 1788694084898,
     "year": 2016
   },
   {
@@ -89983,12 +90028,13 @@
     "providers": {
       "gnula": "busco-novio-para-mi-mujer",
       "pelisgratishd": "busco-novio-para-mi-mujer",
+      "poseidonhd2": "345912/busco-novio-para-mi-mujer",
       "serieskao": "busco-novio-para-mi-mujer"
     },
     "title": "Busco novio para mi mujer",
     "tmdb_id": "345912",
     "type": "movie",
-    "updated_at": 1788458587037,
+    "updated_at": 1788694085899,
     "year": 2016
   },
   {
@@ -93184,12 +93230,13 @@
     "imdb_id": "tt4789290",
     "provider_variants": {},
     "providers": {
-      "gnula": "you-cast-a-spell-on-me"
+      "gnula": "you-cast-a-spell-on-me",
+      "poseidonhd2": "366017/you-cast-a-spell-on-me"
     },
     "title": "You Cast A Spell On Me",
     "tmdb_id": "366017",
     "type": "movie",
-    "updated_at": 1788417591176,
+    "updated_at": 1788694087899,
     "year": 2015
   },
   {
@@ -96784,12 +96831,13 @@
     "providers": {
       "gnula": "todo-lo-demas",
       "pelisgratishd": "todo-lo-demas",
+      "poseidonhd2": "387941/todo-lo-demas",
       "serieskao": "todo-lo-demas"
     },
     "title": "Todo lo demás",
     "tmdb_id": "387941",
     "type": "movie",
-    "updated_at": 1788458587006,
+    "updated_at": 1788694088911,
     "year": 2016
   },
   {
@@ -97376,12 +97424,13 @@
       "allcalidad": "un-gesto-futil-y-estupido-la-historia-de-doug-kenney-2018",
       "gnula": "un-gesto-futil-y-estupido-la-historia-de-doug-kenney",
       "pelisgratishd": "un-gesto-estupido-e-inutil",
+      "poseidonhd2": "391710/un-gesto-futil-y-estupido-la-historia-de-doug-kenney",
       "serieskao": "un-gesto-estupido-e-inutil"
     },
     "title": "Un gesto estúpido e inútil",
     "tmdb_id": "391710",
     "type": "movie",
-    "updated_at": 1788461251525,
+    "updated_at": 1788694090906,
     "year": 2017
   },
   {
@@ -97641,12 +97690,13 @@
       "allcalidad": "la-vida-de-calabacin-2016",
       "gnula": "la-vida-de-calabacin",
       "pelisgratishd": "la-vida-de-calabacin",
+      "poseidonhd2": "393559/la-vida-de-calabacin",
       "serieskao": "la-vida-de-calabacin"
     },
     "title": "La vida de Calabacín",
     "tmdb_id": "393559",
     "type": "movie",
-    "updated_at": 1788461251525,
+    "updated_at": 1788694091915,
     "year": 2016
   },
   {
@@ -98106,12 +98156,13 @@
       "allpeliculas": "solo-los-valientes-2017",
       "gnula": "solo-los-valientes",
       "pelisgratishd": "heroes-en-el-infierno",
+      "poseidonhd2": "395991/solo-los-valientes",
       "serieskao": "heroes-en-el-infierno"
     },
     "title": "Heroes en el Infierno",
     "tmdb_id": "395991",
     "type": "movie",
-    "updated_at": 1788464741838,
+    "updated_at": 1788694094898,
     "year": 2017
   },
   {
@@ -99436,12 +99487,13 @@
     "providers": {
       "gnula": "bob-esponja-al-rescate",
       "pelisgratishd": "bob-esponja-un-heroe-al-rescate",
+      "poseidonhd2": "400160/bob-esponja-al-rescate",
       "serieskao": "bob-esponja-un-heroe-al-rescate"
     },
     "title": "Bob Esponja: Un héroe al rescate",
     "tmdb_id": "400160",
     "type": "movie",
-    "updated_at": 1788458587018,
+    "updated_at": 1788694095910,
     "year": 2020
   },
   {
@@ -101642,12 +101694,13 @@
       "allcalidad": "tarde-para-la-ira-2016",
       "gnula": "tarde-para-la-ira",
       "pelisgratishd": "tarde-para-la-ira",
+      "poseidonhd2": "411638/tarde-para-la-ira",
       "serieskao": "tarde-para-la-ira"
     },
     "title": "Tarde para la ira",
     "tmdb_id": "411638",
     "type": "movie",
-    "updated_at": 1788461251522,
+    "updated_at": 1788694096900,
     "year": 2016
   },
   {
@@ -102342,18 +102395,35 @@
   },
   {
     "imdb_id": "tt4959750",
-    "provider_variants": {},
+    "provider_variants": {
+      "allcalidad": [
+        "1992-2024"
+      ],
+      "allpeliculas": [
+        "1992-2024"
+      ],
+      "pelisgratishd": [
+        "1992"
+      ],
+      "poseidonhd2": [
+        "225467/1992"
+      ],
+      "serieskao": [
+        "1992"
+      ]
+    },
     "providers": {
       "allcalidad": "1992-noche-sin-ley-2024",
       "allpeliculas": "1992-noche-sin-ley-2024",
       "gnula": "1992",
+      "pelisgratishd": "1992-pelicula",
       "poseidonhd2": "413846/1992",
       "serieskao": "1992-pelicula"
     },
     "title": "1992",
     "tmdb_id": "413846",
     "type": "movie",
-    "updated_at": 1788464741838,
+    "updated_at": 1788693515480,
     "year": 2022
   },
   {
@@ -102664,12 +102734,13 @@
     "providers": {
       "gnula": "barbie-en-una-aventura-espacial",
       "pelisgratishd": "barbie-aventura-en-el-espacio",
+      "poseidonhd2": "415749/barbie-en-una-aventura-espacial",
       "serieskao": "barbie-aventura-en-el-espacio"
     },
     "title": "Barbie: Aventura en el espacio",
     "tmdb_id": "415749",
     "type": "movie",
-    "updated_at": 1788458586979,
+    "updated_at": 1788694097935,
     "year": 2016
   },
   {
@@ -102820,12 +102891,13 @@
     "providers": {
       "gnula": "la-maldicion-de-la-casa-de-winchester",
       "pelisgratishd": "winchester-la-casa-que-construyeron-los-espiritus",
+      "poseidonhd2": "416234/la-maldicion-de-la-casa-de-winchester",
       "serieskao": "winchester-la-casa-que-construyeron-los-espiritus"
     },
     "title": "Winchester: La casa que construyeron los espíritus",
     "tmdb_id": "416234",
     "type": "movie",
-    "updated_at": 1788458587033,
+    "updated_at": 1788694098904,
     "year": 2018
   },
   {
@@ -104308,12 +104380,13 @@
     "imdb_id": "tt5817548",
     "provider_variants": {},
     "providers": {
-      "gnula": "tabaluga"
+      "gnula": "tabaluga",
+      "poseidonhd2": "421920/tabaluga"
     },
     "title": "Tabaluga",
     "tmdb_id": "421920",
     "type": "movie",
-    "updated_at": 1788417589177,
+    "updated_at": 1788694099899,
     "year": 2018
   },
   {
@@ -104350,12 +104423,13 @@
     "imdb_id": "tt6173902",
     "provider_variants": {},
     "providers": {
-      "gnula": "hulk-donde-habitan-los-monstruos"
+      "gnula": "hulk-donde-habitan-los-monstruos",
+      "poseidonhd2": "422153/hulk-donde-habitan-los-monstruos"
     },
     "title": "Hulk: Donde Habitan Los Monstruos",
     "tmdb_id": "422153",
     "type": "movie",
-    "updated_at": 1788417589177,
+    "updated_at": 1788694100910,
     "year": 2016
   },
   {
@@ -106314,7 +106388,7 @@
     "title": "Pandora",
     "tmdb_id": "429450",
     "type": "movie",
-    "updated_at": 1788458587038,
+    "updated_at": 1788693547444,
     "year": 2016
   },
   {
@@ -110124,12 +110198,13 @@
       "allcalidad": "dirty-dancing-2017",
       "gnula": "dirty-dancing",
       "pelisgratishd": "dirty-dancing-",
+      "poseidonhd2": "444902/dirty-dancing",
       "serieskao": "dirty-dancing-"
     },
     "title": "Dirty Dancing",
     "tmdb_id": "444902",
     "type": "movie",
-    "updated_at": 1788461251517,
+    "updated_at": 1788694101905,
     "year": 2017
   },
   {
@@ -113777,7 +113852,7 @@
     "title": "Tiger",
     "tmdb_id": "458414",
     "type": "movie",
-    "updated_at": 1788464741837,
+    "updated_at": 1788693557346,
     "year": 2016
   },
   {
@@ -115468,12 +115543,13 @@
     "providers": {
       "gnula": "tu-yo-y-el",
       "pelisgratishd": "you-me-and-him",
+      "poseidonhd2": "465026/tu-yo-y-el",
       "serieskao": "you-me-and-him"
     },
     "title": "You, Me and Him",
     "tmdb_id": "465026",
     "type": "movie",
-    "updated_at": 1788458587006,
+    "updated_at": 1788694102900,
     "year": 2017
   },
   {
@@ -118030,7 +118106,7 @@
     "title": "El candidato",
     "tmdb_id": "476764",
     "type": "movie",
-    "updated_at": 1788464741837,
+    "updated_at": 1788693533003,
     "year": 2018
   },
   {
@@ -118944,12 +119020,13 @@
     "providers": {
       "gnula": "el-escuadron-del-diablo",
       "pelisgratishd": "el-escuadron-del-diablo",
+      "poseidonhd2": "481203/el-escuadron-del-diablo",
       "serieskao": "el-escuadron-del-diablo"
     },
     "title": "El Escuadrón del Diablo",
     "tmdb_id": "481203",
     "type": "movie",
-    "updated_at": 1788458587022,
+    "updated_at": 1788694103906,
     "year": 2018
   },
   {
@@ -121793,12 +121870,13 @@
       "allpeliculas": "el-legado-del-diablo-2018",
       "gnula": "el-legado-del-diablo",
       "pelisgratishd": "el-legado-del-diablo",
+      "poseidonhd2": "493922/el-legado-del-diablo",
       "serieskao": "el-legado-del-diablo"
     },
     "title": "El legado del diablo",
     "tmdb_id": "493922",
     "type": "movie",
-    "updated_at": 1788464741836,
+    "updated_at": 1788694105899,
     "year": 2018
   },
   {
@@ -127328,12 +127406,13 @@
     "imdb_id": null,
     "provider_variants": {},
     "providers": {
-      "gnula": "punto-ciego-514161"
+      "gnula": "punto-ciego-514161",
+      "poseidonhd2": "514161/punto-ciego"
     },
     "title": "Punto ciego",
     "tmdb_id": "514161",
     "type": "movie",
-    "updated_at": 1788417593179,
+    "updated_at": 1788694106902,
     "year": 2016
   },
   {
@@ -127965,12 +128044,13 @@
       "allpeliculas": "no-soy-un-hombre-facil-2018",
       "gnula": "no-soy-un-hombre-facil",
       "pelisgratishd": "no-soy-un-hombre-facil",
+      "poseidonhd2": "515841/no-soy-un-hombre-facil",
       "serieskao": "no-soy-un-hombre-facil"
     },
     "title": "No soy un hombre fácil",
     "tmdb_id": "515841",
     "type": "movie",
-    "updated_at": 1788464741836,
+    "updated_at": 1788694107902,
     "year": 2018
   },
   {
@@ -130418,12 +130498,13 @@
     "imdb_id": "tt7266798",
     "provider_variants": {},
     "providers": {
-      "gnula": "no-llores-por-mi-inglaterra"
+      "gnula": "no-llores-por-mi-inglaterra",
+      "poseidonhd2": "523344/no-llores-por-mi-inglaterra"
     },
     "title": "No llores por mí, Inglaterra",
     "tmdb_id": "523344",
     "type": "movie",
-    "updated_at": 1788417589175,
+    "updated_at": 1788694108935,
     "year": 2018
   },
   {
@@ -130476,12 +130557,13 @@
     "imdb_id": "tt6069684",
     "provider_variants": {},
     "providers": {
-      "gnula": "media-hora-y-un-epilogo"
+      "gnula": "media-hora-y-un-epilogo",
+      "poseidonhd2": "523447/media-hora-y-un-epilogo"
     },
     "title": "Media hora (y un epílogo)",
     "tmdb_id": "523447",
     "type": "movie",
-    "updated_at": 1788417589175,
+    "updated_at": 1788694109905,
     "year": 2018
   },
   {
@@ -130505,12 +130587,13 @@
     "providers": {
       "gnula": "ninja-a-cuadros",
       "pelisgratishd": "ninja-a-cuadros",
+      "poseidonhd2": "523536/ninja-a-cuadros",
       "serieskao": "ninja-a-cuadros"
     },
     "title": "Ninja a cuadros",
     "tmdb_id": "523536",
     "type": "movie",
-    "updated_at": 1788458587019,
+    "updated_at": 1788694110908,
     "year": 2018
   },
   {
@@ -130649,12 +130732,13 @@
       "allpeliculas": "laberinto-del-terror-2021",
       "gnula": "laberinto-del-terror",
       "pelisgratishd": "el-tubo",
+      "poseidonhd2": "523936/laberinto-del-terror",
       "serieskao": "el-tubo"
     },
     "title": "El tubo",
     "tmdb_id": "523936",
     "type": "movie",
-    "updated_at": 1788464741836,
+    "updated_at": 1788694111908,
     "year": 2020
   },
   {
@@ -133421,7 +133505,7 @@
     "title": "Oats Studios: Volume 1",
     "tmdb_id": "534032",
     "type": "movie",
-    "updated_at": 1788557541216,
+    "updated_at": 1788693545956,
     "year": 2021
   },
   {
@@ -150935,12 +151019,13 @@
     "providers": {
       "gnula": "sra-asesina-en-serie",
       "pelisgratishd": "mrs-serial-killer",
+      "poseidonhd2": "601807/sra-asesina-en-serie",
       "serieskao": "mrs-serial-killer"
     },
     "title": "Mrs. Serial Killer",
     "tmdb_id": "601807",
     "type": "movie",
-    "updated_at": 1788458587021,
+    "updated_at": 1788694113902,
     "year": 2020
   },
   {
@@ -151598,12 +151683,13 @@
       "allpeliculas": "mrs-lowry-son-2019",
       "gnula": "mrs-lowry-and-son",
       "pelisgratishd": "la-sra-lowry-e-hijo",
+      "poseidonhd2": "604298/mrs-lowry-and-son",
       "serieskao": "la-sra-lowry-e-hijo"
     },
     "title": "La Sra. Lowry e hijo",
     "tmdb_id": "604298",
     "type": "movie",
-    "updated_at": 1788464741834,
+    "updated_at": 1788694114902,
     "year": 2019
   },
   {
@@ -152860,12 +152946,13 @@
     "providers": {
       "gnula": "la-flor-del-combate",
       "pelisgratishd": "in-full-bloom",
+      "poseidonhd2": "608813/la-flor-del-combate",
       "serieskao": "in-full-bloom"
     },
     "title": "In Full Bloom",
     "tmdb_id": "608813",
     "type": "movie",
-    "updated_at": 1788458587021,
+    "updated_at": 1788694115900,
     "year": 2019
   },
   {
@@ -153556,12 +153643,13 @@
     "providers": {
       "gnula": "the-deeper-you-dig",
       "pelisgratishd": "the-deeper-you-dig",
+      "poseidonhd2": "611640/the-deeper-you-dig",
       "serieskao": "the-deeper-you-dig"
     },
     "title": "The Deeper You Dig",
     "tmdb_id": "611640",
     "type": "movie",
-    "updated_at": 1788458586999,
+    "updated_at": 1788694116900,
     "year": 2019
   },
   {
@@ -153662,12 +153750,13 @@
     "providers": {
       "gnula": "anniversary-nightmare",
       "pelisgratishd": "acusaciones-y-mentiras",
+      "poseidonhd2": "612322/anniversary-nightmare",
       "serieskao": "acusaciones-y-mentiras"
     },
     "title": "Acusaciones y mentiras",
     "tmdb_id": "612322",
     "type": "movie",
-    "updated_at": 1788458587006,
+    "updated_at": 1788694117899,
     "year": 2019
   },
   {
@@ -156186,13 +156275,14 @@
       "allcalidad": "la-leyenda-de-hei-2019",
       "allpeliculas": "la-leyenda-de-hei-2019",
       "gnula": "la-leyenda-de-hei",
+      "pelisgratishd": "la-leyenda-de-hei",
       "poseidonhd2": "620249/la-leyenda-de-hei",
       "serieskao": "la-leyenda-de-hei"
     },
     "title": "La leyenda de Hei",
     "tmdb_id": "620249",
     "type": "movie",
-    "updated_at": 1788464741834,
+    "updated_at": 1788693521967,
     "year": 2019
   },
   {
@@ -159949,12 +160039,13 @@
     "providers": {
       "gnula": "la-boda-de-la-abuela",
       "pelisgratishd": "la-boda-de-la-abuela",
+      "poseidonhd2": "638605/la-boda-de-la-abuela",
       "serieskao": "la-boda-de-la-abuela"
     },
     "title": "La boda de la abuela",
     "tmdb_id": "638605",
     "type": "movie",
-    "updated_at": 1788458587022,
+    "updated_at": 1788694118902,
     "year": 2018
   },
   {
@@ -160143,12 +160234,13 @@
     "providers": {
       "gnula": "upstarts",
       "pelisgratishd": "upstarts",
+      "poseidonhd2": "639411/upstarts",
       "serieskao": "upstarts"
     },
     "title": "Upstarts",
     "tmdb_id": "639411",
     "type": "movie",
-    "updated_at": 1788458587022,
+    "updated_at": 1788694119901,
     "year": 2019
   },
   {
@@ -168856,13 +168948,14 @@
       "allcalidad": "los-espiritus-de-la-isla-2022",
       "allpeliculas": "los-espiritus-de-la-isla-2022",
       "gnula": "los-espiritus-de-la-isla",
+      "pelisgratishd": "almas-en-pena-de-inisherin",
       "poseidonhd2": "674324/los-espiritus-de-la-isla",
       "serieskao": "almas-en-pena-de-inisherin"
     },
     "title": "Almas en pena de Inisherin",
     "tmdb_id": "674324",
     "type": "movie",
-    "updated_at": 1788464741833,
+    "updated_at": 1788693515940,
     "year": 2022
   },
   {
@@ -170074,18 +170167,35 @@
   },
   {
     "imdb_id": "tt5821728",
-    "provider_variants": {},
+    "provider_variants": {
+      "allcalidad": [
+        "lazarus-2025"
+      ],
+      "allpeliculas": [
+        "lazarus-de-harlan-coben-2025"
+      ],
+      "pelisgratishd": [
+        "lazarus-de-harlan-cobens-wv3Giz"
+      ],
+      "poseidonhd2": [
+        "245827/lazarus"
+      ],
+      "serieskao": [
+        "lazarus-de-harlan-cobens-wv3Giz"
+      ]
+    },
     "providers": {
       "allcalidad": "lazarus-2021",
       "allpeliculas": "lazarus-2021",
       "gnula": "lazarus",
+      "pelisgratishd": "lazarus",
       "poseidonhd2": "679784/lazarus",
       "serieskao": "lazarus"
     },
     "title": "Lazarus",
     "tmdb_id": "679784",
     "type": "movie",
-    "updated_at": 1788464741833,
+    "updated_at": 1788693522942,
     "year": 2021
   },
   {
@@ -172298,12 +172408,13 @@
       "allpeliculas": "duna-parte-dos-2024",
       "gnula": "duna-parte-dos",
       "pelisgratishd": "dune-parte-dos",
+      "poseidonhd2": "693134/duna-parte-dos",
       "serieskao": "dune-parte-dos"
     },
     "title": "Dune: Parte dos",
     "tmdb_id": "693134",
     "type": "movie",
-    "updated_at": 1788464741833,
+    "updated_at": 1788694120899,
     "year": 2024
   },
   {
@@ -178599,12 +178710,13 @@
     "providers": {
       "gnula": "dont-fuck-in-the-woods-2",
       "pelisgratishd": "dont-fuck-in-the-woods-2",
+      "poseidonhd2": "729454/dont-fuck-in-the-woods-2",
       "serieskao": "dont-fuck-in-the-woods-2"
     },
     "title": "Don't Fuck in the Woods 2",
     "tmdb_id": "729454",
     "type": "movie",
-    "updated_at": 1788458587055,
+    "updated_at": 1788694121902,
     "year": 2022
   },
   {
@@ -185419,12 +185531,13 @@
       "allpeliculas": "sword-art-online-progressive-aria-de-una-noche-sin-estrellas-2021",
       "gnula": "sword-art-online-progressive-aria-de-una-noche-sin-estrellas",
       "pelisgratishd": "sword-art-online-progressive-aria-de-una-noche-sin-estrellas",
+      "poseidonhd2": "761898/sword-art-online-progressive-aria-de-una-noche-sin-estrellas",
       "serieskao": "sword-art-online-progressive-aria-de-una-noche-sin-estrellas"
     },
     "title": "Sword Art Online Progressive: Aria de una Noche sin Estrellas",
     "tmdb_id": "761898",
     "type": "movie",
-    "updated_at": 1788464741832,
+    "updated_at": 1788694122897,
     "year": 2021
   },
   {
@@ -186858,12 +186971,13 @@
       "allpeliculas": "sin-hijos-2020",
       "gnula": "sin-hijos-767479",
       "pelisgratishd": "sin-hijos",
+      "poseidonhd2": "767479/sin-hijos",
       "serieskao": "sin-hijos"
     },
     "title": "Sin hijos",
     "tmdb_id": "767479",
     "type": "movie",
-    "updated_at": 1788464741817,
+    "updated_at": 1788694123910,
     "year": 2020
   },
   {
@@ -187616,12 +187730,13 @@
       "allpeliculas": "el-amor-es-mas-facil-2020",
       "gnula": "el-amor-es-mas-facil",
       "pelisgratishd": "el-amor-es-mas-facil",
+      "poseidonhd2": "771168/el-amor-es-mas-facil",
       "serieskao": "el-amor-es-mas-facil"
     },
     "title": "El amor es más fácil",
     "tmdb_id": "771168",
     "type": "movie",
-    "updated_at": 1788464741832,
+    "updated_at": 1788694124909,
     "year": 2020
   },
   {
@@ -192081,13 +192196,14 @@
       "allcalidad": "hasta-los-huesos-2022",
       "allpeliculas": "hasta-los-huesos-2022",
       "gnula": "hasta-los-huesos",
+      "pelisgratishd": "hasta-los-huesos-bones-and-all",
       "poseidonhd2": "791177/hasta-los-huesos",
       "serieskao": "hasta-los-huesos-bones-and-all"
     },
     "title": "Hasta los huesos: Bones and All",
     "tmdb_id": "791177",
     "type": "movie",
-    "updated_at": 1788464741832,
+    "updated_at": 1788693519107,
     "year": 2022
   },
   {
@@ -194350,13 +194466,14 @@
     "providers": {
       "allcalidad": "las-ninas-de-cristal-2022",
       "gnula": "las-ninas-de-cristal",
+      "pelisgratishd": "las-ninas-de-cristal",
       "poseidonhd2": "800407/las-ninas-de-cristal",
       "serieskao": "las-ninas-de-cristal"
     },
     "title": "Las niñas de cristal",
     "tmdb_id": "800407",
     "type": "movie",
-    "updated_at": 1788461251477,
+    "updated_at": 1788693522441,
     "year": 2022
   },
   {
@@ -195308,13 +195425,14 @@
       "allcalidad": "los-fabelman-2022",
       "allpeliculas": "los-fabelman-2022",
       "gnula": "los-fabelman",
+      "pelisgratishd": "los-fabelman",
       "poseidonhd2": "804095/los-fabelman",
       "serieskao": "los-fabelman"
     },
     "title": "Los Fabelman",
     "tmdb_id": "804095",
     "type": "movie",
-    "updated_at": 1788464741831,
+    "updated_at": 1788693523438,
     "year": 2022
   },
   {
@@ -202110,12 +202228,13 @@
       "allcalidad": "ted-bundy-mente-asesina-2021",
       "gnula": "ted-bundy-mente-asesina",
       "pelisgratishd": "ted-bundy-american-boogeyman",
+      "poseidonhd2": "835112/ted-bundy-mente-asesina",
       "serieskao": "ted-bundy-american-boogeyman"
     },
     "title": "Ted Bundy: American Boogeyman",
     "tmdb_id": "835112",
     "type": "movie",
-    "updated_at": 1788461251471,
+    "updated_at": 1788694125898,
     "year": 2021
   },
   {
@@ -202154,12 +202273,13 @@
     "imdb_id": "tt7225358",
     "provider_variants": {},
     "providers": {
-      "gnula": "la-mancha-negra"
+      "gnula": "la-mancha-negra",
+      "poseidonhd2": "835159/la-mancha-negra"
     },
     "title": "La Mancha Negra",
     "tmdb_id": "835159",
     "type": "movie",
-    "updated_at": 1788417579153,
+    "updated_at": 1788694126905,
     "year": 2021
   },
   {
@@ -203325,12 +203445,13 @@
       "allpeliculas": "los-que-se-quedan-2023",
       "gnula": "los-que-se-quedan",
       "pelisgratishd": "los-que-se-quedan",
+      "poseidonhd2": "840430/los-que-se-quedan",
       "serieskao": "los-que-se-quedan"
     },
     "title": "Los que se quedan",
     "tmdb_id": "840430",
     "type": "movie",
-    "updated_at": 1788464741831,
+    "updated_at": 1788694127907,
     "year": 2023
   },
   {
@@ -210291,7 +210412,7 @@
     "title": "Furia",
     "tmdb_id": "866678",
     "type": "movie",
-    "updated_at": 1788607180582,
+    "updated_at": 1788693537643,
     "year": 2021
   },
   {
@@ -210831,13 +210952,14 @@
       "allcalidad": "carino-es-solo-una-fase-2021",
       "allpeliculas": "carino-es-solo-una-fase-2021",
       "gnula": "carino-es-solo-una-fase",
+      "pelisgratishd": "its-just-a-phase",
       "poseidonhd2": "871530/carino-es-solo-una-fase",
       "serieskao": "its-just-a-phase"
     },
     "title": "It's Just a Phase",
     "tmdb_id": "871530",
     "type": "movie",
-    "updated_at": 1788464741830,
+    "updated_at": 1788693520465,
     "year": 2021
   },
   {
@@ -210943,12 +211065,13 @@
     "imdb_id": "tt9624756",
     "provider_variants": {},
     "providers": {
-      "gnula": "the-movie"
+      "gnula": "the-movie",
+      "poseidonhd2": "871896/the-movie"
     },
     "title": "The Movie",
     "tmdb_id": "871896",
     "type": "movie",
-    "updated_at": 1788417612215,
+    "updated_at": 1788694128905,
     "year": 2022
   },
   {
@@ -211310,12 +211433,13 @@
     "imdb_id": "tt15262652",
     "provider_variants": {},
     "providers": {
-      "gnula": "shady-grove"
+      "gnula": "shady-grove",
+      "poseidonhd2": "873529/shady-grove"
     },
     "title": "Shady Grove",
     "tmdb_id": "873529",
     "type": "movie",
-    "updated_at": 1788417612215,
+    "updated_at": 1788694129901,
     "year": 2022
   },
   {
@@ -212681,18 +212805,29 @@
   },
   {
     "imdb_id": "tt7536726",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "soulmates-tdEZHo"
+      ],
+      "poseidonhd2": [
+        "100771/soulmates"
+      ],
+      "serieskao": [
+        "soulmates-tdEZHo"
+      ]
+    },
     "providers": {
       "allcalidad": "como-impedir-una-boda-2021",
       "allpeliculas": "como-impedir-una-boda-2021",
       "gnula": "soulmates",
+      "pelisgratishd": "como-impedir-una-boda",
       "poseidonhd2": "879330/soulmates",
       "serieskao": "como-impedir-una-boda"
     },
     "title": "Cómo impedir una boda",
     "tmdb_id": "879330",
     "type": "movie",
-    "updated_at": 1788464741830,
+    "updated_at": 1788693517297,
     "year": 2021
   },
   {
@@ -212911,17 +213046,29 @@
   },
   {
     "imdb_id": "tt11818818",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "outer-range"
+      ],
+      "poseidonhd2": [
+        "113985/tierra-de-nadie"
+      ],
+      "serieskao": [
+        "outer-range"
+      ]
+    },
     "providers": {
       "allcalidad": "tierra-de-nadie-2022",
+      "allpeliculas": "tierra-de-nadie-2022",
       "gnula": "tierra-de-nadie",
+      "pelisgratishd": "tierra-de-nadie-2022",
       "poseidonhd2": "879990/tierra-de-nadie",
       "serieskao": "tierra-de-nadie-2022"
     },
     "title": "Tierra de Nadie",
     "tmdb_id": "879990",
     "type": "movie",
-    "updated_at": 1788461251463,
+    "updated_at": 1788693526437,
     "year": 2022
   },
   {
@@ -215033,16 +215180,29 @@
   },
   {
     "imdb_id": "tt21109580",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "asesina-a-sueldo-jPEFbu"
+      ],
+      "poseidonhd2": [
+        "262352/the-assassin"
+      ],
+      "serieskao": [
+        "asesina-a-sueldo-jPEFbu"
+      ]
+    },
     "providers": {
+      "allcalidad": "the-assassin-2025",
+      "allpeliculas": "the-assassin-2025",
       "gnula": "the-assassin",
+      "pelisgratishd": "night-of-the-assassin",
       "poseidonhd2": "890154/the-assassin",
       "serieskao": "night-of-the-assassin"
     },
     "title": "Night of the Assassin",
     "tmdb_id": "890154",
     "type": "movie",
-    "updated_at": 1788452160163,
+    "updated_at": 1788693524940,
     "year": 2023
   },
   {
@@ -215334,13 +215494,14 @@
       "allcalidad": "los-renglones-torcidos-de-dios-2022",
       "allpeliculas": "los-renglones-torcidos-de-dios-2022",
       "gnula": "los-renglones-torcidos-de-dios",
+      "pelisgratishd": "los-renglones-torcidos-de-dios",
       "poseidonhd2": "890980/los-renglones-torcidos-de-dios",
       "serieskao": "los-renglones-torcidos-de-dios"
     },
     "title": "Los renglones torcidos de Dios",
     "tmdb_id": "890980",
     "type": "movie",
-    "updated_at": 1788464741830,
+    "updated_at": 1788693523937,
     "year": 2022
   },
   {
@@ -218516,12 +218677,13 @@
     "imdb_id": "tt15536668",
     "provider_variants": {},
     "providers": {
-      "gnula": "rheingold"
+      "gnula": "rheingold",
+      "poseidonhd2": "912726/rheingold"
     },
     "title": "Oro puro - Rheingold",
     "tmdb_id": "912726",
     "type": "movie",
-    "updated_at": 1788417525063,
+    "updated_at": 1788694131906,
     "year": 2022
   },
   {
@@ -223990,7 +224152,7 @@
     "title": "Rivales",
     "tmdb_id": "937287",
     "type": "movie",
-    "updated_at": 1788464741829,
+    "updated_at": 1788693550410,
     "year": 2024
   },
   {
@@ -235694,12 +235856,13 @@
     "providers": {
       "gnula": "hunt-her-kill-her",
       "pelisgratishd": "hunt-her-kill-her",
+      "poseidonhd2": "989872/hunt-her-kill-her",
       "serieskao": "hunt-her-kill-her"
     },
     "title": "Hunt Her, Kill Her",
     "tmdb_id": "989872",
     "type": "movie",
-    "updated_at": 1788458587055,
+    "updated_at": 1788694133906,
     "year": 2022
   },
   {
@@ -236295,12 +236458,13 @@
       "allpeliculas": "i-wont-let-you-go-2022",
       "gnula": "i-wont-let-you-go",
       "pelisgratishd": "i-wont-let-you-go",
+      "poseidonhd2": "993843/i-wont-let-you-go",
       "serieskao": "i-wont-let-you-go"
     },
     "title": "I Won't Let You Go",
     "tmdb_id": "993843",
     "type": "movie",
-    "updated_at": 1788464741828,
+    "updated_at": 1788694134898,
     "year": 2022
   },
   {
@@ -236330,19 +236494,20 @@
     "title": "Bad Behaviour",
     "tmdb_id": "993933",
     "type": "movie",
-    "updated_at": 1788458586988,
+    "updated_at": 1788693530729,
     "year": 2023
   },
   {
     "imdb_id": "tt21030232",
     "provider_variants": {},
     "providers": {
-      "gnula": "heredera-por-sorpresa"
+      "gnula": "heredera-por-sorpresa",
+      "poseidonhd2": "994006/heredera-por-sorpresa"
     },
     "title": "Heredera por sorpresa",
     "tmdb_id": "994006",
     "type": "movie",
-    "updated_at": 1788417567129,
+    "updated_at": 1788694135900,
     "year": 2022
   },
   {
@@ -236422,12 +236587,13 @@
     "imdb_id": "tt13137268",
     "provider_variants": {},
     "providers": {
-      "gnula": "sera-historia"
+      "gnula": "sera-historia",
+      "poseidonhd2": "994354/sera-historia"
     },
     "title": "Sera Historia",
     "tmdb_id": "994354",
     "type": "movie",
-    "updated_at": 1788417567129,
+    "updated_at": 1788694136909,
     "year": 2021
   },
   {
@@ -236437,12 +236603,13 @@
       "allcalidad": "misterio-en-marbella-2022",
       "gnula": "misterio-en-marbella",
       "pelisgratishd": "misterio-en-marbella",
+      "poseidonhd2": "994418/misterio-en-marbella",
       "serieskao": "misterio-en-marbella"
     },
     "title": "Misterio en Marbella",
     "tmdb_id": "994418",
     "type": "movie",
-    "updated_at": 1788461251451,
+    "updated_at": 1788694137906,
     "year": 2022
   },
   {
@@ -239845,9 +240012,14 @@
   },
   {
     "imdb_id": "tt22938576",
-    "provider_variants": {},
+    "provider_variants": {
+      "poseidonhd2": [
+        "135868/el-paciente"
+      ]
+    },
     "providers": {
       "allcalidad": "el-paciente-2022",
+      "allpeliculas": "el-paciente-2022",
       "gnula": "el-paciente",
       "pelisgratishd": "el-paciente",
       "poseidonhd2": "1006917/el-paciente",
@@ -239856,7 +240028,7 @@
     "title": "El Paciente",
     "tmdb_id": "1006917",
     "type": "movie",
-    "updated_at": 1788461251449,
+    "updated_at": 1788694533375,
     "year": 2022
   },
   {
@@ -241336,16 +241508,27 @@
   },
   {
     "imdb_id": "tt13479258",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "a-su-servicio"
+      ],
+      "poseidonhd2": [
+        "232644/bo"
+      ],
+      "serieskao": [
+        "a-su-servicio"
+      ]
+    },
     "providers": {
       "gnula": "bo",
+      "pelisgratishd": "bo",
       "poseidonhd2": "1013606/bo",
       "serieskao": "bo"
     },
     "title": "Bo",
     "tmdb_id": "1013606",
     "type": "movie",
-    "updated_at": 1788452160171,
+    "updated_at": 1788693516391,
     "year": 2022
   },
   {
@@ -241933,12 +242116,13 @@
       "allpeliculas": "scooby-doo-dulce-o-travesura-2022",
       "gnula": "scooby-doo-dulce-o-travesura",
       "pelisgratishd": "scooby-doo-dulce-o-travesura",
+      "poseidonhd2": "1015724/scooby-doo-dulce-o-travesura",
       "serieskao": "scooby-doo-dulce-o-travesura"
     },
     "title": "¡Scooby-Doo! Dulce o Travesura",
     "tmdb_id": "1015724",
     "type": "movie",
-    "updated_at": 1788464741828,
+    "updated_at": 1788694052533,
     "year": 2022
   },
   {
@@ -242027,16 +242211,27 @@
   },
   {
     "imdb_id": "tt15721088",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "donde-hubo-fuego"
+      ],
+      "poseidonhd2": [
+        "206087/high-heat"
+      ],
+      "serieskao": [
+        "donde-hubo-fuego"
+      ]
+    },
     "providers": {
       "gnula": "high-heat",
+      "pelisgratishd": "calor-mortal",
       "poseidonhd2": "1015963/high-heat",
       "serieskao": "calor-mortal"
     },
     "title": "Calor mortal",
     "tmdb_id": "1015963",
     "type": "movie",
-    "updated_at": 1788452160168,
+    "updated_at": 1788693516845,
     "year": 2022
   },
   {
@@ -242216,12 +242411,13 @@
       "allpeliculas": "el-perfumista-2022",
       "gnula": "el-perfumista",
       "pelisgratishd": "el-perfumista",
+      "poseidonhd2": "1016446/el-perfumista",
       "serieskao": "el-perfumista"
     },
     "title": "El perfumista",
     "tmdb_id": "1016446",
     "type": "movie",
-    "updated_at": 1788464741828,
+    "updated_at": 1788694053322,
     "year": 2022
   },
   {
@@ -247701,13 +247897,14 @@
       "allcalidad": "mickey-salva-la-navidad-2022",
       "allpeliculas": "mickey-salva-la-navidad-2022",
       "gnula": "mickey-salva-la-navidad",
+      "pelisgratishd": "mickey-saves-christmas",
       "poseidonhd2": "1037929/mickey-salva-la-navidad",
       "serieskao": "mickey-saves-christmas"
     },
     "title": "Mickey salva la Navidad",
     "tmdb_id": "1037929",
     "type": "movie",
-    "updated_at": 1788464741827,
+    "updated_at": 1788693524444,
     "year": 2022
   },
   {
@@ -247802,18 +247999,29 @@
   },
   {
     "imdb_id": "tt27506951",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "the-village"
+      ],
+      "poseidonhd2": [
+        "200879/the-village"
+      ],
+      "serieskao": [
+        "the-village"
+      ]
+    },
     "providers": {
       "allcalidad": "el-pueblo-the-village-2023",
       "allpeliculas": "el-pueblo-2023",
       "gnula": "the-village",
+      "pelisgratishd": "el-pueblo-2023",
       "poseidonhd2": "1038515/the-village",
       "serieskao": "el-pueblo-2023"
     },
     "title": "El pueblo",
     "tmdb_id": "1038515",
     "type": "movie",
-    "updated_at": 1788464747772,
+    "updated_at": 1788693518650,
     "year": 2023
   },
   {
@@ -249854,13 +250062,14 @@
       "allcalidad": "en-el-valle-de-los-canguros-2022",
       "allpeliculas": "en-el-valle-de-los-canguros-2022",
       "gnula": "en-el-valle-de-los-canguros",
+      "pelisgratishd": "kangaroo-valley",
       "poseidonhd2": "1050167/en-el-valle-de-los-canguros",
       "serieskao": "kangaroo-valley"
     },
     "title": "En el valle de los canguros",
     "tmdb_id": "1050167",
     "type": "movie",
-    "updated_at": 1788464741827,
+    "updated_at": 1788693520938,
     "year": 2022
   },
   {
@@ -250304,12 +250513,13 @@
     "providers": {
       "gnula": "cold-road",
       "pelisgratishd": "cold-road",
+      "poseidonhd2": "1053059/cold-road",
       "serieskao": "cold-road"
     },
     "title": "Cold Road",
     "tmdb_id": "1053059",
     "type": "movie",
-    "updated_at": 1788458586973,
+    "updated_at": 1788694054323,
     "year": 2024
   },
   {
@@ -250336,13 +250546,14 @@
       "allcalidad": "todavia-creo-en-santa-2022",
       "allpeliculas": "todavia-creo-en-santa-2022",
       "gnula": "todavia-creo-en-santa",
+      "pelisgratishd": "yo-creo-en-papa-noel",
       "poseidonhd2": "1053110/todavia-creo-en-santa",
       "serieskao": "yo-creo-en-papa-noel"
     },
     "title": "Yo creo en Papá Noel",
     "tmdb_id": "1053110",
     "type": "movie",
-    "updated_at": 1788464741827,
+    "updated_at": 1788693527939,
     "year": 2022
   },
   {
@@ -250721,13 +250932,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "un-like-de-navidad",
+      "pelisgratishd": "un-like-de-navidad",
       "poseidonhd2": "1054696/un-like-de-navidad",
       "serieskao": "un-like-de-navidad"
     },
     "title": "Un like de Navidad",
     "tmdb_id": "1054696",
     "type": "movie",
-    "updated_at": 1788452160180,
+    "updated_at": 1788693526949,
     "year": 2022
   },
   {
@@ -251530,18 +251742,29 @@
   },
   {
     "imdb_id": "tt24515124",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "las-cuatro-estaciones"
+      ],
+      "poseidonhd2": [
+        "243316/las-cuatro-estaciones"
+      ],
+      "serieskao": [
+        "las-cuatro-estaciones"
+      ]
+    },
     "providers": {
       "allcalidad": "las-cuatro-estaciones-2024",
       "allpeliculas": "las-cuatro-estaciones-2024",
       "gnula": "las-cuatro-estaciones",
+      "pelisgratishd": "winter-spring-summer-or-fall",
       "poseidonhd2": "1059073/las-cuatro-estaciones",
       "serieskao": "winter-spring-summer-or-fall"
     },
     "title": "Winter Spring Summer or Fall",
     "tmdb_id": "1059073",
     "type": "movie",
-    "updated_at": 1788464741815,
+    "updated_at": 1788693527440,
     "year": 2024
   },
   {
@@ -264324,12 +264547,13 @@
     "providers": {
       "gnula": "pollen",
       "pelisgratishd": "pollen",
+      "poseidonhd2": "1126637/pollen",
       "serieskao": "pollen"
     },
     "title": "Pollen",
     "tmdb_id": "1126637",
     "type": "movie",
-    "updated_at": 1788458586979,
+    "updated_at": 1788694060683,
     "year": 2023
   },
   {
@@ -265384,12 +265608,13 @@
     "providers": {
       "gnula": "fear-the-invisible-man",
       "pelisgratishd": "fear-the-invisible-man",
+      "poseidonhd2": "1131438/fear-the-invisible-man",
       "serieskao": "fear-the-invisible-man"
     },
     "title": "Fear the Invisible Man",
     "tmdb_id": "1131438",
     "type": "movie",
-    "updated_at": 1788458586979,
+    "updated_at": 1788694061661,
     "year": 2023
   },
   {
@@ -266271,6 +266496,8 @@
     "imdb_id": "tt28014327",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "mayday-2026",
+      "allpeliculas": "mayday-2026",
       "gnula": "mayday",
       "pelisgratishd": "mayday-2KuZBw",
       "poseidonhd2": "1137844/mayday",
@@ -266279,7 +266506,7 @@
     "title": "Mayday",
     "tmdb_id": "1137844",
     "type": "movie",
-    "updated_at": 1788607166551,
+    "updated_at": 1788694535351,
     "year": 2026
   },
   {
@@ -268330,7 +268557,7 @@
     "title": "Angela",
     "tmdb_id": "1147964",
     "type": "movie",
-    "updated_at": 1788607181585,
+    "updated_at": 1788693529979,
     "year": 2023
   },
   {
@@ -269355,7 +269582,7 @@
     "title": "Possessions",
     "tmdb_id": "1152619",
     "type": "movie",
-    "updated_at": 1788458586991,
+    "updated_at": 1788693548926,
     "year": 2024
   },
   {
@@ -274083,7 +274310,7 @@
     "title": "Laughing on the Inside",
     "tmdb_id": "1183028",
     "type": "movie",
-    "updated_at": 1788458586988,
+    "updated_at": 1788693544441,
     "year": 2023
   },
   {
@@ -274291,12 +274518,13 @@
     "providers": {
       "gnula": "ouija-witch",
       "pelisgratishd": "ouija-witch",
+      "poseidonhd2": "1185439/ouija-witch",
       "serieskao": "ouija-witch"
     },
     "title": "Ouija Witch",
     "tmdb_id": "1185439",
     "type": "movie",
-    "updated_at": 1788458586977,
+    "updated_at": 1788694063677,
     "year": 2023
   },
   {
@@ -274825,12 +275053,13 @@
     "providers": {
       "gnula": "scary-tales-dead-zone",
       "pelisgratishd": "scary-tales-dead-zone",
+      "poseidonhd2": "1188598/scary-tales-dead-zone",
       "serieskao": "scary-tales-dead-zone"
     },
     "title": "Scary Tales: Dead Zone",
     "tmdb_id": "1188598",
     "type": "movie",
-    "updated_at": 1788458586977,
+    "updated_at": 1788694064917,
     "year": 2023
   },
   {
@@ -274907,6 +275136,19 @@
     "type": "movie",
     "updated_at": 1788458586967,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt12643976",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "off-rip-2025",
+      "allpeliculas": "off-rip-2025"
+    },
+    "title": "Off Rip",
+    "tmdb_id": "1189394",
+    "type": "movie",
+    "updated_at": 1788694537351,
+    "year": 2025
   },
   {
     "imdb_id": "tt29362046",
@@ -275684,12 +275926,13 @@
     "providers": {
       "gnula": "lifeforms",
       "pelisgratishd": "lifeforms",
+      "poseidonhd2": "1194071/lifeforms",
       "serieskao": "lifeforms"
     },
     "title": "Lifeforms",
     "tmdb_id": "1194071",
     "type": "movie",
-    "updated_at": 1788458586976,
+    "updated_at": 1788694065909,
     "year": 2023
   },
   {
@@ -277753,12 +277996,13 @@
     "providers": {
       "gnula": "gato-galactico-e-o-feitico-do-tempo",
       "pelisgratishd": "el-gato-galactico-y-el-hechizo-del-tiempo",
+      "poseidonhd2": "1209095/gato-galactico-e-o-feitico-do-tempo",
       "serieskao": "el-gato-galactico-y-el-hechizo-del-tiempo"
     },
     "title": "El gato galactico y el hechizo del tiempo",
     "tmdb_id": "1209095",
     "type": "movie",
-    "updated_at": 1788458586973,
+    "updated_at": 1788694067913,
     "year": 2024
   },
   {
@@ -280859,16 +281103,29 @@
   },
   {
     "imdb_id": "tt28151876",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "yolo-crystal-fantasy-b1IoyZ"
+      ],
+      "poseidonhd2": [
+        "106925/yolo"
+      ],
+      "serieskao": [
+        "yolo-crystal-fantasy-b1IoyZ"
+      ]
+    },
     "providers": {
+      "allcalidad": "yolo-2020",
+      "allpeliculas": "yolo-2020",
       "gnula": "yolo",
+      "pelisgratishd": "yolo",
       "poseidonhd2": "1229349/yolo",
       "serieskao": "yolo"
     },
     "title": "Yolo",
     "tmdb_id": "1229349",
     "type": "movie",
-    "updated_at": 1788452160132,
+    "updated_at": 1788693528439,
     "year": 2024
   },
   {
@@ -283312,12 +283569,13 @@
       "allpeliculas": "un-buen-ladron-2025",
       "gnula": "un-buen-ladron",
       "pelisgratishd": "roofman-un-ladron-en-el-tejado-M9ipjK",
+      "poseidonhd2": "1242419/un-buen-ladron",
       "serieskao": "roofman-un-ladron-en-el-tejado-M9ipjK"
     },
     "title": "Roofman: Un ladrón en el tejado",
     "tmdb_id": "1242419",
     "type": "movie",
-    "updated_at": 1788464741823,
+    "updated_at": 1788694068900,
     "year": 2025
   },
   {
@@ -283762,12 +284020,13 @@
     "imdb_id": "tt31029309",
     "provider_variants": {},
     "providers": {
-      "gnula": "pignorant"
+      "gnula": "pignorant",
+      "poseidonhd2": "1244121/pignorant"
     },
     "title": "Pignorant",
     "tmdb_id": "1244121",
     "type": "movie",
-    "updated_at": 1788413539014,
+    "updated_at": 1788694069905,
     "year": 2024
   },
   {
@@ -284531,12 +284790,13 @@
     "providers": {
       "gnula": "kids-are-growing-up-a-story-about-a-kid-named-laroi",
       "pelisgratishd": "kids-are-growing-up",
+      "poseidonhd2": "1247793/kids-are-growing-up-a-story-about-a-kid-named-laroi",
       "serieskao": "kids-are-growing-up"
     },
     "title": "Kids Are Growing Up",
     "tmdb_id": "1247793",
     "type": "movie",
-    "updated_at": 1788458586974,
+    "updated_at": 1788694070898,
     "year": 2024
   },
   {
@@ -285882,12 +286142,13 @@
     "imdb_id": "tt15097358",
     "provider_variants": {},
     "providers": {
-      "gnula": "bison-kaalamaadan"
+      "gnula": "bison-kaalamaadan",
+      "poseidonhd2": "1257957/bison-kaalamaadan"
     },
     "title": "Búfalo",
     "tmdb_id": "1257957",
     "type": "movie",
-    "updated_at": 1788410749440,
+    "updated_at": 1788694071910,
     "year": 2025
   },
   {
@@ -287132,12 +287393,13 @@
     "providers": {
       "gnula": "wake",
       "pelisgratishd": "wake",
+      "poseidonhd2": "1269021/wake",
       "serieskao": "wake"
     },
     "title": "Wake",
     "tmdb_id": "1269021",
     "type": "movie",
-    "updated_at": 1788458586965,
+    "updated_at": 1788694072906,
     "year": 2024
   },
   {
@@ -288306,12 +288568,13 @@
     "providers": {
       "gnula": "antares-de-la-luz-la-secta-del-fin-del-mundo",
       "pelisgratishd": "antares-de-la-luz-la-secta-del-fin-del-mundo",
+      "poseidonhd2": "1279863/antares-de-la-luz-la-secta-del-fin-del-mundo",
       "serieskao": "antares-de-la-luz-la-secta-del-fin-del-mundo"
     },
     "title": "Antares de la Luz: La secta del fin del mundo",
     "tmdb_id": "1279863",
     "type": "movie",
-    "updated_at": 1788458586973,
+    "updated_at": 1788694073912,
     "year": 2024
   },
   {
@@ -289514,12 +289777,13 @@
     "imdb_id": "tt31777631",
     "provider_variants": {},
     "providers": {
-      "gnula": "invasive"
+      "gnula": "invasive",
+      "poseidonhd2": "1288500/invasive"
     },
     "title": "Invasive",
     "tmdb_id": "1288500",
     "type": "movie",
-    "updated_at": 1788413518980,
+    "updated_at": 1788694074901,
     "year": 2024
   },
   {
@@ -292471,7 +292735,7 @@
     "title": "Super Pumped: The Battle for Uber",
     "tmdb_id": "1310632",
     "type": "movie",
-    "updated_at": 1788458586990,
+    "updated_at": 1788693555100,
     "year": 2022
   },
   {
@@ -297830,6 +298094,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt17079684",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "melaleuca-2026",
+      "allpeliculas": "melaleuca-2026"
+    },
+    "title": "Melaleuca",
+    "tmdb_id": "1366544",
+    "type": "movie",
+    "updated_at": 1788694536349,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt33728446",
     "provider_variants": {},
     "providers": {
@@ -299078,7 +299355,7 @@
     "title": "Utopia",
     "tmdb_id": "1379587",
     "type": "movie",
-    "updated_at": 1788607183600,
+    "updated_at": 1788693558091,
     "year": 2024
   },
   {
@@ -303937,12 +304214,13 @@
     "providers": {
       "gnula": "la-cena-1433680",
       "pelisgratishd": "la-cena-cMdRFL",
+      "poseidonhd2": "1433680/la-cena",
       "serieskao": "la-cena-cMdRFL"
     },
     "title": "La cena",
     "tmdb_id": "1433680",
     "type": "movie",
-    "updated_at": 1788458586960,
+    "updated_at": 1788694076902,
     "year": 2025
   },
   {
@@ -306918,6 +307196,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt36162977",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "the-bears-2025",
+      "allpeliculas": "the-bears-2025"
+    },
+    "title": "The Bears",
+    "tmdb_id": "1472223",
+    "type": "movie",
+    "updated_at": 1788694540350,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt38350059",
     "provider_variants": {},
     "providers": {
@@ -308758,7 +309049,7 @@
     "title": "Star vs. the Forces of Evil: The Battle for Mewni",
     "tmdb_id": "1496162",
     "type": "movie",
-    "updated_at": 1788458586991,
+    "updated_at": 1788693554356,
     "year": 2017
   },
   {
@@ -310843,12 +311134,13 @@
     "imdb_id": "tt38121182",
     "provider_variants": {},
     "providers": {
-      "gnula": "jujutsu-kaisen-ejecucion"
+      "gnula": "jujutsu-kaisen-ejecucion",
+      "poseidonhd2": "1539104/jujutsu-kaisen-ejecucion"
     },
     "title": "JUJUTSU KAISEN: Ejecución",
     "tmdb_id": "1539104",
     "type": "movie",
-    "updated_at": 1788411660365,
+    "updated_at": 1788694078904,
     "year": 2025
   },
   {
@@ -311465,6 +311757,19 @@
     "tmdb_id": "1560681",
     "type": "movie",
     "updated_at": 1788464741816,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt39028066",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "penerbangan-terakhir-2026",
+      "allpeliculas": "penerbangan-terakhir-2026"
+    },
+    "title": "Penerbangan Terakhir",
+    "tmdb_id": "1560734",
+    "type": "movie",
+    "updated_at": 1788694538351,
     "year": 2026
   },
   {
@@ -312343,7 +312648,7 @@
     "title": "Yellow",
     "tmdb_id": "1589472",
     "type": "movie",
-    "updated_at": 1788557542218,
+    "updated_at": 1788693558840,
     "year": 2025
   },
   {
@@ -312465,6 +312770,19 @@
     "type": "movie",
     "updated_at": 1788452160118,
     "year": 2026
+  },
+  {
+    "imdb_id": "tt35980000",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "the-veil-2025",
+      "allpeliculas": "the-veil-2025"
+    },
+    "title": "The Veil",
+    "tmdb_id": "1593932",
+    "type": "movie",
+    "updated_at": 1788694542349,
+    "year": 2025
   },
   {
     "imdb_id": "tt38590166",
@@ -315010,7 +315328,7 @@
     "title": "kimler geldi kimler geçti",
     "tmdb_id": "1695383",
     "type": "movie",
-    "updated_at": 1788458586987,
+    "updated_at": 1788693538389,
     "year": 2024
   },
   {
@@ -315230,6 +315548,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt41517310",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "shark-frenzy-2026",
+      "allpeliculas": "shark-frenzy-2026"
+    },
+    "title": "Shark Frenzy",
+    "tmdb_id": "1712454",
+    "type": "movie",
+    "updated_at": 1788694539356,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt43465871",
     "provider_variants": {},
     "providers": {
@@ -315379,8 +315710,21 @@
     "title": "I Hate Suzie Too",
     "tmdb_id": "1725158",
     "type": "movie",
-    "updated_at": 1788458586990,
+    "updated_at": 1788693539127,
     "year": 2022
+  },
+  {
+    "imdb_id": "tt39524091",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "the-night-everything-changed-2026",
+      "allpeliculas": "the-night-everything-changed-2026"
+    },
+    "title": "The Night Everything Changed",
+    "tmdb_id": "1729010",
+    "type": "movie",
+    "updated_at": 1788694541349,
+    "year": 2026
   },
   {
     "imdb_id": "tt43141030",
@@ -315439,7 +315783,7 @@
     "title": "The Agency",
     "tmdb_id": "1738197",
     "type": "movie",
-    "updated_at": 1788458586986,
+    "updated_at": 1788693555847,
     "year": 2024
   },
   {
@@ -315549,7 +315893,7 @@
     "title": "Daredevil",
     "tmdb_id": "1747255",
     "type": "movie",
-    "updated_at": 1788458586994,
+    "updated_at": 1788693545188,
     "year": 2015
   },
   {
@@ -315601,7 +315945,7 @@
     "title": "Ratched",
     "tmdb_id": "1753955",
     "type": "movie",
-    "updated_at": 1788458586992,
+    "updated_at": 1788693549671,
     "year": 2020
   },
   {
