@@ -2901,12 +2901,13 @@
     "imdb_id": "tt0290978",
     "provider_variants": {},
     "providers": {
-      "pelisgratishd": "the-office-yyRNk2"
+      "pelisgratishd": "the-office-yyRNk2",
+      "serieskao": "the-office-yyRNk2"
     },
     "title": "The Office",
     "tmdb_id": "2996",
     "type": "series",
-    "updated_at": 1788787870033,
+    "updated_at": 1788818603820,
     "year": 2001
   },
   {
@@ -5136,6 +5137,19 @@
     "type": "series",
     "updated_at": 1788464741848,
     "year": 2020
+  },
+  {
+    "imdb_id": "tt1319735",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "royal-pains-2009",
+      "allpeliculas": "royal-pains-2009"
+    },
+    "title": "Royal Pains",
+    "tmdb_id": "18779",
+    "type": "series",
+    "updated_at": 1788818586774,
+    "year": 2009
   },
   {
     "imdb_id": "tt1710310",
@@ -9185,7 +9199,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788787872943,
+    "updated_at": 1788818604800,
     "year": 2003
   },
   {
@@ -73959,7 +73973,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788787873946,
+    "updated_at": 1788818605800,
     "year": 2026
   },
   {
@@ -74534,6 +74548,8 @@
     "imdb_id": "tt43357366",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "el-complejo-de-apartamentos-2026",
+      "allpeliculas": "el-complejo-de-apartamentos-2026",
       "gnula": "el-complejo-de-apartamentos",
       "pelisgratishd": "-xjb6wU",
       "poseidonhd2": "300727/el-complejo-de-apartamentos",
@@ -74542,7 +74558,7 @@
     "title": "The Apartment Job",
     "tmdb_id": "300727",
     "type": "series",
-    "updated_at": 1788458586983,
+    "updated_at": 1788818584787,
     "year": 2026
   },
   {
@@ -76109,13 +76125,15 @@
     "imdb_id": "tt42605728",
     "provider_variants": {},
     "providers": {
+      "gnula": "el-experimento-estadounidense",
       "pelisgratishd": "el-experimento-estadounidense-Vz3mSs",
+      "poseidonhd2": "322427/el-experimento-estadounidense",
       "serieskao": "el-experimento-estadounidense-Vz3mSs"
     },
     "title": "The American Experiment",
     "tmdb_id": "322427",
     "type": "series",
-    "updated_at": 1788458586983,
+    "updated_at": 1788818600801,
     "year": 2026
   },
   {

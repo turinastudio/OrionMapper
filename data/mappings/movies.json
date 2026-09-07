@@ -38635,13 +38635,15 @@
     "imdb_id": "tt0464041",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "proyecto-lazarus-2008",
+      "allpeliculas": "proyecto-lazarus-2008",
       "pelisgratishd": "proyecto-lazarus-UxVtt7",
       "serieskao": "proyecto-lazarus-UxVtt7"
     },
     "title": "Proyecto Lazarus",
     "tmdb_id": "13825",
     "type": "movie",
-    "updated_at": 1788458586958,
+    "updated_at": 1788818580779,
     "year": 2008
   },
   {
@@ -95878,6 +95880,8 @@
     "imdb_id": "tt4938374",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "amigos-salvajes-4-tontos-por-el-susto-2015",
+      "allpeliculas": "amigos-salvajes-4-tontos-por-el-susto-2015",
       "gnula": "amigos-salvajes-4-tontos-por-el-susto",
       "pelisgratishd": "open-season-scared-silly",
       "poseidonhd2": "382517/amigos-salvajes-4-tontos-por-el-susto",
@@ -95886,7 +95890,7 @@
     "title": "Open Season: Scared Silly",
     "tmdb_id": "382517",
     "type": "movie",
-    "updated_at": 1788458587049,
+    "updated_at": 1788818578756,
     "year": 2015
   },
   {
@@ -194265,13 +194269,15 @@
     "imdb_id": "tt14181816",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "maggie-moores-2023",
+      "allpeliculas": "maggie-moores-2023",
       "gnula": "maggie-moores",
       "poseidonhd2": "800089/maggie-moores"
     },
     "title": "Maggie Moore(s)",
     "tmdb_id": "800089",
     "type": "movie",
-    "updated_at": 1788452160161,
+    "updated_at": 1788818576774,
     "year": 2023
   },
   {
@@ -217165,12 +217171,14 @@
       "allcalidad": "desert-warrior-2026",
       "allpeliculas": "desert-warrior-2026",
       "gnula": "desert-warrior",
-      "poseidonhd2": "898704/desert-warrior"
+      "pelisgratishd": "desert-warrior-pnILvJ",
+      "poseidonhd2": "898704/desert-warrior",
+      "serieskao": "desert-warrior-pnILvJ"
     },
     "title": "Guerrero del Desierto",
     "tmdb_id": "898704",
     "type": "movie",
-    "updated_at": 1788464741817,
+    "updated_at": 1788818602809,
     "year": 2026
   },
   {
@@ -304423,6 +304431,19 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt35836619",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "pizza-movies",
+      "poseidonhd2": "1436219/pizza-movies"
+    },
+    "title": "Pizza Movies",
+    "tmdb_id": "1436219",
+    "type": "movie",
+    "updated_at": 1788818598821,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt29667097",
     "provider_variants": {},
     "providers": {
@@ -304481,6 +304502,19 @@
     "type": "movie",
     "updated_at": 1788464741817,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt35854741",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "moscas-E2LXEy",
+      "serieskao": "moscas-E2LXEy"
+    },
+    "title": "Flies",
+    "tmdb_id": "1437703",
+    "type": "movie",
+    "updated_at": 1788818601805,
+    "year": 2026
   },
   {
     "imdb_id": "tt14025420",
@@ -309720,13 +309754,15 @@
     "imdb_id": "tt37752275",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "la-furia-de-los-thundermans-2026",
+      "allpeliculas": "la-furia-de-los-thundermans-2026",
       "pelisgratishd": "clash-of-the-thundermans-JNkHEn",
       "serieskao": "clash-of-the-thundermans-JNkHEn"
     },
     "title": "Clash of the Thundermans",
     "tmdb_id": "1506560",
     "type": "movie",
-    "updated_at": 1788523821476,
+    "updated_at": 1788818582764,
     "year": 2026
   },
   {
@@ -311600,6 +311636,19 @@
     "type": "movie",
     "updated_at": 1788458586958,
     "year": 2026
+  },
+  {
+    "imdb_id": null,
+    "provider_variants": {},
+    "providers": {
+      "gnula": "penelope-2",
+      "poseidonhd2": "1555116/penelope-2"
+    },
+    "title": "Penelope 2",
+    "tmdb_id": "1555116",
+    "type": "movie",
+    "updated_at": 1788818596795,
+    "year": 2025
   },
   {
     "imdb_id": "tt17010696",
