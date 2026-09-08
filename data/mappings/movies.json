@@ -78405,6 +78405,8 @@
     "imdb_id": "tt1355683",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "pacto-criminal-2015",
+      "allpeliculas": "pacto-criminal-2015",
       "gnula": "black-mass-estrictamente-criminal",
       "pelisgratishd": "black-mass-estrictamente-criminal",
       "poseidonhd2": "261023/pacto-criminal",
@@ -78413,7 +78415,7 @@
     "title": "Black Mass: Estrictamente criminal",
     "tmdb_id": "261023",
     "type": "movie",
-    "updated_at": 1788694080927,
+    "updated_at": 1788904372621,
     "year": 2015
   },
   {

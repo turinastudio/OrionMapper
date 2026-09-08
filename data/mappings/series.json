@@ -9201,7 +9201,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788869342333,
+    "updated_at": 1788904377626,
     "year": 2003
   },
   {
@@ -18328,6 +18328,8 @@
     "imdb_id": "tt0496199",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "hija-del-mariachi-2006",
+      "allpeliculas": "hija-del-mariachi-2006",
       "gnula": "la-hija-del-mariachi",
       "pelisgratishd": "la-hija-del-mariachi",
       "poseidonhd2": "79699/la-hija-del-mariachi",
@@ -18336,7 +18338,7 @@
     "title": "La hija del Mariachi",
     "tmdb_id": "79699",
     "type": "series",
-    "updated_at": 1788458586989,
+    "updated_at": 1788904374623,
     "year": 2006
   },
   {
@@ -73975,7 +73977,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788869343334,
+    "updated_at": 1788904378627,
     "year": 2026
   },
   {
