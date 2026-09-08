@@ -233115,6 +233115,19 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt36983905",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "the-uprising",
+      "poseidonhd2": "977942/the-uprising"
+    },
+    "title": "The Uprising",
+    "tmdb_id": "977942",
+    "type": "movie",
+    "updated_at": 1788869340376,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt17121902",
     "provider_variants": {},
     "providers": {

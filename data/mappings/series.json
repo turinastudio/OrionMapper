@@ -2528,13 +2528,15 @@
     "imdb_id": "tt0106080",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "the-nanny-1993",
+      "allpeliculas": "the-nanny-1993",
       "pelisgratishd": "la-ninera-4LYJHp",
       "serieskao": "la-ninera-4LYJHp"
     },
     "title": "The Nanny",
     "tmdb_id": "2352",
     "type": "series",
-    "updated_at": 1788458586983,
+    "updated_at": 1788869335332,
     "year": 1993
   },
   {
@@ -9199,7 +9201,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788818604800,
+    "updated_at": 1788869342333,
     "year": 2003
   },
   {
@@ -73973,7 +73975,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788818605800,
+    "updated_at": 1788869343334,
     "year": 2026
   },
   {
@@ -76351,6 +76353,19 @@
     "tmdb_id": "329394",
     "type": "series",
     "updated_at": 1788458586982,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt42654265",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "el-mundo-de-alix-earle-gXJKBP",
+      "serieskao": "el-mundo-de-alix-earle-gXJKBP"
+    },
+    "title": "Earle Meets World",
+    "tmdb_id": "330371",
+    "type": "series",
+    "updated_at": 1788869341340,
     "year": 2026
   },
   {
