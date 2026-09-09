@@ -2205,6 +2205,14 @@
   },
   {
     "provider": "serieskao",
+    "reason": "missing_ids",
+    "slug": "kaidan-horror-classics-icaVL9",
+    "title": "Kaidan Horror Classics",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "serieskao",
     "reason": "tmdb_unresolved",
     "slug": "kentaro-esta-embarazado",
     "title": "El embarazo de Kentaro",

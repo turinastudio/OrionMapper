@@ -232520,7 +232520,14 @@
   },
   {
     "imdb_id": "tt10809742",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "colision-WFvE2Q"
+      ],
+      "serieskao": [
+        "colision-WFvE2Q"
+      ]
+    },
     "providers": {
       "allcalidad": "colision-2022",
       "allpeliculas": "colision-2022",
@@ -232532,7 +232539,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1788464741828,
+    "updated_at": 1788990274416,
     "year": 2022
   },
   {
@@ -261329,12 +261336,14 @@
       "allcalidad": "moana-2026",
       "allpeliculas": "moana-2026",
       "gnula": "moana-1108427",
-      "poseidonhd2": "1108427/moana"
+      "pelisgratishd": "vaiana-Ybbtw5",
+      "poseidonhd2": "1108427/moana",
+      "serieskao": "vaiana-Ybbtw5"
     },
     "title": "Moana",
     "tmdb_id": "1108427",
     "type": "movie",
-    "updated_at": 1788464741816,
+    "updated_at": 1788990270408,
     "year": 2026
   },
   {
@@ -263817,6 +263826,19 @@
     "type": "movie",
     "updated_at": 1788452160170,
     "year": 2022
+  },
+  {
+    "imdb_id": "tt28363783",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "alpha-1122030",
+      "poseidonhd2": "1122030/alpha"
+    },
+    "title": "Alpha",
+    "tmdb_id": "1122030",
+    "type": "movie",
+    "updated_at": 1788990266427,
+    "year": 2026
   },
   {
     "imdb_id": "tt27674982",
@@ -274602,6 +274624,19 @@
     "type": "movie",
     "updated_at": 1788458586965,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt29356163",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "paw-patrol-la-dino-pelicula",
+      "poseidonhd2": "1185806/paw-patrol-la-dino-pelicula"
+    },
+    "title": "Paw Patrol: La dino película",
+    "tmdb_id": "1185806",
+    "type": "movie",
+    "updated_at": 1788990252391,
+    "year": 2026
   },
   {
     "imdb_id": "tt21289618",
@@ -291069,6 +291104,19 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt32263577",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "quantum-supremacy",
+      "poseidonhd2": "1297311/quantum-supremacy"
+    },
+    "title": "Quantum Supremacy",
+    "tmdb_id": "1297311",
+    "type": "movie",
+    "updated_at": 1788990250383,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt32490110",
     "provider_variants": {},
     "providers": {
@@ -292395,6 +292443,19 @@
     "type": "movie",
     "updated_at": 1788452160124,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt31272500",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "volcan-fuego-bajo-tierra",
+      "poseidonhd2": "1307384/volcan-fuego-bajo-tierra"
+    },
+    "title": "Volcán: Fuego bajo tierra",
+    "tmdb_id": "1307384",
+    "type": "movie",
+    "updated_at": 1788990254409,
+    "year": 2025
   },
   {
     "imdb_id": "tt18548912",
@@ -299031,15 +299092,27 @@
   },
   {
     "imdb_id": "tt34385135",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "colony"
+      ],
+      "poseidonhd2": [
+        "62858/colony"
+      ],
+      "serieskao": [
+        "colony"
+      ]
+    },
     "providers": {
       "gnula": "colony",
-      "poseidonhd2": "1375646/colony"
+      "pelisgratishd": "colony-a4fmlD",
+      "poseidonhd2": "1375646/colony",
+      "serieskao": "colony-a4fmlD"
     },
     "title": "Zona Cero",
     "tmdb_id": "1375646",
     "type": "movie",
-    "updated_at": 1788452160118,
+    "updated_at": 1788990269408,
     "year": 2026
   },
   {
@@ -301557,6 +301630,19 @@
     "type": "movie",
     "updated_at": 1788464741822,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt35410859",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "fjord",
+      "poseidonhd2": "1401459/fjord"
+    },
+    "title": "Fjord",
+    "tmdb_id": "1401459",
+    "type": "movie",
+    "updated_at": 1788990264418,
+    "year": 2026
   },
   {
     "imdb_id": null,
@@ -304763,6 +304849,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt36073210",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "enfrentados-marfil",
+      "poseidonhd2": "1440098/enfrentados-marfil"
+    },
+    "title": "Enfrentados: Marfil",
+    "tmdb_id": "1440098",
+    "type": "movie",
+    "updated_at": 1788990262421,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt21880688",
     "provider_variants": {},
     "providers": {
@@ -306473,6 +306572,19 @@
     "type": "movie",
     "updated_at": 1788458586968,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt22406048",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "spider-island",
+      "poseidonhd2": "1462861/spider-island"
+    },
+    "title": "Spider Island",
+    "tmdb_id": "1462861",
+    "type": "movie",
+    "updated_at": 1788990258406,
+    "year": 2026
   },
   {
     "imdb_id": "tt39261166",
@@ -308193,6 +308305,19 @@
     "tmdb_id": "1482168",
     "type": "movie",
     "updated_at": 1788458586959,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt36980377",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "zip-wire",
+      "poseidonhd2": "1482547/zip-wire"
+    },
+    "title": "Zip Wire",
+    "tmdb_id": "1482547",
+    "type": "movie",
+    "updated_at": 1788990256405,
     "year": 2026
   },
   {
@@ -310728,6 +310853,19 @@
     "type": "movie",
     "updated_at": 1788458586964,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt38061210",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "why-did-i-get-married-again",
+      "poseidonhd2": "1522689/why-did-i-get-married-again"
+    },
+    "title": "Why Did I Get Married Again?",
+    "tmdb_id": "1522689",
+    "type": "movie",
+    "updated_at": 1788990260410,
+    "year": 2026
   },
   {
     "imdb_id": "tt30333113",
@@ -316007,13 +316145,15 @@
     "imdb_id": "tt44322266",
     "provider_variants": {},
     "providers": {
+      "gnula": "turning-point-generation-911",
       "pelisgratishd": "momentos-decisivos-generacion--EgAdjb",
+      "poseidonhd2": "1752159/turning-point-generation-911",
       "serieskao": "momentos-decisivos-generacion--EgAdjb"
     },
     "title": "Turning Point: Generation 9/11",
     "tmdb_id": "1752159",
     "type": "movie",
-    "updated_at": 1788523817443,
+    "updated_at": 1788990268426,
     "year": 2026
   },
   {

@@ -9201,7 +9201,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788956481373,
+    "updated_at": 1788990275407,
     "year": 2003
   },
   {
@@ -32865,6 +32865,8 @@
     "imdb_id": "tt11471892",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "landscapers-2021",
+      "allpeliculas": "landscapers-2021",
       "gnula": "como-meterse-en-un-jardin",
       "pelisgratishd": "como-meterse-en-un-jardin",
       "poseidonhd2": "113987/como-meterse-en-un-jardin",
@@ -32873,7 +32875,7 @@
     "title": "Landscapers",
     "tmdb_id": "113987",
     "type": "series",
-    "updated_at": 1788458586991,
+    "updated_at": 1788990236328,
     "year": 2021
   },
   {
@@ -36464,6 +36466,19 @@
     "tmdb_id": "122235",
     "type": "series",
     "updated_at": 1788458586988,
+    "year": 2021
+  },
+  {
+    "imdb_id": "tt13556320",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "wakefield-2021",
+      "allpeliculas": "wakefield-2021"
+    },
+    "title": "Wakefield",
+    "tmdb_id": "122285",
+    "type": "series",
+    "updated_at": 1788990234324,
     "year": 2021
   },
   {
@@ -42663,6 +42678,8 @@
     "imdb_id": "tt13784364",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "stories-of-a-generation-with-pope-francis-2021",
+      "allpeliculas": "stories-of-a-generation-with-pope-francis-2021",
       "gnula": "historias-de-una-generacion-con-el-papa-francisco",
       "pelisgratishd": "historias-de-una-generacion-con-el-papa-francisco",
       "poseidonhd2": "137440/historias-de-una-generacion-con-el-papa-francisco",
@@ -42671,7 +42688,7 @@
     "title": "Stories of a Generation - with Pope Francis",
     "tmdb_id": "137440",
     "type": "series",
-    "updated_at": 1788458586991,
+    "updated_at": 1788990238330,
     "year": 2021
   },
   {
@@ -68478,6 +68495,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt6037988",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "causa-abierta-v6XFGo",
+      "serieskao": "causa-abierta-v6XFGo"
+    },
+    "title": "Last Seen",
+    "tmdb_id": "258230",
+    "type": "series",
+    "updated_at": 1788990271430,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt31158586",
     "provider_variants": {},
     "providers": {
@@ -73981,7 +74011,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788956482377,
+    "updated_at": 1788990276408,
     "year": 2026
   },
   {
@@ -74730,6 +74760,19 @@
     "type": "series",
     "updated_at": 1788458586984,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt38128417",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "historia-de-dos-ciudades-Z349YK",
+      "serieskao": "historia-de-dos-ciudades-Z349YK"
+    },
+    "title": "A Tale of Two Cities",
+    "tmdb_id": "301626",
+    "type": "series",
+    "updated_at": 1788990273417,
+    "year": 2026
   },
   {
     "imdb_id": "tt38514634",
@@ -75664,6 +75707,19 @@
     "tmdb_id": "314305",
     "type": "series",
     "updated_at": 1788458586982,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt40003445",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "dang-zkQXgK",
+      "serieskao": "dang-zkQXgK"
+    },
+    "title": "DANG!",
+    "tmdb_id": "314478",
+    "type": "series",
+    "updated_at": 1788990272412,
     "year": 2026
   },
   {
