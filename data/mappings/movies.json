@@ -34222,6 +34222,8 @@
     "imdb_id": "tt0089092",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "enemigo-mio-1985",
+      "allpeliculas": "enemigo-mio-1985",
       "gnula": "enemigo-mio",
       "pelisgratishd": "enemigo-mio",
       "poseidonhd2": "11864/enemigo-mio",
@@ -34230,7 +34232,7 @@
     "title": "Enemigo mío",
     "tmdb_id": "11864",
     "type": "movie",
-    "updated_at": 1788458587044,
+    "updated_at": 1788956474362,
     "year": 1985
   },
   {
@@ -64216,6 +64218,8 @@
     "imdb_id": "tt1065073",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "boyhood-momentos-de-una-vida-2014",
+      "allpeliculas": "boyhood-momentos-de-una-vida-2014",
       "gnula": "boyhood-momentos-de-una-vida",
       "pelisgratishd": "boyhood-momentos-de-una-vida",
       "poseidonhd2": "85350/boyhood-momentos-de-una-vida",
@@ -64224,7 +64228,7 @@
     "title": "Boyhood (Momentos de una vida)",
     "tmdb_id": "85350",
     "type": "movie",
-    "updated_at": 1788458587046,
+    "updated_at": 1788956472359,
     "year": 2014
   },
   {

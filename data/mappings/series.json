@@ -9201,7 +9201,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788904377626,
+    "updated_at": 1788956481373,
     "year": 2003
   },
   {
@@ -43284,6 +43284,8 @@
     "imdb_id": "tt11168604",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "gente-ansiosa-2021",
+      "allpeliculas": "gente-ansiosa-2021",
       "gnula": "gente-ansiosa",
       "pelisgratishd": "gente-ansiosa",
       "poseidonhd2": "139155/gente-ansiosa",
@@ -43292,7 +43294,7 @@
     "title": "Anxious People",
     "tmdb_id": "139155",
     "type": "series",
-    "updated_at": 1788458586991,
+    "updated_at": 1788956476365,
     "year": 2021
   },
   {
@@ -43792,13 +43794,15 @@
     "imdb_id": "tt16027926",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "escena-del-crimen-asesinato-en-times-square-2021",
+      "allpeliculas": "escena-del-crimen-asesinato-en-times-square-2021",
       "gnula": "escena-del-crimen-asesinato-en-times-square",
       "poseidonhd2": "153588/escena-del-crimen-asesinato-en-times-square"
     },
     "title": "Escena del crimen: El asesino de Times Square",
     "tmdb_id": "153588",
     "type": "series",
-    "updated_at": 1788452160200,
+    "updated_at": 1788956478368,
     "year": 2021
   },
   {
@@ -73977,7 +73981,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788904378627,
+    "updated_at": 1788956482377,
     "year": 2026
   },
   {
