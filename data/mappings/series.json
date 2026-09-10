@@ -2513,6 +2513,8 @@
       ]
     },
     "providers": {
+      "allcalidad": "kim-possible-2002",
+      "allpeliculas": "kim-possible-2002",
       "gnula": "kim-possible",
       "pelisgratishd": "kim-possible",
       "poseidonhd2": "2345/kim-possible",
@@ -2521,7 +2523,7 @@
     "title": "Kim Possible",
     "tmdb_id": "2345",
     "type": "series",
-    "updated_at": 1788693306707,
+    "updated_at": 1789042504645,
     "year": 2002
   },
   {
@@ -9201,7 +9203,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1788990275407,
+    "updated_at": 1789042527692,
     "year": 2003
   },
   {
@@ -12774,13 +12776,15 @@
     "imdb_id": "tt3225270",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "noragami-2014",
+      "allpeliculas": "noragami-2014",
       "gnula": "noragami",
       "poseidonhd2": "64710/noragami"
     },
     "title": "Noragami",
     "tmdb_id": "64710",
     "type": "series",
-    "updated_at": 1788452160192,
+    "updated_at": 1789042506646,
     "year": 2014
   },
   {
@@ -42134,13 +42138,15 @@
     "imdb_id": "tt2201227",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "stay-close-2021",
+      "allpeliculas": "stay-close-2021",
       "gnula": "quedate-cerca",
       "poseidonhd2": "136308/quedate-cerca"
     },
     "title": "Quédate a mi lado",
     "tmdb_id": "136308",
     "type": "series",
-    "updated_at": 1788452160200,
+    "updated_at": 1789042502638,
     "year": 2021
   },
   {
@@ -68496,15 +68502,29 @@
   },
   {
     "imdb_id": "tt6037988",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "desaparecida-sin-rastro"
+      ],
+      "poseidonhd2": [
+        "961484/vista-por-ultima-vez"
+      ],
+      "serieskao": [
+        "desaparecida-sin-rastro"
+      ]
+    },
     "providers": {
+      "allcalidad": "vista-por-ultima-vez-2022",
+      "allpeliculas": "vista-por-ultima-vez-2022",
+      "gnula": "vista-por-ultima-vez",
       "pelisgratishd": "causa-abierta-v6XFGo",
+      "poseidonhd2": "258230/vista-por-ultima-vez",
       "serieskao": "causa-abierta-v6XFGo"
     },
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1788990271430,
+    "updated_at": 1789042519665,
     "year": 2026
   },
   {
@@ -74011,7 +74031,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1788990276408,
+    "updated_at": 1789042528761,
     "year": 2026
   },
   {
@@ -74765,13 +74785,15 @@
     "imdb_id": "tt38128417",
     "provider_variants": {},
     "providers": {
+      "gnula": "a-tale-of-two-cities",
       "pelisgratishd": "historia-de-dos-ciudades-Z349YK",
+      "poseidonhd2": "301626/a-tale-of-two-cities",
       "serieskao": "historia-de-dos-ciudades-Z349YK"
     },
     "title": "A Tale of Two Cities",
     "tmdb_id": "301626",
     "type": "series",
-    "updated_at": 1788990273417,
+    "updated_at": 1789042523677,
     "year": 2026
   },
   {
@@ -75713,13 +75735,15 @@
     "imdb_id": "tt40003445",
     "provider_variants": {},
     "providers": {
+      "gnula": "dang",
       "pelisgratishd": "dang-zkQXgK",
+      "poseidonhd2": "314478/dang",
       "serieskao": "dang-zkQXgK"
     },
     "title": "DANG!",
     "tmdb_id": "314478",
     "type": "series",
-    "updated_at": 1788990272412,
+    "updated_at": 1789042521669,
     "year": 2026
   },
   {
