@@ -9216,7 +9216,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789076389517,
+    "updated_at": 1789128866130,
     "year": 2003
   },
   {
@@ -74044,7 +74044,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1789076390524,
+    "updated_at": 1789128867132,
     "year": 2026
   },
   {
@@ -74600,6 +74600,21 @@
     "tmdb_id": "300480",
     "type": "series",
     "updated_at": 1788464741847,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt38218082",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "crew-girl",
+      "pelisgratishd": "la-timonel-QQFNQb",
+      "poseidonhd2": "300507/crew-girl",
+      "serieskao": "la-timonel-QQFNQb"
+    },
+    "title": "La timonel",
+    "tmdb_id": "300507",
+    "type": "series",
+    "updated_at": 1789128862135,
     "year": 2026
   },
   {
@@ -76115,6 +76130,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt37899471",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "krypto-saves-the-day-w3qAgf",
+      "serieskao": "krypto-saves-the-day-w3qAgf"
+    },
+    "title": "Krypto Saves the Day!",
+    "tmdb_id": "320096",
+    "type": "series",
+    "updated_at": 1789128863131,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt36460202",
     "provider_variants": {},
     "providers": {
@@ -76373,6 +76401,19 @@
     "tmdb_id": "325535",
     "type": "series",
     "updated_at": 1788458586982,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt37439410",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "el-club-gastronomico-w5tYOp",
+      "serieskao": "el-club-gastronomico-w5tYOp"
+    },
+    "title": "The Perfect Lie",
+    "tmdb_id": "325755",
+    "type": "series",
+    "updated_at": 1789128864131,
     "year": 2026
   },
   {

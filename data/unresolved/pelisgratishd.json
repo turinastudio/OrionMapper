@@ -2218,6 +2218,14 @@
   {
     "provider": "pelisgratishd",
     "reason": "missing_ids",
+    "slug": "kaidan-horror-classics-4smrMW",
+    "title": "Kaidan Horror Classics",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "missing_ids",
     "slug": "kaidan-horror-classics-OtECQq",
     "title": "Kaidan Horror Classics",
     "type": "series",
