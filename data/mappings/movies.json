@@ -232583,7 +232583,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789128865133,
+    "updated_at": 1789163120541,
     "year": 2022
   },
   {
@@ -267343,6 +267343,19 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt36956820",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "la-jeune-fille-qui-pleurait-des-perles",
+      "poseidonhd2": "1142149/la-jeune-fille-qui-pleurait-des-perles"
+    },
+    "title": "La jeune fille qui pleurait des perles",
+    "tmdb_id": "1142149",
+    "type": "movie",
+    "updated_at": 1789163113577,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt27640680",
     "provider_variants": {},
     "providers": {
@@ -291864,6 +291877,19 @@
     "type": "movie",
     "updated_at": 1788452160133,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt32588798",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "hechizo-de-amor-la-magia-continua",
+      "poseidonhd2": "1302904/hechizo-de-amor-la-magia-continua"
+    },
+    "title": "Hechizo de amor: La magia continúa",
+    "tmdb_id": "1302904",
+    "type": "movie",
+    "updated_at": 1789163111555,
+    "year": 2026
   },
   {
     "imdb_id": "tt32558992",
