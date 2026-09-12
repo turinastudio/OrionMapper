@@ -54814,6 +54814,7 @@
     "provider_variants": {},
     "providers": {
       "allcalidad": "el-padrecito-1964",
+      "allpeliculas": "el-padrecito-1964",
       "gnula": "el-padrecito",
       "pelisgratishd": "el-padrecito",
       "poseidonhd2": "41308/el-padrecito",
@@ -54822,7 +54823,7 @@
     "title": "El Padrecito",
     "tmdb_id": "41308",
     "type": "movie",
-    "updated_at": 1789213086883,
+    "updated_at": 1789248453674,
     "year": 1964
   },
   {
@@ -56898,6 +56899,7 @@
     "provider_variants": {},
     "providers": {
       "allcalidad": "desconocido-2011",
+      "allpeliculas": "desconocido-2011",
       "gnula": "desconocido",
       "pelisgratishd": "sin-identidad",
       "poseidonhd2": "48138/desconocido",
@@ -56906,7 +56908,7 @@
     "title": "Sin identidad",
     "tmdb_id": "48138",
     "type": "movie",
-    "updated_at": 1789213088877,
+    "updated_at": 1789248457657,
     "year": 2011
   },
   {
@@ -64410,6 +64412,19 @@
     "type": "movie",
     "updated_at": 1788464741818,
     "year": 2013
+  },
+  {
+    "imdb_id": "tt1727770",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "absolutamente-todo-vFCwwi",
+      "serieskao": "absolutamente-todo-vFCwwi"
+    },
+    "title": "Absolutely Anything",
+    "tmdb_id": "86828",
+    "type": "movie",
+    "updated_at": 1789248482628,
+    "year": 2015
   },
   {
     "imdb_id": "tt2042568",
@@ -145561,6 +145576,7 @@
     "provider_variants": {},
     "providers": {
       "allcalidad": "hermosa-venganza-2020",
+      "allpeliculas": "hermosa-venganza-2020",
       "gnula": "hermosa-venganza",
       "pelisgratishd": "hermosa-venganza",
       "poseidonhd2": "582014/hermosa-venganza",
@@ -145569,7 +145585,7 @@
     "title": "Hermosa Venganza",
     "tmdb_id": "582014",
     "type": "movie",
-    "updated_at": 1788461251500,
+    "updated_at": 1789248455654,
     "year": 2020
   },
   {
@@ -232585,7 +232601,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789213108837,
+    "updated_at": 1789248486611,
     "year": 2022
   },
   {
@@ -265186,12 +265202,14 @@
       "allcalidad": "the-surfer-2025",
       "allpeliculas": "the-surfer-2025",
       "gnula": "the-surfer",
-      "poseidonhd2": "1128655/the-surfer"
+      "pelisgratishd": "the-surfer-dqoZfz",
+      "poseidonhd2": "1128655/the-surfer",
+      "serieskao": "the-surfer-dqoZfz"
     },
     "title": "The Surfer",
     "tmdb_id": "1128655",
     "type": "movie",
-    "updated_at": 1788464741826,
+    "updated_at": 1789248481622,
     "year": 2025
   },
   {
@@ -270266,13 +270284,15 @@
     "providers": {
       "allcalidad": "时间之子-2025",
       "allpeliculas": "la-ladrona-del-tiempo-2025",
+      "gnula": "la-ladrona-del-tiempo",
       "pelisgratishd": "xana-y-el-secreto-del-tiempo-1IUO0X",
+      "poseidonhd2": "1155234/la-ladrona-del-tiempo",
       "serieskao": "xana-y-el-secreto-del-tiempo-1IUO0X"
     },
     "title": "Xana y el secreto del tiempo",
     "tmdb_id": "1155234",
     "type": "movie",
-    "updated_at": 1788464747770,
+    "updated_at": 1789248471684,
     "year": 2025
   },
   {
@@ -304737,13 +304757,15 @@
     "imdb_id": "tt35854741",
     "provider_variants": {},
     "providers": {
+      "gnula": "moscas-1437703",
       "pelisgratishd": "moscas-E2LXEy",
+      "poseidonhd2": "1437703/moscas",
       "serieskao": "moscas-E2LXEy"
     },
     "title": "Flies",
     "tmdb_id": "1437703",
     "type": "movie",
-    "updated_at": 1788818601805,
+    "updated_at": 1789248469697,
     "year": 2026
   },
   {
@@ -311442,6 +311464,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt37599987",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "erase-una-vez-en-un-ring",
+      "poseidonhd2": "1535809/erase-una-vez-en-un-ring"
+    },
+    "title": "Érase una vez en un Ring",
+    "tmdb_id": "1535809",
+    "type": "movie",
+    "updated_at": 1789248475685,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt38067963",
     "provider_variants": {},
     "providers": {
@@ -312028,6 +312063,21 @@
     "tmdb_id": "1557915",
     "type": "movie",
     "updated_at": 1788464741817,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt38616652",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "gracias-equipo",
+      "pelisgratishd": "gracias-equipo-pZ1Guz",
+      "poseidonhd2": "1558568/gracias-equipo",
+      "serieskao": "gracias-equipo-pZ1Guz"
+    },
+    "title": "Gracias, equipo",
+    "tmdb_id": "1558568",
+    "type": "movie",
+    "updated_at": 1789248480625,
     "year": 2026
   },
   {

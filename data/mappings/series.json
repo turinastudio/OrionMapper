@@ -9229,7 +9229,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789213109818,
+    "updated_at": 1789248487615,
     "year": 2003
   },
   {
@@ -71159,13 +71159,15 @@
     "imdb_id": "tt34877015",
     "provider_variants": {},
     "providers": {
+      "gnula": "extraidos",
       "pelisgratishd": "extracted-ZCCSbZ",
+      "poseidonhd2": "278639/extraidos",
       "serieskao": "extracted-ZCCSbZ"
     },
     "title": "Extracted",
     "tmdb_id": "278639",
     "type": "series",
-    "updated_at": 1788458586983,
+    "updated_at": 1789248477617,
     "year": 2025
   },
   {
@@ -71633,16 +71635,17 @@
     "year": 2026
   },
   {
-    "imdb_id": null,
+    "imdb_id": "tt45372916",
     "provider_variants": {},
     "providers": {
       "gnula": "la-nena",
-      "poseidonhd2": "281041/la-nena"
+      "poseidonhd2": "281041/la-nena",
+      "serieskao": "la-nena-JIRVQd"
     },
     "title": "La nena",
     "tmdb_id": "281041",
     "type": "series",
-    "updated_at": 1788452160184,
+    "updated_at": 1789248484694,
     "year": 2026
   },
   {
@@ -74100,7 +74103,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1789213110840,
+    "updated_at": 1789248488614,
     "year": 2026
   },
   {
@@ -76569,6 +76572,18 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt42007275",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "the-girls-un-proyecto-de-khloe-DvgCPJ"
+    },
+    "title": "The Girls: A Khloé Kardashian Project",
+    "tmdb_id": "330438",
+    "type": "series",
+    "updated_at": 1789248485691,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt38876221",
     "provider_variants": {},
     "providers": {
@@ -76609,6 +76624,18 @@
     "tmdb_id": "332279",
     "type": "series",
     "updated_at": 1788458586982,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt45403168",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "en-coma-BVwton"
+    },
+    "title": "Stolen Heartbeats",
+    "tmdb_id": "332863",
+    "type": "series",
+    "updated_at": 1789248483728,
     "year": 2026
   },
   {
