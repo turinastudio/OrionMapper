@@ -54813,6 +54813,7 @@
     "imdb_id": "tt0058438",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "el-padrecito-1964",
       "gnula": "el-padrecito",
       "pelisgratishd": "el-padrecito",
       "poseidonhd2": "41308/el-padrecito",
@@ -54821,7 +54822,7 @@
     "title": "El Padrecito",
     "tmdb_id": "41308",
     "type": "movie",
-    "updated_at": 1788458587027,
+    "updated_at": 1789213086883,
     "year": 1964
   },
   {
@@ -56896,6 +56897,7 @@
     "imdb_id": "tt1401152",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "desconocido-2011",
       "gnula": "desconocido",
       "pelisgratishd": "sin-identidad",
       "poseidonhd2": "48138/desconocido",
@@ -56904,7 +56906,7 @@
     "title": "Sin identidad",
     "tmdb_id": "48138",
     "type": "movie",
-    "updated_at": 1788458587031,
+    "updated_at": 1789213088877,
     "year": 2011
   },
   {
@@ -232583,7 +232585,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789163120541,
+    "updated_at": 1789213108837,
     "year": 2022
   },
   {

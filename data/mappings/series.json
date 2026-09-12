@@ -4491,6 +4491,19 @@
     "year": 2003
   },
   {
+    "imdb_id": "tt0115317",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "poltergeist-el-legado-opSJYs",
+      "serieskao": "poltergeist-el-legado-opSJYs"
+    },
+    "title": "Poltergeist: The Legacy",
+    "tmdb_id": "11183",
+    "type": "series",
+    "updated_at": 1789213107841,
+    "year": 1996
+  },
+  {
     "imdb_id": "tt0293731",
     "provider_variants": {},
     "providers": {
@@ -9216,7 +9229,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789163121543,
+    "updated_at": 1789213109818,
     "year": 2003
   },
   {
@@ -14914,6 +14927,19 @@
     "type": "series",
     "updated_at": 1788452160190,
     "year": 2017
+  },
+  {
+    "imdb_id": "tt4565380",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "fauda-rWrmLK",
+      "serieskao": "fauda-rWrmLK"
+    },
+    "title": "Fauda",
+    "tmdb_id": "69557",
+    "type": "series",
+    "updated_at": 1789213102831,
+    "year": 2015
   },
   {
     "imdb_id": "tt5954824",
@@ -49035,12 +49061,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "fire-country",
-      "poseidonhd2": "202297/fire-country"
+      "pelisgratishd": "fire-country-SPC1Lx",
+      "poseidonhd2": "202297/fire-country",
+      "serieskao": "fire-country-SPC1Lx"
     },
     "title": "Fire Country",
     "tmdb_id": "202297",
     "type": "series",
-    "updated_at": 1788452160190,
+    "updated_at": 1789213106834,
     "year": 2022
   },
   {
@@ -67431,12 +67459,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "sheriff-country",
-      "poseidonhd2": "253391/sheriff-country"
+      "pelisgratishd": "sheriff-country-jyxszN",
+      "poseidonhd2": "253391/sheriff-country",
+      "serieskao": "sheriff-country-jyxszN"
     },
     "title": "Sheriff Country",
     "tmdb_id": "253391",
     "type": "series",
-    "updated_at": 1788452160184,
+    "updated_at": 1789213105832,
     "year": 2025
   },
   {
@@ -68797,6 +68827,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt35683421",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "friendly-rivalry-5Ls3Et",
+      "serieskao": "friendly-rivalry-5Ls3Et"
+    },
+    "title": "Friendly Rivalry",
+    "tmdb_id": "259288",
+    "type": "series",
+    "updated_at": 1789213103829,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt33028674",
     "provider_variants": {},
     "providers": {
@@ -69058,6 +69101,19 @@
     "type": "series",
     "updated_at": 1788464741849,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt33023009",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "el-juicio-S75Mc1",
+      "serieskao": "el-juicio-S75Mc1"
+    },
+    "title": "The Trial",
+    "tmdb_id": "260249",
+    "type": "series",
+    "updated_at": 1789213104832,
+    "year": 2026
   },
   {
     "imdb_id": "tt33049767",
@@ -74044,7 +74100,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1789163122545,
+    "updated_at": 1789213110840,
     "year": 2026
   },
   {
