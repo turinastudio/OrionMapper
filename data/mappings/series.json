@@ -5245,7 +5245,7 @@
     "title": "It (Eso)",
     "tmdb_id": "19614",
     "type": "series",
-    "updated_at": 1788693259259,
+    "updated_at": 1789301729333,
     "year": 1990
   },
   {
@@ -5273,7 +5273,7 @@
     "title": "Jesús de Nazaret - 4",
     "tmdb_id": "19649",
     "type": "series",
-    "updated_at": 1788693776935,
+    "updated_at": 1789301731729,
     "year": 1977
   },
   {
@@ -6265,6 +6265,8 @@
     "imdb_id": "tt1641384",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "justicia-joven-2010",
+      "allpeliculas": "justicia-joven-2010",
       "gnula": "justicia-joven",
       "pelisgratishd": "la-joven-liga-de-la-justicia",
       "poseidonhd2": "33217/justicia-joven",
@@ -6273,7 +6275,7 @@
     "title": "Young Justice",
     "tmdb_id": "33217",
     "type": "series",
-    "updated_at": 1788458586994,
+    "updated_at": 1789302801169,
     "year": 2010
   },
   {
@@ -11329,7 +11331,7 @@
     "title": "Street Fighter: El puño del asesino",
     "tmdb_id": "61873",
     "type": "series",
-    "updated_at": 1788693263883,
+    "updated_at": 1789301735394,
     "year": 2014
   },
   {
@@ -17011,7 +17013,7 @@
     "title": "Stretch Armstrong: La Fuga",
     "tmdb_id": "75116",
     "type": "series",
-    "updated_at": 1788693264389,
+    "updated_at": 1789301735995,
     "year": 2017
   },
   {
@@ -24063,7 +24065,7 @@
     "title": "La Familia del Barrio: La Película",
     "tmdb_id": "92468",
     "type": "series",
-    "updated_at": 1788693521435,
+    "updated_at": 1789301944973,
     "year": 2024
   },
   {
@@ -27012,7 +27014,7 @@
     "title": "Tut Tut Cory Bólidos: Navidad",
     "tmdb_id": "97266",
     "type": "series",
-    "updated_at": 1788693264882,
+    "updated_at": 1789301736588,
     "year": 2020
   },
   {
@@ -27074,7 +27076,7 @@
     "title": "Deathstroke: The Movie",
     "tmdb_id": "97456",
     "type": "series",
-    "updated_at": 1788693257935,
+    "updated_at": 1789301727393,
     "year": 2020
   },
   {
@@ -27737,7 +27739,7 @@
     "title": "LEGO Jurassic World: La Exhibición Secreta",
     "tmdb_id": "99127",
     "type": "series",
-    "updated_at": 1788693261885,
+    "updated_at": 1789301732950,
     "year": 2018
   },
   {
@@ -32862,7 +32864,7 @@
     "title": "Horimiya",
     "tmdb_id": "113980",
     "type": "series",
-    "updated_at": 1788693520018,
+    "updated_at": 1789301944389,
     "year": 2021
   },
   {
@@ -33197,13 +33199,15 @@
     "imdb_id": "tt9214684",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "home-economics-2021",
+      "allpeliculas": "home-economics-2021",
       "gnula": "economia-domestica",
       "poseidonhd2": "114413/economia-domestica"
     },
     "title": "Home Economics",
     "tmdb_id": "114413",
     "type": "series",
-    "updated_at": 1788452160195,
+    "updated_at": 1789302800199,
     "year": 2021
   },
   {
@@ -34342,6 +34346,8 @@
     "imdb_id": "tt13303478",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "escandalositos-2022",
+      "allpeliculas": "escandalositos-2022",
       "gnula": "escandalositos",
       "pelisgratishd": "somos-ositos",
       "poseidonhd2": "117030/escandalositos",
@@ -34350,7 +34356,7 @@
     "title": "We Baby Bears",
     "tmdb_id": "117030",
     "type": "series",
-    "updated_at": 1788458586991,
+    "updated_at": 1789302799200,
     "year": 2022
   },
   {
@@ -46279,7 +46285,7 @@
     "title": "My Little Pony: Deja tu marca",
     "tmdb_id": "158691",
     "type": "series",
-    "updated_at": 1788693262880,
+    "updated_at": 1789301734182,
     "year": 2022
   },
   {
@@ -51560,7 +51566,7 @@
     "title": "Pokémon: Las crónicas de Arceus",
     "tmdb_id": "207567",
     "type": "series",
-    "updated_at": 1788693263379,
+    "updated_at": 1789301734787,
     "year": 2022
   },
   {
@@ -52939,7 +52945,7 @@
     "title": "Los ancianos",
     "tmdb_id": "210793",
     "type": "series",
-    "updated_at": 1788693262381,
+    "updated_at": 1789301733564,
     "year": 2022
   },
   {
@@ -62655,7 +62661,7 @@
     "title": "Dora: Say Hola to Adventure!",
     "tmdb_id": "236234",
     "type": "series",
-    "updated_at": 1788693517749,
+    "updated_at": 1789301943737,
     "year": 2024
   },
   {
@@ -69106,13 +69112,15 @@
     "imdb_id": "tt33023009",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "el-juicio-2026",
+      "allpeliculas": "el-juicio-2026",
       "pelisgratishd": "el-juicio-S75Mc1",
       "serieskao": "el-juicio-S75Mc1"
     },
     "title": "The Trial",
     "tmdb_id": "260249",
     "type": "series",
-    "updated_at": 1789213104832,
+    "updated_at": 1789302798279,
     "year": 2026
   },
   {
@@ -71639,13 +71647,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "la-nena",
+      "pelisgratishd": "la-nena-JIRVQd",
       "poseidonhd2": "281041/la-nena",
       "serieskao": "la-nena-JIRVQd"
     },
     "title": "La nena",
     "tmdb_id": "281041",
     "type": "series",
-    "updated_at": 1789248484694,
+    "updated_at": 1789301960064,
     "year": 2026
   },
   {
@@ -76192,6 +76201,8 @@
     "imdb_id": "tt37899471",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "krypto-saves-the-day-2025",
+      "allpeliculas": "krypto-saves-the-day-2025",
       "gnula": "krypto-saves-the-day",
       "pelisgratishd": "krypto-saves-the-day-w3qAgf",
       "poseidonhd2": "320096/krypto-saves-the-day",
@@ -76200,7 +76211,7 @@
     "title": "Krypto Saves the Day!",
     "tmdb_id": "320096",
     "type": "series",
-    "updated_at": 1789163117568,
+    "updated_at": 1789302802167,
     "year": 2025
   },
   {
@@ -76575,12 +76586,13 @@
     "imdb_id": "tt42007275",
     "provider_variants": {},
     "providers": {
+      "pelisgratishd": "the-girls-un-proyecto-de-khloe-DvgCPJ",
       "serieskao": "the-girls-un-proyecto-de-khloe-DvgCPJ"
     },
     "title": "The Girls: A Khloé Kardashian Project",
     "tmdb_id": "330438",
     "type": "series",
-    "updated_at": 1789248485691,
+    "updated_at": 1789301975002,
     "year": 2026
   },
   {
@@ -76630,12 +76642,13 @@
     "imdb_id": "tt45403168",
     "provider_variants": {},
     "providers": {
+      "pelisgratishd": "en-coma-BVwton",
       "serieskao": "en-coma-BVwton"
     },
     "title": "Stolen Heartbeats",
     "tmdb_id": "332863",
     "type": "series",
-    "updated_at": 1789248483728,
+    "updated_at": 1789301953506,
     "year": 2026
   },
   {
