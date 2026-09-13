@@ -9231,7 +9231,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789303468230,
+    "updated_at": 1789334872487,
     "year": 2003
   },
   {
@@ -69114,13 +69114,15 @@
     "providers": {
       "allcalidad": "el-juicio-2026",
       "allpeliculas": "el-juicio-2026",
+      "gnula": "el-juicio-260249",
       "pelisgratishd": "el-juicio-S75Mc1",
+      "poseidonhd2": "260249/el-juicio",
       "serieskao": "el-juicio-S75Mc1"
     },
     "title": "The Trial",
     "tmdb_id": "260249",
     "type": "series",
-    "updated_at": 1789302798279,
+    "updated_at": 1789334868478,
     "year": 2026
   },
   {
@@ -74112,7 +74114,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1789303469231,
+    "updated_at": 1789334873451,
     "year": 2026
   },
   {
@@ -76285,13 +76287,15 @@
     "imdb_id": "tt35636900",
     "provider_variants": {},
     "providers": {
+      "gnula": "james",
       "pelisgratishd": "james-mXvvi2",
+      "poseidonhd2": "321596/james",
       "serieskao": "james-mXvvi2"
     },
     "title": "James.",
     "tmdb_id": "321596",
     "type": "series",
-    "updated_at": 1788458586983,
+    "updated_at": 1789334864482,
     "year": 2026
   },
   {
@@ -76642,13 +76646,15 @@
     "imdb_id": "tt45403168",
     "provider_variants": {},
     "providers": {
+      "gnula": "en-coma",
       "pelisgratishd": "en-coma-BVwton",
+      "poseidonhd2": "332863/en-coma",
       "serieskao": "en-coma-BVwton"
     },
     "title": "Stolen Heartbeats",
     "tmdb_id": "332863",
     "type": "series",
-    "updated_at": 1789301953506,
+    "updated_at": 1789334866438,
     "year": 2026
   },
   {
