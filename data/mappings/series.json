@@ -9231,7 +9231,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789394608685,
+    "updated_at": 1789425109990,
     "year": 2003
   },
   {
@@ -40541,12 +40541,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "punto-de-inflexion-el-11s-y-la-guerra-contra-el-terrorismo",
-      "poseidonhd2": "131651/punto-de-inflexion-el-11s-y-la-guerra-contra-el-terrorismo"
+      "pelisgratishd": "momentos-decisivos-el-11-s-y-l-Tti59M",
+      "poseidonhd2": "131651/punto-de-inflexion-el-11s-y-la-guerra-contra-el-terrorismo",
+      "serieskao": "momentos-decisivos-el-11-s-y-l-Tti59M"
     },
     "title": "Momentos decisivos: El 11-S y la guerra contra el terrorismo",
     "tmdb_id": "131651",
     "type": "series",
-    "updated_at": 1788693835120,
+    "updated_at": 1789425107987,
     "year": 2021
   },
   {
@@ -75885,6 +75887,18 @@
     "tmdb_id": "314916",
     "type": "series",
     "updated_at": 1788458586983,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt43736405",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "un-amor-distinto-al-tuyo-c89UVW"
+    },
+    "title": "A Love Other Than Yours",
+    "tmdb_id": "314939",
+    "type": "series",
+    "updated_at": 1789425101036,
     "year": 2026
   },
   {

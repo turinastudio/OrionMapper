@@ -2222,7 +2222,23 @@
   {
     "provider": "serieskao",
     "reason": "missing_ids",
+    "slug": "kaidan-horror-classics-DozaWa",
+    "title": "Kaidan Horror Classics",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "serieskao",
+    "reason": "missing_ids",
     "slug": "kaidan-horror-classics-a2yLNb",
+    "title": "Kaidan Horror Classics",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "serieskao",
+    "reason": "missing_ids",
+    "slug": "kaidan-horror-classics-god4zk",
     "title": "Kaidan Horror Classics",
     "type": "series",
     "year": null
@@ -3024,6 +3040,14 @@
     "reason": "tmdb_unresolved",
     "slug": "turn-up-charlie",
     "title": "Turn Up Charlie",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "serieskao",
+    "reason": "missing_ids",
+    "slug": "un-amor-distinto-al-tuyo-c89UVW",
+    "title": "Un amor distinto al tuyo",
     "type": "series",
     "year": null
   },
