@@ -29117,6 +29117,8 @@
     "imdb_id": "tt0170691",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "tigerland-2000",
+      "allpeliculas": "tigerland-2000",
       "gnula": "tigerland",
       "pelisgratishd": "tigerland",
       "poseidonhd2": "10687/tigerland",
@@ -29125,7 +29127,7 @@
     "title": "Tigerland",
     "tmdb_id": "10687",
     "type": "movie",
-    "updated_at": 1788458587022,
+    "updated_at": 1789476091414,
     "year": 2000
   },
   {
@@ -54768,6 +54770,8 @@
     "imdb_id": "tt0076532",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "el-patrullero-777-1978",
+      "allpeliculas": "el-patrullero-777-1978",
       "gnula": "el-patrullero-777",
       "pelisgratishd": "el-patrullero-777",
       "poseidonhd2": "41298/el-patrullero-777",
@@ -54776,7 +54780,7 @@
     "title": "El Patrullero 777",
     "tmdb_id": "41298",
     "type": "movie",
-    "updated_at": 1788458586999,
+    "updated_at": 1789476089408,
     "year": 1978
   },
   {
@@ -232601,7 +232605,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789425108989,
+    "updated_at": 1789476104430,
     "year": 2022
   },
   {

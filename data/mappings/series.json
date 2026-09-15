@@ -2169,6 +2169,12 @@
   {
     "imdb_id": "tt0398417",
     "provider_variants": {
+      "allcalidad": [
+        "the-batman-2004"
+      ],
+      "allpeliculas": [
+        "the-batman-2004"
+      ],
       "gnula": [
         "batman-414906"
       ],
@@ -2187,7 +2193,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1788693353161,
+    "updated_at": 1789476093415,
     "year": 2004
   },
   {
@@ -9231,7 +9237,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789425109990,
+    "updated_at": 1789476105433,
     "year": 2003
   },
   {
@@ -10079,13 +10085,15 @@
     "imdb_id": "tt2321596",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "wolfblood-familia-lobo-2012",
+      "allpeliculas": "wolfblood-familia-lobo-2012",
       "pelisgratishd": "wolfblood",
       "serieskao": "wolfblood"
     },
     "title": "Wolfblood",
     "tmdb_id": "58956",
     "type": "series",
-    "updated_at": 1788458586991,
+    "updated_at": 1789476095421,
     "year": 2012
   },
   {
@@ -74116,7 +74124,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1789394609687,
+    "updated_at": 1789476106435,
     "year": 2026
   },
   {
@@ -75893,12 +75901,13 @@
     "imdb_id": "tt43736405",
     "provider_variants": {},
     "providers": {
-      "pelisgratishd": "un-amor-distinto-al-tuyo-c89UVW"
+      "pelisgratishd": "un-amor-distinto-al-tuyo-c89UVW",
+      "serieskao": "un-amor-distinto-al-tuyo-c89UVW"
     },
     "title": "A Love Other Than Yours",
     "tmdb_id": "314939",
     "type": "series",
-    "updated_at": 1789425101036,
+    "updated_at": 1789476103434,
     "year": 2026
   },
   {
