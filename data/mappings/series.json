@@ -2193,7 +2193,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1789476093415,
+    "updated_at": 1789510545857,
     "year": 2004
   },
   {
@@ -9237,7 +9237,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789476105433,
+    "updated_at": 1789510560880,
     "year": 2003
   },
   {
@@ -68322,13 +68322,14 @@
     "providers": {
       "allcalidad": "regular-show-the-lost-tapes-2026",
       "allpeliculas": "regular-show-the-lost-tapes-2026",
+      "gnula": "un-show-mas-las-cintas-perdidas",
       "pelisgratishd": "historias-corrientes-las-cinta-GeNrzW",
       "serieskao": "historias-corrientes-las-cinta-GeNrzW"
     },
     "title": "Regular Show: The Lost Tapes",
     "tmdb_id": "256695",
     "type": "series",
-    "updated_at": 1788464741849,
+    "updated_at": 1789510551896,
     "year": 2026
   },
   {
@@ -68562,6 +68563,12 @@
   {
     "imdb_id": "tt6037988",
     "provider_variants": {
+      "allcalidad": [
+        "last-seen-2026"
+      ],
+      "allpeliculas": [
+        "last-seen-2026"
+      ],
       "pelisgratishd": [
         "desaparecida-sin-rastro"
       ],
@@ -68583,7 +68590,7 @@
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1789042519665,
+    "updated_at": 1789510543853,
     "year": 2026
   },
   {
@@ -74124,7 +74131,7 @@
     "title": "Ein Sommer mit Paul",
     "tmdb_id": "295780",
     "type": "series",
-    "updated_at": 1789476106435,
+    "updated_at": 1789510561881,
     "year": 2026
   },
   {
@@ -75901,13 +75908,14 @@
     "imdb_id": "tt43736405",
     "provider_variants": {},
     "providers": {
+      "gnula": "un-amor-distinto-al-tuyo",
       "pelisgratishd": "un-amor-distinto-al-tuyo-c89UVW",
       "serieskao": "un-amor-distinto-al-tuyo-c89UVW"
     },
     "title": "A Love Other Than Yours",
     "tmdb_id": "314939",
     "type": "series",
-    "updated_at": 1789476103434,
+    "updated_at": 1789510553898,
     "year": 2026
   },
   {
@@ -76058,13 +76066,14 @@
     "imdb_id": "tt39656291",
     "provider_variants": {},
     "providers": {
+      "gnula": "the-dark-wizard",
       "pelisgratishd": "the-dark-wizard-RkA8Ff",
       "serieskao": "the-dark-wizard-RkA8Ff"
     },
     "title": "The Dark Wizard",
     "tmdb_id": "316527",
     "type": "series",
-    "updated_at": 1788458586983,
+    "updated_at": 1789510547897,
     "year": 2026
   },
   {

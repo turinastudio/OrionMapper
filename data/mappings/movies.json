@@ -232605,7 +232605,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789476104430,
+    "updated_at": 1789510559878,
     "year": 2022
   },
   {
@@ -260153,12 +260153,14 @@
       "allcalidad": "el-final-de-la-calle-oak-2026",
       "allpeliculas": "el-final-de-la-calle-oak-2026",
       "gnula": "el-final-de-la-calle-oak",
-      "poseidonhd2": "1101383/el-final-de-la-calle-oak"
+      "pelisgratishd": "el-final-de-oak-street-RoKXPW",
+      "poseidonhd2": "1101383/el-final-de-la-calle-oak",
+      "serieskao": "el-final-de-oak-street-RoKXPW"
     },
     "title": "El final de la Calle Oak",
     "tmdb_id": "1101383",
     "type": "movie",
-    "updated_at": 1788464741814,
+    "updated_at": 1789510558888,
     "year": 2026
   },
   {
@@ -274727,6 +274729,8 @@
     "imdb_id": "tt29356163",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "paw-patrol-la-dino-pelicula-2026",
+      "allpeliculas": "paw-patrol-la-dino-pelicula-2026",
       "gnula": "paw-patrol-la-dino-pelicula",
       "pelisgratishd": "la-patrulla-canina-la-dino-pel-0lXd7k",
       "poseidonhd2": "1185806/paw-patrol-la-dino-pelicula",
@@ -274735,7 +274739,7 @@
     "title": "Paw Patrol: La dino película",
     "tmdb_id": "1185806",
     "type": "movie",
-    "updated_at": 1789128857119,
+    "updated_at": 1789510541851,
     "year": 2026
   },
   {
@@ -281221,6 +281225,18 @@
     "type": "movie",
     "updated_at": 1788458586974,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt9601292",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "the-fix"
+    },
+    "title": "The Fix",
+    "tmdb_id": "1228834",
+    "type": "movie",
+    "updated_at": 1789510545857,
+    "year": 2026
   },
   {
     "imdb_id": null,
@@ -288091,6 +288107,18 @@
     "type": "movie",
     "updated_at": 1788458586967,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt31986446",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "aves-de-corral"
+    },
+    "title": "Aves de Corral",
+    "tmdb_id": "1275215",
+    "type": "movie",
+    "updated_at": 1789510545857,
+    "year": 2026
   },
   {
     "imdb_id": "tt37544092",
@@ -307383,6 +307411,18 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt38497679",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "tumbal-proyek"
+    },
+    "title": "Tumbal Proyek",
+    "tmdb_id": "1469930",
+    "type": "movie",
+    "updated_at": 1789510545857,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt27337790",
     "provider_variants": {},
     "providers": {
@@ -316252,13 +316292,14 @@
     "imdb_id": "tt43700444",
     "provider_variants": {},
     "providers": {
+      "gnula": "untold-mr-t-i-pity-the-fool",
       "pelisgratishd": "secretos-del-deporte-mr-t-mJFbsq",
       "serieskao": "secretos-del-deporte-mr-t-mJFbsq"
     },
     "title": "Untold Mr. T: I Pity the Fool",
     "tmdb_id": "1739206",
     "type": "movie",
-    "updated_at": 1789128845100,
+    "updated_at": 1789510545857,
     "year": 2026
   },
   {
