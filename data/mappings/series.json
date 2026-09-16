@@ -2193,7 +2193,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1789562262630,
+    "updated_at": 1789596707116,
     "year": 2004
   },
   {
@@ -9237,7 +9237,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789562269643,
+    "updated_at": 1789596739170,
     "year": 2003
   },
   {
@@ -29194,12 +29194,14 @@
       "allcalidad": "dulces-magnolias-2020",
       "allpeliculas": "dulces-magnolias-2020",
       "gnula": "dulces-magnolias",
-      "poseidonhd2": "102904/dulces-magnolias"
+      "pelisgratishd": "dulces-magnolias-3nJMwI",
+      "poseidonhd2": "102904/dulces-magnolias",
+      "serieskao": "dulces-magnolias-3nJMwI"
     },
     "title": "Dulces magnolias",
     "tmdb_id": "102904",
     "type": "series",
-    "updated_at": 1788464741848,
+    "updated_at": 1789596735165,
     "year": 2020
   },
   {
@@ -68324,12 +68326,13 @@
       "allpeliculas": "regular-show-the-lost-tapes-2026",
       "gnula": "un-show-mas-las-cintas-perdidas",
       "pelisgratishd": "historias-corrientes-las-cinta-GeNrzW",
+      "poseidonhd2": "256695/un-show-mas-las-cintas-perdidas",
       "serieskao": "historias-corrientes-las-cinta-GeNrzW"
     },
     "title": "Regular Show: The Lost Tapes",
     "tmdb_id": "256695",
     "type": "series",
-    "updated_at": 1789510551896,
+    "updated_at": 1789596732171,
     "year": 2026
   },
   {
@@ -68590,7 +68593,7 @@
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1789562260631,
+    "updated_at": 1789596705115,
     "year": 2026
   },
   {
@@ -70303,6 +70306,19 @@
     "tmdb_id": "273160",
     "type": "series",
     "updated_at": 1788464741849,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt33539520",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "neagley-zz9dsG",
+      "serieskao": "neagley-zz9dsG"
+    },
+    "title": "Neagley",
+    "tmdb_id": "273207",
+    "type": "series",
+    "updated_at": 1789596737169,
     "year": 2026
   },
   {
@@ -75910,12 +75926,13 @@
     "providers": {
       "gnula": "un-amor-distinto-al-tuyo",
       "pelisgratishd": "un-amor-distinto-al-tuyo-c89UVW",
+      "poseidonhd2": "314939/un-amor-distinto-al-tuyo",
       "serieskao": "un-amor-distinto-al-tuyo-c89UVW"
     },
     "title": "A Love Other Than Yours",
     "tmdb_id": "314939",
     "type": "series",
-    "updated_at": 1789510553898,
+    "updated_at": 1789596734171,
     "year": 2026
   },
   {
@@ -76068,12 +76085,13 @@
     "providers": {
       "gnula": "the-dark-wizard",
       "pelisgratishd": "the-dark-wizard-RkA8Ff",
+      "poseidonhd2": "316527/the-dark-wizard",
       "serieskao": "the-dark-wizard-RkA8Ff"
     },
     "title": "The Dark Wizard",
     "tmdb_id": "316527",
     "type": "series",
-    "updated_at": 1789510547897,
+    "updated_at": 1789596728164,
     "year": 2026
   },
   {
@@ -76603,6 +76621,19 @@
     "tmdb_id": "329394",
     "type": "series",
     "updated_at": 1788458586982,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt44600168",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "catedrales-Mv3Yd0",
+      "serieskao": "catedrales-Mv3Yd0"
+    },
+    "title": "Cathedrals",
+    "tmdb_id": "330302",
+    "type": "series",
+    "updated_at": 1789596736167,
     "year": 2026
   },
   {

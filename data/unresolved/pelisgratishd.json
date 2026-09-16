@@ -2265,6 +2265,14 @@
   },
   {
     "provider": "pelisgratishd",
+    "reason": "missing_ids",
+    "slug": "kaidan-horror-classics-yDJywo",
+    "title": "Kaidan Horror Classics",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
     "reason": "tmdb_unresolved",
     "slug": "kentaro-esta-embarazado",
     "title": "El embarazo de Kentaro",
@@ -2740,6 +2748,14 @@
     "reason": "tmdb_unresolved",
     "slug": "reunion-familiar",
     "title": "Reunión familiar",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "pelisgratishd",
+    "reason": "missing_ids",
+    "slug": "route-187-Z0YqrG",
+    "title": "Route 187",
     "type": "series",
     "year": null
   },
