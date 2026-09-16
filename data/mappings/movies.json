@@ -34910,6 +34910,8 @@
     "imdb_id": "tt0245562",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "codigos-de-guerra-2002",
+      "allpeliculas": "codigos-de-guerra-2002",
       "gnula": "codigos-de-guerra",
       "pelisgratishd": "codigos-de-guerra",
       "poseidonhd2": "12100/codigos-de-guerra",
@@ -34918,7 +34920,7 @@
     "title": "Códigos de guerra",
     "tmdb_id": "12100",
     "type": "movie",
-    "updated_at": 1788458587020,
+    "updated_at": 1789562258627,
     "year": 2002
   },
   {
@@ -62750,6 +62752,7 @@
     "provider_variants": {},
     "providers": {
       "allcalidad": "contrabando-2012",
+      "allpeliculas": "contrabando-2012",
       "gnula": "contrabando",
       "pelisgratishd": "contraband",
       "poseidonhd2": "77866/contrabando",
@@ -62758,7 +62761,7 @@
     "title": "Contraband",
     "tmdb_id": "77866",
     "type": "movie",
-    "updated_at": 1788461251547,
+    "updated_at": 1789562256639,
     "year": 2012
   },
   {
@@ -232605,7 +232608,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789510559878,
+    "updated_at": 1789562268639,
     "year": 2022
   },
   {
@@ -298313,6 +298316,8 @@
     "imdb_id": "tt38267923",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "llama-a-mi-agente-la-pelicula-2026",
+      "allpeliculas": "llama-a-mi-agente-la-pelicula-2026",
       "gnula": "llama-a-mi-agente-la-pelicula",
       "pelisgratishd": "llama-a-mi-agente-la-pelicula-PlEryE",
       "poseidonhd2": "1365884/llama-a-mi-agente-la-pelicula",
@@ -298321,7 +298326,7 @@
     "title": "¡Llama a mi agente!: La película",
     "tmdb_id": "1365884",
     "type": "movie",
-    "updated_at": 1789128846102,
+    "updated_at": 1789562252725,
     "year": 2026
   },
   {
@@ -305453,6 +305458,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt36052167",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "the-highest-stakes"
+    },
+    "title": "The Highest Stakes",
+    "tmdb_id": "1444249",
+    "type": "movie",
+    "updated_at": 1789562262630,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt26740887",
     "provider_variants": {},
     "providers": {
@@ -310152,6 +310169,18 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt37446301",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "hugo-24"
+    },
+    "title": "Hugo 24",
+    "tmdb_id": "1506747",
+    "type": "movie",
+    "updated_at": 1789562262630,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt37671699",
     "provider_variants": {},
     "providers": {
@@ -312141,6 +312170,8 @@
     "imdb_id": "tt38616652",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "gracias-equipo-2026",
+      "allpeliculas": "gracias-equipo-2026",
       "gnula": "gracias-equipo",
       "pelisgratishd": "gracias-equipo-pZ1Guz",
       "poseidonhd2": "1558568/gracias-equipo",
@@ -312149,7 +312180,7 @@
     "title": "Gracias, equipo",
     "tmdb_id": "1558568",
     "type": "movie",
-    "updated_at": 1789248480625,
+    "updated_at": 1789562254623,
     "year": 2026
   },
   {
