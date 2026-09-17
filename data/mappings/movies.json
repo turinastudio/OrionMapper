@@ -78898,12 +78898,13 @@
     "provider_variants": {},
     "providers": {
       "gnula": "extraterrestrial",
+      "pelisgratishd": "extraterrestrial-Q4d13b",
       "poseidonhd2": "265016/extraterrestrial"
     },
     "title": "Extraterrestrial",
     "tmdb_id": "265016",
     "type": "movie",
-    "updated_at": 1788452160172,
+    "updated_at": 1789683124568,
     "year": 2014
   },
   {
@@ -232608,7 +232609,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789648665200,
+    "updated_at": 1789683171643,
     "year": 2022
   },
   {
@@ -264252,6 +264253,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt27706593",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "los-rivales-de-amziah-king-cKlQRq"
+    },
+    "title": "The Rivals of Amziah King",
+    "tmdb_id": "1124142",
+    "type": "movie",
+    "updated_at": 1789683126573,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt9658288",
     "provider_variants": {},
     "providers": {
@@ -265853,12 +265866,13 @@
       "allcalidad": "전지적-독자-시점-2025",
       "allpeliculas": "전지적-독자-시점-2025",
       "gnula": "omniscient-reader-the-prophecy",
+      "pelisgratishd": "lector-omnisciente-la-profecia-31v5dX",
       "poseidonhd2": "1131759/omniscient-reader-the-prophecy"
     },
     "title": "Lector omnisciente: La profecía",
     "tmdb_id": "1131759",
     "type": "movie",
-    "updated_at": 1788464741823,
+    "updated_at": 1789683123575,
     "year": 2025
   },
   {
@@ -284660,12 +284674,13 @@
       "allcalidad": "savage-house-2026",
       "allpeliculas": "savage-house-2026",
       "gnula": "savage-house",
+      "pelisgratishd": "la-ambicion-de-los-savage-tcgnSZ",
       "poseidonhd2": "1245859/savage-house"
     },
     "title": "Savage House",
     "tmdb_id": "1245859",
     "type": "movie",
-    "updated_at": 1788464741816,
+    "updated_at": 1789683122570,
     "year": 2026
   },
   {
@@ -299146,6 +299161,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt33353846",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "husband-father-killer-the-alys-rQdB2B"
+    },
+    "title": "Husband Father Killer: The Alyssa Pladl Story",
+    "tmdb_id": "1373873",
+    "type": "movie",
+    "updated_at": 1789683121564,
+    "year": 2024
+  },
+  {
     "imdb_id": "tt34136720",
     "provider_variants": {},
     "providers": {
@@ -301154,6 +301181,19 @@
     "year": 2023
   },
   {
+    "imdb_id": "tt34865348",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "un-hijo",
+      "poseidonhd2": "1396368/un-hijo"
+    },
+    "title": "Un hijo",
+    "tmdb_id": "1396368",
+    "type": "movie",
+    "updated_at": 1789683140604,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt34865331",
     "provider_variants": {},
     "providers": {
@@ -302101,6 +302141,18 @@
     "tmdb_id": "1405712",
     "type": "movie",
     "updated_at": 1788464741824,
+    "year": 2025
+  },
+  {
+    "imdb_id": "tt29543015",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "portal-to-hell-TCRJ6c"
+    },
+    "title": "Portal to Hell",
+    "tmdb_id": "1405742",
+    "type": "movie",
+    "updated_at": 1789683125578,
     "year": 2025
   },
   {
@@ -303376,6 +303428,19 @@
     "type": "movie",
     "updated_at": 1788458586969,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt35538033",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "resident-evil-wGvdS9",
+      "serieskao": "resident-evil-wGvdS9"
+    },
+    "title": "Resident Evil",
+    "tmdb_id": "1423191",
+    "type": "movie",
+    "updated_at": 1789683167638,
+    "year": 2026
   },
   {
     "imdb_id": "tt31593809",
@@ -315194,6 +315259,18 @@
     "tmdb_id": "1656220",
     "type": "movie",
     "updated_at": 1788464747769,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt41228546",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "sultana-hUFIlu"
+    },
+    "title": "Sultana",
+    "tmdb_id": "1656489",
+    "type": "movie",
+    "updated_at": 1789683120563,
     "year": 2026
   },
   {

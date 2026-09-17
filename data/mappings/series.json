@@ -2193,7 +2193,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1789648654203,
+    "updated_at": 1789683093511,
     "year": 2004
   },
   {
@@ -9239,7 +9239,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789648666262,
+    "updated_at": 1789683172648,
     "year": 2003
   },
   {
@@ -44834,12 +44834,13 @@
     "provider_variants": {},
     "providers": {
       "gnula": "pitch-perfect-bumper-in-berlin",
+      "pelisgratishd": "dando-la-nota-bumper-en-berlin-JQj7ql",
       "poseidonhd2": "156332/pitch-perfect-bumper-in-berlin"
     },
     "title": "Dando la nota: Bumper en Berlín",
     "tmdb_id": "156332",
     "type": "series",
-    "updated_at": 1788452160196,
+    "updated_at": 1789683133590,
     "year": 2022
   },
   {
@@ -65644,13 +65645,15 @@
     "providers": {
       "allcalidad": "made-in-korea-2025",
       "allpeliculas": "made-in-korea-2025",
+      "gnula": "made-in-korea",
       "pelisgratishd": "made-in-korea-BSPB5H",
+      "poseidonhd2": "246473/made-in-korea",
       "serieskao": "made-in-korea-BSPB5H"
     },
     "title": "Made in Korea",
     "tmdb_id": "246473",
     "type": "series",
-    "updated_at": 1788464741849,
+    "updated_at": 1789683162629,
     "year": 2025
   },
   {
@@ -67118,6 +67121,21 @@
     "type": "series",
     "updated_at": 1788464741849,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt32149571",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "golden-axe",
+      "pelisgratishd": "golden-axe-yKQNiJ",
+      "poseidonhd2": "252105/golden-axe",
+      "serieskao": "golden-axe-yKQNiJ"
+    },
+    "title": "Golden Axe",
+    "tmdb_id": "252105",
+    "type": "series",
+    "updated_at": 1789683170642,
+    "year": 2026
   },
   {
     "imdb_id": "tt32140872",
@@ -68610,7 +68628,7 @@
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1789648652201,
+    "updated_at": 1789683091510,
     "year": 2026
   },
   {
@@ -70329,13 +70347,15 @@
     "imdb_id": "tt33539520",
     "provider_variants": {},
     "providers": {
+      "gnula": "neagley",
       "pelisgratishd": "neagley-zz9dsG",
+      "poseidonhd2": "273207/neagley",
       "serieskao": "neagley-zz9dsG"
     },
     "title": "Neagley",
     "tmdb_id": "273207",
     "type": "series",
-    "updated_at": 1789596737169,
+    "updated_at": 1789683156619,
     "year": 2026
   },
   {
@@ -74131,6 +74151,21 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt37578538",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "lalka",
+      "pelisgratishd": "la-muneca-VZVkJK",
+      "poseidonhd2": "295089/lalka",
+      "serieskao": "la-muneca-VZVkJK"
+    },
+    "title": "La muñeca",
+    "tmdb_id": "295089",
+    "type": "series",
+    "updated_at": 1789683169642,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt40197357",
     "provider_variants": {},
     "providers": {
@@ -74420,6 +74455,18 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt37884325",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "belleza-plastica-SeT2lc"
+    },
+    "title": "Plastic Beauty",
+    "tmdb_id": "298008",
+    "type": "series",
+    "updated_at": 1789683132585,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt27543562",
     "provider_variants": {},
     "providers": {
@@ -74598,6 +74645,20 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt44924447",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "surveillant",
+      "pelisgratishd": "minima-seguridad-NPL9Sk",
+      "poseidonhd2": "299255/surveillant"
+    },
+    "title": "Mínima Seguridad",
+    "tmdb_id": "299255",
+    "type": "series",
+    "updated_at": 1789683146604,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt37855481",
     "provider_variants": {},
     "providers": {
@@ -74691,6 +74752,19 @@
     "type": "series",
     "updated_at": 1788458586984,
     "year": 2025
+  },
+  {
+    "imdb_id": null,
+    "provider_variants": {},
+    "providers": {
+      "gnula": "monstruo-la-historia-de-lizzie-borden",
+      "poseidonhd2": "299939/monstruo-la-historia-de-lizzie-borden"
+    },
+    "title": "Monstruo: La historia de Lizzie Borden",
+    "tmdb_id": "299939",
+    "type": "series",
+    "updated_at": 1789683142597,
+    "year": 2026
   },
   {
     "imdb_id": "tt39496157",
@@ -75240,6 +75314,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt36210894",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "the-drop-a-snowfall-saga",
+      "poseidonhd2": "304842/the-drop-a-snowfall-saga"
+    },
+    "title": "The Drop: A Snowfall Saga",
+    "tmdb_id": "304842",
+    "type": "series",
+    "updated_at": 1789683152613,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt38808290",
     "provider_variants": {},
     "providers": {
@@ -75764,6 +75851,18 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt39495239",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "-Xz7kYX"
+    },
+    "title": "The Fixers",
+    "tmdb_id": "312663",
+    "type": "series",
+    "updated_at": 1789683130579,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt39657434",
     "provider_variants": {},
     "providers": {
@@ -76056,12 +76155,13 @@
     "provider_variants": {},
     "providers": {
       "gnula": "deep-revenge",
+      "pelisgratishd": "el-rostro-de-la-venganza-PAgzdt",
       "poseidonhd2": "316205/deep-revenge"
     },
     "title": "El rostro de la venganza",
     "tmdb_id": "316205",
     "type": "series",
-    "updated_at": 1788452160184,
+    "updated_at": 1789683129578,
     "year": 2026
   },
   {
@@ -76094,6 +76194,19 @@
     "tmdb_id": "316474",
     "type": "series",
     "updated_at": 1788458586983,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt27760834",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "amores-inesperados",
+      "poseidonhd2": "316488/amores-inesperados"
+    },
+    "title": "Amores inesperados",
+    "tmdb_id": "316488",
+    "type": "series",
+    "updated_at": 1789683150611,
     "year": 2026
   },
   {
@@ -76294,6 +76407,20 @@
     "tmdb_id": "320430",
     "type": "series",
     "updated_at": 1788452160184,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt39397536",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "seni-taniyorum",
+      "pelisgratishd": "te-conozco-uI8sLK",
+      "poseidonhd2": "320760/seni-taniyorum"
+    },
+    "title": "Te conozco",
+    "tmdb_id": "320760",
+    "type": "series",
+    "updated_at": 1789683144600,
     "year": 2026
   },
   {
@@ -76644,13 +76771,15 @@
     "imdb_id": "tt44600168",
     "provider_variants": {},
     "providers": {
+      "gnula": "catedrales",
       "pelisgratishd": "catedrales-Mv3Yd0",
+      "poseidonhd2": "330302/catedrales",
       "serieskao": "catedrales-Mv3Yd0"
     },
     "title": "Cathedrals",
     "tmdb_id": "330302",
     "type": "series",
-    "updated_at": 1789596736167,
+    "updated_at": 1789683164633,
     "year": 2026
   },
   {
@@ -76723,16 +76852,31 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt32642114",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "ciudad-de-sangre",
+      "poseidonhd2": "332401/ciudad-de-sangre"
+    },
+    "title": "City of Blood",
+    "tmdb_id": "332401",
+    "type": "series",
+    "updated_at": 1789683160629,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt32132697",
     "provider_variants": {},
     "providers": {
+      "gnula": "route-187",
       "pelisgratishd": "route-187-Z0YqrG",
+      "poseidonhd2": "332657/route-187",
       "serieskao": "route-187-Z0YqrG"
     },
     "title": "Route 187",
     "tmdb_id": "332657",
     "type": "series",
-    "updated_at": 1789648664218,
+    "updated_at": 1789683154616,
     "year": 2026
   },
   {
@@ -76751,16 +76895,18 @@
     "year": 2026
   },
   {
-    "imdb_id": null,
+    "imdb_id": "tt45804547",
     "provider_variants": {},
     "providers": {
       "gnula": "hotel-todo-incluido",
-      "poseidonhd2": "333096/hotel-todo-incluido"
+      "pelisgratishd": "hotel-todo-incluido-cZnhPb",
+      "poseidonhd2": "333096/hotel-todo-incluido",
+      "serieskao": "hotel-todo-incluido-cZnhPb"
     },
     "title": "Hotel Todo Incluido",
     "tmdb_id": "333096",
     "type": "series",
-    "updated_at": 1788452160184,
+    "updated_at": 1789683168639,
     "year": 2026
   },
   {
