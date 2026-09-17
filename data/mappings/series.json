@@ -2193,7 +2193,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1789596707116,
+    "updated_at": 1789648654203,
     "year": 2004
   },
   {
@@ -3543,6 +3543,8 @@
     "imdb_id": "tt0493093",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "hannah-montana-2006",
+      "allpeliculas": "hannah-montana-2006",
       "gnula": "hannah-montana",
       "pelisgratishd": "hannah-montana",
       "poseidonhd2": "4610/hannah-montana",
@@ -3551,7 +3553,7 @@
     "title": "Hannah Montana",
     "tmdb_id": "4610",
     "type": "series",
-    "updated_at": 1788458586988,
+    "updated_at": 1789648650240,
     "year": 2006
   },
   {
@@ -9237,7 +9239,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789596739170,
+    "updated_at": 1789648666262,
     "year": 2003
   },
   {
@@ -20161,6 +20163,19 @@
     "tmdb_id": "83300",
     "type": "series",
     "updated_at": 1788452160196,
+    "year": 2018
+  },
+  {
+    "imdb_id": "tt9170638",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "the-hook-up-plan-2018",
+      "allpeliculas": "the-hook-up-plan-2018"
+    },
+    "title": "Amor ocasional",
+    "tmdb_id": "83412",
+    "type": "series",
+    "updated_at": 1789648646192,
     "year": 2018
   },
   {
@@ -33899,6 +33914,8 @@
     "imdb_id": "tt13751472",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "bump-2021",
+      "allpeliculas": "bump-2021",
       "gnula": "bump",
       "pelisgratishd": "bump",
       "poseidonhd2": "115639/bump",
@@ -33907,7 +33924,7 @@
     "title": "Bump",
     "tmdb_id": "115639",
     "type": "series",
-    "updated_at": 1788458586991,
+    "updated_at": 1789648648232,
     "year": 2021
   },
   {
@@ -68593,7 +68610,7 @@
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1789596705115,
+    "updated_at": 1789648652201,
     "year": 2026
   },
   {
@@ -76703,6 +76720,19 @@
     "tmdb_id": "332279",
     "type": "series",
     "updated_at": 1788458586982,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt32132697",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "route-187-Z0YqrG",
+      "serieskao": "route-187-Z0YqrG"
+    },
+    "title": "Route 187",
+    "tmdb_id": "332657",
+    "type": "series",
+    "updated_at": 1789648664218,
     "year": 2026
   },
   {

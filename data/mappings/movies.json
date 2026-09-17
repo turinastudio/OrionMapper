@@ -232608,7 +232608,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789596738167,
+    "updated_at": 1789648665200,
     "year": 2022
   },
   {
@@ -305464,12 +305464,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "the-highest-stakes",
-      "poseidonhd2": "1444249/the-highest-stakes"
+      "pelisgratishd": "the-highest-stakes-ThamgG",
+      "poseidonhd2": "1444249/the-highest-stakes",
+      "serieskao": "the-highest-stakes-ThamgG"
     },
     "title": "The Highest Stakes",
     "tmdb_id": "1444249",
     "type": "movie",
-    "updated_at": 1789596716148,
+    "updated_at": 1789648663217,
     "year": 2026
   },
   {
@@ -310177,12 +310179,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "hugo-24",
-      "poseidonhd2": "1506747/hugo-24"
+      "pelisgratishd": "hugo-24-TTg2RJ",
+      "poseidonhd2": "1506747/hugo-24",
+      "serieskao": "hugo-24-TTg2RJ"
     },
     "title": "Hugo 24",
     "tmdb_id": "1506747",
     "type": "movie",
-    "updated_at": 1789596718154,
+    "updated_at": 1789648662215,
     "year": 2026
   },
   {

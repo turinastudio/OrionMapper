@@ -1357,6 +1357,14 @@
   },
   {
     "provider": "serieskao",
+    "reason": "missing_ids",
+    "slug": "amores-inesperados-2m731C",
+    "title": "Amores inesperados",
+    "type": "series",
+    "year": 2026
+  },
+  {
+    "provider": "serieskao",
     "reason": "tmdb_unresolved",
     "slug": "ana",
     "title": "Anne with an E",
