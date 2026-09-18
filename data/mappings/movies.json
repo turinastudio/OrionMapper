@@ -63772,6 +63772,8 @@
     "imdb_id": "tt0161215",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "a-volar-joven-1947",
+      "allpeliculas": "a-volar-joven-1947",
       "gnula": "a-volar-joven",
       "pelisgratishd": "a-volar-joven",
       "poseidonhd2": "82767/a-volar-joven",
@@ -63780,7 +63782,7 @@
     "title": "A volar joven",
     "tmdb_id": "82767",
     "type": "movie",
-    "updated_at": 1788458587027,
+    "updated_at": 1789733718104,
     "year": 1947
   },
   {
@@ -78899,12 +78901,13 @@
     "providers": {
       "gnula": "extraterrestrial",
       "pelisgratishd": "extraterrestrial-Q4d13b",
-      "poseidonhd2": "265016/extraterrestrial"
+      "poseidonhd2": "265016/extraterrestrial",
+      "serieskao": "extraterrestrial-Q4d13b"
     },
     "title": "Extraterrestrial",
     "tmdb_id": "265016",
     "type": "movie",
-    "updated_at": 1789683124568,
+    "updated_at": 1789733734200,
     "year": 2014
   },
   {
@@ -97563,6 +97566,7 @@
     "provider_variants": {},
     "providers": {
       "allcalidad": "asesinato-en-el-expreso-de-oriente-2017",
+      "allpeliculas": "asesinato-en-el-expreso-de-oriente-2017",
       "gnula": "asesinato-en-el-expreso-de-oriente",
       "pelisgratishd": "asesinato-en-el-orient-express",
       "poseidonhd2": "392044/asesinato-en-el-expreso-de-oriente",
@@ -97571,7 +97575,7 @@
     "title": "Asesinato en el Orient Express",
     "tmdb_id": "392044",
     "type": "movie",
-    "updated_at": 1788461251525,
+    "updated_at": 1789733716178,
     "year": 2017
   },
   {
@@ -232609,7 +232613,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789683171643,
+    "updated_at": 1789733744145,
     "year": 2022
   },
   {
@@ -264256,12 +264260,13 @@
     "imdb_id": "tt27706593",
     "provider_variants": {},
     "providers": {
-      "pelisgratishd": "los-rivales-de-amziah-king-cKlQRq"
+      "pelisgratishd": "los-rivales-de-amziah-king-cKlQRq",
+      "serieskao": "los-rivales-de-amziah-king-cKlQRq"
     },
     "title": "The Rivals of Amziah King",
     "tmdb_id": "1124142",
     "type": "movie",
-    "updated_at": 1789683126573,
+    "updated_at": 1789733736196,
     "year": 2026
   },
   {
@@ -265867,12 +265872,13 @@
       "allpeliculas": "전지적-독자-시점-2025",
       "gnula": "omniscient-reader-the-prophecy",
       "pelisgratishd": "lector-omnisciente-la-profecia-31v5dX",
-      "poseidonhd2": "1131759/omniscient-reader-the-prophecy"
+      "poseidonhd2": "1131759/omniscient-reader-the-prophecy",
+      "serieskao": "lector-omnisciente-la-profecia-31v5dX"
     },
     "title": "Lector omnisciente: La profecía",
     "tmdb_id": "1131759",
     "type": "movie",
-    "updated_at": 1789683123575,
+    "updated_at": 1789733733190,
     "year": 2025
   },
   {
@@ -284675,12 +284681,13 @@
       "allpeliculas": "savage-house-2026",
       "gnula": "savage-house",
       "pelisgratishd": "la-ambicion-de-los-savage-tcgnSZ",
-      "poseidonhd2": "1245859/savage-house"
+      "poseidonhd2": "1245859/savage-house",
+      "serieskao": "la-ambicion-de-los-savage-tcgnSZ"
     },
     "title": "Savage House",
     "tmdb_id": "1245859",
     "type": "movie",
-    "updated_at": 1789683122570,
+    "updated_at": 1789733732184,
     "year": 2026
   },
   {
@@ -299164,12 +299171,13 @@
     "imdb_id": "tt33353846",
     "provider_variants": {},
     "providers": {
-      "pelisgratishd": "husband-father-killer-the-alys-rQdB2B"
+      "pelisgratishd": "husband-father-killer-the-alys-rQdB2B",
+      "serieskao": "husband-father-killer-the-alys-rQdB2B"
     },
     "title": "Husband Father Killer: The Alyssa Pladl Story",
     "tmdb_id": "1373873",
     "type": "movie",
-    "updated_at": 1789683121564,
+    "updated_at": 1789733731182,
     "year": 2024
   },
   {
@@ -302147,12 +302155,13 @@
     "imdb_id": "tt29543015",
     "provider_variants": {},
     "providers": {
-      "pelisgratishd": "portal-to-hell-TCRJ6c"
+      "pelisgratishd": "portal-to-hell-TCRJ6c",
+      "serieskao": "portal-to-hell-TCRJ6c"
     },
     "title": "Portal to Hell",
     "tmdb_id": "1405742",
     "type": "movie",
-    "updated_at": 1789683125578,
+    "updated_at": 1789733735193,
     "year": 2025
   },
   {
@@ -315265,12 +315274,13 @@
     "imdb_id": "tt41228546",
     "provider_variants": {},
     "providers": {
-      "pelisgratishd": "sultana-hUFIlu"
+      "pelisgratishd": "sultana-hUFIlu",
+      "serieskao": "sultana-hUFIlu"
     },
     "title": "Sultana",
     "tmdb_id": "1656489",
     "type": "movie",
-    "updated_at": 1789683120563,
+    "updated_at": 1789733730179,
     "year": 2026
   },
   {

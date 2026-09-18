@@ -2193,7 +2193,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1789683093511,
+    "updated_at": 1789733722111,
     "year": 2004
   },
   {
@@ -9239,7 +9239,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789683172648,
+    "updated_at": 1789733745125,
     "year": 2003
   },
   {
@@ -44835,12 +44835,13 @@
     "providers": {
       "gnula": "pitch-perfect-bumper-in-berlin",
       "pelisgratishd": "dando-la-nota-bumper-en-berlin-JQj7ql",
-      "poseidonhd2": "156332/pitch-perfect-bumper-in-berlin"
+      "poseidonhd2": "156332/pitch-perfect-bumper-in-berlin",
+      "serieskao": "dando-la-nota-bumper-en-berlin-JQj7ql"
     },
     "title": "Dando la nota: Bumper en Berlín",
     "tmdb_id": "156332",
     "type": "series",
-    "updated_at": 1789683133590,
+    "updated_at": 1789733742198,
     "year": 2022
   },
   {
@@ -68628,7 +68629,7 @@
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1789683091510,
+    "updated_at": 1789733720109,
     "year": 2026
   },
   {
@@ -74458,12 +74459,13 @@
     "imdb_id": "tt37884325",
     "provider_variants": {},
     "providers": {
-      "pelisgratishd": "belleza-plastica-SeT2lc"
+      "pelisgratishd": "belleza-plastica-SeT2lc",
+      "serieskao": "belleza-plastica-SeT2lc"
     },
     "title": "Plastic Beauty",
     "tmdb_id": "298008",
     "type": "series",
-    "updated_at": 1789683132585,
+    "updated_at": 1789733741203,
     "year": 2026
   },
   {
@@ -74650,12 +74652,13 @@
     "providers": {
       "gnula": "surveillant",
       "pelisgratishd": "minima-seguridad-NPL9Sk",
-      "poseidonhd2": "299255/surveillant"
+      "poseidonhd2": "299255/surveillant",
+      "serieskao": "minima-seguridad-NPL9Sk"
     },
     "title": "Mínima Seguridad",
     "tmdb_id": "299255",
     "type": "series",
-    "updated_at": 1789683146604,
+    "updated_at": 1789733737198,
     "year": 2026
   },
   {
@@ -75854,12 +75857,13 @@
     "imdb_id": "tt39495239",
     "provider_variants": {},
     "providers": {
-      "pelisgratishd": "-Xz7kYX"
+      "pelisgratishd": "-Xz7kYX",
+      "serieskao": "-Xz7kYX"
     },
     "title": "The Fixers",
     "tmdb_id": "312663",
     "type": "series",
-    "updated_at": 1789683130579,
+    "updated_at": 1789733739201,
     "year": 2026
   },
   {
@@ -76156,12 +76160,13 @@
     "providers": {
       "gnula": "deep-revenge",
       "pelisgratishd": "el-rostro-de-la-venganza-PAgzdt",
-      "poseidonhd2": "316205/deep-revenge"
+      "poseidonhd2": "316205/deep-revenge",
+      "serieskao": "el-rostro-de-la-venganza-PAgzdt"
     },
     "title": "El rostro de la venganza",
     "tmdb_id": "316205",
     "type": "series",
-    "updated_at": 1789683129578,
+    "updated_at": 1789733738199,
     "year": 2026
   },
   {
@@ -76201,12 +76206,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "amores-inesperados",
-      "poseidonhd2": "316488/amores-inesperados"
+      "pelisgratishd": "amores-inesperados-2m731C",
+      "poseidonhd2": "316488/amores-inesperados",
+      "serieskao": "amores-inesperados-2m731C"
     },
     "title": "Amores inesperados",
     "tmdb_id": "316488",
     "type": "series",
-    "updated_at": 1789683150611,
+    "updated_at": 1789733743145,
     "year": 2026
   },
   {
@@ -76415,12 +76422,13 @@
     "providers": {
       "gnula": "seni-taniyorum",
       "pelisgratishd": "te-conozco-uI8sLK",
-      "poseidonhd2": "320760/seni-taniyorum"
+      "poseidonhd2": "320760/seni-taniyorum",
+      "serieskao": "te-conozco-uI8sLK"
     },
     "title": "Te conozco",
     "tmdb_id": "320760",
     "type": "series",
-    "updated_at": 1789683144600,
+    "updated_at": 1789733740197,
     "year": 2026
   },
   {
