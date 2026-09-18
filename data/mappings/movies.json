@@ -23012,6 +23012,8 @@
     "imdb_id": "tt0317740",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "la-estafa-maestra-2003",
+      "allpeliculas": "la-estafa-maestra-2003",
       "gnula": "la-estafa-maestra",
       "pelisgratishd": "the-italian-job",
       "poseidonhd2": "9654/la-estafa-maestra",
@@ -23020,7 +23022,7 @@
     "title": "The Italian Job",
     "tmdb_id": "9654",
     "type": "movie",
-    "updated_at": 1788458587030,
+    "updated_at": 1789767787367,
     "year": 2003
   },
   {
@@ -38296,6 +38298,19 @@
     "type": "movie",
     "updated_at": 1788464741843,
     "year": 2007
+  },
+  {
+    "imdb_id": "tt0407121",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "winnie-pooh-y-el-pequeno-efelante-2005",
+      "allpeliculas": "winnie-pooh-y-el-pequeno-efelante-2005"
+    },
+    "title": "La película de Heffalump",
+    "tmdb_id": "13682",
+    "type": "movie",
+    "updated_at": 1789767789370,
+    "year": 2005
   },
   {
     "imdb_id": "tt0313680",
@@ -56329,6 +56344,19 @@
     "year": 1982
   },
   {
+    "imdb_id": "tt0161931",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "el-profe-1971",
+      "allpeliculas": "el-profe-1971"
+    },
+    "title": "El profe",
+    "tmdb_id": "45192",
+    "type": "movie",
+    "updated_at": 1789767795385,
+    "year": 1971
+  },
+  {
     "imdb_id": "tt0129868",
     "provider_variants": {},
     "providers": {
@@ -70188,6 +70216,19 @@
     "type": "movie",
     "updated_at": 1788458587015,
     "year": 2012
+  },
+  {
+    "imdb_id": "tt0419656",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "corazon-marchito-2007",
+      "allpeliculas": "corazon-marchito-2007"
+    },
+    "title": "Corazón marchito",
+    "tmdb_id": "161259",
+    "type": "movie",
+    "updated_at": 1789767793381,
+    "year": 2007
   },
   {
     "imdb_id": "tt1837703",
@@ -141080,6 +141121,19 @@
     "type": "movie",
     "updated_at": 1788458587018,
     "year": 2019
+  },
+  {
+    "imdb_id": "tt8183570",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "baby-obsession-2018",
+      "allpeliculas": "baby-obsession-2018"
+    },
+    "title": "Un rostro del pasado",
+    "tmdb_id": "566792",
+    "type": "movie",
+    "updated_at": 1789767797391,
+    "year": 2018
   },
   {
     "imdb_id": "tt2943178",
@@ -232613,7 +232667,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789733744145,
+    "updated_at": 1789767836466,
     "year": 2022
   },
   {
@@ -273810,6 +273864,18 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt21062068",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "the-restoration"
+    },
+    "title": "The Restoration",
+    "tmdb_id": "1180173",
+    "type": "movie",
+    "updated_at": 1789767801401,
+    "year": 2024
+  },
+  {
     "imdb_id": "tt21211474",
     "provider_variants": {},
     "providers": {
@@ -279064,6 +279130,19 @@
     "type": "movie",
     "updated_at": 1788464741825,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt13594688",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "bad-men-must-bleed",
+      "poseidonhd2": "1214361/bad-men-must-bleed"
+    },
+    "title": "Bad Men Must Bleed",
+    "tmdb_id": "1214361",
+    "type": "movie",
+    "updated_at": 1789767817455,
+    "year": 2026
   },
   {
     "imdb_id": "tt30321095",
@@ -294804,6 +294883,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt29512655",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "la-senal-del-apocalipsis",
+      "poseidonhd2": "1323244/la-senal-del-apocalipsis"
+    },
+    "title": "La señal del apocalipsis",
+    "tmdb_id": "1323244",
+    "type": "movie",
+    "updated_at": 1789767825463,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt32331892",
     "provider_variants": {},
     "providers": {
@@ -300244,6 +300336,19 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt21220878",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "oro-negro",
+      "poseidonhd2": "1386238/oro-negro"
+    },
+    "title": "Oro negro",
+    "tmdb_id": "1386238",
+    "type": "movie",
+    "updated_at": 1789767823468,
+    "year": 2024
+  },
+  {
     "imdb_id": "tt34564059",
     "provider_variants": {},
     "providers": {
@@ -303442,13 +303547,15 @@
     "imdb_id": "tt35538033",
     "provider_variants": {},
     "providers": {
+      "gnula": "resident-evil-noche-cero",
       "pelisgratishd": "resident-evil-wGvdS9",
+      "poseidonhd2": "1423191/resident-evil-noche-cero",
       "serieskao": "resident-evil-wGvdS9"
     },
     "title": "Resident Evil",
     "tmdb_id": "1423191",
     "type": "movie",
-    "updated_at": 1789683167638,
+    "updated_at": 1789767819450,
     "year": 2026
   },
   {
@@ -306184,6 +306291,19 @@
     "tmdb_id": "1451867",
     "type": "movie",
     "updated_at": 1788452160118,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt39667834",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "lust-stories-3",
+      "poseidonhd2": "1451944/lust-stories-3"
+    },
+    "title": "Lust Stories 3",
+    "tmdb_id": "1451944",
+    "type": "movie",
+    "updated_at": 1789767813439,
     "year": 2026
   },
   {
@@ -310698,6 +310818,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt16478058",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "best-of-the-best-1514863",
+      "poseidonhd2": "1514863/best-of-the-best"
+    },
+    "title": "Best of the Best",
+    "tmdb_id": "1514863",
+    "type": "movie",
+    "updated_at": 1789767815444,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt32212495",
     "provider_variants": {},
     "providers": {
@@ -312838,6 +312971,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt37446329",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "despues-de-kim",
+      "poseidonhd2": "1577498/despues-de-kim"
+    },
+    "title": "Después de Kim",
+    "tmdb_id": "1577498",
+    "type": "movie",
+    "updated_at": 1789767827467,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt34937388",
     "provider_variants": {},
     "providers": {
@@ -314960,6 +315106,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt43617372",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "tuyo-los-dos-contra-todos",
+      "poseidonhd2": "1641629/tuyo-los-dos-contra-todos"
+    },
+    "title": "Tú+Yo - Los dos contra todos",
+    "tmdb_id": "1641629",
+    "type": "movie",
+    "updated_at": 1789767821472,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt40224397",
     "provider_variants": {},
     "providers": {
@@ -315274,13 +315433,15 @@
     "imdb_id": "tt41228546",
     "provider_variants": {},
     "providers": {
+      "gnula": "sultana",
       "pelisgratishd": "sultana-hUFIlu",
+      "poseidonhd2": "1656489/sultana",
       "serieskao": "sultana-hUFIlu"
     },
     "title": "Sultana",
     "tmdb_id": "1656489",
     "type": "movie",
-    "updated_at": 1789733730179,
+    "updated_at": 1789767829465,
     "year": 2026
   },
   {
@@ -315828,6 +315989,8 @@
     "imdb_id": "tt42373968",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "gary-2026",
+      "allpeliculas": "gary-2026",
       "gnula": "gary",
       "pelisgratishd": "gary-ZdZlvn",
       "poseidonhd2": "1688652/gary",
@@ -315836,7 +315999,7 @@
     "title": "Gary",
     "tmdb_id": "1688652",
     "type": "movie",
-    "updated_at": 1788458586958,
+    "updated_at": 1789767791424,
     "year": 2026
   },
   {

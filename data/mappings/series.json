@@ -2193,7 +2193,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1789733722111,
+    "updated_at": 1789767801401,
     "year": 2004
   },
   {
@@ -9239,7 +9239,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789733745125,
+    "updated_at": 1789767837468,
     "year": 2003
   },
   {
@@ -68629,7 +68629,7 @@
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1789733720109,
+    "updated_at": 1789767799395,
     "year": 2026
   },
   {
@@ -74459,13 +74459,15 @@
     "imdb_id": "tt37884325",
     "provider_variants": {},
     "providers": {
+      "gnula": "belleza-plastica",
       "pelisgratishd": "belleza-plastica-SeT2lc",
+      "poseidonhd2": "298008/belleza-plastica",
       "serieskao": "belleza-plastica-SeT2lc"
     },
     "title": "Plastic Beauty",
     "tmdb_id": "298008",
     "type": "series",
-    "updated_at": 1789733741203,
+    "updated_at": 1789767831454,
     "year": 2026
   },
   {
@@ -75857,13 +75859,14 @@
     "imdb_id": "tt39495239",
     "provider_variants": {},
     "providers": {
+      "gnula": "the-fixers",
       "pelisgratishd": "-Xz7kYX",
       "serieskao": "-Xz7kYX"
     },
     "title": "The Fixers",
     "tmdb_id": "312663",
     "type": "series",
-    "updated_at": 1789733739201,
+    "updated_at": 1789767803429,
     "year": 2026
   },
   {
@@ -76857,6 +76860,19 @@
     "tmdb_id": "332279",
     "type": "series",
     "updated_at": 1788458586982,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt39390479",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "habilidad-fisica-100-mexico",
+      "poseidonhd2": "332282/habilidad-fisica-100-mexico"
+    },
+    "title": "Habilidad física: 100-México",
+    "tmdb_id": "332282",
+    "type": "series",
+    "updated_at": 1789767833459,
     "year": 2026
   },
   {
