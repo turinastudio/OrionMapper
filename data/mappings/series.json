@@ -1855,6 +1855,19 @@
     "year": 2002
   },
   {
+    "imdb_id": "tt0115231",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "kenan-y-kel-1996",
+      "allpeliculas": "kenan-y-kel-1996"
+    },
+    "title": "Kenan & Kel",
+    "tmdb_id": "1835",
+    "type": "series",
+    "updated_at": 1789819009655,
+    "year": 1996
+  },
+  {
     "imdb_id": "tt0112178",
     "provider_variants": {},
     "providers": {
@@ -2193,7 +2206,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1789767801401,
+    "updated_at": 1789819015716,
     "year": 2004
   },
   {
@@ -2360,13 +2373,15 @@
     "imdb_id": "tt0112123",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "pinky-y-cerebro-1995",
+      "allpeliculas": "pinky-y-cerebro-1995",
       "pelisgratishd": "pinky-y-cerebro",
       "serieskao": "pinky-y-cerebro"
     },
     "title": "Pinky and the Brain",
     "tmdb_id": "2228",
     "type": "series",
-    "updated_at": 1788458586989,
+    "updated_at": 1789819011659,
     "year": 1995
   },
   {
@@ -9239,7 +9254,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789767837468,
+    "updated_at": 1789819033687,
     "year": 2003
   },
   {
@@ -68629,7 +68644,7 @@
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1789767799395,
+    "updated_at": 1789819013651,
     "year": 2026
   },
   {
@@ -70670,6 +70685,19 @@
     "type": "series",
     "updated_at": 1788452160186,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt36347588",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "el-escandalo-K2FJ17",
+      "serieskao": "el-escandalo-K2FJ17"
+    },
+    "title": "The Scandal",
+    "tmdb_id": "275102",
+    "type": "series",
+    "updated_at": 1789819031694,
+    "year": 2026
   },
   {
     "imdb_id": "tt34231110",
@@ -75861,12 +75889,13 @@
     "providers": {
       "gnula": "the-fixers",
       "pelisgratishd": "-Xz7kYX",
+      "poseidonhd2": "312663/the-fixers",
       "serieskao": "-Xz7kYX"
     },
     "title": "The Fixers",
     "tmdb_id": "312663",
     "type": "series",
-    "updated_at": 1789767803429,
+    "updated_at": 1789819026742,
     "year": 2026
   },
   {
@@ -76629,6 +76658,19 @@
     "year": 2019
   },
   {
+    "imdb_id": "tt37694172",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "physical-italia-da-100-a-1-cPFvGD",
+      "serieskao": "physical-italia-da-100-a-1-cPFvGD"
+    },
+    "title": "Physical 100: Italy",
+    "tmdb_id": "324111",
+    "type": "series",
+    "updated_at": 1789819030692,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt39749708",
     "provider_variants": {},
     "providers": {
@@ -76867,12 +76909,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "habilidad-fisica-100-mexico",
-      "poseidonhd2": "332282/habilidad-fisica-100-mexico"
+      "pelisgratishd": "habilidad-fisica-100-mexico-aV5DvQ",
+      "poseidonhd2": "332282/habilidad-fisica-100-mexico",
+      "serieskao": "habilidad-fisica-100-mexico-aV5DvQ"
     },
     "title": "Habilidad física: 100-México",
     "tmdb_id": "332282",
     "type": "series",
-    "updated_at": 1789767833459,
+    "updated_at": 1789819029690,
     "year": 2026
   },
   {
