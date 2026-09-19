@@ -2206,7 +2206,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1789819015716,
+    "updated_at": 1789853369202,
     "year": 2004
   },
   {
@@ -9254,7 +9254,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789819033687,
+    "updated_at": 1789853397257,
     "year": 2003
   },
   {
@@ -68644,7 +68644,7 @@
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1789819013651,
+    "updated_at": 1789853367198,
     "year": 2026
   },
   {
@@ -70688,15 +70688,29 @@
   },
   {
     "imdb_id": "tt36347588",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "el-escandalo-bombshell"
+      ],
+      "poseidonhd2": [
+        "525661/el-escandalo"
+      ],
+      "serieskao": [
+        "el-escandalo-bombshell"
+      ]
+    },
     "providers": {
+      "allcalidad": "el-escandalo-2019",
+      "allpeliculas": "el-escandalo-2019",
+      "gnula": "el-escandalo",
       "pelisgratishd": "el-escandalo-K2FJ17",
+      "poseidonhd2": "275102/el-escandalo",
       "serieskao": "el-escandalo-K2FJ17"
     },
     "title": "The Scandal",
     "tmdb_id": "275102",
     "type": "series",
-    "updated_at": 1789819031694,
+    "updated_at": 1789853388255,
     "year": 2026
   },
   {

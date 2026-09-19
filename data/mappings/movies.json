@@ -6395,6 +6395,19 @@
     "year": 1984
   },
   {
+    "imdb_id": "tt0044079",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "pacto-siniestro-1951",
+      "allpeliculas": "pacto-siniestro-1951"
+    },
+    "title": "Extraños en un tren",
+    "tmdb_id": "845",
+    "type": "movie",
+    "updated_at": 1789853353186,
+    "year": 1951
+  },
+  {
     "imdb_id": "tt0120902",
     "provider_variants": {},
     "providers": {
@@ -6862,6 +6875,19 @@
     "type": "movie",
     "updated_at": 1788464741822,
     "year": 1931
+  },
+  {
+    "imdb_id": "tt0061512",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "la-leyenda-del-indomable-1967",
+      "allpeliculas": "la-leyenda-del-indomable-1967"
+    },
+    "title": "La leyenda del indomable",
+    "tmdb_id": "903",
+    "type": "movie",
+    "updated_at": 1789853355188,
+    "year": 1967
   },
   {
     "imdb_id": "tt0063688",
@@ -87103,7 +87129,17 @@
   },
   {
     "imdb_id": "tt3268668",
-    "provider_variants": {},
+    "provider_variants": {
+      "pelisgratishd": [
+        "cautiva-UF9Y54"
+      ],
+      "poseidonhd2": [
+        "333631/cautiva"
+      ],
+      "serieskao": [
+        "cautiva-UF9Y54"
+      ]
+    },
     "providers": {
       "allcalidad": "cautiva-2015",
       "allpeliculas": "cautiva-2015",
@@ -87115,7 +87151,7 @@
     "title": "Captive",
     "tmdb_id": "331190",
     "type": "movie",
-    "updated_at": 1788464741839,
+    "updated_at": 1789853395264,
     "year": 2015
   },
   {
@@ -88274,6 +88310,19 @@
     "type": "movie",
     "updated_at": 1788458587038,
     "year": 2016
+  },
+  {
+    "imdb_id": "tt0210022",
+    "provider_variants": {},
+    "providers": {
+      "allcalidad": "en-medio-de-ninguna-parte-1997",
+      "allpeliculas": "en-medio-de-ninguna-parte-1997"
+    },
+    "title": "En medio de ninguna parte",
+    "tmdb_id": "336585",
+    "type": "movie",
+    "updated_at": 1789853363200,
+    "year": 1997
   },
   {
     "imdb_id": "tt3966404",
@@ -132434,12 +132483,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "bajo-el-hechizo-del-deseo",
-      "poseidonhd2": "530154/bajo-el-hechizo-del-deseo"
+      "pelisgratishd": "cuatro-historias-de-deseo-A0Z38q",
+      "poseidonhd2": "530154/bajo-el-hechizo-del-deseo",
+      "serieskao": "cuatro-historias-de-deseo-A0Z38q"
     },
     "title": "Bajo el hechizo del deseo",
     "tmdb_id": "530154",
     "type": "movie",
-    "updated_at": 1788452160169,
+    "updated_at": 1789853391259,
     "year": 2018
   },
   {
@@ -222555,6 +222606,8 @@
     "imdb_id": "tt17785786",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "historias-de-terror-de-vietnam-2022",
+      "allpeliculas": "historias-de-terror-de-vietnam-2022",
       "gnula": "historias-de-terror-de-vietnam",
       "pelisgratishd": "historias-de-terror-de-vietnam",
       "poseidonhd2": "930478/historias-de-terror-de-vietnam",
@@ -222563,7 +222616,7 @@
     "title": "Historias de Terror de Vietnam",
     "tmdb_id": "930478",
     "type": "movie",
-    "updated_at": 1788458586963,
+    "updated_at": 1789853361197,
     "year": 2022
   },
   {
@@ -222795,6 +222848,8 @@
     "imdb_id": "tt13884444",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "el-sonador-americano-2022",
+      "allpeliculas": "el-sonador-americano-2022",
       "gnula": "american-dreamer",
       "pelisgratishd": "el-sonador-americano",
       "poseidonhd2": "931461/american-dreamer",
@@ -222803,7 +222858,7 @@
     "title": "El soñador americano",
     "tmdb_id": "931461",
     "type": "movie",
-    "updated_at": 1788458586967,
+    "updated_at": 1789853359195,
     "year": 2022
   },
   {
@@ -232667,7 +232722,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789819032686,
+    "updated_at": 1789853396256,
     "year": 2022
   },
   {
@@ -250208,13 +250263,15 @@
     "imdb_id": "tt13316348",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "el-precio-de-una-vida-2022",
+      "allpeliculas": "el-precio-de-una-vida-2022",
       "pelisgratishd": "rift",
       "serieskao": "rift"
     },
     "title": "Rift",
     "tmdb_id": "1050153",
     "type": "movie",
-    "updated_at": 1788458586963,
+    "updated_at": 1789853365221,
     "year": 2022
   },
   {
@@ -295592,12 +295649,14 @@
     "provider_variants": {},
     "providers": {
       "allcalidad": "tony-2026",
-      "allpeliculas": "tony-2026"
+      "allpeliculas": "tony-2026",
+      "gnula": "tony",
+      "poseidonhd2": "1329016/tony"
     },
     "title": "Tony",
     "tmdb_id": "1329016",
     "type": "movie",
-    "updated_at": 1788464741814,
+    "updated_at": 1789853384266,
     "year": 2026
   },
   {
@@ -305248,6 +305307,8 @@
     "imdb_id": "tt36073210",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "enfrentados-marfil-2026",
+      "allpeliculas": "enfrentados-marfil-2026",
       "gnula": "enfrentados-marfil",
       "pelisgratishd": "enfrentados-marfil-9zemh6",
       "poseidonhd2": "1440098/enfrentados-marfil",
@@ -305256,7 +305317,7 @@
     "title": "Enfrentados: Marfil",
     "tmdb_id": "1440098",
     "type": "movie",
-    "updated_at": 1789128850110,
+    "updated_at": 1789853357192,
     "year": 2026
   },
   {
@@ -306299,12 +306360,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "lust-stories-3",
-      "poseidonhd2": "1451944/lust-stories-3"
+      "pelisgratishd": "cuatro-historias-de-deseo-3-hFSNGj",
+      "poseidonhd2": "1451944/lust-stories-3",
+      "serieskao": "cuatro-historias-de-deseo-3-hFSNGj"
     },
     "title": "Lust Stories 3",
     "tmdb_id": "1451944",
     "type": "movie",
-    "updated_at": 1789767813439,
+    "updated_at": 1789853393261,
     "year": 2026
   },
   {
@@ -310823,12 +310886,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "best-of-the-best-1514863",
-      "poseidonhd2": "1514863/best-of-the-best"
+      "pelisgratishd": "las-mejores-o5LBkj",
+      "poseidonhd2": "1514863/best-of-the-best",
+      "serieskao": "las-mejores-o5LBkj"
     },
     "title": "Best of the Best",
     "tmdb_id": "1514863",
     "type": "movie",
-    "updated_at": 1789767815444,
+    "updated_at": 1789853394265,
     "year": 2026
   },
   {
@@ -315111,12 +315176,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "tuyo-los-dos-contra-todos",
-      "poseidonhd2": "1641629/tuyo-los-dos-contra-todos"
+      "pelisgratishd": "tuyo-solos-contra-todos-rRNGYJ",
+      "poseidonhd2": "1641629/tuyo-los-dos-contra-todos",
+      "serieskao": "tuyo-solos-contra-todos-rRNGYJ"
     },
     "title": "Tú+Yo - Los dos contra todos",
     "tmdb_id": "1641629",
     "type": "movie",
-    "updated_at": 1789767821472,
+    "updated_at": 1789853392262,
     "year": 2026
   },
   {
