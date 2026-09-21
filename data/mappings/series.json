@@ -2206,7 +2206,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1789999802822,
+    "updated_at": 1790030183517,
     "year": 2004
   },
   {
@@ -9254,7 +9254,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1789999816848,
+    "updated_at": 1790030197552,
     "year": 2003
   },
   {
@@ -63501,6 +63501,18 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt30051064",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "american-hostage"
+    },
+    "title": "American Hostage",
+    "tmdb_id": "239618",
+    "type": "series",
+    "updated_at": 1790030185564,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt31433814",
     "provider_variants": {},
     "providers": {
@@ -68644,7 +68656,7 @@
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1789999800819,
+    "updated_at": 1790030181525,
     "year": 2026
   },
   {
@@ -75323,13 +75335,14 @@
     "imdb_id": "tt38626699",
     "provider_variants": {},
     "providers": {
+      "gnula": "killing-grounds-the-gilgo-beach-murders",
       "pelisgratishd": "killing-grounds-the-gilgo-beac-OYSQ9D",
       "serieskao": "killing-grounds-the-gilgo-beac-OYSQ9D"
     },
     "title": "Killing Grounds: The Gilgo Beach Murders",
     "tmdb_id": "304550",
     "type": "series",
-    "updated_at": 1788458586983,
+    "updated_at": 1790030187569,
     "year": 2026
   },
   {

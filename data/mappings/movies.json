@@ -85350,6 +85350,7 @@
     "provider_variants": {},
     "providers": {
       "allcalidad": "lucha-por-la-libertad-2016",
+      "allpeliculas": "lucha-por-la-libertad-2016",
       "gnula": "lucha-por-la-libertad",
       "pelisgratishd": "los-hombres-libres-de-jones",
       "poseidonhd2": "316152/lucha-por-la-libertad",
@@ -85358,7 +85359,7 @@
     "title": "Los hombres libres de Jones",
     "tmdb_id": "316152",
     "type": "movie",
-    "updated_at": 1788461251533,
+    "updated_at": 1790030177555,
     "year": 2016
   },
   {
@@ -87151,7 +87152,7 @@
     "title": "Captive",
     "tmdb_id": "331190",
     "type": "movie",
-    "updated_at": 1789999814851,
+    "updated_at": 1790030195537,
     "year": 2015
   },
   {
@@ -232722,7 +232723,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1789999815847,
+    "updated_at": 1790030196564,
     "year": 2022
   },
   {
@@ -283731,6 +283732,18 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt29803632",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "give-you-a-candy"
+    },
+    "title": "Give You A Candy",
+    "tmdb_id": "1241918",
+    "type": "movie",
+    "updated_at": 1790030183517,
+    "year": 2024
+  },
+  {
     "imdb_id": "tt13650700",
     "provider_variants": {},
     "providers": {
@@ -287126,6 +287139,18 @@
     "type": "movie",
     "updated_at": 1788464741824,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt7526136",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "el-corazon-de-la-bestia-1263337"
+    },
+    "title": "El corazón de la bestia",
+    "tmdb_id": "1263337",
+    "type": "movie",
+    "updated_at": 1790030183517,
+    "year": 2026
   },
   {
     "imdb_id": "tt31869664",
@@ -294495,6 +294520,18 @@
     "type": "movie",
     "updated_at": 1788464741820,
     "year": 2024
+  },
+  {
+    "imdb_id": "tt15487888",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "a-la-cara"
+    },
+    "title": "A la cara",
+    "tmdb_id": "1319977",
+    "type": "movie",
+    "updated_at": 1790030183517,
+    "year": 2026
   },
   {
     "imdb_id": "tt26940959",
@@ -307220,6 +307257,18 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt36583977",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "la-isla-olvidada"
+    },
+    "title": "La isla olvidada",
+    "tmdb_id": "1465063",
+    "type": "movie",
+    "updated_at": 1790030183517,
+    "year": 2026
+  },
+  {
     "imdb_id": null,
     "provider_variants": {},
     "providers": {
@@ -314466,13 +314515,15 @@
     "imdb_id": "tt39314348",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "una-historia-de-gorilas-contada-por-david-attenborough-2026",
+      "allpeliculas": "una-historia-de-gorilas-contada-por-david-attenborough-2026",
       "gnula": "una-historia-de-gorilas-contada-por-david-attenborough",
       "poseidonhd2": "1623125/una-historia-de-gorilas-contada-por-david-attenborough"
     },
     "title": "Una historia de gorilas contada por David Attenborough",
     "tmdb_id": "1623125",
     "type": "movie",
-    "updated_at": 1788452160118,
+    "updated_at": 1790030179521,
     "year": 2026
   },
   {
