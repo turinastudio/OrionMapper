@@ -2206,7 +2206,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1790030183517,
+    "updated_at": 1790080676781,
     "year": 2004
   },
   {
@@ -9254,7 +9254,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1790030197552,
+    "updated_at": 1790080706836,
     "year": 2003
   },
   {
@@ -63504,12 +63504,15 @@
     "imdb_id": "tt30051064",
     "provider_variants": {},
     "providers": {
-      "gnula": "american-hostage"
+      "gnula": "american-hostage",
+      "pelisgratishd": "american-hostage-elQpVN",
+      "poseidonhd2": "239618/american-hostage",
+      "serieskao": "american-hostage-elQpVN"
     },
     "title": "American Hostage",
     "tmdb_id": "239618",
     "type": "series",
-    "updated_at": 1790030185564,
+    "updated_at": 1790080703842,
     "year": 2026
   },
   {
@@ -68656,7 +68659,7 @@
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1790030181525,
+    "updated_at": 1790080674778,
     "year": 2026
   },
   {
@@ -72598,6 +72601,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt35949226",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "youth-zCWTq3",
+      "serieskao": "youth-zCWTq3"
+    },
+    "title": "Youth",
+    "tmdb_id": "285418",
+    "type": "series",
+    "updated_at": 1790080702843,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt39277519",
     "provider_variants": {},
     "providers": {
@@ -75337,12 +75353,13 @@
     "providers": {
       "gnula": "killing-grounds-the-gilgo-beach-murders",
       "pelisgratishd": "killing-grounds-the-gilgo-beac-OYSQ9D",
+      "poseidonhd2": "304550/killing-grounds-the-gilgo-beach-murders",
       "serieskao": "killing-grounds-the-gilgo-beac-OYSQ9D"
     },
     "title": "Killing Grounds: The Gilgo Beach Murders",
     "tmdb_id": "304550",
     "type": "series",
-    "updated_at": 1790030187569,
+    "updated_at": 1790080697859,
     "year": 2026
   },
   {

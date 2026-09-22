@@ -56706,6 +56706,8 @@
     "imdb_id": "tt1120985",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "triste-san-valentin-2010",
+      "allpeliculas": "triste-san-valentin-2010",
       "gnula": "triste-san-valentin",
       "pelisgratishd": "blue-valentine-una-historia-de-amor",
       "poseidonhd2": "46705/triste-san-valentin",
@@ -56714,7 +56716,7 @@
     "title": "Blue Valentine: Una historia de amor",
     "tmdb_id": "46705",
     "type": "movie",
-    "updated_at": 1788458587030,
+    "updated_at": 1790080670785,
     "year": 2010
   },
   {
@@ -87152,7 +87154,7 @@
     "title": "Captive",
     "tmdb_id": "331190",
     "type": "movie",
-    "updated_at": 1790030195537,
+    "updated_at": 1790080704833,
     "year": 2015
   },
   {
@@ -232723,7 +232725,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1790030196564,
+    "updated_at": 1790080705847,
     "year": 2022
   },
   {
@@ -283735,12 +283737,13 @@
     "imdb_id": "tt29803632",
     "provider_variants": {},
     "providers": {
-      "gnula": "give-you-a-candy"
+      "gnula": "give-you-a-candy",
+      "poseidonhd2": "1241918/give-you-a-candy"
     },
     "title": "Give You A Candy",
     "tmdb_id": "1241918",
     "type": "movie",
-    "updated_at": 1790030183517,
+    "updated_at": 1790080693853,
     "year": 2024
   },
   {
@@ -287144,12 +287147,13 @@
     "imdb_id": "tt7526136",
     "provider_variants": {},
     "providers": {
-      "gnula": "el-corazon-de-la-bestia-1263337"
+      "gnula": "el-corazon-de-la-bestia-1263337",
+      "poseidonhd2": "1263337/el-corazon-de-la-bestia"
     },
     "title": "El corazón de la bestia",
     "tmdb_id": "1263337",
     "type": "movie",
-    "updated_at": 1790030183517,
+    "updated_at": 1790080689838,
     "year": 2026
   },
   {
@@ -294525,12 +294529,13 @@
     "imdb_id": "tt15487888",
     "provider_variants": {},
     "providers": {
-      "gnula": "a-la-cara"
+      "gnula": "a-la-cara",
+      "poseidonhd2": "1319977/a-la-cara"
     },
     "title": "A la cara",
     "tmdb_id": "1319977",
     "type": "movie",
-    "updated_at": 1790030183517,
+    "updated_at": 1790080687840,
     "year": 2026
   },
   {
@@ -306405,6 +306410,8 @@
     "imdb_id": "tt39667834",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "bajo-el-hechizo-del-deseo-3-2026",
+      "allpeliculas": "bajo-el-hechizo-del-deseo-3-2026",
       "gnula": "lust-stories-3",
       "pelisgratishd": "cuatro-historias-de-deseo-3-hFSNGj",
       "poseidonhd2": "1451944/lust-stories-3",
@@ -306413,7 +306420,7 @@
     "title": "Lust Stories 3",
     "tmdb_id": "1451944",
     "type": "movie",
-    "updated_at": 1789853393261,
+    "updated_at": 1790080668778,
     "year": 2026
   },
   {
@@ -307260,12 +307267,13 @@
     "imdb_id": "tt36583977",
     "provider_variants": {},
     "providers": {
-      "gnula": "la-isla-olvidada"
+      "gnula": "la-isla-olvidada",
+      "poseidonhd2": "1465063/la-isla-olvidada"
     },
     "title": "La isla olvidada",
     "tmdb_id": "1465063",
     "type": "movie",
-    "updated_at": 1790030183517,
+    "updated_at": 1790080691847,
     "year": 2026
   },
   {
@@ -314164,13 +314172,15 @@
     "imdb_id": "tt35495331",
     "provider_variants": {},
     "providers": {
+      "allcalidad": "mi-mejor-enemiga-2026",
+      "allpeliculas": "mi-mejor-enemiga-2026",
       "gnula": "mi-mejor-enemiga",
       "poseidonhd2": "1611380/mi-mejor-enemiga"
     },
     "title": "Mi mejor enemiga",
     "tmdb_id": "1611380",
     "type": "movie",
-    "updated_at": 1788452160117,
+    "updated_at": 1790080672787,
     "year": 2026
   },
   {
