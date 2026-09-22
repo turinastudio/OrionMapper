@@ -2206,7 +2206,7 @@
     "title": "The Batman",
     "tmdb_id": "2022",
     "type": "series",
-    "updated_at": 1790080676781,
+    "updated_at": 1790115056445,
     "year": 2004
   },
   {
@@ -9254,7 +9254,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1790080706836,
+    "updated_at": 1790115083502,
     "year": 2003
   },
   {
@@ -68659,7 +68659,7 @@
     "title": "Last Seen",
     "tmdb_id": "258230",
     "type": "series",
-    "updated_at": 1790080674778,
+    "updated_at": 1790115054442,
     "year": 2026
   },
   {
@@ -72604,13 +72604,15 @@
     "imdb_id": "tt35949226",
     "provider_variants": {},
     "providers": {
+      "gnula": "youth",
       "pelisgratishd": "youth-zCWTq3",
+      "poseidonhd2": "285418/youth",
       "serieskao": "youth-zCWTq3"
     },
     "title": "Youth",
     "tmdb_id": "285418",
     "type": "series",
-    "updated_at": 1790080702843,
+    "updated_at": 1790115071489,
     "year": 2026
   },
   {
@@ -75925,6 +75927,18 @@
     "tmdb_id": "312530",
     "type": "series",
     "updated_at": 1788458586984,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt28765828",
+    "provider_variants": {},
+    "providers": {
+      "serieskao": "academia-minerva-1D5aEB"
+    },
+    "title": "Minerva Academy",
+    "tmdb_id": "312557",
+    "type": "series",
+    "updated_at": 1790115080523,
     "year": 2026
   },
   {
