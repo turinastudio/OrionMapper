@@ -9254,7 +9254,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1790167874397,
+    "updated_at": 1790202209533,
     "year": 2003
   },
   {
@@ -66761,6 +66761,19 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt6773088",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "brothers-doCZaa",
+      "serieskao": "brothers-doCZaa"
+    },
+    "title": "Brothers",
+    "tmdb_id": "250203",
+    "type": "series",
+    "updated_at": 1790202204525,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt31909098",
     "provider_variants": {},
     "providers": {
@@ -72913,6 +72926,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt36258621",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "el-billete-dorado-de-willy-won-hzutdC",
+      "serieskao": "el-billete-dorado-de-willy-won-hzutdC"
+    },
+    "title": "Wonka's The Golden Ticket",
+    "tmdb_id": "286940",
+    "type": "series",
+    "updated_at": 1790202206528,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt36217717",
     "provider_variants": {},
     "providers": {
@@ -75662,6 +75688,19 @@
     "tmdb_id": "308606",
     "type": "series",
     "updated_at": 1788452160185,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt39369819",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "habeas-corpus-3TWpv7",
+      "serieskao": "habeas-corpus-3TWpv7"
+    },
+    "title": "Habeas Corpus",
+    "tmdb_id": "308963",
+    "type": "series",
+    "updated_at": 1790202205525,
     "year": 2026
   },
   {
