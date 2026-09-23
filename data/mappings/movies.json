@@ -12210,12 +12210,13 @@
     "imdb_id": "tt0371246",
     "provider_variants": {},
     "providers": {
+      "pelisgratishd": "spanglish-JswKPP",
       "serieskao": "spanglish-JswKPP"
     },
     "title": "Spanglish",
     "tmdb_id": "2539",
     "type": "movie",
-    "updated_at": 1790115078520,
+    "updated_at": 1790167862399,
     "year": 2004
   },
   {
@@ -38075,12 +38076,13 @@
     "providers": {
       "allcalidad": "eight-men-out-1988",
       "allpeliculas": "eight-men-out-1988",
+      "pelisgratishd": "ocho-hombres-Dv4OoY",
       "serieskao": "ocho-hombres-Dv4OoY"
     },
     "title": "Ocho hombres",
     "tmdb_id": "13554",
     "type": "movie",
-    "updated_at": 1790115079519,
+    "updated_at": 1790167863406,
     "year": 1988
   },
   {
@@ -80281,12 +80283,13 @@
     "imdb_id": "tt3148348",
     "provider_variants": {},
     "providers": {
+      "pelisgratishd": "let-us-prey-Of9H6o",
       "serieskao": "let-us-prey-Of9H6o"
     },
     "title": "Let Us Prey",
     "tmdb_id": "276488",
     "type": "movie",
-    "updated_at": 1790115076514,
+    "updated_at": 1790167860399,
     "year": 2014
   },
   {
@@ -87181,7 +87184,7 @@
     "title": "Captive",
     "tmdb_id": "331190",
     "type": "movie",
-    "updated_at": 1790115081499,
+    "updated_at": 1790167872393,
     "year": 2015
   },
   {
@@ -211152,12 +211155,13 @@
     "imdb_id": "tt3696498",
     "provider_variants": {},
     "providers": {
+      "pelisgratishd": "inocencia-robada-Y9rbGy",
       "serieskao": "inocencia-robada-Y9rbGy"
     },
     "title": "Bittersweet",
     "tmdb_id": "871220",
     "type": "movie",
-    "updated_at": 1790115075513,
+    "updated_at": 1790167859437,
     "year": 2016
   },
   {
@@ -232764,7 +232768,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1790115082501,
+    "updated_at": 1790167873406,
     "year": 2022
   },
   {
@@ -279140,13 +279144,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "kangaroo",
+      "pelisgratishd": "kangaroo-una-aventura-en-austr-EPwEEo",
       "poseidonhd2": "1214028/kangaroo",
       "serieskao": "kangaroo-una-aventura-en-austr-EPwEEo"
     },
     "title": "Kangaroo",
     "tmdb_id": "1214028",
     "type": "movie",
-    "updated_at": 1790115077514,
+    "updated_at": 1790167861398,
     "year": 2025
   },
   {
@@ -314168,13 +314173,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "la-ultima-bala",
+      "pelisgratishd": "one-last-shot-TKq5Kb",
       "poseidonhd2": "1607127/la-ultima-bala",
       "serieskao": "one-last-shot-TKq5Kb"
     },
     "title": "La última bala",
     "tmdb_id": "1607127",
     "type": "movie",
-    "updated_at": 1790115074504,
+    "updated_at": 1790167858392,
     "year": 2026
   },
   {

@@ -9254,7 +9254,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1790115083502,
+    "updated_at": 1790167874397,
     "year": 2003
   },
   {
@@ -75933,12 +75933,13 @@
     "imdb_id": "tt28765828",
     "provider_variants": {},
     "providers": {
+      "pelisgratishd": "academia-minerva-1D5aEB",
       "serieskao": "academia-minerva-1D5aEB"
     },
     "title": "Minerva Academy",
     "tmdb_id": "312557",
     "type": "series",
-    "updated_at": 1790115080523,
+    "updated_at": 1790167864406,
     "year": 2026
   },
   {
