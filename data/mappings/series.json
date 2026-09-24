@@ -9254,7 +9254,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1790202209533,
+    "updated_at": 1790254176377,
     "year": 2003
   },
   {
@@ -76972,6 +76972,19 @@
     "tmdb_id": "330540",
     "type": "series",
     "updated_at": 1788458586982,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt43750391",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "masters-of-the-universe-tales--XJ74W6",
+      "serieskao": "masters-of-the-universe-tales--XJ74W6"
+    },
+    "title": "Masters of the Universe: Tales from Eternia",
+    "tmdb_id": "331349",
+    "type": "series",
+    "updated_at": 1790254173385,
     "year": 2026
   },
   {
