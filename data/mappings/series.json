@@ -9254,7 +9254,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1790254176377,
+    "updated_at": 1790288771670,
     "year": 2003
   },
   {
@@ -72541,6 +72541,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt35929525",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "shaque-no-confies-en-nadie-gmNMas",
+      "serieskao": "shaque-no-confies-en-nadie-gmNMas"
+    },
+    "title": "Shaque: Trust No One",
+    "tmdb_id": "285147",
+    "type": "series",
+    "updated_at": 1790288767673,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt32491422",
     "provider_variants": {},
     "providers": {
@@ -75540,6 +75553,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt33081352",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "un-mundo-diferente-b3eaOq",
+      "serieskao": "un-mundo-diferente-b3eaOq"
+    },
+    "title": "A Different World",
+    "tmdb_id": "305357",
+    "type": "series",
+    "updated_at": 1790288768676,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt39368345",
     "provider_variants": {},
     "providers": {
@@ -77000,6 +77026,32 @@
     "tmdb_id": "331650",
     "type": "series",
     "updated_at": 1788458586982,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt39749747",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "delirio-mortal-gDFSG7",
+      "serieskao": "delirio-mortal-gDFSG7"
+    },
+    "title": "Delusion",
+    "tmdb_id": "331979",
+    "type": "series",
+    "updated_at": 1790288765673,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt41377479",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "team-moms-baseball-VD3Sm8",
+      "serieskao": "team-moms-baseball-VD3Sm8"
+    },
+    "title": "Team Moms: Baseball",
+    "tmdb_id": "332118",
+    "type": "series",
+    "updated_at": 1790288764667,
     "year": 2026
   },
   {
