@@ -9254,7 +9254,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1790340783032,
+    "updated_at": 1790374949419,
     "year": 2003
   },
   {
@@ -73176,6 +73176,18 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt40407840",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "paolo-lYoQ6D"
+    },
+    "title": "Paolo",
+    "tmdb_id": "288385",
+    "type": "series",
+    "updated_at": 1790374935480,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt36495086",
     "provider_variants": {},
     "providers": {
@@ -73582,6 +73594,18 @@
     "type": "series",
     "updated_at": 1788458586985,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt36832679",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "el-problema-final-KBqZyp"
+    },
+    "title": "The Final Problem",
+    "tmdb_id": "290720",
+    "type": "series",
+    "updated_at": 1790374937484,
+    "year": 2026
   },
   {
     "imdb_id": "tt36832222",
@@ -75796,6 +75820,18 @@
     "tmdb_id": "310070",
     "type": "series",
     "updated_at": 1788458586984,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt39379365",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "4-blocks-zero-ZqjhNs"
+    },
+    "title": "4 Blocks Zero",
+    "tmdb_id": "310133",
+    "type": "series",
+    "updated_at": 1790374936484,
     "year": 2026
   },
   {
