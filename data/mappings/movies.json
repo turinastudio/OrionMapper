@@ -87199,7 +87199,7 @@
     "title": "Captive",
     "tmdb_id": "331190",
     "type": "movie",
-    "updated_at": 1790424908382,
+    "updated_at": 1790459941525,
     "year": 2015
   },
   {
@@ -232787,7 +232787,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1790424909383,
+    "updated_at": 1790459942526,
     "year": 2022
   },
   {
@@ -289681,12 +289681,14 @@
       "allcalidad": "la-muerte-de-robin-hood-2026",
       "allpeliculas": "la-muerte-de-robin-hood-2026",
       "gnula": "la-muerte-de-robin-hood",
-      "poseidonhd2": "1284465/la-muerte-de-robin-hood"
+      "pelisgratishd": "la-muerte-de-robin-hood-iDsN8O",
+      "poseidonhd2": "1284465/la-muerte-de-robin-hood",
+      "serieskao": "la-muerte-de-robin-hood-iDsN8O"
     },
     "title": "La muerte de Robin Hood",
     "tmdb_id": "1284465",
     "type": "movie",
-    "updated_at": 1788464741816,
+    "updated_at": 1790459939525,
     "year": 2026
   },
   {
@@ -298285,12 +298287,14 @@
       "allcalidad": "insaciable-2026",
       "allpeliculas": "insaciable-2026",
       "gnula": "insaciable",
-      "poseidonhd2": "1363387/insaciable"
+      "pelisgratishd": "insaciable-W2UfRe",
+      "poseidonhd2": "1363387/insaciable",
+      "serieskao": "insaciable-W2UfRe"
     },
     "title": "Insaciable",
     "tmdb_id": "1363387",
     "type": "movie",
-    "updated_at": 1788464741817,
+    "updated_at": 1790459938521,
     "year": 2026
   },
   {
@@ -309768,12 +309772,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "unabomber",
-      "poseidonhd2": "1492640/unabomber"
+      "pelisgratishd": "unabomber-SnPCdS",
+      "poseidonhd2": "1492640/unabomber",
+      "serieskao": "unabomber-SnPCdS"
     },
     "title": "UNABOMBER",
     "tmdb_id": "1492640",
     "type": "movie",
-    "updated_at": 1790424897421,
+    "updated_at": 1790459937521,
     "year": 2026
   },
   {
@@ -316850,7 +316856,7 @@
     "title": "My Sad Dead",
     "tmdb_id": "1739303",
     "type": "movie",
-    "updated_at": 1790424907380,
+    "updated_at": 1790459940524,
     "year": 2026
   },
   {

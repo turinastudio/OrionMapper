@@ -2262,6 +2262,14 @@
   {
     "provider": "serieskao",
     "reason": "missing_ids",
+    "slug": "kaidan-horror-classics-bkve7v",
+    "title": "Kaidan Horror Classics",
+    "type": "series",
+    "year": null
+  },
+  {
+    "provider": "serieskao",
+    "reason": "missing_ids",
     "slug": "kaidan-horror-classics-god4zk",
     "title": "Kaidan Horror Classics",
     "type": "series",
