@@ -87199,7 +87199,7 @@
     "title": "Captive",
     "tmdb_id": "331190",
     "type": "movie",
-    "updated_at": 1790374947416,
+    "updated_at": 1790424908382,
     "year": 2015
   },
   {
@@ -197720,13 +197720,15 @@
     "imdb_id": "tt14119302",
     "provider_variants": {},
     "providers": {
+      "gnula": "hot-spot",
       "pelisgratishd": "hot-spot-zB92ym",
+      "poseidonhd2": "813418/hot-spot",
       "serieskao": "hot-spot-zB92ym"
     },
     "title": "Hot Spot",
     "tmdb_id": "813418",
     "type": "movie",
-    "updated_at": 1789128859123,
+    "updated_at": 1790424893398,
     "year": 2026
   },
   {
@@ -232785,7 +232787,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1790374948417,
+    "updated_at": 1790424909383,
     "year": 2022
   },
   {
@@ -246982,13 +246984,15 @@
     "imdb_id": "tt22526100",
     "provider_variants": {},
     "providers": {
+      "gnula": "la-hipotesis-del-amor",
       "pelisgratishd": "la-hipotesis-del-amor-9gYvuz",
+      "poseidonhd2": "1032863/la-hipotesis-del-amor",
       "serieskao": "la-hipotesis-del-amor-9gYvuz"
     },
     "title": "The Love Hypothesis",
     "tmdb_id": "1032863",
     "type": "movie",
-    "updated_at": 1790254169379,
+    "updated_at": 1790424899395,
     "year": 2026
   },
   {
@@ -309760,6 +309764,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt6933238",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "unabomber",
+      "poseidonhd2": "1492640/unabomber"
+    },
+    "title": "UNABOMBER",
+    "tmdb_id": "1492640",
+    "type": "movie",
+    "updated_at": 1790424897421,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt35257677",
     "provider_variants": {},
     "providers": {
@@ -316833,7 +316850,7 @@
     "title": "My Sad Dead",
     "tmdb_id": "1739303",
     "type": "movie",
-    "updated_at": 1790374946439,
+    "updated_at": 1790424907380,
     "year": 2026
   },
   {
@@ -316958,6 +316975,19 @@
     "type": "movie",
     "updated_at": 1788464741814,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt44171293",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "spidey-and-the-avengers-halloween-team-up",
+      "poseidonhd2": "1750432/spidey-and-the-avengers-halloween-team-up"
+    },
+    "title": "Spidey and the Avengers: Halloween Team-Up!",
+    "tmdb_id": "1750432",
+    "type": "movie",
+    "updated_at": 1790424895397,
+    "year": 2026
   },
   {
     "imdb_id": "tt44322266",
