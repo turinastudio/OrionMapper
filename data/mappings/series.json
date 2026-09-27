@@ -9254,7 +9254,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1790514173837,
+    "updated_at": 1790547212040,
     "year": 2003
   },
   {
@@ -38222,6 +38222,19 @@
     "type": "series",
     "updated_at": 1788458586989,
     "year": 2023
+  },
+  {
+    "imdb_id": "tt13891272",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "crecer-como-animal-YoVr7B",
+      "serieskao": "crecer-como-animal-YoVr7B"
+    },
+    "title": "Growing Up Animal",
+    "tmdb_id": "126794",
+    "type": "series",
+    "updated_at": 1790547208035,
+    "year": 2021
   },
   {
     "imdb_id": "tt12915960",
@@ -73179,13 +73192,15 @@
     "imdb_id": "tt40407840",
     "provider_variants": {},
     "providers": {
+      "gnula": "paolo",
       "pelisgratishd": "paolo-lYoQ6D",
+      "poseidonhd2": "288385/paolo",
       "serieskao": "paolo-lYoQ6D"
     },
     "title": "Paolo",
     "tmdb_id": "288385",
     "type": "series",
-    "updated_at": 1790424904401,
+    "updated_at": 1790547189004,
     "year": 2026
   },
   {
@@ -73600,13 +73615,15 @@
     "imdb_id": "tt36832679",
     "provider_variants": {},
     "providers": {
+      "gnula": "el-problema-final",
       "pelisgratishd": "el-problema-final-KBqZyp",
+      "poseidonhd2": "290720/el-problema-final",
       "serieskao": "el-problema-final-KBqZyp"
     },
     "title": "The Final Problem",
     "tmdb_id": "290720",
     "type": "series",
-    "updated_at": 1790424906405,
+    "updated_at": 1790547191007,
     "year": 2026
   },
   {

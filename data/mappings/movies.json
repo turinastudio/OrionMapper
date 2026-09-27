@@ -87199,7 +87199,7 @@
     "title": "Captive",
     "tmdb_id": "331190",
     "type": "movie",
-    "updated_at": 1790514171832,
+    "updated_at": 1790547210031,
     "year": 2015
   },
   {
@@ -232787,7 +232787,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1790514172831,
+    "updated_at": 1790547211029,
     "year": 2022
   },
   {
@@ -243696,6 +243696,19 @@
     "year": 2022
   },
   {
+    "imdb_id": "tt28834646",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "la-chica-del-coro-3OJjKY",
+      "serieskao": "la-chica-del-coro-3OJjKY"
+    },
+    "title": "Little Trouble Girls",
+    "tmdb_id": "1019871",
+    "type": "movie",
+    "updated_at": 1790547206031,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt22041854",
     "provider_variants": {},
     "providers": {
@@ -246395,12 +246408,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "las-corrientes",
-      "poseidonhd2": "1031084/las-corrientes"
+      "pelisgratishd": "las-corrientes-DxkFAZ",
+      "poseidonhd2": "1031084/las-corrientes",
+      "serieskao": "las-corrientes-DxkFAZ"
     },
     "title": "Las corrientes",
     "tmdb_id": "1031084",
     "type": "movie",
-    "updated_at": 1788452160117,
+    "updated_at": 1790547198025,
     "year": 2025
   },
   {
@@ -248086,6 +248101,19 @@
     "type": "movie",
     "updated_at": 1788464741827,
     "year": 2022
+  },
+  {
+    "imdb_id": "tt22852560",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "la-desaparicion-de-josef-menge-zNKJlD",
+      "serieskao": "la-desaparicion-de-josef-menge-zNKJlD"
+    },
+    "title": "The Disappearance of Josef Mengele",
+    "tmdb_id": "1037264",
+    "type": "movie",
+    "updated_at": 1790547207034,
+    "year": 2025
   },
   {
     "imdb_id": "tt15174268",
@@ -283605,12 +283633,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "adolescencia-sexo-y-muerte-en-campamento-miasma",
-      "poseidonhd2": "1240889/adolescencia-sexo-y-muerte-en-campamento-miasma"
+      "pelisgratishd": "adolescencia-sexo-y-muerte-en--n9J7Rk",
+      "poseidonhd2": "1240889/adolescencia-sexo-y-muerte-en-campamento-miasma",
+      "serieskao": "adolescencia-sexo-y-muerte-en--n9J7Rk"
     },
     "title": "Adolescencia, Sexo y Muerte en Campamento Miasma",
     "tmdb_id": "1240889",
     "type": "movie",
-    "updated_at": 1788452160117,
+    "updated_at": 1790547203027,
     "year": 2026
   },
   {
@@ -293315,12 +293345,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "luger",
-      "poseidonhd2": "1310846/luger"
+      "pelisgratishd": "luger-PUsVWr",
+      "poseidonhd2": "1310846/luger",
+      "serieskao": "luger-PUsVWr"
     },
     "title": "Luger",
     "tmdb_id": "1310846",
     "type": "movie",
-    "updated_at": 1788452160117,
+    "updated_at": 1790547204033,
     "year": 2025
   },
   {
@@ -301462,6 +301494,19 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt35303515",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "un-secuestro-familiar-CTMUwJ",
+      "serieskao": "un-secuestro-familiar-CTMUwJ"
+    },
+    "title": "Feels Like Home",
+    "tmdb_id": "1395661",
+    "type": "movie",
+    "updated_at": 1790547202027,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt21145854",
     "provider_variants": {},
     "providers": {
@@ -301856,12 +301901,14 @@
       "allcalidad": "rose-of-nevada-2026",
       "allpeliculas": "rose-of-nevada-2026",
       "gnula": "rose-of-nevada",
-      "poseidonhd2": "1399525/rose-of-nevada"
+      "pelisgratishd": "rose-of-nevada-40CoFU",
+      "poseidonhd2": "1399525/rose-of-nevada",
+      "serieskao": "rose-of-nevada-40CoFU"
     },
     "title": "Rose of Nevada",
     "tmdb_id": "1399525",
     "type": "movie",
-    "updated_at": 1788464741815,
+    "updated_at": 1790547200024,
     "year": 2026
   },
   {
@@ -303578,12 +303625,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "it-ends",
-      "poseidonhd2": "1422011/it-ends"
+      "pelisgratishd": "it-ends-0t47oQ",
+      "poseidonhd2": "1422011/it-ends",
+      "serieskao": "it-ends-0t47oQ"
     },
     "title": "It Ends",
     "tmdb_id": "1422011",
     "type": "movie",
-    "updated_at": 1788452160121,
+    "updated_at": 1790547201023,
     "year": 2026
   },
   {
@@ -305109,6 +305158,19 @@
     "tmdb_id": "1435092",
     "type": "movie",
     "updated_at": 1788464741821,
+    "year": 2025
+  },
+  {
+    "imdb_id": "tt35705915",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "andrew-schulz-life-0twAdm",
+      "serieskao": "andrew-schulz-life-0twAdm"
+    },
+    "title": "Andrew Schulz: LIFE",
+    "tmdb_id": "1435760",
+    "type": "movie",
+    "updated_at": 1790547199020,
     "year": 2025
   },
   {
@@ -310631,6 +310693,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt31936369",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "on-the-sea-Spu5x4",
+      "serieskao": "on-the-sea-Spu5x4"
+    },
+    "title": "On the Sea",
+    "tmdb_id": "1507796",
+    "type": "movie",
+    "updated_at": 1790547205030,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt35303528",
     "provider_variants": {},
     "providers": {
@@ -312976,6 +313051,19 @@
     "type": "movie",
     "updated_at": 1788464741820,
     "year": 2026
+  },
+  {
+    "imdb_id": "tt38532052",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "la-dicha-en-movimiento-zXo2XX",
+      "serieskao": "la-dicha-en-movimiento-zXo2XX"
+    },
+    "title": "La dicha en movimiento",
+    "tmdb_id": "1571301",
+    "type": "movie",
+    "updated_at": 1790547197020,
+    "year": 2025
   },
   {
     "imdb_id": "tt28283547",
@@ -316856,7 +316944,7 @@
     "title": "My Sad Dead",
     "tmdb_id": "1739303",
     "type": "movie",
-    "updated_at": 1790514170828,
+    "updated_at": 1790547209025,
     "year": 2026
   },
   {
@@ -316987,12 +317075,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "spidey-and-the-avengers-halloween-team-up",
-      "poseidonhd2": "1750432/spidey-and-the-avengers-halloween-team-up"
+      "pelisgratishd": "spidey-y-los-vengadores-supere-WmthZ1",
+      "poseidonhd2": "1750432/spidey-and-the-avengers-halloween-team-up",
+      "serieskao": "spidey-y-los-vengadores-supere-WmthZ1"
     },
     "title": "Spidey and the Avengers: Halloween Team-Up!",
     "tmdb_id": "1750432",
     "type": "movie",
-    "updated_at": 1790424895397,
+    "updated_at": 1790547196016,
     "year": 2026
   },
   {
