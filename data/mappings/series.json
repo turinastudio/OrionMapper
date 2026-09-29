@@ -7677,6 +7677,19 @@
     "year": 2017
   },
   {
+    "imdb_id": "tt3129942",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "decisiones-extremas-c2RJig",
+      "serieskao": "decisiones-extremas-c2RJig"
+    },
+    "title": "Decisiones Extremas",
+    "tmdb_id": "39874",
+    "type": "series",
+    "updated_at": 1790722767830,
+    "year": null
+  },
+  {
     "imdb_id": "tt1545214",
     "provider_variants": {},
     "providers": {
@@ -9254,7 +9267,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1790690741926,
+    "updated_at": 1790722770829,
     "year": 2003
   },
   {
@@ -72881,6 +72894,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt32872971",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "-AvR93O",
+      "serieskao": "-AvR93O"
+    },
+    "title": "The German",
+    "tmdb_id": "286656",
+    "type": "series",
+    "updated_at": 1790722766826,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt40444881",
     "provider_variants": {},
     "providers": {
@@ -74099,6 +74125,19 @@
     "type": "series",
     "updated_at": 1788452160185,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt36984433",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "swat-exiles-nueva-generacion-ripccu",
+      "serieskao": "swat-exiles-nueva-generacion-ripccu"
+    },
+    "title": "S.W.A.T. Exiles",
+    "tmdb_id": "292742",
+    "type": "series",
+    "updated_at": 1790722764821,
+    "year": 2026
   },
   {
     "imdb_id": "tt34384091",
@@ -75363,6 +75402,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt35494557",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "we-come-in-peace-PL3f1r",
+      "serieskao": "we-come-in-peace-PL3f1r"
+    },
+    "title": "We Come in Peace",
+    "tmdb_id": "303799",
+    "type": "series",
+    "updated_at": 1790722765821,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt39266137",
     "provider_variants": {},
     "providers": {
@@ -76352,6 +76404,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt40444386",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "viviendo-con-un-asesino-mi-hij-rYqvwy",
+      "serieskao": "viviendo-con-un-asesino-mi-hij-rYqvwy"
+    },
+    "title": "Evil Lives Here: My Child the Killer",
+    "tmdb_id": "315837",
+    "type": "series",
+    "updated_at": 1790722763815,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt40526776",
     "provider_variants": {},
     "providers": {
@@ -76583,6 +76648,19 @@
     "tmdb_id": "318906",
     "type": "series",
     "updated_at": 1788458586983,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt41538904",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "lego-one-piece-3zKOJ3",
+      "serieskao": "lego-one-piece-3zKOJ3"
+    },
+    "title": "LEGO ONE PIECE",
+    "tmdb_id": "318918",
+    "type": "series",
+    "updated_at": 1790722762814,
     "year": 2026
   },
   {

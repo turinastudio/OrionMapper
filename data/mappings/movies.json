@@ -87199,7 +87199,7 @@
     "title": "Captive",
     "tmdb_id": "331190",
     "type": "movie",
-    "updated_at": 1790690739923,
+    "updated_at": 1790722758809,
     "year": 2015
   },
   {
@@ -196035,12 +196035,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "mas-alla-de-los-dos-minutos-infinitos",
-      "poseidonhd2": "805627/mas-alla-de-los-dos-minutos-infinitos"
+      "pelisgratishd": "mas-alla-de-los-dos-minutos-in-akBs8Q",
+      "poseidonhd2": "805627/mas-alla-de-los-dos-minutos-infinitos",
+      "serieskao": "mas-alla-de-los-dos-minutos-in-akBs8Q"
     },
     "title": "Más allá de los dos minutos infinitos",
     "tmdb_id": "805627",
     "type": "movie",
-    "updated_at": 1788452160175,
+    "updated_at": 1790722761816,
     "year": 2020
   },
   {
@@ -232787,7 +232789,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1790690740925,
+    "updated_at": 1790722769824,
     "year": 2022
   },
   {
@@ -289887,12 +289889,14 @@
       "allcalidad": "lifehack-2026",
       "allpeliculas": "lifehack-2026",
       "gnula": "lifehack",
-      "poseidonhd2": "1285669/lifehack"
+      "pelisgratishd": "lifehack-Q7eAEx",
+      "poseidonhd2": "1285669/lifehack",
+      "serieskao": "lifehack-Q7eAEx"
     },
     "title": "LifeHack",
     "tmdb_id": "1285669",
     "type": "movie",
-    "updated_at": 1788523806448,
+    "updated_at": 1790722759809,
     "year": 2026
   },
   {
@@ -299803,12 +299807,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "entrega-al-limite",
-      "poseidonhd2": "1377237/entrega-al-limite"
+      "pelisgratishd": "entrega-al-limite-PESeOu",
+      "poseidonhd2": "1377237/entrega-al-limite",
+      "serieskao": "entrega-al-limite-PESeOu"
     },
     "title": "Entrega al límite",
     "tmdb_id": "1377237",
     "type": "movie",
-    "updated_at": 1789302393822,
+    "updated_at": 1790722760810,
     "year": 2026
   },
   {
@@ -316944,7 +316950,7 @@
     "title": "My Sad Dead",
     "tmdb_id": "1739303",
     "type": "movie",
-    "updated_at": 1790690738921,
+    "updated_at": 1790722768822,
     "year": 2026
   },
   {
