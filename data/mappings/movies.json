@@ -87199,7 +87199,7 @@
     "title": "Captive",
     "tmdb_id": "331190",
     "type": "movie",
-    "updated_at": 1790722758809,
+    "updated_at": 1790775869095,
     "year": 2015
   },
   {
@@ -232789,7 +232789,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1790722769824,
+    "updated_at": 1790775870096,
     "year": 2022
   },
   {
@@ -233382,12 +233382,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "the-uprising",
-      "poseidonhd2": "977942/the-uprising"
+      "pelisgratishd": "el-hombre-que-desafio-al-rey-I2ZTKz",
+      "poseidonhd2": "977942/the-uprising",
+      "serieskao": "el-hombre-que-desafio-al-rey-I2ZTKz"
     },
     "title": "The Uprising",
     "tmdb_id": "977942",
     "type": "movie",
-    "updated_at": 1788869340376,
+    "updated_at": 1790775867102,
     "year": 2026
   },
   {
@@ -295040,6 +295042,19 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt36282134",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "mononoke-the-movie-chapter-iii-the-curse-of-the-serpent",
+      "poseidonhd2": "1322562/mononoke-the-movie-chapter-iii-the-curse-of-the-serpent"
+    },
+    "title": "Mononoke the Movie: Chapter III - The Curse of the Serpent",
+    "tmdb_id": "1322562",
+    "type": "movie",
+    "updated_at": 1790775862110,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt33348138",
     "provider_variants": {},
     "providers": {
@@ -316950,7 +316965,7 @@
     "title": "My Sad Dead",
     "tmdb_id": "1739303",
     "type": "movie",
-    "updated_at": 1790722768822,
+    "updated_at": 1790775868093,
     "year": 2026
   },
   {
