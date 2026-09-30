@@ -87199,7 +87199,7 @@
     "title": "Captive",
     "tmdb_id": "331190",
     "type": "movie",
-    "updated_at": 1790775869095,
+    "updated_at": 1790809304465,
     "year": 2015
   },
   {
@@ -121879,6 +121879,19 @@
     "type": "movie",
     "updated_at": 1788458587018,
     "year": 2020
+  },
+  {
+    "imdb_id": "tt7434324",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "marea-baja-jxVi2n",
+      "serieskao": "marea-baja-jxVi2n"
+    },
+    "title": "Low Tide",
+    "tmdb_id": "493066",
+    "type": "movie",
+    "updated_at": 1790809299447,
+    "year": 2019
   },
   {
     "imdb_id": "tt7689964",
@@ -232789,7 +232802,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1790775870096,
+    "updated_at": 1790809305444,
     "year": 2022
   },
   {
@@ -286689,6 +286702,19 @@
     "year": 2024
   },
   {
+    "imdb_id": "tt33381401",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "el-amor-que-permanece-0hjXkZ",
+      "serieskao": "el-amor-que-permanece-0hjXkZ"
+    },
+    "title": "The Love That Remains",
+    "tmdb_id": "1258509",
+    "type": "movie",
+    "updated_at": 1790809302450,
+    "year": 2025
+  },
+  {
     "imdb_id": "tt17374278",
     "provider_variants": {},
     "providers": {
@@ -295046,12 +295072,14 @@
     "provider_variants": {},
     "providers": {
       "gnula": "mononoke-the-movie-chapter-iii-the-curse-of-the-serpent",
-      "poseidonhd2": "1322562/mononoke-the-movie-chapter-iii-the-curse-of-the-serpent"
+      "pelisgratishd": "mononoke-iii-la-maldicion-de-l-kuRYMK",
+      "poseidonhd2": "1322562/mononoke-the-movie-chapter-iii-the-curse-of-the-serpent",
+      "serieskao": "mononoke-iii-la-maldicion-de-l-kuRYMK"
     },
     "title": "Mononoke the Movie: Chapter III - The Curse of the Serpent",
     "tmdb_id": "1322562",
     "type": "movie",
-    "updated_at": 1790775862110,
+    "updated_at": 1790809301447,
     "year": 2026
   },
   {
@@ -316965,7 +316993,7 @@
     "title": "My Sad Dead",
     "tmdb_id": "1739303",
     "type": "movie",
-    "updated_at": 1790775868093,
+    "updated_at": 1790809303440,
     "year": 2026
   },
   {
@@ -317159,6 +317187,19 @@
     "type": "movie",
     "updated_at": 1788464741814,
     "year": 2025
+  },
+  {
+    "imdb_id": "tt44568097",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "the-widower-til-death-do-us-pa-YIwjkh",
+      "serieskao": "the-widower-til-death-do-us-pa-YIwjkh"
+    },
+    "title": "The Widower: 'Til Death Do Us Part",
+    "tmdb_id": "1758536",
+    "type": "movie",
+    "updated_at": 1790809300449,
+    "year": 2026
   },
   {
     "imdb_id": "tt44942157",
