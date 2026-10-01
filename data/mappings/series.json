@@ -9267,7 +9267,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1790809306445,
+    "updated_at": 1790864935801,
     "year": 2003
   },
   {
@@ -66790,13 +66790,15 @@
     "imdb_id": "tt6773088",
     "provider_variants": {},
     "providers": {
+      "gnula": "casi-hermanos",
       "pelisgratishd": "brothers-doCZaa",
+      "poseidonhd2": "250203/casi-hermanos",
       "serieskao": "brothers-doCZaa"
     },
     "title": "Brothers",
     "tmdb_id": "250203",
     "type": "series",
-    "updated_at": 1790202204525,
+    "updated_at": 1790864927790,
     "year": 2026
   },
   {
