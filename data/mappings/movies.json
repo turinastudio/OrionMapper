@@ -87199,7 +87199,7 @@
     "title": "Captive",
     "tmdb_id": "331190",
     "type": "movie",
-    "updated_at": 1790864933799,
+    "updated_at": 1790896454458,
     "year": 2015
   },
   {
@@ -232802,7 +232802,7 @@
     "title": "Colisión",
     "tmdb_id": "975714",
     "type": "movie",
-    "updated_at": 1790864934797,
+    "updated_at": 1790896455455,
     "year": 2022
   },
   {
@@ -289615,6 +289615,19 @@
     "year": 2025
   },
   {
+    "imdb_id": "tt32275326",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "find-your-friends",
+      "poseidonhd2": "1283636/find-your-friends"
+    },
+    "title": "Find Your Friends",
+    "tmdb_id": "1283636",
+    "type": "movie",
+    "updated_at": 1790896441450,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt33335204",
     "provider_variants": {},
     "providers": {
@@ -313877,6 +313890,19 @@
     "year": 2026
   },
   {
+    "imdb_id": "tt39122447",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "ninja-wars-blackfox-vs-shoguns-ninja",
+      "poseidonhd2": "1593380/ninja-wars-blackfox-vs-shoguns-ninja"
+    },
+    "title": "Ninja Wars: BlackFox vs Shogun's Ninja",
+    "tmdb_id": "1593380",
+    "type": "movie",
+    "updated_at": 1790896445463,
+    "year": 2026
+  },
+  {
     "imdb_id": "tt36398612",
     "provider_variants": {},
     "providers": {
@@ -314358,6 +314384,19 @@
     "tmdb_id": "1606791",
     "type": "movie",
     "updated_at": 1788464741817,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt41742811",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "volver-a-los-17",
+      "poseidonhd2": "1606912/volver-a-los-17"
+    },
+    "title": "Volver a los 17",
+    "tmdb_id": "1606912",
+    "type": "movie",
+    "updated_at": 1790896443469,
     "year": 2026
   },
   {
@@ -316993,7 +317032,7 @@
     "title": "My Sad Dead",
     "tmdb_id": "1739303",
     "type": "movie",
-    "updated_at": 1790864932794,
+    "updated_at": 1790896453442,
     "year": 2026
   },
   {
@@ -317226,6 +317265,19 @@
     "type": "movie",
     "updated_at": 1788458586992,
     "year": 2020
+  },
+  {
+    "imdb_id": "tt43738050",
+    "provider_variants": {},
+    "providers": {
+      "gnula": "almhaytyh",
+      "poseidonhd2": "1763619/almhaytyh"
+    },
+    "title": "Ricos sin dinero",
+    "tmdb_id": "1763619",
+    "type": "movie",
+    "updated_at": 1790896447461,
+    "year": 2026
   },
   {
     "imdb_id": "tt32643879",

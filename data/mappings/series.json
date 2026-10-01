@@ -9267,7 +9267,7 @@
     "title": "Si estuvieras aquí",
     "tmdb_id": "46976",
     "type": "series",
-    "updated_at": 1790864935801,
+    "updated_at": 1790896456447,
     "year": 2003
   },
   {
@@ -77287,6 +77287,19 @@
     "tmdb_id": "333096",
     "type": "series",
     "updated_at": 1789683168639,
+    "year": 2026
+  },
+  {
+    "imdb_id": "tt45381042",
+    "provider_variants": {},
+    "providers": {
+      "pelisgratishd": "jeff-y-sus-amigos-superheroes-bw4y9f",
+      "serieskao": "jeff-y-sus-amigos-superheroes-bw4y9f"
+    },
+    "title": "Jeff & His Super Hero Friends",
+    "tmdb_id": "336977",
+    "type": "series",
+    "updated_at": 1790896452452,
     "year": 2026
   },
   {
